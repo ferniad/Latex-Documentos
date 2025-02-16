@@ -26,6 +26,9 @@
 \usepackage{caption}        % Formato para figuras
 \usepackage{multirow}
 \usepackage{subcaption}
+\usepackage{biblatex}
+\usepackage{csquotes}
+\usepackage{bookmark}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Other Settings
@@ -63,9 +66,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author{\IEEEauthorblockN{Daniel Fernando Aranda Contreras, Andrés Felipe Flórez Quiroga}
+\author{\IEEEauthorblockN{Brayan Joanne Ballesteros Meza, Daniel Fernando Aranda Contreras, Jonathan Stiven Murcia Suarez}
 \IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
-Correo electrónico: \{daniel2221648, andres2230399\}@correo.uis.edu.co}}
+Correo electrónico: \{brayan2222069, daniel2221648, jonathan2225092\}@correo.uis.edu.co}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,25 +76,78 @@ Correo electrónico: \{daniel2221648, andres2230399\}@correo.uis.edu.co}}
 \begin{document}
 
 % Título
-\title{Diseño, Implementación y Puesta en Funcionamiento de un Prototipo para el Estudio del Comportamiento de Circuitos RLC}
+\title{Impacto de la selección de la frecuencia de muestreo en la estimación de parámetros de un sistema eléctrico.}
 
 \maketitle
 % Resumen
-\begin{abstract}
 
-\end{abstract}
-
-% Palabras clave
+% Palabras clave        
 \begin{IEEEkeywords}
-Circuitos RLC, resonancia eléctrica, optimización energética.
+    Frecuencia de muestreo, Mediciones eléctricas, Análisis de señales, Valor RMS, Muestreo de señales, Errores de estimación, Parámetros del sistema eléctrico, Comparación de procesos de muestreo.   
 \end{IEEEkeywords}
 
-\section{Introducción}
-Este documento analiza el comportamiento de un circuito RLC en serie conectado a la red eléctrica doméstica (127 V, 60 Hz). En una primera instancia, se evaluó la respuesta del circuito compuesto únicamente por un bombillo y un capacitor. Posteriormente, se incluyó el inductor más cercano al valor calculado teóricamente para llevar el circuito a resonancia, maximizando así la potencia consumida por el bombillo. Este estudio busca comprender el fenómeno de resonancia eléctrica y su impacto en el consumo energético y el rendimiento del circuito.
+\section*{Resultados de Medición por Frecuencia}
+
+\subsection*{Tabla T2: Resultados para 180 Hz}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccc@{}}
+        \toprule
+        Vrms [Vrms] & Irms [Arms] & P [W] & Q [VAR] & S [VA] \\ \midrule
+        110 & 11.0293 & 1155.1 & 371.1589 & 1213.2 \\ 
+        \bottomrule
+    \end{tabular}
+    \caption{Resultados medidos a 180 Hz.}
+\end{table}
+
+\subsection*{Tabla T2: Resultados para 200 Hz}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccc@{}}
+        \toprule
+        Vrms & Irms & P & Q & S \\ \midrule
+        118.8136 & 11.7527 & 1.1551e+03 & 784.6681 & 1.3964e+03 \\ 
+        \bottomrule
+    \end{tabular}
+    \caption{Resultados medidos a 200 Hz.}
+\end{table}
+
+\subsection*{Tabla T3: Resultados para 240 Hz}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccc@{}}
+        \toprule
+        Vrms & Irms & P & Q & S \\ \midrule
+        110.0000 & 11.0293 & 1.1551e+03 & 371.1590 & 1.2132e+03 \\ 
+        \bottomrule
+    \end{tabular}
+    \caption{Resultados medidos a 240 Hz.}
+\end{table}
+
+\subsection*{Tabla T4: Resultados para 280 Hz}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccc@{}}
+        \toprule
+        Vrms & Irms & P & Q & S \\ \midrule
+        116.6726 & 11.5761 & 1.1551e+03 & 699.9905 & 1.3506e+03 \\ 
+        \bottomrule
+    \end{tabular}
+    \caption{Resultados medidos a 280 Hz.}
+\end{table}
+
+\subsection*{Tabla Final: Resultados para 100 Hz}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccc@{}}
+        \toprule
+        Vrms & Irms & P & Q & S \\ \midrule
+        118.8136 & 13.2088 & 1.1551e+03 & 1.0625e+03 & 1.5694e+03 \\ 
+        \bottomrule
+    \end{tabular}
+    \caption{Resultados medidos a 100 Hz.}
+\end{table}
 
 
 
-
-\bibliographystyle{plain}
-\bibliography{referencias/ref}
 \end{document}
