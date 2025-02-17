@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber build/main"] 1739751346.46592 "build/main.bcf" "build/main.bbl" "build/main" 1739751904.87189 0
-  "build/main.bcf" 1739751904 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/main"] 1739757232.30165 "build/main.bcf" "build/main.bbl" "build/main" 1739763949.83482 0
+  "build/main.bcf" 1739763949 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1739751902.19088 "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" "build/main.pdf" "main" 1739751904.87276 0
+["pdflatex"] 1739763947.07236 "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" "build/main.pdf" "main" 1739763949.83605 0
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739745696 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739744695 12018279 ff53979c40ae4352807be240ca4f2f2f ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -47,7 +47,10 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136871348 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136871348 44656 0cbca70e0534538582128f6b54593cca ""
@@ -272,12 +275,14 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Fp y pot.tex" 1739751901 563 592bc4a8c3ca025a48c5ac183e2d2334 ""
-  "Muestreomediciones.tex" 1739749093 2988 f2c372b67cb6492f3590371f2549d00f ""
-  "build/main.aux" 1739751904 1693 6178ed5c17819386210929e0e613cfac "pdflatex"
-  "build/main.bbl" 1739751350 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
-  "build/main.run.xml" 1739751904 2224 b58fdd43a2e991125a5439c21704f61b "pdflatex"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" 1739751368 4294 c08ba3b59322bbfa43e2c4bc48805164 ""
-  "main.tex" 1739751368 4294 c08ba3b59322bbfa43e2c4bc48805164 ""
+  "Muestreomediciones.tex" 1739763943 3196 a4e4ca6e2de983062a99218ec4501970 ""
+  "build/main.aux" 1739763949 4260 6f82cd8eb7662b26a1d4ad98b26808dc "pdflatex"
+  "build/main.bbl" 1739757236 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
+  "build/main.run.xml" 1739763949 2224 b58fdd43a2e991125a5439c21704f61b "pdflatex"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" 1739762300 4341 7b9ec85e175c7310f96b5baff03ce804 ""
+  "conclusiones.tex" 1739763404 1440 2f52e22f58079df758f861f608c76b20 ""
+  "error.tex" 1739761339 1302 522b3e04038d78f7e7a13e1e8e77d6ba ""
+  "main.tex" 1739762300 4341 7b9ec85e175c7310f96b5baff03ce804 ""
   (generated)
   "build/main.aux"
   "build/main.bcf"

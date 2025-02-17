@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.16)  16 FEB 2025 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.16)  16 FEB 2025 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,8 +1092,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.aux
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
 \openout1 = `main.aux'.
 
@@ -1222,10 +1222,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.87503pt too wide) in paragraph at lines 21--27
- [][] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1234,6 +1230,39 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (Fp y pot.tex
 Overfull \hbox (4.1816pt too wide) in paragraph at lines 6--17
  [][] 
+ []
+
+) (error.tex
+
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+]
+Overfull \hbox (109.33418pt too wide) in paragraph at lines 5--18
+[][] 
+ []
+
+) (conclusiones.tex
+Overfull \hbox (13.99808pt too wide) in paragraph at lines 19--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--1
+
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 2--3
+[]\OT1/ptm/m/n/10 Para los ca-sos en los cua-les se em-plea-ron
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
  []
 
 )
@@ -1250,16 +1279,14 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[1
-Non-PDF special ignored!
-<special> header=psfrag.pro
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
+
+[2
 
 ] (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.aux
-LaTeX Info: Redefining \sptext on input line 14.
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \sptext on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1270,17 +1297,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46482 strings out of 473530
- 1057996 string characters out of 5714310
- 2214007 words of memory out of 5000000
- 69014 multiletter control sequences out of 15000+600000
- 600342 words of font info for 122 fonts, out of 8000000 for 9000
+ 46513 strings out of 473530
+ 1058467 string characters out of 5714310
+ 2215007 words of memory out of 5000000
+ 69030 multiletter control sequences out of 15000+600000
+ 603634 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,105p,756b,1821s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\Daniel\Desktop\Latex-Documentos\build\main.pdf (1 page, 77711 bytes).
+ 99i,13n,105p,756b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\Daniel\Desktop\Latex-Documentos\build\main.pdf (2 pages, 112209 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
