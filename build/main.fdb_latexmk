@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber build/main"] 1739757232.30165 "build/main.bcf" "build/main.bbl" "build/main" 1739763949.83482 0
-  "build/main.bcf" 1739763949 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/main"] 1739757232.30165 "build/main.bcf" "build/main.bbl" "build/main" 1739764239.36781 0
+  "build/main.bcf" 1739764238 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1739763947.07236 "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" "build/main.pdf" "main" 1739763949.83605 0
+["pdflatex"] 1739764236.46049 "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" "build/main.pdf" "main" 1739764239.36863 0
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739745696 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739744695 12018279 ff53979c40ae4352807be240ca4f2f2f ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -275,14 +275,14 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Fp y pot.tex" 1739751901 563 592bc4a8c3ca025a48c5ac183e2d2334 ""
-  "Muestreomediciones.tex" 1739763943 3196 a4e4ca6e2de983062a99218ec4501970 ""
-  "build/main.aux" 1739763949 4260 6f82cd8eb7662b26a1d4ad98b26808dc "pdflatex"
+  "Muestreomediciones.tex" 1739763974 3196 a4e4ca6e2de983062a99218ec4501970 ""
+  "build/main.aux" 1739764238 4260 6f82cd8eb7662b26a1d4ad98b26808dc "pdflatex"
   "build/main.bbl" 1739757236 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
-  "build/main.run.xml" 1739763949 2224 b58fdd43a2e991125a5439c21704f61b "pdflatex"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" 1739762300 4341 7b9ec85e175c7310f96b5baff03ce804 ""
+  "build/main.run.xml" 1739764238 2224 b58fdd43a2e991125a5439c21704f61b "pdflatex"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" 1739764235 4353 38ff29816c884b885b076c359a3512ce ""
   "conclusiones.tex" 1739763404 1440 2f52e22f58079df758f861f608c76b20 ""
   "error.tex" 1739761339 1302 522b3e04038d78f7e7a13e1e8e77d6ba ""
-  "main.tex" 1739762300 4341 7b9ec85e175c7310f96b5baff03ce804 ""
+  "main.tex" 1739764235 4353 38ff29816c884b885b076c359a3512ce ""
   (generated)
   "build/main.aux"
   "build/main.bcf"
