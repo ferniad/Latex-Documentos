@@ -9,7 +9,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsthm}
-
+    
 \usepackage{empheq}
 \usepackage{mdframed}
 \usepackage{booktabs}
@@ -71,22 +71,21 @@
 \IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
 Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225092\}@correo.uis.edu.co}}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{document}
+        % Título
+        \title{\uppercase{Impacto de la selección de la frecuencia de muestreo en la estimación de parámetros de un sistema eléctrico.}}
+        \maketitle
+        % Resumen
+        % Palabras clave        
+        \begin{IEEEkeywords}
+            Frecuencia de muestreo, Mediciones eléctricas, Análisis de señales, Valor RMS, Muestreo de señales, Errores de estimación, Parámetros del sistema eléctrico, Comparación de procesos de muestreo.   
+        \end{IEEEkeywords}
 
-\begin{document}
-    % Título
-    \title{\uppercase{Impacto de la selección de la frecuencia de muestreo en la estimación de parámetros de un sistema eléctrico.}}
-    \maketitle
-    % Resumen
-    % Palabras clave        
-    \begin{IEEEkeywords}
-        Frecuencia de muestreo, Mediciones eléctricas, Análisis de señales, Valor RMS, Muestreo de señales, Errores de estimación, Parámetros del sistema eléctrico, Comparación de procesos de muestreo.   
-    \end{IEEEkeywords}
-
-    \section*{Resultados de Medición por Frecuencia Para el Panel de Distrubución} 
-    \input{Muestreomediciones.tex}	
-    \input{Fp y pot.tex}
-    \input{error.tex}
-    \input{conclusiones.tex}
-\end{document}  
+        \section*{Resultados de Medición por Frecuencia Para el Panel de Distrubución} 
+        \input{Muestreomediciones.tex}	
+        \input{Fp y pot.tex}
+        \input{modelo.tex}
+        \input{error.tex}
+        \input{conclusiones.tex}
+    \end{document}  
