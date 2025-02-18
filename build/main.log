@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.16)  16 FEB 2025 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.16)  17 FEB 2025 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,10 +1091,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.aux
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
-)
+
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -1115,7 +1113,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
-
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1175,139 +1172,23 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 LaTeX Info: Redefining \. on input line 77.
 LaTeX Info: Redefining \% on input line 77.
 Package hyperref Info: Link coloring OFF on input line 77.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
-(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
-File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `main.bcf'.
+c:/Users/Daniel/Desktop/Latex-Documentos/main.tex:77: I can't write on file `main.pdf'.
+(Press Enter to retry, or Control-C to exit; default file extension is `.pdf')
+Please type another file name for output
+c:/Users/Daniel/Desktop/Latex-Documentos/main.tex:77: Emergency stop.
+<to be read again> 
+                   \edef 
+l.77 \begin{document}
+                     
+*** (job aborted, file error in nonstop mode)
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.bbl)
-Package biblatex Info: Reference section=0 on input line 77.
-Package biblatex Info: Reference segment=0 on input line 77.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 83.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
-
-Overfull \hbox (11.36057pt too wide) in paragraph at lines 83--83
- [] 
- []
-
-
-Overfull \hbox (11.36057pt too wide) in paragraph at lines 83--83
- [] 
- []
-
-
-Overfull \hbox (11.36057pt too wide) in paragraph at lines 83--83
- [] 
- []
-
-(Muestreomediciones.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-) (Fp y pot.tex
-Overfull \hbox (4.1816pt too wide) in paragraph at lines 6--17
- [][] 
- []
-
-) (error.tex
-
-[1
-Non-PDF special ignored!
-<special> header=psfrag.pro
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
-]
-Overfull \hbox (109.33418pt too wide) in paragraph at lines 5--18
-[][] 
- []
-
-) (conclusiones.tex
-Overfull \hbox (13.99808pt too wide) in paragraph at lines 19--1
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--1
-
- []
-
-
-Underfull \hbox (badness 4886) in paragraph at lines 2--3
-[]\OT1/ptm/m/n/10 Para los ca-sos en los cua-les se em-plea-ron
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-)
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-
-
-
-
-[2
-
-] (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.aux
-LaTeX Info: Redefining \sptext on input line 15.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
-)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 46516 strings out of 473530
- 1058491 string characters out of 5714310
- 2216007 words of memory out of 5000000
- 69033 multiletter control sequences out of 15000+600000
- 603634 words of font info for 125 fonts, out of 8000000 for 9000
+ 45457 strings out of 473530
+ 1038806 string characters out of 5714310
+ 1961591 words of memory out of 5000000
+ 68076 multiletter control sequences out of 15000+600000
+ 579907 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,105p,756b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\Daniel\Desktop\Latex-Documentos\build\main.pdf (2 pages, 112291 bytes).
-PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 99i,1n,105p,756b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+c:/Users/Daniel/Desktop/Latex-Documentos/main.tex:77:  ==> Fatal error occurred, no output PDF file produced!
