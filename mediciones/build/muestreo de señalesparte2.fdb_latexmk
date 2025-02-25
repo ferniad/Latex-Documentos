@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber build/muestreo de señalesparte2"] 1740454911.71753 "build/muestreo de señalesparte2.bcf" "build/muestreo de señalesparte2.bbl" "build/muestreo de señalesparte2" 1740454935.53785 2
-  "build/muestreo de señalesparte2.bcf" 1740454935 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/muestreo de señalesparte2"] 1740457247.67274 "build/muestreo de señalesparte2.bcf" "build/muestreo de señalesparte2.bbl" "build/muestreo de señalesparte2" 1740458656.22772 2
+  "build/muestreo de señalesparte2.bcf" 1740458655 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/muestreo de señalesparte2.bbl"
   "build/muestreo de señalesparte2.blg"
   (rewritten before read)
-["pdflatex"] 1740454931.20387 "c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/muestreo de señalesparte2.tex" "build/muestreo de señalesparte2.pdf" "muestreo de señalesparte2" 1740454935.53919 0
+["pdflatex"] 1740458653.6231 "c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/muestreo de señalesparte2.tex" "build/muestreo de señalesparte2.pdf" "muestreo de señalesparte2" 1740458656.22857 0
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739852871 12018279 36c77c63219db91de8deed091f069933 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136790254 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmbi7t.tfm" 1136790254 2228 e564491c42a4540b5ebb710a75ff306c ""
@@ -221,9 +221,9 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "build/muestreo de señalesparte2.aux" 1740454935 498 c1c46fb66d467c6c161d42b7f81d88e2 "pdflatex"
-  "build/muestreo de señalesparte2.bbl" 1740454914 0 d41d8cd98f00b204e9800998ecf8427e "biber build/muestreo de señalesparte2"
-  "build/muestreo de señalesparte2.run.xml" 1740454935 2392 56f0d44b065ccb91bd09e7dfa9a98bc0 "pdflatex"
+  "build/muestreo de señalesparte2.aux" 1740458655 498 c1c46fb66d467c6c161d42b7f81d88e2 "pdflatex"
+  "build/muestreo de señalesparte2.bbl" 1740457249 0 d41d8cd98f00b204e9800998ecf8427e "biber build/muestreo de señalesparte2"
+  "build/muestreo de señalesparte2.run.xml" 1740458655 2392 56f0d44b065ccb91bd09e7dfa9a98bc0 "pdflatex"
   "c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/muestreo de señalesparte2.tex" 1740454906 3668 23a3b99365bc5b290bbf32a1ab20f29e ""
   "muestreo de señalesparte2.tex" 1740454906 3668 23a3b99365bc5b290bbf32a1ab20f29e ""
   (generated)
