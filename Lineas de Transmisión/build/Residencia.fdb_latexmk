@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber build/Residencia"] 1740512124.57651 "build/Residencia.bcf" "build/Residencia.bbl" "build/Residencia" 1740523182.33818 0
-  "build/Residencia.bcf" 1740523181 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/Residencia"] 1740512124.57651 "build/Residencia.bcf" "build/Residencia.bbl" "build/Residencia" 1740523623.80665 0
+  "build/Residencia.bcf" 1740523623 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/Residencia.bbl"
   "build/Residencia.blg"
   (rewritten before read)
-["pdflatex"] 1740523178.15776 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Residencia.tex" "build/Residencia.pdf" "Residencia" 1740523182.33939 0
+["pdflatex"] 1740523619.60424 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Residencia.tex" "build/Residencia.pdf" "Residencia" 1740523623.80748 0
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739745696 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739852871 12018279 36c77c63219db91de8deed091f069933 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -257,11 +257,11 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "Residencia.tex" 1740523177 8689 49bfa5a00e0fdcd194d4fdd6dba97ae6 ""
-  "build/Residencia.aux" 1740523181 6966 f61d176765f31e41234f0f594d53b003 "pdflatex"
+  "Residencia.tex" 1740523614 9137 dc5c3f819d82e2c0a73c492fe2241e77 ""
+  "build/Residencia.aux" 1740523623 6990 3722757342638bacc9a50976c7bcbfea "pdflatex"
   "build/Residencia.bbl" 1740512131 0 d41d8cd98f00b204e9800998ecf8427e "biber build/Residencia"
-  "build/Residencia.run.xml" 1740523181 2266 95fab9813808e71046e66a1eb12d7e64 "pdflatex"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Residencia.tex" 1740523177 8689 49bfa5a00e0fdcd194d4fdd6dba97ae6 ""
+  "build/Residencia.run.xml" 1740523623 2266 95fab9813808e71046e66a1eb12d7e64 "pdflatex"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Residencia.tex" 1740523614 9137 dc5c3f819d82e2c0a73c492fe2241e77 ""
   "img/Diagrama.png" 1740511672 64200 036bbdd25eaf579ce4d8f27a68269a54 ""
   "img/Medidor digital.jpg" 1740522674 4465 73706ab53a78a42497e8858bcc7aee65 ""
   "img/Transformador.jpg" 1740508309 319159 63998021e4592659ae97584493dea004 ""

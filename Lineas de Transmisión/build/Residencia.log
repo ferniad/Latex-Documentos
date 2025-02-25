@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  25 FEB 2025 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  25 FEB 2025 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,29 +1092,29 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Residencia.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
 )
 \openout1 = `Residencia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
@@ -1172,9 +1172,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
-Package hyperref Info: Link coloring OFF on input line 75.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+Package hyperref Info: Link coloring OFF on input line 76.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'spanish'...
@@ -1190,15 +1190,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Residencia.bbl' found.
  (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Residencia.bbl)
-Package biblatex Info: Reference section=0 on input line 75.
-Package biblatex Info: Reference segment=0 on input line 75.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 81.
+Package biblatex Info: Reference section=0 on input line 76.
+Package biblatex Info: Reference segment=0 on input line 76.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 82.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
-<img/Transformador.jpg, id=6, 677.53125pt x 677.53125pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+<img/Transformador.jpg, id=7, 677.53125pt x 677.53125pt>
 File: img/Transformador.jpg Graphic file (type jpg)
 <use img/Transformador.jpg>
 Package pdftex.def Info: img/Transformador.jpg  used on input line 95.
@@ -1210,7 +1210,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 95--96
 
 
 
-<img/Medidor digital.jpg, id=8, 221.82875pt x 228.855pt>
+<img/Medidor digital.jpg, id=9, 221.82875pt x 228.855pt>
 File: img/Medidor digital.jpg Graphic file (type jpg)
 <use img/Medidor digital.jpg>
 Package pdftex.def Info: img/Medidor digital.jpg  used on input line 119.
@@ -1229,7 +1229,7 @@ Non-PDF special ignored!
 
 
  <./img/Transformador.jpg> <./img/Medidor digital.jpg>]
-<img/tablero de distribucion.jpg, id=29, 963.6pt x 1284.8pt>
+<img/tablero de distribucion.jpg, id=30, 963.6pt x 1284.8pt>
 File: img/tablero de distribucion.jpg Graphic file (type jpg)
 <use img/tablero de distribucion.jpg>
 Package pdftex.def Info: img/tablero de distribucion.jpg  used on input line 143.
@@ -1247,7 +1247,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 162.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<img/Diagrama.png, id=31, 153.25491pt x 123.49667pt>
+<img/Diagrama.png, id=32, 153.25491pt x 123.49667pt>
 File: img/Diagrama.png Graphic file (type png)
 <use img/Diagrama.png>
 Package pdftex.def Info: img/Diagrama.png  used on input line 165.
@@ -1283,9 +1283,6 @@ Overfull \hbox (181.18217pt too wide) in paragraph at lines 159--169
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 
 ** Conference Paper **
@@ -1301,9 +1298,9 @@ Before submitting the final camera ready copy, remember to:
 
 
 [2 <./img/tablero de distribucion.jpg> <./img/Diagrama.png>] (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Residencia.aux
-LaTeX Info: Redefining \sptext on input line 22.
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \sptext on input line 21.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1316,15 +1313,15 @@ Package logreq Info: Writing requests to 'Residencia.run.xml'.
 Here is how much of TeX's memory you used:
  46494 strings out of 473530
  1058821 string characters out of 5714310
- 2201004 words of memory out of 5000000
+ 2202016 words of memory out of 5000000
  69041 multiletter control sequences out of 15000+600000
  593767 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,105p,787b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Residencia.pdf" (2 pages, 525589 bytes).
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Residencia.pdf" (2 pages, 529620 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
