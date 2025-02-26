@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber build/main"] 1739856391.24803 "build/main.bcf" "build/main.bbl" "build/main" 1739856617.20024 0
-  "build/main.bcf" 1739856616 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/main"] 1740575586.72849 "build/main.bcf" "build/main.bbl" "build/main" 1740575592.25908 0
+  "build/main.bcf" 1740575591 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1739856613.86693 "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" "build/main.pdf" "main" 1739856617.20108 0
+["pdflatex"] 1740575589.30425 "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" "build/main.pdf" "main" 1740575592.25985 0
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739745696 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739852871 12018279 36c77c63219db91de8deed091f069933 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -274,17 +274,17 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "Fp y pot.tex" 1739855652 563 f9420ee1f14e7aa41d990eb49192158e ""
-  "Muestreomediciones.tex" 1739855552 3434 4f8eb66002c9bace3cb7e59289bc89a9 ""
-  "build/main.aux" 1739856616 4952 93f1d586424cc30b352d620fd97693e9 "pdflatex"
-  "build/main.bbl" 1739856393 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
-  "build/main.run.xml" 1739856616 2224 b58fdd43a2e991125a5439c21704f61b "pdflatex"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" 1739854942 4441 72bf1622ff6e821c3c96b599830ee2d0 ""
-  "conclusiones.tex" 1739854126 1444 fafa6f10425a97d540ae73f7e8a72a54 ""
-  "error.tex" 1739856610 1215 eadfda312aa4e92583913e7b57826e6a ""
+  "Fp y pot.tex" 1740454535 563 f9420ee1f14e7aa41d990eb49192158e ""
+  "Muestreomediciones.tex" 1740575562 3467 34bc3393a24747f8d8dd5cef862890eb ""
+  "build/main.aux" 1740575591 4952 93f1d586424cc30b352d620fd97693e9 "pdflatex"
+  "build/main.bbl" 1740575589 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
+  "build/main.run.xml" 1740575591 2224 b58fdd43a2e991125a5439c21704f61b "pdflatex"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/main.tex" 1740454535 4441 72bf1622ff6e821c3c96b599830ee2d0 ""
+  "conclusiones.tex" 1740454535 1444 fafa6f10425a97d540ae73f7e8a72a54 ""
+  "error.tex" 1740454535 1215 eadfda312aa4e92583913e7b57826e6a ""
   "img/Modelo del circuito.png" 1739848499 88521 15da516149b52f91e3765f0c84330732 ""
-  "main.tex" 1739854942 4441 72bf1622ff6e821c3c96b599830ee2d0 ""
-  "modelo.tex" 1739855929 450 49daae009553835e4a279ef110eb4e0b ""
+  "main.tex" 1740454535 4441 72bf1622ff6e821c3c96b599830ee2d0 ""
+  "modelo.tex" 1740454535 450 49daae009553835e4a279ef110eb4e0b ""
   (generated)
   "build/main.aux"
   "build/main.bcf"

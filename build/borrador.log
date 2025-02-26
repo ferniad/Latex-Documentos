@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 08:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 09:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,48 +242,72 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip54
-) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
-\l__pdf_internal_box=\box54
-) (c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen158
+\captionmargin=\dimen159
+\caption@leftmargin=\dimen160
+\caption@rightmargin=\dimen161
+\caption@width=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+Package caption Info: Standard document class detected.
 )
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count299
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count300
+) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count301
+\l__pdf_internal_box=\box54
+)
+No file borrador.aux.
 \openout1 = `borrador.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen158
+\scratchcounter=\count302
+\scratchdimen=\dimen166
 \scratchbox=\box55
-\nofMPsegments=\count299
-\nofMParguments=\count300
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen159
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen167
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks27
 ) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -291,72 +315,68 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 24.
- (c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.out) (c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.out)
-\@outlinefile=\write3
-\openout3 = `borrador.out'.
+Package hyperref Info: Link coloring OFF on input line 13.
+\@outlinefile=\write4
+\openout4 = `borrador.out'.
 
-<img/Transformador monofasico.png, id=23, 594.42075pt x 513.117pt>
-File: img/Transformador monofasico.png Graphic file (type png)
-<use img/Transformador monofasico.png>
-Package pdftex.def Info: img/Transformador monofasico.png  used on input line 39.
-(pdftex.def)             Requested size: 195.0pt x 168.32695pt.
-<img/Megahometro megger.png, id=25, 729.47531pt x 644.4075pt>
-File: img/Megahometro megger.png Graphic file (type png)
-<use img/Megahometro megger.png>
-Package pdftex.def Info: img/Megahometro megger.png  used on input line 46.
-(pdftex.def)             Requested size: 195.0pt x 172.25194pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<img/Amperimetro Analogico.png, id=26, 529.98pt x 296.90926pt>
-File: img/Amperimetro Analogico.png Graphic file (type png)
-<use img/Amperimetro Analogico.png>
-Package pdftex.def Info: img/Amperimetro Analogico.png  used on input line 53.
-(pdftex.def)             Requested size: 195.0pt x 109.24309pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<img/Multimetro digital.png, id=27, 465.74pt x 540.0175pt>
-File: img/Multimetro digital.png Graphic file (type png)
-<use img/Multimetro digital.png>
-Package pdftex.def Info: img/Multimetro digital.png  used on input line 62.
-(pdftex.def)             Requested size: 195.0pt x 226.09715pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 
 [1
 
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/Transformador monofasico.png>]
+{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<img/Transformador monofasico.png, id=14, 594.42075pt x 513.117pt>
+File: img/Transformador monofasico.png Graphic file (type png)
+<use img/Transformador monofasico.png>
+Package pdftex.def Info: img/Transformador monofasico.png  used on input line 30.
+(pdftex.def)             Requested size: 195.0pt x 168.32695pt.
+<img/Megahometro megger.png, id=16, 729.47531pt x 644.4075pt>
+File: img/Megahometro megger.png Graphic file (type png)
+<use img/Megahometro megger.png>
+Package pdftex.def Info: img/Megahometro megger.png  used on input line 36.
+(pdftex.def)             Requested size: 195.0pt x 172.25194pt.
+<img/Amperimetro Analogico.png, id=17, 529.98pt x 296.90926pt>
+File: img/Amperimetro Analogico.png Graphic file (type png)
+<use img/Amperimetro Analogico.png>
+Package pdftex.def Info: img/Amperimetro Analogico.png  used on input line 42.
+(pdftex.def)             Requested size: 195.0pt x 109.24309pt.
 
-[2 <./img/Megahometro megger.png> <./img/Amperimetro Analogico.png>]
 
-[3 <./img/Multimetro digital.png>] (c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
-Package rerunfilecheck Info: File `borrador.out' has not changed.
-(rerunfilecheck)             Checksum: F505BFC081EC3D0E0D3BF381C7D905D2;585.
- ) 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/Multimetro digital.png, id=18, 465.74pt x 540.0175pt>
+File: img/Multimetro digital.png Graphic file (type png)
+<use img/Multimetro digital.png>
+Package pdftex.def Info: img/Multimetro digital.png  used on input line 48.
+(pdftex.def)             Requested size: 195.0pt x 226.09715pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Excluding 'comment' comment.)
+Runaway argument?
+! File ended while scanning use of \next.
+<inserted text> 
+                \par 
+<*> ...aniel/Desktop/Latex-Documentos/borrador.tex
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> ...aniel/Desktop/Latex-Documentos/borrador.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 10639 strings out of 473530
- 169052 string characters out of 5714310
- 579203 words of memory out of 5000000
- 33747 multiletter control sequences out of 15000+600000
- 562319 words of font info for 48 fonts, out of 8000000 for 9000
+ 12062 strings out of 473530
+ 196618 string characters out of 5714310
+ 601637 words of memory out of 5000000
+ 35178 multiletter control sequences out of 15000+600000
+ 562012 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,298b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.pdf (3 pages, 3134625 bytes).
-PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 75i,6n,79p,598b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

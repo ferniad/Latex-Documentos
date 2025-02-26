@@ -1,13 +1,3 @@
- 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%OBJETIVOS 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%EQUIPOS Y MATERIALES 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%INTRODUCCIÓN 
-   
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CONCLUSIONES 
-
 \documentclass[a4paper,12pt]{article} % Tipo de documento
 
 % Paquetes
@@ -16,66 +6,89 @@
 \usepackage{amsmath}         % Paquete para matemáticas
 \usepackage{graphicx}        % Para incluir imágenes
 \usepackage{hyperref}        % Para enlaces
+\usepackage{subcaption}
+\usepackage{comment}
 
-\title{Taller 1 Maquinas Electricas} % Título del documento
-\author{Daniel Fernando Aranda Contreras} % Autor del documento
-\date{\today} % Fecha actual, puedes cambiarla por una fecha específica
 
 \begin{document}
+    \title{Taller 1 Maquinas Electricas} % Título del documento
+    \author{Daniel Fernando Aranda Contreras} % Autor del documento
+    \date{\today} % Fecha actual, puedes cambiarla por una fecha específica
+    \maketitle % Genera el título
 
-\maketitle % Genera el título
+    \begin{abstract}
+            
+            Tales
+        \end{abstract}
 
-\begin{abstract}
-    
-    Este es un resumen de tu documento. Aquí puedes describir brevemente el contenido y los objetivos del mismo.
-\end{abstract}
-
-\section{OBJETIVOS }
-Aquí comienza la introducción de tu documento. Explica el tema y la motivación detrás de tu trabajo.
-    
-\section{EQUIPOS Y MATERIALES}
-\begin{figure}[h] % 'h' indica que la imagen se coloca aquí
-    \centering
-    \includegraphics[width=0.5\textwidth]{img/Transformador monofasico.png} % Cambia la ruta a tu imagen
-    \caption{Ficha tecnica del transformador monofasico.}
-    \label{fig:mi_imagen}
-\end{figure}
-
-\begin{figure}[h] % 'h' indica que la imagen se coloca aquí
-    \centering
-    \includegraphics[width=0.5\textwidth]{img/Megahometro megger.png} % Cambia la ruta a tu imagen
-    \caption{Megahometro Fluke 1507.}
-    \label{fig:megahometro}
-\end{figure}
-
-\begin{figure}[h] % 'h' indica que la imagen se coloca aquí
-    \centering
-    \includegraphics[width=0.5\textwidth]{img/Amperimetro Analogico.png} % Cambia la ruta a tu imagen
-    \caption{Amperimetro Analogico.}
-    \label{fig:AmpAnalogico}
-\end{figure}
-
-
-
-\begin{figure}[h] % 'h' indica que la imagen se coloca aquí
-    \centering
-    \includegraphics[width=0.5\textwidth]{img/Multimetro digital.png} % Cambia la ruta a tu imagen
-    \caption{Multimetro Fluke 117.}
-    \label{fig:MulDigital}
-\end{figure}
+        \section{OBJETIVOS }
+        Aquí comienza la introducción de tu documento. Explica el tema y la motivación detrás de tu trabajo.
+        \newpage
+        \section{EQUIPOS Y MATERIALES}
+        \begin{figure}[h] % 'h' indica que la imagen se coloca aquí
+            \centering
+            \includegraphics[width=0.5\textwidth]{img/Transformador monofasico.png} % Cambia la ruta a tu imagen
+            \caption{Ficha tecnica del transformador monofasico.}
+            \label{fig:mi_imagen}
+        \end{figure}
+        \begin{figure}[h] % 'h' indica que la imagen se coloca aquí
+            \centering
+            \includegraphics[width=0.5\textwidth]{img/Megahometro megger.png} % Cambia la ruta a tu imagen
+            \caption{Megahometro Fluke 1507.}
+            \label{fig:megahometro}
+        \end{figure}
+        \begin{figure}[h] % 'h' indica que la imagen se coloca aquí
+            \centering
+            \includegraphics[width=0.5\textwidth]{img/Amperimetro Analogico.png} % Cambia la ruta a tu imagen
+            \caption{Amperimetro Analogico.}
+            \label{fig:AmpAnalogico}
+        \end{figure}
+        \begin{figure}[h] % 'h' indica que la imagen se coloca aquí
+            \centering
+            \includegraphics[width=0.5\textwidth]{img/Multimetro digital.png} % Cambia la ruta a tu imagen
+            \caption{Multimetro Fluke 117.}
+            \label{fig:MulDigital}
+        \end{figure}
 
 
 
+        \begin{comment}
+            Este es un bloque de texto comentado.
 
+        \begin{verbatim}
+            int main() {
+                printf("Hola, mundo!");
+                return 0;
+            }
+            \end{verbatim}
+            
+            \begin{figure}[ht!]
+                \centering
+                \subfloat[Ficha tecnica del transformador monofasico.]{%
+                    \includegraphics[width=0.3\textwidth]{img/Transformador monofasico.png}%
+                    \label{fig:imagen1}
+                }\hfill
+                \subfloat[Megahometro Fluke 1507.]{%
+                    \includegraphics[width=0.3\textwidth]{img/Megahometro megger.png}%
+                    \label{fig:imagen2}
+                }\hfill
+                \subfloat[Amperimetro Analogico.]{%
+                    \includegraphics[width=0.3\textwidth]{img/Amperimetro Analogico.png}%
+                    \label{fig:imagen3}
+                }
+                \caption{Conjunto de imágenes}
+                \label{fig:conjunto_imagenes}
+            \end{figure}
+            
+        \end{comment}
 
 \subsection{Subsección 2}
 Desarrollo de la segunda subsección.
 
 \section{INTRODUCCIÓN }
-Aquí puedes presentar los resultados que has obtenido. Puedes usar tablas y gráficos si es necesario.
-
+En este informe se aborda una descripcion del proceso realizado durante la practica en el laboratorio donde se tomaron los diferentes parametros del transformador monofasico y se identificaron las borneras de dicho transformador, se analizan los valores obtenidos en la prueba de aislamiento, la relación de transformación y la polaridad del transformador. tambien se describen alternativas a los metodos empleados en la practica como es el caso de la polaridad del transformador y el metodo de la descarga iductiva o de C.C.
 \section{CONCLUSIONES}
-En esta sección se presentan las conclusiones de tu trabajo.
+Se logro satisfactoriamente 
 
 \begin{thebibliography}{99}
 % Aquí puedes incluir tus referencias
