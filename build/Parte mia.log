@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 09:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 09:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Daniel/Desktop/Latex-Documentos/borrador.tex
-(c:/Users/Daniel/Desktop/Latex-Documentos/borrador.tex
+**"c:/Users/Daniel/Desktop/Latex-Documentos/Parte mia.tex"
+(c:/Users/Daniel/Desktop/Latex-Documentos/Parte mia.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -278,31 +278,33 @@ Package caption Info: New subtype `subtable' on input line 238.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box54
+) (c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 )
-No file borrador.aux.
-\openout1 = `borrador.aux'.
+\openout1 = `"Parte mia.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
-(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
 \scratchdimen=\dimen166
@@ -321,68 +323,94 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 18.
+ (c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out) (c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out)
 \@outlinefile=\write4
-\openout4 = `borrador.out'.
+\openout4 = `"Parte mia.out"'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--36
+
+ []
+
 
 
 [1
 
 {C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<img/Transformador monofasico.png, id=15, 594.42075pt x 513.117pt>
+<img/Transformador monofasico.png, id=28, 594.42075pt x 513.117pt>
 File: img/Transformador monofasico.png Graphic file (type png)
 <use img/Transformador monofasico.png>
-Package pdftex.def Info: img/Transformador monofasico.png  used on input line 33.
+Package pdftex.def Info: img/Transformador monofasico.png  used on input line 40.
 (pdftex.def)             Requested size: 195.0pt x 168.32695pt.
-<img/Megahometro megger.png, id=17, 729.47531pt x 644.4075pt>
+<img/Megahometro megger.png, id=30, 729.47531pt x 644.4075pt>
 File: img/Megahometro megger.png Graphic file (type png)
 <use img/Megahometro megger.png>
-Package pdftex.def Info: img/Megahometro megger.png  used on input line 39.
+Package pdftex.def Info: img/Megahometro megger.png  used on input line 46.
 (pdftex.def)             Requested size: 195.0pt x 172.25194pt.
-<img/Amperimetro Analogico.png, id=18, 529.98pt x 296.90926pt>
+<img/Amperimetro Analogico.png, id=31, 529.98pt x 296.90926pt>
 File: img/Amperimetro Analogico.png Graphic file (type png)
 <use img/Amperimetro Analogico.png>
-Package pdftex.def Info: img/Amperimetro Analogico.png  used on input line 45.
+Package pdftex.def Info: img/Amperimetro Analogico.png  used on input line 52.
 (pdftex.def)             Requested size: 195.0pt x 109.24309pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/Multimetro digital.png, id=19, 465.74pt x 540.0175pt>
+<img/Multimetro digital.png, id=32, 465.74pt x 540.0175pt>
 File: img/Multimetro digital.png Graphic file (type png)
 <use img/Multimetro digital.png>
-Package pdftex.def Info: img/Multimetro digital.png  used on input line 51.
+Package pdftex.def Info: img/Multimetro digital.png  used on input line 58.
 (pdftex.def)             Requested size: 195.0pt x 226.09715pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Excluding 'comment' comment.)
-Runaway argument?
-! File ended while scanning use of \next.
-<inserted text> 
-                \par 
-<*> ...aniel/Desktop/Latex-Documentos/borrador.tex
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+Excluding 'comment' comment.
 
-! Emergency stop.
-<*> ...aniel/Desktop/Latex-Documentos/borrador.tex
-                                                  
-*** (job aborted, no legal \end found)
+[2 <./img/Transformador monofasico.png> <./img/Megahometro megger.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
- 
+ []
+
+
+
+[3 <./img/Amperimetro Analogico.png> <./img/Multimetro digital.png>]
+
+[4] (c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `"Parte mia".out' has not changed.
+(rerunfilecheck)             Checksum: 315F591ACFAAED47093A8FB9348841E9;462.
+ ) 
 Here is how much of TeX's memory you used:
- 12360 strings out of 473530
- 199822 string characters out of 5714310
- 602789 words of memory out of 5000000
- 35466 multiletter control sequences out of 15000+600000
- 565900 words of font info for 49 fonts, out of 8000000 for 9000
+ 12387 strings out of 473530
+ 200639 string characters out of 5714310
+ 604141 words of memory out of 5000000
+ 35476 multiletter control sequences out of 15000+600000
+ 562996 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,598b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,6n,79p,1055b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk>
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.pdf" (4 pages, 3101122 bytes).
+PDF statistics:
+ 171 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+

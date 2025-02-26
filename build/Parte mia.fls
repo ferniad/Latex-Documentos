@@ -1,7 +1,7 @@
 PWD c:\Users\Daniel\Desktop\Latex-Documentos
 INPUT C:\Users\Daniel\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\borrador.tex
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.log
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Parte mia.tex
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.log
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -119,7 +119,10 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.st
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.aux
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.aux
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -128,15 +131,14 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epsto
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.out
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\borrador.pdf
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2074.tfm
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.pdf
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
@@ -170,3 +172,14 @@ INPUT .\img\Multimetro digital.png
 INPUT .\img\Multimetro digital.png
 INPUT .\img\Multimetro digital.png
 INPUT .\img\Multimetro digital.png
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\build\Parte mia.out
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
