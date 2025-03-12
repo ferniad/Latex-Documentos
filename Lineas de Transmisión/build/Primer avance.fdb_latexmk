@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber build/Primer avance"] 1741785024.75219 "build/Primer avance.bcf" "build/Primer avance.bbl" "build/Primer avance" 1741793414.89318 0
-  "build/Primer avance.bcf" 1741793414 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/Primer avance"] 0 "build/Primer avance.bcf" "build/Primer avance.bbl" "build/Primer avance" 1741796172.49804 -1
+  "build/Primer avance.bcf" 1741796172 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/Primer avance.bbl"
   "build/Primer avance.blg"
   (rewritten before read)
-["pdflatex"] 1741793410.84768 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" "build/Primer avance.pdf" "Primer avance" 1741793414.89405 0
-  "1mer avance carlitos.tex" 1741785047 3223 5d8579fd0bdb946519771ea3de29d77c ""
-  "1mer avance dai.tex" 1741791261 5117 cc630d4f3864e72c9b00c12047993f8f ""
+["pdflatex"] 1741796168.23071 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" "build/Primer avance.pdf" "Primer avance" 1741796172.49938 0
+  "1mer avance carlitos.tex" 1741793977 3233 f6e67142af67bf6e15843ab220d1df0f ""
+  "1mer avance dai.tex" 1741793977 5452 724459844c3902c5b20672bc83ab3d19 ""
   "1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png" 1741787694 203384 ef94fac7077ee1df274cc12b9f8502a0 ""
   "1mer avance foticos/Esquema unifilar diagrama esquemático.png" 1741787629 74590 9fdb22046f2e7fcc688460d5daf470da ""
-  "1mer avance maletina criterios.tex" 1741785874 3253 24af9bd5efed9630f271f4ba5adf9cc0 ""
+  "1mer avance maletina criterios.tex" 1741796163 3525 f9cfb813bc107fcc5eabc5e1ee1bf63c ""
   "1mer avance parteB.tex" 1741785460 3531 b03e95d634510d39c02db74c1e1ba676 ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741231856 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741231832 12016266 7266e322115f439c035fa80744519dd8 ""
@@ -266,11 +266,11 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "Primer avance.tex" 1741793405 6087 331f533376c157c23d9038e2362317ef ""
-  "build/Primer avance.aux" 1741793414 14821 3fca5f7199f7d8761cd3cd0aa196d838 "pdflatex"
+  "Primer avance.tex" 1741793977 6087 331f533376c157c23d9038e2362317ef ""
+  "build/Primer avance.aux" 1741796172 12077 c45a1985340a723566fce2edcb0d00f8 "pdflatex"
   "build/Primer avance.bbl" 1741785037 0 d41d8cd98f00b204e9800998ecf8427e "biber build/Primer avance"
-  "build/Primer avance.run.xml" 1741793414 2301 50a68e63954a536270d0e73882196d0d "pdflatex"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" 1741793405 6087 331f533376c157c23d9038e2362317ef ""
+  "build/Primer avance.run.xml" 1741796172 2301 50a68e63954a536270d0e73882196d0d "pdflatex"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" 1741793977 6087 331f533376c157c23d9038e2362317ef ""
   (generated)
   "build/Primer avance.aux"
   "build/Primer avance.bcf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 10:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,8 +1092,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
 \openout1 = `"Primer avance.aux"'.
 
@@ -1201,9 +1201,6 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
  (1mer avance dai.tex
 
 
-Underfull \vbox (badness 4353) has occurred while \output is active []
-
-
 
 [1
 Non-PDF special ignored!
@@ -1212,27 +1209,27 @@ Non-PDF special ignored!
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 15.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<1mer avance foticos/Esquema unifilar diagrama esquemático.png, id=18, 1106.63437pt x 718.93594pt>
+<1mer avance foticos/Esquema unifilar diagrama esquemático.png, id=20, 1106.63437pt x 718.93594pt>
 File: 1mer avance foticos/Esquema unifilar diagrama esquemático.png Graphic file (type png)
 <use 1mer avance foticos/Esquema unifilar diagrama esquemático.png>
-Package pdftex.def Info: 1mer avance foticos/Esquema unifilar diagrama esquemático.png  used on input line 25.
+Package pdftex.def Info: 1mer avance foticos/Esquema unifilar diagrama esquemático.png  used on input line 13.
 (pdftex.def)             Requested size: 226.48395pt x 147.13051pt.
-<1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png, id=20, 1129.97156pt x 735.49782pt>
+<1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png, id=22, 1129.97156pt x 735.49782pt>
 File: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png Graphic file (type png)
 <use 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>
-Package pdftex.def Info: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png  used on input line 32.
+Package pdftex.def Info: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png  used on input line 20.
 (pdftex.def)             Requested size: 226.48395pt x 147.4112pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 24--37
+Overfull \hbox (6.0pt too wide) in paragraph at lines 12--25
  [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 24--37
+Overfull \hbox (6.0pt too wide) in paragraph at lines 12--25
  [] 
  []
 
@@ -1241,25 +1238,101 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (1mer avance carlitos.tex
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
-(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+
+[2 <./1mer avance foticos/Esquema unifilar diagrama esquemático.png> <./1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1442) in paragraph at lines 30--31
+Underfull \hbox (badness 1442) in paragraph at lines 31--32
 []\OT1/ptm/m/n/10 En cual-quier con-di-ci[]on, la ten-si[]on lon-gi-tu-di-nal
+ []
+
+) (1mer avance maletina criterios.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
  []
 
 
 
-[2 <./1mer avance foticos/Esquema unifilar diagrama esquemático.png> <./1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>]) (1mer avance maletina criterios.tex
 
-) (1mer avance parteB.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
-[3]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+[]| \OT1/ptm/m/n/10 Se iden-ti-fi-can di-fe-ren-tes co-mu-ni-da-des.
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 14--16
+\OT1/ptm/m/n/10 El ob-je-ti-vo es ga-ran-ti-zar la par-ti-ci-pa-ci[]on,
+ []
+
+
+Underfull \hbox (badness 7925) in paragraph at lines 14--16
+\OT1/ptm/m/n/10 el re-co-no-ci-mien-to de sus de-re-chos y la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\OT1/ptm/m/n/10 y es-truc-tu-ra-les pa-ra de-ter-mi-nar po-si-bles
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 23--25
+\OT1/ptm/m/n/10 de-for-ma-cio-nes en la cor-te-za y la his-to-ria
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 26--28
+[]| \OT1/ptm/m/n/10 Se iden-ti-fi-can los fac-to-res que podr[]^^Pan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 29--31
+[]| \OT1/ptm/m/n/10 In-clu-ye la re-vi-si[]on de la dis-po-ni-bi-li-dad
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 29--31
+\OT1/ptm/m/n/10 y ca-li-dad del agua, tan-to su-per-fi-cial co-mo
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 29--31
+\OT1/ptm/m/n/10 la sos-te-ni-bi-li-dad del re-cur-so y mi-ni-mi-zan-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+
+
+[3]) (1mer avance parteB.tex
 
 )
 
@@ -1276,9 +1349,9 @@ Before submitting the final camera ready copy, remember to:
 
 
 [4] (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
-LaTeX Info: Redefining \sptext on input line 14.
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \sptext on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1289,17 +1362,17 @@ Package logreq Info: Writing requests to '"Primer avance".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46574 strings out of 473523
- 1061048 string characters out of 5714147
+ 46563 strings out of 473523
+ 1060938 string characters out of 5714147
  2212574 words of memory out of 5000000
- 69089 multiletter control sequences out of 15000+600000
+ 69084 multiletter control sequences out of 15000+600000
  595159 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,105p,1422b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,105p,2060b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (4 pages, 296467 bytes).
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (4 pages, 293487 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
