@@ -1,17 +1,19 @@
 # Fdb version 4
-["biber build/Primer avance"] 0 "build/Primer avance.bcf" "build/Primer avance.bbl" "build/Primer avance" 1741796172.49804 -1
-  "build/Primer avance.bcf" 1741796172 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/Primer avance"] 0 "build/Primer avance.bcf" "build/Primer avance.bbl" "build/Primer avance" 1741797631.05384 -1
+  "build/Primer avance.bcf" 1741797630 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/Primer avance.bbl"
   "build/Primer avance.blg"
   (rewritten before read)
-["pdflatex"] 1741796168.23071 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" "build/Primer avance.pdf" "Primer avance" 1741796172.49938 0
+["pdflatex"] 1741797626.70963 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" "build/Primer avance.pdf" "Primer avance" 1741797631.05464 0
   "1mer avance carlitos.tex" 1741793977 3233 f6e67142af67bf6e15843ab220d1df0f ""
   "1mer avance dai.tex" 1741793977 5452 724459844c3902c5b20672bc83ab3d19 ""
   "1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png" 1741787694 203384 ef94fac7077ee1df274cc12b9f8502a0 ""
   "1mer avance foticos/Esquema unifilar diagrama esquemático.png" 1741787629 74590 9fdb22046f2e7fcc688460d5daf470da ""
+  "1mer avance foticos/Torre-8.png" 1741791487 699023 9283d5632064d7ba125f9bb374d61f01 ""
+  "1mer avance foticos/Torre.png" 1741791446 1479169 9093ee5e6e73f36d3a808b6c67da255a ""
   "1mer avance maletina criterios.tex" 1741796163 3525 f9cfb813bc107fcc5eabc5e1ee1bf63c ""
-  "1mer avance parteB.tex" 1741785460 3531 b03e95d634510d39c02db74c1e1ba676 ""
+  "1mer avance parteB.tex" 1741797621 4403 d0489c8e5c4a8d8eabde2130ca84dc38 ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741231856 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741231832 12016266 7266e322115f439c035fa80744519dd8 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -41,6 +43,8 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx5.tfm" 1136765053 1332 f817c21a1ba54560425663374f1b651a ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx7.tfm" 1136765053 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmib10.tfm" 1136765053 1524 554068197b70979a55370e6c6495f441 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136871348 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136871348 44656 0cbca70e0534538582128f6b54593cca ""
@@ -267,9 +271,9 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Primer avance.tex" 1741793977 6087 331f533376c157c23d9038e2362317ef ""
-  "build/Primer avance.aux" 1741796172 12077 c45a1985340a723566fce2edcb0d00f8 "pdflatex"
+  "build/Primer avance.aux" 1741797630 12557 ebd8bd998810f127e016fabf7b661023 "pdflatex"
   "build/Primer avance.bbl" 1741785037 0 d41d8cd98f00b204e9800998ecf8427e "biber build/Primer avance"
-  "build/Primer avance.run.xml" 1741796172 2301 50a68e63954a536270d0e73882196d0d "pdflatex"
+  "build/Primer avance.run.xml" 1741797630 2301 50a68e63954a536270d0e73882196d0d "pdflatex"
   "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" 1741793977 6087 331f533376c157c23d9038e2362317ef ""
   (generated)
   "build/Primer avance.aux"
