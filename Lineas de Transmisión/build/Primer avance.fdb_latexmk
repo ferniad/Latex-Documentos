@@ -1,15 +1,17 @@
 # Fdb version 4
-["biber build/Primer avance"] 0 "build/Primer avance.bcf" "build/Primer avance.bbl" "build/Primer avance" 1741806799.07995 -1
-  "build/Primer avance.bcf" 1741806798 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/Primer avance"] 0 "build/Primer avance.bcf" "build/Primer avance.bbl" "build/Primer avance" 1741816843.51178 -1
+  "build/Primer avance.bcf" 1741816843 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/Primer avance.bbl"
   "build/Primer avance.blg"
   (rewritten before read)
-["pdflatex"] 1741806789.89755 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" "build/Primer avance.pdf" "Primer avance" 1741806799.08178 0
-  "1mer avance carlitos.tex" 1741806750 3233 f6e67142af67bf6e15843ab220d1df0f ""
+["pdflatex"] 1741816836.97551 "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" "build/Primer avance.pdf" "Primer avance" 1741816843.51267 0
+  "1mer avance carlitos.tex" 1741816587 3225 9e1b29a7bc1614cd2ace40b657bc66bb ""
   "1mer avance conclusiones.tex" 1741804078 1356 c633d2416c43e38fd2c5f4be00be81ad ""
   "1mer avance dai.tex" 1741804319 4407 7b57a1119377ca4d1f93b9ca463d45f9 ""
-  "1mer avance descripcion.tex" 1741806600 1828 fe80fb704c5b18b1276aaf436dc8fa89 ""
+  "1mer avance descripcion.tex" 1741816174 2288 5cbbb9e2cd3051f8f303115fff179b5f ""
+  "1mer avance foticos/Biotico.png" 1741812440 1977575 b7f2c4324579ece0f6484b3a061c9096 ""
+  "1mer avance foticos/Dibujo Torre.png" 1741791529 147182 027a57a9e26275e83e20be219d128167 ""
   "1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png" 1741787694 203384 ef94fac7077ee1df274cc12b9f8502a0 ""
   "1mer avance foticos/Esquema unifilar diagrama esquemático.png" 1741787629 74590 9fdb22046f2e7fcc688460d5daf470da ""
   "1mer avance foticos/Huila 230kV - Google Earth - completo inclinado.png" 1741793000 3082022 a1c1aabf266023417846c1c75bd95678 ""
@@ -18,8 +20,8 @@
   "1mer avance foticos/Huila 230kV - Google Earth - sin mirolindo.png" 1741786856 2790003 46620434670a43d11dd83e738374b446 ""
   "1mer avance foticos/Torre-8.png" 1741791487 699023 9283d5632064d7ba125f9bb374d61f01 ""
   "1mer avance foticos/Torre.png" 1741791446 1479169 9093ee5e6e73f36d3a808b6c67da255a ""
-  "1mer avance maletina criterios.tex" 1741805993 4546 6ade6f8a53038c740c5ee286ac3c32cd ""
-  "1mer avance parteB.tex" 1741803597 4435 b5da512d5cf155e2560d3dad12db7828 ""
+  "1mer avance maletina criterios.tex" 1741816829 6967 52dc3f3e72af773b9320359bc0afad57 ""
+  "1mer avance parteB.tex" 1741813243 4802 42cb5b52b9efc84868e3fbab5fa7c44b ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741231856 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741231832 12016266 7266e322115f439c035fa80744519dd8 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -276,11 +278,11 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "Primer avance.tex" 1741806780 6004 ce2c67d317d7b07663485990c660133d ""
-  "build/Primer avance.aux" 1741806798 13639 f03bcd3529a8d44b8ce8e673639a061a "pdflatex"
+  "Primer avance.tex" 1741816489 6507 b069e9d30a2de1a229e9dd26029ab687 ""
+  "build/Primer avance.aux" 1741816843 15547 35c0be595ec4aadc45eb6879b431e607 "pdflatex"
   "build/Primer avance.bbl" 1741785037 0 d41d8cd98f00b204e9800998ecf8427e "biber build/Primer avance"
-  "build/Primer avance.run.xml" 1741806798 2301 50a68e63954a536270d0e73882196d0d "pdflatex"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" 1741806780 6004 ce2c67d317d7b07663485990c660133d ""
+  "build/Primer avance.run.xml" 1741816843 2301 50a68e63954a536270d0e73882196d0d "pdflatex"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/Lineas de Transmisión/Primer avance.tex" 1741816489 6507 b069e9d30a2de1a229e9dd26029ab687 ""
   (generated)
   "build/Primer avance.aux"
   "build/Primer avance.bcf"

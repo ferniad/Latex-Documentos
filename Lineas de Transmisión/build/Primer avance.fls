@@ -531,6 +531,13 @@ INPUT .\1mer avance maletina criterios.tex
 INPUT 1mer avance maletina criterios.tex
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\1mer avance foticos\Biotico.png
+INPUT .\1mer avance foticos\Biotico.png
+INPUT .\1mer avance foticos\Biotico.png
+INPUT .\1mer avance foticos\Biotico.png
+INPUT .\1mer avance foticos\Biotico.png
+INPUT .\1mer avance foticos\Biotico.png
+INPUT .\1mer avance foticos\Biotico.png
 INPUT .\1mer avance foticos\Esquema unifilar diagrama esquemático.png
 INPUT .\1mer avance foticos\Esquema unifilar diagrama esquemático.png
 INPUT .\1mer avance foticos\Esquema unifilar diagrama esquemático.png
@@ -548,8 +555,6 @@ INPUT .\1mer avance foticos\Esquema unifilar de la subestación huila 230kv.png
 INPUT .\1mer avance parteB.tex
 INPUT .\1mer avance parteB.tex
 INPUT 1mer avance parteB.tex
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\1mer avance foticos\Torre.png
 INPUT .\1mer avance foticos\Torre.png
 INPUT .\1mer avance foticos\Torre.png
@@ -564,9 +569,18 @@ INPUT .\1mer avance foticos\Torre-8.png
 INPUT .\1mer avance foticos\Torre-8.png
 INPUT .\1mer avance foticos\Torre-8.png
 INPUT .\1mer avance foticos\Torre-8.png
+INPUT .\1mer avance foticos\Dibujo Torre.png
+INPUT .\1mer avance foticos\Dibujo Torre.png
+INPUT .\1mer avance foticos\Dibujo Torre.png
+INPUT .\1mer avance foticos\Dibujo Torre.png
+INPUT .\1mer avance foticos\Dibujo Torre.png
+INPUT .\1mer avance foticos\Dibujo Torre.png
+INPUT .\1mer avance foticos\Dibujo Torre.png
 INPUT .\1mer avance conclusiones.tex
 INPUT .\1mer avance conclusiones.tex
 INPUT 1mer avance conclusiones.tex
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
 INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.run.xml
 OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.run.xml
