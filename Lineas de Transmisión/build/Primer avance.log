@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 08:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 10:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,8 +1092,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
 )
 \openout1 = `"Primer avance.aux"'.
 
@@ -1198,11 +1198,48 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
- (1mer avance carlitos.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 16.
+ (1mer avance dai.tex
+
+
+Underfull \vbox (badness 4353) has occurred while \output is active []
+
+
+
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 15.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+<1mer avance foticos/Esquema unifilar diagrama esquemático.png, id=18, 1106.63437pt x 718.93594pt>
+File: 1mer avance foticos/Esquema unifilar diagrama esquemático.png Graphic file (type png)
+<use 1mer avance foticos/Esquema unifilar diagrama esquemático.png>
+Package pdftex.def Info: 1mer avance foticos/Esquema unifilar diagrama esquemático.png  used on input line 25.
+(pdftex.def)             Requested size: 226.48395pt x 147.13051pt.
+<1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png, id=20, 1129.97156pt x 735.49782pt>
+File: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png Graphic file (type png)
+<use 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>
+Package pdftex.def Info: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png  used on input line 32.
+(pdftex.def)             Requested size: 226.48395pt x 147.4112pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--37
+ [][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--37
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (1mer avance carlitos.tex
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1218,17 +1255,13 @@ Underfull \hbox (badness 1442) in paragraph at lines 30--31
 
 
 
-[1
-Non-PDF special ignored!
-<special> header=psfrag.pro
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+[2 <./1mer avance foticos/Esquema unifilar diagrama esquemático.png> <./1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>]) (1mer avance maletina criterios.tex
 
+) (1mer avance parteB.tex
 
-]) (1mer avance dai.tex
+[3]
 
-) (1mer avance Criterios.tex
-
-[2])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1242,14 +1275,10 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[3
-
-] (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
-LaTeX Info: Redefining \sptext on input line 25.
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+[4] (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
+LaTeX Info: Redefining \sptext on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1260,17 +1289,17 @@ Package logreq Info: Writing requests to '"Primer avance".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46507 strings out of 473523
- 1059079 string characters out of 5714147
- 2211920 words of memory out of 5000000
- 69041 multiletter control sequences out of 15000+600000
- 594081 words of font info for 103 fonts, out of 8000000 for 9000
+ 46574 strings out of 473523
+ 1061048 string characters out of 5714147
+ 2212574 words of memory out of 5000000
+ 69089 multiletter control sequences out of 15000+600000
+ 595159 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,105p,920b,1836s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,105p,1422b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (3 pages, 90004 bytes).
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (4 pages, 296467 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,5 @@
+PWD c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión
+INPUT C:\Users\Daniel\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\1mer avance dai.tex
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\1mer avance dai.log
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
