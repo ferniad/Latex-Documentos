@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1212,37 +1212,10 @@ Non-PDF special ignored!
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<1mer avance foticos/Esquema unifilar diagrama esquemático.png, id=20, 1106.63437pt x 718.93594pt>
-File: 1mer avance foticos/Esquema unifilar diagrama esquemático.png Graphic file (type png)
-<use 1mer avance foticos/Esquema unifilar diagrama esquemático.png>
-Package pdftex.def Info: 1mer avance foticos/Esquema unifilar diagrama esquemático.png  used on input line 13.
-(pdftex.def)             Requested size: 226.48395pt x 147.13051pt.
-<1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png, id=22, 1129.97156pt x 735.49782pt>
-File: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png Graphic file (type png)
-<use 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>
-Package pdftex.def Info: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png  used on input line 20.
-(pdftex.def)             Requested size: 226.48395pt x 147.4112pt.
+)) (1mer avance carlitos.tex
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 12--25
- [][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 12--25
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (1mer avance carlitos.tex
-
-
-
-[2 <./1mer avance foticos/Esquema unifilar diagrama esquemático.png> <./1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
@@ -1253,12 +1226,58 @@ Underfull \hbox (badness 1442) in paragraph at lines 31--32
 []\OT1/ptm/m/n/10 En cual-quier con-di-ci[]on, la ten-si[]on lon-gi-tu-di-nal
  []
 
-) (1mer avance maletina criterios.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
+
+[2]) (1mer avance descripcion.tex
+<1mer avance foticos/Huila 230kV - Google Earth - sin mirolindo.png, id=32, 1130.72438pt x 753.5653pt>
+File: 1mer avance foticos/Huila 230kV - Google Earth - sin mirolindo.png Graphic file (type png)
+<use 1mer avance foticos/Huila 230kV - Google Earth - sin mirolindo.png>
+Package pdftex.def Info: 1mer avance foticos/Huila 230kV - Google Earth - sin mirolindo.png  used on input line 6.
+(pdftex.def)             Requested size: 226.48395pt x 150.92885pt.
+<1mer avance foticos/Huila 230kV - Google Earth - nueva acercada.png, id=34, 1157.82562pt x 813.0375pt>
+File: 1mer avance foticos/Huila 230kV - Google Earth - nueva acercada.png Graphic file (type png)
+<use 1mer avance foticos/Huila 230kV - Google Earth - nueva acercada.png>
+Package pdftex.def Info: 1mer avance foticos/Huila 230kV - Google Earth - nueva acercada.png  used on input line 12.
+(pdftex.def)             Requested size: 226.48395pt x 159.03171pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--16
+[] []
  []
 
 
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--16
+[] 
+ []
+
+<1mer avance foticos/Huila 230kV - Google Earth - completo inclinado.png, id=35, 1157.07281pt x 758.08218pt>
+File: 1mer avance foticos/Huila 230kV - Google Earth - completo inclinado.png Graphic file (type png)
+<use 1mer avance foticos/Huila 230kV - Google Earth - completo inclinado.png>
+Package pdftex.def Info: 1mer avance foticos/Huila 230kV - Google Earth - completo inclinado.png  used on input line 22.
+(pdftex.def)             Requested size: 226.48395pt x 148.38644pt.
+<1mer avance foticos/Huila 230kV - Google Earth - completo.png, id=36, 1150.2975pt x 758.835pt>
+File: 1mer avance foticos/Huila 230kV - Google Earth - completo.png Graphic file (type png)
+<use 1mer avance foticos/Huila 230kV - Google Earth - completo.png>
+Package pdftex.def Info: 1mer avance foticos/Huila 230kV - Google Earth - completo.png  used on input line 29.
+(pdftex.def)             Requested size: 226.48395pt x 149.40222pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 21--33
+ [][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 21--33
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (1mer avance maletina criterios.tex
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
@@ -1286,6 +1305,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
+
+[3 <./1mer avance foticos/Huila 230kV - Google Earth - sin mirolindo.png> <./1mer avance foticos/Huila 230kV - Google Earth - nueva acercada.png> <./1mer avance foticos/Huila 230kV - Google Earth - completo inclinado.png> <./1mer avance foticos/Huila 230kV - Google Earth - completo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 \OT1/ptm/m/n/10 y es-truc-tu-ra-les pa-ra de-ter-mi-nar po-si-bles
  []
@@ -1330,16 +1351,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
+<1mer avance foticos/Esquema unifilar diagrama esquemático.png, id=54, 1106.63437pt x 718.93594pt>
+File: 1mer avance foticos/Esquema unifilar diagrama esquemático.png Graphic file (type png)
+<use 1mer avance foticos/Esquema unifilar diagrama esquemático.png>
+Package pdftex.def Info: 1mer avance foticos/Esquema unifilar diagrama esquemático.png  used on input line 51.
+(pdftex.def)             Requested size: 226.48395pt x 147.13051pt.
+<1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png, id=55, 1129.97156pt x 735.49782pt>
+File: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png Graphic file (type png)
+<use 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>
+Package pdftex.def Info: 1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png  used on input line 58.
+(pdftex.def)             Requested size: 226.48395pt x 147.4112pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 50--63
+ [][] 
+ []
 
 
-[3]) (1mer avance parteB.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 50--63
+ [] 
+ []
 
-<1mer avance foticos/Torre.png, id=53, 281.61409pt x 381.06pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (1mer avance parteB.tex
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+
+
+
+
+[4 <./1mer avance foticos/Esquema unifilar diagrama esquemático.png> <./1mer avance foticos/Esquema unifilar de la subestación huila 230kv.png>]
+<1mer avance foticos/Torre.png, id=72, 281.61409pt x 381.06pt>
 File: 1mer avance foticos/Torre.png Graphic file (type png)
 <use 1mer avance foticos/Torre.png>
 Package pdftex.def Info: 1mer avance foticos/Torre.png  used on input line 23.
 (pdftex.def)             Requested size: 226.48395pt x 306.46484pt.
-<1mer avance foticos/Torre-8.png, id=54, 154.99228pt x 172.61182pt>
+<1mer avance foticos/Torre-8.png, id=73, 154.99228pt x 172.61182pt>
 File: 1mer avance foticos/Torre-8.png Graphic file (type png)
 <use 1mer avance foticos/Torre-8.png>
 Package pdftex.def Info: 1mer avance foticos/Torre-8.png  used on input line 30.
@@ -1357,7 +1405,44 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 22--34
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+) (1mer avance conclusiones.tex
+Underfull \hbox (badness 4505) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 ten-si[]on, fre-cuen-cia, con-duc-to-res, ni-ve-les de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 4--5
+\OT1/ptm/m/n/10 los cri-te-rios so-cio-econ[]omi-cos, los cri-te-rios
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 4--5
+\OT1/ptm/m/n/10 f[]^^Psi-cos y los cri-te-rios de se-gu-ri-dad pa-ra la
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 4--5
+\OT1/ptm/m/n/10 pau-tas re-que-ri-das, ta-les co-mo mi-ni-mi-zar los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \vbox (badness 1270) has occurred while \output is active []
+
+
+
+[5 <./1mer avance foticos/Torre.png> <./1mer avance foticos/Torre-8.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1371,13 +1456,11 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[4]
 
 
+[6
 
-[5
-
- <./1mer avance foticos/Torre.png> <./1mer avance foticos/Torre-8.png>] (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
+] (c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.aux
 LaTeX Info: Redefining \sptext on input line 15.
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
@@ -1391,17 +1474,17 @@ Package logreq Info: Writing requests to '"Primer avance".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46589 strings out of 473523
- 1061614 string characters out of 5714147
- 2212958 words of memory out of 5000000
- 69108 multiletter control sequences out of 15000+600000
+ 46641 strings out of 473523
+ 1064362 string characters out of 5714147
+ 2213816 words of memory out of 5000000
+ 69150 multiletter control sequences out of 15000+600000
  595159 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,105p,2060b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (5 pages, 2708243 bytes).
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (6 pages, 16364057 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
