@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  12 MAR 2025 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1334,12 +1334,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
 [3]) (1mer avance parteB.tex
 
-<1mer avance foticos/Torre.png, id=52, 281.61409pt x 381.06pt>
+<1mer avance foticos/Torre.png, id=53, 281.61409pt x 381.06pt>
 File: 1mer avance foticos/Torre.png Graphic file (type png)
 <use 1mer avance foticos/Torre.png>
 Package pdftex.def Info: 1mer avance foticos/Torre.png  used on input line 23.
 (pdftex.def)             Requested size: 226.48395pt x 306.46484pt.
-<1mer avance foticos/Torre-8.png, id=53, 154.99228pt x 172.61182pt>
+<1mer avance foticos/Torre-8.png, id=54, 154.99228pt x 172.61182pt>
 File: 1mer avance foticos/Torre-8.png Graphic file (type png)
 <use 1mer avance foticos/Torre-8.png>
 Package pdftex.def Info: 1mer avance foticos/Torre-8.png  used on input line 30.
@@ -1399,9 +1399,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,8n,105p,2060b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (5 pages, 2708054 bytes).
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Lineas de Transmisión\build\Primer avance.pdf" (5 pages, 2708243 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
