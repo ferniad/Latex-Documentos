@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.13)  20 MAR 2025 07:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.13)  20 MAR 2025 10:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/muestreo de señalesparte2.tex"
-(c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/muestreo de señalesparte2.tex
+**c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex
+(c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -1091,11 +1091,9 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (c:\Users\Daniel\Desktop\Latex-Documentos\mediciones\build\muestreo de señalesparte2.aux
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
-)
-\openout1 = `"muestreo de señalesparte2.aux"'.
+
+No file tarea.aux.
+\openout1 = `tarea.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
@@ -1115,7 +1113,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
-
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1185,11 +1182,11 @@ File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `"muestreo de señalesparte2.bcf"'.
+\openout5 = `tarea.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"muestreo de señalesparte2".bbl' found.
- (c:\Users\Daniel\Desktop\Latex-Documentos\mediciones\build\muestreo de señalesparte2.bbl)
+Package biblatex Info: ... file 'tarea.bbl' found.
+ (c:\Users\Daniel\Desktop\Latex-Documentos\mediciones\build\tarea.bbl)
 Package biblatex Info: Reference section=0 on input line 74.
 Package biblatex Info: Reference segment=0 on input line 74.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 80.
@@ -1213,69 +1210,230 @@ Overfull \hbox (11.36057pt too wide) in paragraph at lines 80--80
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
+
+
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:118: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118         \begin{table}[H]
+                              
+Option `H' ignored and `p' used.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 122.
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 122.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (32.39587pt too wide) in paragraph at lines 115--122
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:124: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.124 ...extbf{In1(1 dec)} & \textbf{Vn2(1 dec)} &
+                                                   \textbf{In2(1 dec)} \\ \h...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:125: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.125 ....7385             & 120.3035            &
+                                                   14.7466            \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:126: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.126 ....8                & 185.3               &
+                                                   20.5               \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:127: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.127 ...4113              & 1.5403              &
+                                                   1.3902             \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:128: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.128 ...1251              & 1.1192              &
+                                                   1.1246             \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:135: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135         \begin{table}[H]
+                              
+Option `H' ignored and `p' used.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:141: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.141 ...extbf{In1(2 dec)} & \textbf{Vn2(2 dec)} &
+                                                   \textbf{In2(2 dec)} \\ \h...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:142: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.142 ....7309             & 120.3036            &
+                                                   14.7327            \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:143: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.143 ....83               & 185.26              &
+                                                   20.45              \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:144: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.144 ...4140              & 1.5399              &
+                                                   1.3881             \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:145: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.145 ...1252              & 1.1193              &
+                                                   1.1244             \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:152: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152         \begin{table}[H]
+                              
+Option `H' ignored and `p' used.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:158: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.158 ...extbf{In1(4 dec)} & \textbf{Vn2(4 dec)} &
+                                                   \textbf{In2(4 dec)} \\ \h...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:159: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.159 ....7314             & 120.3038            &
+                                                   14.7341            \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:160: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.160 ....8333             & 185.2620            &
+                                                   20.4503            \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:161: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.161 ...4142              & 1.5400              &
+                                                   1.3879             \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:162: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.162 ...1252              & 1.1193              &
+                                                   1.1244             \\ \hline
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:171: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171         \begin{table}[H]
+                              
+Option `H' ignored and `p' used.
+
+
+Overfull \hbox (19.123pt too wide) in paragraph at lines 175--183
  [][] 
  []
 
 
-Overfull \hbox (32.39587pt too wide) in paragraph at lines 129--136
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:185: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185         \begin{table}[H]
+                              
+Option `H' ignored and `p' used.
+
+
+Overfull \hbox (19.123pt too wide) in paragraph at lines 189--197
  [][] 
  []
 
 
-Underfull \vbox (badness 1776) has occurred while \output is active []
+c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex:202: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202         \begin{table}[H]
+                              
+Option `H' ignored and `p' used.
 
 
-
-
-Overfull \hbox (28.39587pt too wide) in paragraph at lines 155--162
+Overfull \hbox (104.72333pt too wide) in paragraph at lines 206--214
  [][] 
- []
-
-
-
-[1
-Non-PDF special ignored!
-<special> header=psfrag.pro
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
-]
-Overfull \hbox (32.39587pt too wide) in paragraph at lines 170--177
- [][] 
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 181--183
-\OT1/ptm/m/n/10 que am-bas lu-ces pre-sen-tan ni-ve-les de ten-si[]on
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 181--183
-\OT1/ptm/m/n/10 en com-pa-ra-ci[]on con las lu-ces LED. Las ta-blas
- []
-
-
-Underfull \hbox (badness 6016) in paragraph at lines 181--183
-\OT1/ptm/m/n/10 po-ten-cia uni-ta-rio, de-bi-do a su com-por-ta-mien-to
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 181--183
-\OT1/ptm/m/n/10 en su con-su-mo. En con-clu-si[]on, si bus-ca-mos un
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
-
  []
 
 
@@ -1291,33 +1449,55 @@ Before submitting the final camera ready copy, remember to:
 
 
 
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-[2] (c:\Users\Daniel\Desktop\Latex-Documentos\mediciones\build\muestreo de señalesparte2.aux
-LaTeX Info: Redefining \sptext on input line 14.
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+]
+
+
+
+[2
+
+] (c:\Users\Daniel\Desktop\Latex-Documentos\mediciones\build\tarea.aux
+LaTeX Info: Redefining \sptext on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package logreq Info: Writing requests to '"muestreo de señalesparte2".run.xml'.
-\openout1 = `"muestreo de señalesparte2.run.xml"'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                tarea
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'tarea.run.xml'.
+\openout1 = `tarea.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46480 strings out of 473523
- 1058374 string characters out of 5714146
- 2214959 words of memory out of 5000000
- 69025 multiletter control sequences out of 15000+600000
+ 46497 strings out of 473523
+ 1058036 string characters out of 5714146
+ 2224831 words of memory out of 5000000
+ 69034 multiletter control sequences out of 15000+600000
  598716 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,105p,1552b,1836s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\mediciones\build\muestreo de señalesparte2.pdf" (2 pages, 93423 bytes).
+ 99i,9n,105p,800b,1835s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\Daniel\Desktop\Latex-Documentos\mediciones\build\tarea.pdf (2 pages, 101144 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

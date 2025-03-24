@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber build/muestreo de señalesparte2"] 1740463103.01383 "build/muestreo de señalesparte2.bcf" "build/muestreo de señalesparte2.bbl" "build/muestreo de señalesparte2" 1742475471.7851 2
-  "build/muestreo de señalesparte2.bcf" 1742475471 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/tarea"] 0 "build/tarea.bcf" "build/tarea.bbl" "build/tarea" 1742485078.79222 -1
+  "build/tarea.bcf" 1742485078 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
-  "build/muestreo de señalesparte2.bbl"
-  "build/muestreo de señalesparte2.blg"
+  "build/tarea.bbl"
+  "build/tarea.blg"
   (rewritten before read)
-["pdflatex"] 1742475469.06127 "c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/muestreo de señalesparte2.tex" "build/muestreo de señalesparte2.pdf" "muestreo de señalesparte2" 1742475471.78587 0
+["pdflatex"] 1742485074.47583 "c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex" "build/tarea.pdf" "tarea" 1742485078.79417 2
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741891962 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741895400 12036573 5b33724804134903cbd5f753af6ab288 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -48,7 +48,7 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136871348 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136871348 44656 0cbca70e0534538582128f6b54593cca ""
@@ -272,15 +272,15 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "build/muestreo de señalesparte2.aux" 1742475471 3843 e4755c6440e6ee657f2b0a0a1a74b42c "pdflatex"
-  "build/muestreo de señalesparte2.bbl" 1740463105 0 d41d8cd98f00b204e9800998ecf8427e "biber build/muestreo de señalesparte2"
-  "build/muestreo de señalesparte2.run.xml" 1742475471 2392 56f0d44b065ccb91bd09e7dfa9a98bc0 "pdflatex"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/muestreo de señalesparte2.tex" 1740463102 10086 b7ccf2417d2752d8d85abbfff3860312 ""
-  "muestreo de señalesparte2.tex" 1740463102 10086 b7ccf2417d2752d8d85abbfff3860312 ""
+  "build/tarea.aux" 1742485078 9569 5a1440be778ee8c7c5064b12f6ec5f39 "pdflatex"
+  "build/tarea.bbl" 1742476031 0 d41d8cd98f00b204e9800998ecf8427e "biber build/tarea"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/mediciones/tarea.tex" 1742485066 13429 96d2ec69e1e394b5bbe180fb03ecbaed ""
+  "tarea.aux" 0 -1 0 ""
+  "tarea.tex" 1742485066 13429 96d2ec69e1e394b5bbe180fb03ecbaed ""
   (generated)
-  "build/muestreo de señalesparte2.aux"
-  "build/muestreo de señalesparte2.bcf"
-  "build/muestreo de señalesparte2.log"
-  "build/muestreo de señalesparte2.pdf"
-  "build/muestreo de señalesparte2.run.xml"
+  "build/tarea.aux"
+  "build/tarea.bcf"
+  "build/tarea.log"
+  "build/tarea.pdf"
+  "build/tarea.run.xml"
   (rewritten before read)

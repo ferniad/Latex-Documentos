@@ -1,0 +1,221 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[conference]{IEEEtran}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc} % Codificación UTF-8
+\usepackage{amsmath}        % Soporte para ecuaciones matemáticas
+\usepackage{graphicx}       % Manejo de imágenes
+\usepackage{hyperref}       % Hipervínculos
+\usepackage{caption}        % Formato para figuras
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{biblatex}
+\usepackage{csquotes}
+\usepackage{bookmark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper, margin=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{\IEEEauthorblockN{Brayan Joanne Ballesteros Meza, Brayhan Steven Delgado Rueda, Daniel Fernando Aranda Contreras,\\ Jonathan Stiven Murcia Suarez}
+\IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225092\}@correo.uis.edu.co}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{document}
+        % Título
+        \title{\uppercase{Impacto de la Resolución en la Medición de Parámetros Eléctricos y sus Errores Asociados}}
+        \maketitle
+        % Resumen
+        % Palabras clave        
+        \begin{IEEEkeywords}
+            Resolución de medición
+            Errores porcentuales
+            Precisión en tensión
+            Sensibilidad en corriente
+            Impacto en potencia
+            Análisis de errores relativos
+            Niveles de resolución
+            Mediciones eléctricas
+            Precisión en parámetros derivativos
+            Corriente pico
+            Factor de cresta
+            Potencia aparente
+            Análisis comparativo
+            Pérdidas de precisión
+        \end{IEEEkeywords}
+        \section{Análisis de Errores en las Mediciones}
+
+        \subsection{Errores en la Tensión}
+        Al reducir la resolución de los valores de las muestras, se observa que los errores porcentuales en la tensión son relativamente pequeños y estables en las dos resoluciones analizadas: tanto con 2 decimales como con 1 decimal. De esto se puede concluir que la reducción de la resolución tiene un impacto mínimo en la precisión de las mediciones de tensión.
+
+        \subsection{Errores en la Corriente}
+        Los errores porcentuales en la corriente son bajos cuando se utilizan valores con una resolución de 2 decimales. Sin embargo, al reducir la resolución a 1 decimal, estos errores aumentan de manera exponencial, lo que se refleja principalmente en el porcentaje de error de la corriente pico y el factor de cresta. Esto se debe a que la corriente tiene magnitudes más pequeñas en comparación con la tensión, lo que provoca que cualquier pequeña variación relativa tenga un mayor impacto porcentual sobre el valor total. Esto evidencia que la corriente es más sensible a pérdidas de precisión.
+
+        \subsection{Errores en la Potencia}
+        La potencia es un parámetro derivado de los valores de tensión y corriente, lo que implica que cualquier error en la medición de estas magnitudes se acumulará en el cálculo de la potencia. Así, los errores presentes en la tensión y la corriente se combinan y se amplifican en el resultado de las potencias. En este caso, el error final estará dominado por el mayor de los errores, que corresponde al de la corriente. Esto explica por qué los valores del error porcentual en la potencia son cercanos a los del error en la corriente.
+
+
+
+        \subsection{Análisis de Parámetros y Errores}
+
+        En este informe se analizan diferentes parámetros y sus correspondientes errores para cada nivel de precisión: con 4 decimales (alta resolución), 2 decimales y 1 decimal. En cada caso, se evalúan la relación entre las magnitudes medidas y el impacto en los errores porcentuales correspondientes.
+
+        \subsection{Parámetros Medidos con Diferentes Niveles de Resolución}
+
+        \subsubsection{Caso con 1 Decimal}
+        Los valores calculados con una precisión de 1 decimal se resumen en la siguiente tabla:
+
+        \begin{table}[H]
+        \centering
+        \caption{Parámetros medidos (1 decimal).}
+        \label{tab:parametros_1_decimal}
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{Parámetro} & \textbf{Vn1(1 dec)} & \textbf{In1(1 dec)} & \textbf{Vn2(1 dec)} & \textbf{In2(1 dec)} \\ \hline
+        \textbf{RMS}       & 119.9971            & 14.7385             & 120.3035            & 14.7466            \\ \hline
+        \textbf{MAX}       & 169.7               & 20.8                & 185.3               & 20.5               \\ \hline
+        \textbf{FC}        & 1.4142              & 1.4113              & 1.5403              & 1.3902             \\ \hline
+        \textbf{FF}        & 1.1253              & 1.1251              & 1.1192              & 1.1246             \\ \hline
+        \end{tabular}
+        \end{table}
+
+        \subsubsection{Caso con 2 Decimales}
+        Los valores calculados con una precisión de 2 decimales se presentan a continuación:
+
+        \begin{table}[H]
+        \centering
+        \caption{Parámetros medidos (2 decimales).}
+        \label{tab:parametros_2_decimales}
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{Parámetro} & \textbf{Vn1(2 dec)} & \textbf{In1(2 dec)} & \textbf{Vn2(2 dec)} & \textbf{In2(2 dec)} \\ \hline
+        \textbf{RMS}       & 120.0011            & 14.7309             & 120.3036            & 14.7327            \\ \hline
+        \textbf{MAX}       & 169.71              & 20.83               & 185.26              & 20.45              \\ \hline
+        \textbf{FC}        & 1.4142              & 1.4140              & 1.5399              & 1.3881             \\ \hline
+        \textbf{FF}        & 1.1252              & 1.1252              & 1.1193              & 1.1244             \\ \hline
+        \end{tabular}
+        \end{table}
+
+        \subsubsection{Caso con 4 Decimales (Alta Resolución)}
+        A continuación, se presentan los valores calculados con alta resolución (4 decimales):
+
+        \begin{table}[H]
+        \centering
+        \caption{Parámetros medidos (4 decimales).}
+        \label{tab:parametros_4_decimales}
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{Parámetro} & \textbf{Vn1(4 dec)} & \textbf{In1(4 dec)} & \textbf{Vn2(4 dec)} & \textbf{In2(4 dec)} \\ \hline
+        \textbf{RMS}       & 120.0000            & 14.7314             & 120.3038            & 14.7341            \\ \hline
+        \textbf{MAX}       & 169.7056            & 20.8333             & 185.2620            & 20.4503            \\ \hline
+        \textbf{FC}        & 1.4142              & 1.4142              & 1.5400              & 1.3879             \\ \hline
+        \textbf{FF}        & 1.1252              & 1.1252              & 1.1193              & 1.1244             \\ \hline
+        \end{tabular}
+        \end{table}
+
+        \subsection{Errores en las Mediciones}
+
+        \subsubsection{Errores Relativos por Resolución}
+        Los errores relativos se calcularon comparando las mediciones con 1 y 2 decimales con respecto a las mediciones de alta resolución (4 decimales). Los resultados se observan en las siguientes tablas.
+
+        \begin{table}[H]
+        \centering
+        \caption{Errores relativos (1 decimal).}
+        \label{tab:errores_1_decimal}
+        \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        \textbf{Parámetro} & \textbf{Error Vn1} & \textbf{Error I1n} & \textbf{Error Vn2} & \textbf{Error I2n} \\ \hline
+        \textbf{RMS}       & 0.0024\%           & 0.0486\%           & 0.0002\%           & 0.0846\%           \\ \hline
+        \textbf{MAX}       & 0.0033\%           & 0.1598\%           & 0.0205\%           & 0.2430\%           \\ \hline
+        \textbf{FC}        & 0.0009\%           & 0.2083\%           & 0.0207\%           & 0.1582\%           \\ \hline
+        \textbf{FF}        & 0.0056\%           & 0.0122\%           & 0.0022\%           & 0.0193\%           \\ \hline
+        \end{tabular}
+        \end{table}
+
+        \begin{table}[H]
+        \centering
+        \caption{Errores relativos (2 decimales).}
+        \label{tab:errores_2_decimales}
+        \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        \textbf{Parámetro} & \textbf{Error Vn1} & \textbf{Error I1n} & \textbf{Error Vn2} & \textbf{Error I2n} \\ \hline
+        \textbf{RMS}       & 0.0009\%           & 0.0032\%           & 0.0002\%           & 0.0094\%           \\ \hline
+        \textbf{MAX}       & 0.0026\%           & 0.0158\%           & 0.0011\%           & 0.0015\%           \\ \hline
+        \textbf{FC}        & 0.0017\%           & 0.0127\%           & 0.0009\%           & 0.0079\%           \\ \hline
+        \textbf{FF}        & 0.0006\%           & 0.0028\%           & 0.0002\%           & 0.0032\%           \\ \hline
+        \end{tabular}
+        \end{table}
+
+        \subsubsection{Impacto en la Potencia}
+        Al calcular las potencias en cada caso, se encontró que los errores combinados y amplificados, especialmente los dominados por las mediciones de corriente, presentan los siguientes resultados:
+
+        \begin{table}[H]
+        \centering
+        \caption{Potencias calculadas y errores.}
+        \label{tab:potencias_y_errores}
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{Parámetro} & \textbf{1 decimal (\% Error)} & \textbf{2 decimales (\% Error)} & \textbf{4 decimales (Referencia)} \\ \hline
+        \textbf{S (VA)}    & 1768.59 (0.05\%)             & 1767.72 (0.003\%)              & 1767.77                          \\ \hline
+        \textbf{P (W)}     & 1250.58 (0.05\%)             & 1249.97 (0.003\%)              & 1250.00                          \\ \hline
+        \textbf{Qf (VAr)}  & 1250.58 (0.05\%)             & 1249.97 (0.003\%)              & 1250.00                          \\ \hline
+        \textbf{FP}        & 0.7071 (0.05\%)              & 0.7071 (0.003\%)               & 0.7071                           \\ \hline
+        \end{tabular}
+        \end{table}
+
+
+        \subsubsection{Análisis de los Porcentajes de Error en los Parámetros}
+        Al analizar los porcentajes de error de los parámetros, se observa que en la corriente $I_2$ el error es menor en comparación con el de $I_1$, lo que indica que dicho parámetro es un poco más preciso. En cuanto a las potencias, los errores obtenidos a partir de las mediciones de $I_1$ y $V_1$ resultaron similares; sin embargo, al usar las mediciones de $I_2$ y $V_2$, los errores fueron significativamente diferentes.
+        
+
+        \end{document}  
