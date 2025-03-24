@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.13)  23 MAR 2025 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.13)  23 MAR 2025 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Daniel/Desktop/Latex-Documentos/maquinas/lab 5.tex"
-(c:/Users/Daniel/Desktop/Latex-Documentos/maquinas/lab 5.tex
+**c:/Users/Daniel/Desktop/Latex-Documentos/main.tex
+(c:/Users/Daniel/Desktop/Latex-Documentos/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -1091,30 +1091,30 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 5.aux
+ (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
-\openout1 = `"lab 5.aux"'.
+\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
@@ -1172,9 +1172,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
-Package hyperref Info: Link coloring OFF on input line 74.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+Package hyperref Info: Link coloring OFF on input line 75.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'spanish'...
@@ -1185,42 +1185,98 @@ File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `"lab 5.bcf"'.
+\openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"lab 5".bbl' found.
- (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 5.bbl)
-Package biblatex Info: Reference section=0 on input line 74.
-Package biblatex Info: Reference segment=0 on input line 74.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 80.
+Package biblatex Info: ... file 'main.bbl' found.
+ (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.bbl)
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 81.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
- (prac_5.tex
-<fot/prac5_autoenvacio.jpeg, id=6, 906.38625pt x 944.7797pt>
-File: fot/prac5_autoenvacio.jpeg Graphic file (type jpg)
-<use fot/prac5_autoenvacio.jpeg>
-Package pdftex.def Info: fot/prac5_autoenvacio.jpeg  used on input line 4.
-(pdftex.def)             Requested size: 226.48395pt x 236.07901pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 4--5
- [][] 
- []
-
-<fot/prac5_autoR_.jpeg, id=7, 906.38625pt x 906.38625pt>
-File: fot/prac5_autoR_.jpeg Graphic file (type jpg)
-<use fot/prac5_autoR_.jpeg>
-Package pdftex.def Info: fot/prac5_autoR_.jpeg  used on input line 11.
-(pdftex.def)             Requested size: 226.48395pt x 226.48535pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 11--12
- [][] 
+Overfull \hbox (11.36057pt too wide) in paragraph at lines 81--81
+ [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (11.36057pt too wide) in paragraph at lines 81--81
+ [] 
+ []
+
+
+Overfull \hbox (11.36057pt too wide) in paragraph at lines 81--81
+ [] 
+ []
+
+(Muestreomediciones.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+) (Fp y pot.tex
+Overfull \hbox (4.1816pt too wide) in paragraph at lines 6--17
+ [][] 
+ []
+
+) (modelo.tex
+<img/Modelo del circuito.png, id=7, 166.64612pt x 93.951pt>
+File: img/Modelo del circuito.png Graphic file (type png)
+<use img/Modelo del circuito.png>
+Package pdftex.def Info: img/Modelo del circuito.png  used on input line 8.
+(pdftex.def)             Requested size: 226.48395pt x 127.68996pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 8--9
+ [][] 
+ []
+
+
+
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+]) (error.tex
+Overfull \hbox (13.99808pt too wide) in paragraph at lines 5--18
+[][] 
+ []
+
+) (conclusiones.tex
+Overfull \hbox (39.52437pt too wide) in paragraph at lines 19--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--1
+
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 2--3
+[]\OT1/ptm/m/n/10 Para los ca-sos en los cua-les se em-plea-ron
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
 
 )
 
@@ -1236,15 +1292,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[1
-Non-PDF special ignored!
-<special> header=psfrag.pro
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
- <./fot/prac5_autoenvacio.jpeg> <./fot/prac5_autoR_.jpeg>] (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 5.aux
+[2 <./img/Modelo del circuito.png>] (c:\Users\Daniel\Desktop\Latex-Documentos\build\main.aux
 LaTeX Info: Redefining \sptext on input line 15.
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
@@ -1253,22 +1301,22 @@ LaTeX Info: Redefining \% on input line 15.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package logreq Info: Writing requests to '"lab 5".run.xml'.
-\openout1 = `"lab 5.run.xml"'.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46400 strings out of 473523
- 1057180 string characters out of 5714146
- 2193117 words of memory out of 5000000
- 68985 multiletter control sequences out of 15000+600000
- 587068 words of font info for 83 fonts, out of 8000000 for 9000
+ 46537 strings out of 473523
+ 1058989 string characters out of 5714146
+ 2216100 words of memory out of 5000000
+ 69051 multiletter control sequences out of 15000+600000
+ 603634 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,105p,768b,1821s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 5.pdf" (1 page, 662601 bytes).
+ 99i,13n,105p,756b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\Daniel\Desktop\Latex-Documentos\build\main.pdf (2 pages, 185492 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
