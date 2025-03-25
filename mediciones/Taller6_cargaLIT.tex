@@ -1,0 +1,186 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[conference]{IEEEtran}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc} % Codificación UTF-8
+\usepackage{amsmath}        % Soporte para ecuaciones matemáticas
+\usepackage{graphicx}       % Manejo de imágenes
+\usepackage{hyperref}       % Hipervínculos
+\usepackage{caption}        % Formato para figuras
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{biblatex}
+\usepackage{csquotes}
+\usepackage{bookmark}
+\usepackage{array}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper, margin=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{\IEEEauthorblockN{Brayan Joanne Ballesteros Meza, Brayhan Steven Delgado Rueda, Daniel Fernando Aranda Contreras,\\ Jonathan Stiven Murcia Suarez}
+\IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225092\}@correo.uis.edu.co}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{document}
+        % Título
+        \title{\uppercase{Análisis de un sistema lineal e invariante en el tiempo a parir de las muestras de tensión y
+        corriente obtenidas con un medidor digital}}
+        \maketitle
+        % Resumen
+        % Palabras clave        
+        \begin{IEEEkeywords}
+            Mediciones Eléctricas,
+            Análisis de Sistemas,
+            Tensión RMS,
+            Compensación de Carga,
+            Potencia Activa.
+        \end{IEEEkeywords}
+
+
+        
+        \section{Introducción}
+        Este informe presenta los resultados de las mediciones eléctricas realizadas en cuatro escenarios diferentes. A continuación se responden las preguntas clave en relación con el ancho de banda del equipo y los parámetros eléctricos obtenidos.
+
+        \begin{table*}[t] % Cambiando a table*
+            \centering
+            \caption{Parámetros eléctricos en diferentes escenarios}
+            \begin{tabular}{@{}ccccccccc@{}}
+                \toprule
+                \textbf{Escenario} & \textbf{Vrms (V)} & \textbf{Irms (A)} & \textbf{S (VA)} & \textbf{P (W)} & \textbf{Qf (VAr)} & \textbf{Qb (VAr)} & \textbf{Db (VAd)} & \textbf{fp} \\ 
+                \midrule
+                1 & 120.0000 & 13.3398 & 1600.8 & 1250.0 & 1000.0 & 1000.0 & 0.0029 & 0.7809 \\ 
+                2 & 120.3038 & 13.3429 & 1605.2 & 1250.6 & 1006.3 & 1001.9 & 94.2816 & 0.7791 \\ 
+                3 & 120.0000 & 10.4167 & 1250.0 & 1250.0 & 0.0039 & 1.5987e-14 & 0.0039 & 1.0000 \\ 
+                4 & 120.3038 & 10.8041 & 1299.8 & 1250.6 & 354.1984 & -15.9255 & 353.8402 & 0.9622 \\ 
+                \bottomrule
+            \end{tabular}
+            \label{tab:parametros}
+        \end{table*}
+        
+
+        \section{Preguntas y Respuestas}
+
+        \subsection{1. Ancho de Banda del Equipo de Medida}
+        \begin{quote}
+        \textit{Como el numero de muestras por ciclo es de 32 el ancho de banda se encuentra entre 31 y 32 muestras por ciclo por lo cual el ancho de banda esta entre 930 y 960 [Hz], siendo mayor a 930[Hz] y menor a 960[Hz]. finalmente tendriamos que la diferencias entre estos intervalor en donde podría estar el ancho de banda es de $30 [Hz]$ y el periodo asociado a este es: $\frac{1}{30} [s]$ .}
+        \end{quote}
+
+        \subsection{2. Valores Eficaces de Tensión y Corriente}
+        \begin{quote}
+        \textit{La tabla \ref{tab:parametros} Muestra los valores eficaces de las señales de tensión y corriente, así como los parámetros de potencia de los modelos Budeanu y Fryze para cada uno de los cuatro escenarios.}
+        \end{quote}
+
+        \begin{table}[h!]
+            \centering
+            \caption{Valores de Vrms e Irms}
+            \begin{tabular}{cc}
+            \toprule
+            \textbf{Vrms} & \textbf{Irms} \\
+            \midrule
+            120.0000 & 13.9338 \\
+            120.3038 & 13.3429 \\
+            120.0000 & 10.4167 \\
+            120.3038 & 10.8014 \\
+            \bottomrule
+            \end{tabular}
+            \end{table}
+
+        \subsection{3. Comparación de Parámetros}
+        \begin{quote}
+        \textit{Análisis comparativo de los valores de tensión, corriente y potencia observados en cada uno de los escenarios, incluyendo similitudes y diferencias.}
+        \end{quote}
+
+        \subsubsection{Comparación de Vrms}
+        Cuando la tensión no tiene distorsión, obtenemos los mismos valores RMS; y cuando la tensión está distorsionada, también se obtienen los mismos valores RMS. Es decir, los valores RMS de la fuente se ven afectados por la distorsión, pero no por el tipo de carga.
+
+        \subsubsection{Comparación de Irms}
+
+        Vemos que todos los valores RMS de corriente son distintos. Esto indica que la corriente se ve afectada tanto por la distorsión como por la carga. Por otra parte, se observa una similitud entre los valores de los escenarios 1 y 2, y otra similitud entre los escenarios 3 y 4. Con esto, podemos concluir que, aunque la corriente es afectada por la distorsión y la carga, el tipo de carga tiene una mayor influencia.
+
+        \subsubsection{Comparación entre Cargas Compensadas y No Compensadas}
+
+        Se observa que la distorsión afecta al factor de potencia. Esto puede ocasionar que la carga se compense de manera incorrecta. Además, cuando la carga está compensada, se muestra un mayor valor de distorsión que cuando no lo está. Esto nos lleva a pensar que las cargas compensadas tienden a presentar mayores distorsiones.
+
+
+        \subsection{4. Estimación de Valores de R y L (Escenario 1)}
+        \begin{quote}
+        \textit{Cálculo de los valores de resistencia (R) e inductancia (L) a partir de los datos obtenidos en el Escenario 1.}
+        \end{quote}
+        \begin{table}[h!]
+            \centering
+            \caption{Valores calculados de Resistencia e Inductancia}
+            \label{tabla_resistencia_inductancia}
+            \begin{tabular}{cc}
+            \toprule
+            \textbf{Parámetro} & \textbf{Valor} \\
+            \midrule
+            Resistencia (\(R\)) [\(\Omega\)] & 7.0244 \\
+            Inductancia (\(L\)) [mH]          & 14.9 \\
+            \bottomrule
+            \end{tabular}
+            \end{table}
+
+        \subsection{5. Obtención del Valor del Condensador de Compensación}
+        \begin{quote}
+        \textit{Determinación del valor del condensador de compensación y, en caso de no ser posible, identificación de otras variables necesarias para estimar dicho valor.
+        \newline 
+        Como ya se determino los valores de la inductancia y resistencia, se puede calcular el valor del condensador de compensación obteniendo que $X_c=5.6195[\Omega]$ y finalmente para el condensado un valor de $C=472.03[\mu F]$.}
+        \end{quote}
+
+        \section{Conclusión}
+        Este informe ha sintetizado las respuestas a las preguntas formuladas sobre las mediciones realizadas. Los resultados obtenidos proporcionan una base sólida para las condiciones especificadas.
+
+
+    \end{document}  
+
