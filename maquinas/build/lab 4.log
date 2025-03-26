@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.13)  25 MAR 2025 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.13)  26 MAR 2025 09:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,8 +1092,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.aux
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
 )
 \openout1 = `"lab 4.aux"'.
 
@@ -1198,47 +1198,49 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
- (Prac_4objetivos.tex
-Overfull \hbox (2699.2121pt too wide) in paragraph at lines 18--19
-[][] 
- []
+ (Prac_4objetivos.tex) (Prac_4marcoT.tex
 
-) (prac_4.tex
-Overfull \hbox (2565.66533pt too wide) in paragraph at lines 21--1
-[][]
- []
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--1
-
- []
-
-<fot/prac5_autoenvacio.jpeg, id=6, 906.38625pt x 944.7797pt>
-File: fot/prac5_autoenvacio.jpeg Graphic file (type jpg)
-<use fot/prac5_autoenvacio.jpeg>
-Package pdftex.def Info: fot/prac5_autoenvacio.jpeg  used on input line 4.
-(pdftex.def)             Requested size: 226.48395pt x 236.07901pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 4--5
- [][] 
- []
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+]
+<fot/Prac4_vacio.png, id=26, 1187.93813pt x 715.17188pt>
+File: fot/Prac4_vacio.png Graphic file (type png)
+<use fot/Prac4_vacio.png>
+Package pdftex.def Info: fot/Prac4_vacio.png  used on input line 30.
+(pdftex.def)             Requested size: 217.42265pt x 130.88608pt.
+<fot/Prac4_corto.png, id=28, 1241.38782pt x 617.30624pt>
+File: fot/Prac4_corto.png Graphic file (type png)
+<use fot/Prac4_corto.png>
+Package pdftex.def Info: fot/Prac4_corto.png  used on input line 45.
+(pdftex.def)             Requested size: 217.42265pt x 108.11497pt.
 
-<fot/prac5_autoR_.jpeg, id=7, 906.38625pt x 906.38625pt>
-File: fot/prac5_autoR_.jpeg Graphic file (type jpg)
-<use fot/prac5_autoR_.jpeg>
-Package pdftex.def Info: fot/prac5_autoR_.jpeg  used on input line 11.
-(pdftex.def)             Requested size: 226.48395pt x 226.48535pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 11--12
- [][] 
- []
+) (prac_4conclu.tex
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[2 <./fot/Prac4_vacio.png> <./fot/Prac4_corto.png>]) (prac_4.tex
+<fot/prac4_autoenvacio.jpeg, id=43, 906.38625pt x 944.7797pt>
+File: fot/prac4_autoenvacio.jpeg Graphic file (type jpg)
+<use fot/prac4_autoenvacio.jpeg>
+Package pdftex.def Info: fot/prac4_autoenvacio.jpeg  used on input line 4.
+(pdftex.def)             Requested size: 217.42265pt x 226.62201pt.
+<fot/prac4_autoR_.jpeg, id=44, 906.38625pt x 906.38625pt>
+File: fot/prac4_autoR_.jpeg Graphic file (type jpg)
+<use fot/prac4_autoR_.jpeg>
+Package pdftex.def Info: fot/prac4_autoR_.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 217.42265pt x 217.41267pt.
 )
 
 ** Conference Paper **
@@ -1255,22 +1257,10 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[1
-Non-PDF special ignored!
-<special> header=psfrag.pro
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
- <./fot/prac5_autoenvacio.jpeg>]
-
-
-
-[2
-
- <./fot/prac5_autoR_.jpeg>] (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.aux
-LaTeX Info: Redefining \sptext on input line 19.
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+[3 <./fot/prac4_autoenvacio.jpeg> <./fot/prac4_autoR_.jpeg>] (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.aux
+LaTeX Info: Redefining \sptext on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1281,17 +1271,17 @@ Package logreq Info: Writing requests to '"lab 4".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46418 strings out of 473523
- 1057490 string characters out of 5714146
- 2203117 words of memory out of 5000000
- 68995 multiletter control sequences out of 15000+600000
- 587068 words of font info for 83 fonts, out of 8000000 for 9000
+ 46514 strings out of 473523
+ 1059263 string characters out of 5714146
+ 2214514 words of memory out of 5000000
+ 69049 multiletter control sequences out of 15000+600000
+ 593738 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,105p,835b,1821s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.pdf" (2 pages, 668214 bytes).
+ 99i,8n,105p,828b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.pdf" (3 pages, 1235175 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
