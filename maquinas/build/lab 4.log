@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.13)  26 MAR 2025 09:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.28)  28 MAR 2025 13:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1228,19 +1228,57 @@ Package pdftex.def Info: fot/Prac4_corto.png  used on input line 45.
 (pdftex.def)             Requested size: 217.42265pt x 108.11497pt.
 
 
+) (prac_4tratamientoDATOS.tex
+
+[2 <./fot/Prac4_vacio.png> <./fot/Prac4_corto.png>]
+<fot/prac4_regula.png, id=43, 1134.48843pt x 653.44125pt>
+File: fot/prac4_regula.png Graphic file (type png)
+<use fot/prac4_regula.png>
+Package pdftex.def Info: fot/prac4_regula.png  used on input line 69.
+(pdftex.def)             Requested size: 217.42265pt x 125.22198pt.
+
+
 ) (prac_4conclu.tex
 
-[2 <./fot/Prac4_vacio.png> <./fot/Prac4_corto.png>]) (prac_4.tex
-<fot/prac4_autoenvacio.jpeg, id=43, 906.38625pt x 944.7797pt>
+[3 <./fot/prac4_regula.png>]) (prac_4.tex
+<fot/prac4_hoja de tales.jpg, id=64, 852.93657pt x 960.58875pt>
+File: fot/prac4_hoja de tales.jpg Graphic file (type jpg)
+<use fot/prac4_hoja de tales.jpg>
+Package pdftex.def Info: fot/prac4_hoja de tales.jpg  used on input line 6.
+(pdftex.def)             Requested size: 217.42265pt x 244.86627pt.
+<fot/prac4_autoenvacio.jpeg, id=65, 906.38625pt x 944.7797pt>
 File: fot/prac4_autoenvacio.jpeg Graphic file (type jpg)
 <use fot/prac4_autoenvacio.jpeg>
-Package pdftex.def Info: fot/prac4_autoenvacio.jpeg  used on input line 4.
-(pdftex.def)             Requested size: 217.42265pt x 226.62201pt.
-<fot/prac4_autoR_.jpeg, id=44, 906.38625pt x 906.38625pt>
+Package pdftex.def Info: fot/prac4_autoenvacio.jpeg  used on input line 16.
+(pdftex.def)             Requested size: 181.18784pt x 188.85167pt.
+<fot/prac4_autoR_.jpeg, id=66, 906.38625pt x 906.38625pt>
 File: fot/prac4_autoR_.jpeg Graphic file (type jpg)
 <use fot/prac4_autoR_.jpeg>
-Package pdftex.def Info: fot/prac4_autoR_.jpeg  used on input line 11.
-(pdftex.def)             Requested size: 217.42265pt x 217.41267pt.
+Package pdftex.def Info: fot/prac4_autoR_.jpeg  used on input line 23.
+(pdftex.def)             Requested size: 181.18784pt x 181.17722pt.
+<fot/prac4_rendimiento.jpg, id=67, 559.33969pt x 822.07124pt>
+File: fot/prac4_rendimiento.jpg Graphic file (type jpg)
+<use fot/prac4_rendimiento.jpg>
+Package pdftex.def Info: fot/prac4_rendimiento.jpg  used on input line 31.
+(pdftex.def)             Requested size: 181.18784pt x 266.29192pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14--35
+ [][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14--35
+ [] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14--35
+ [] [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 7.41397pt on input line 35.
+
 )
 
 ** Conference Paper **
@@ -1257,7 +1295,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3 <./fot/prac4_autoenvacio.jpeg> <./fot/prac4_autoR_.jpeg>] (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.aux
+[4 <./fot/prac4_hoja de tales.jpg> <./fot/prac4_autoenvacio.jpeg> <./fot/prac4_autoR_.jpeg> <./fot/prac4_rendimiento.jpg>] (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.aux
 LaTeX Info: Redefining \sptext on input line 17.
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
@@ -1271,17 +1309,17 @@ Package logreq Info: Writing requests to '"lab 4".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46514 strings out of 473523
- 1059263 string characters out of 5714146
- 2214514 words of memory out of 5000000
- 69049 multiletter control sequences out of 15000+600000
- 593738 words of font info for 102 fonts, out of 8000000 for 9000
+ 46621 strings out of 473523
+ 1061258 string characters out of 5714146
+ 2215171 words of memory out of 5000000
+ 69125 multiletter control sequences out of 15000+600000
+ 603057 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,105p,828b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.pdf" (3 pages, 1235175 bytes).
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.pdf" (4 pages, 1987852 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
