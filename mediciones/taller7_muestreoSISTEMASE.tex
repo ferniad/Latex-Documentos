@@ -1,0 +1,255 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[conference]{IEEEtran}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc} % Codificación UTF-8
+\usepackage{amsmath}        % Soporte para ecuaciones matemáticas
+\usepackage{graphicx}       % Manejo de imágenes
+\usepackage{hyperref}       % Hipervínculos
+\usepackage{caption}        % Formato para figuras
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{biblatex}
+\usepackage{csquotes}
+\usepackage{bookmark}
+\usepackage{array}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsfonts}
+\usepackage{epstopdf}
+\usepackage[table]{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper, margin=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{\IEEEauthorblockN{Brayan Joanne Ballesteros Meza, Brayhan Steven Delgado Rueda, Daniel Fernando Aranda Contreras,\\ Jonathan Stiven Murcia Suarez}
+\IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225092\}@correo.uis.edu.co}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{document}
+        % Título
+        \title{\uppercase{Muestreo de señales de sistemas eléctricos}}
+        \maketitle
+        % Resumen
+        % Palabras clave        
+        \begin{IEEEkeywords}
+            Mediciones Eléctricas,
+            Análisis de Sistemas,
+            Tensión RMS,
+            Compensación de Carga,
+            Potencia Activa.
+        \end{IEEEkeywords}
+
+        \section*{Resultados para un periodo de muestreo de $\frac{1}{960}$ [s]}
+        Antes de convertir la señal de tiempo a discreta, como tenemos que la $f_m = 960 [Hz]$ y la frecuencia fundamental de la señal a muestrear es de $f_0 = 60 [Hz]$
+
+        \begin{equation}
+            [n] = \sum_{n=1}^{N=16} \frac{n-1}{60 \cdot 16}
+        \end{equation}
+
+        Por lo cual se tendrá que $[n]$ será:
+
+        \begin{verbatim}
+        n = 1x16    
+         0      0.0010 0.0021 0.0031    
+         0.0042 0.0052 0.0063 0.0073
+         0.0083 0.0094 0.010  0.0115    
+         0.0125 0.0135 0.0146 0.0156
+        \end{verbatim}
+
+        \subsection{Modelo V[n] para las 2 señales de tensión}
+        \subsubsection{Señal 1}
+        $v_1(t) = 115\sqrt{2} \cos(120 \pi t - \frac{\pi}{2}) [v]$
+        Resultando a dominio discreto como: \\
+        $v_1[n] = 115\sqrt{2} \cos(120 \pi n - \frac{\pi}{2}) [v]$
+
+        \begin{verbatim}
+        V1[n] = 1x16    
+        0          62.2376   115  150.2547
+        162.6346   150.2547  115  62.2376
+        0         -62.2376  -115 -150.2547 
+        -162.6346 -150.2547 -115 -62.2376
+        \end{verbatim}
+
+        \subsubsection{Señal 2}
+        $v_2(t) = 115\sqrt{2} \cos(120 \pi t - \frac{\pi}{2}) + 10 \sqrt{2} \cos(600 \pi t - \frac{\pi}{2}) + 5 \sqrt{2} \cos(840 \pi t + \frac{\pi}{2}) [V]$
+        \\ Al igual que el caso anterior en dominio discreto se tiene que:  
+        
+        \begin{verbatim}
+        V2[n] = 1x16    
+        0          72.5972   110  138.3100  
+        183.8478   138.3100  110  72.5972    
+        0         -72.5972  -110 -138.3100
+        -183.8478 -138.3100 -110 -72.5972
+        \end{verbatim}
+
+        \subsection{Valores eficaces de las señales}
+        \begin{table}[h]
+        \centering
+        \caption{Tensiones Eficaces}
+        \begin{tabular}{@{}lll@{}}
+            \toprule
+            Tensión & Valor [Vrms] \\ \midrule
+            $V_1$   & 115.0000     \\
+            $V_2$   & 115.5422     \\ \bottomrule
+        \end{tabular}
+        \label{tab:tensiones}
+        \end{table}
+
+        \section{Resultados para un periodo de muestreo de \texorpdfstring{$\frac{1}{900}$}{1/900} [s]}
+        \begin{equation}
+        [n] = \sum_{n=1}^{N=15} \frac{n-1}{60 \cdot 15}
+        \end{equation}
+
+        Por lo cual se tendrá que $[n]$ será:
+
+    \begin{verbatim}
+        n1 = 1x15    
+        0      0.0011 0.0022 0.0033 0.0044    
+        0.0056 0.0067 0.0078 0.0089 0.0100    
+        0.0111 0.0122 0.0133 0.0144 0.0156
+    \end{verbatim}
+
+
+    \subsection{Modelo V[n] para las 2 señales de tensión}
+
+        \begin{verbatim}
+        V1[n] = 1x15    
+         0         66.1494   120.8610  
+         154.6747  161.7436  140.8457   
+         95.5942   33.8136  -33.8136  
+        -95.5942  -140.8457 -161.7436 
+        -154.6747 -120.8610 -66.1494 
+        \end{verbatim}
+
+
+        \begin{verbatim}
+        V2[n] = 1x15    
+         0         76.9267   111.4896  
+         150.5184  179.2459  122.4745  
+         102.3192  39.0287  -39.0287 
+        -102.3192 -122.4745 -179.2459 
+        -150.5184 -111.4896 -76.9267
+        \end{verbatim}
+
+        \subsection{Valores eficaces de las señales}
+        Se observa en el cuadro \ref{tab:tensiones1} que son los mismos valores que para el primer caso.
+        \begin{table}[h]
+            \centering
+            \caption{Tensiones Eficaces}
+            \begin{tabular}{@{}lll@{}}
+            \toprule
+            Tensión & Valor [Vrms] \\ \midrule
+            $V_1$   & 115.0000     \\
+            $V_2$   & 115.5422     \\ \bottomrule
+            \end{tabular}
+            \label{tab:tensiones1}
+        \end{table}
+
+
+
+        \section{Resultados para un periodo de muestreo de \texorpdfstring{$\frac{1}{240}$}{1/240} [s]}
+        \begin{equation}
+            [n] = \sum_{n=1}^{N=4} \frac{n-1}{60 \cdot 4}
+        \end{equation}
+        
+        Por lo cual se tendrá que $[n]$ será:
+        
+        \begin{verbatim}
+        n1 = 1x4 
+            0	0.0042	0.0083	0.0125
+        \end{verbatim}
+        
+        
+        \subsection{Modelo V[n] para las 2 señales de tensión}
+        
+        \begin{verbatim}
+        V1[n] = 1x4    
+            0 162.6346 0 -162.6346
+        \end{verbatim}
+        
+        
+        \begin{verbatim}
+        V2[n] = 1x4   
+            0 183.8478 0 -183.8478
+        \end{verbatim}
+        
+            \subsection{Valores eficaces de las señales}
+            Con respecto a los valores obtenidos de \ref{tab:tensiones2}, se observa que la tensión eficaz para $V_1[n]$ no cambió, sin embargo la tensión $V_2[n]$ si vario.   
+            \begin{table}[h]
+            \centering
+            \caption{Tensiones Eficaces}
+            \begin{tabular}{@{}lll@{}}
+                \toprule
+                Tensión & Valor [Vrms] \\ \midrule
+                $V_1$   & 115     \\
+                $V_2$   & 130     \\ \bottomrule
+            \end{tabular}
+            \label{tab:tensiones2}
+            \end{table}
+        
+                        
+            \section*{Comparación de Valores Eficaces}
+            Los valores eficaces de las señales continuas, \( V_1 = 115 \, \text{Vrms} \) y \( V_2 = 115.5422 \, \text{Vrms} \), se comparan con los valores obtenidos para las señales discretas \( V_{d1} \) y \( V_{d2} \). para las diferentes Frecuencias de muestreo la tensión $v_1[n]$ no presento inconvenientes en los diferentes periodos a los que se muestreo. Sin embargo para el caso $v_2[n]$ como dicha señal es el conjunto de 3 ondas sinusoidales al analizar cada una de las frecuecias fundamentales de cada una de las señales, por superposición es facil ver que se deben tener en cuenta Nyquist en cada una de las tres y en donde se incumple es en el ultimo periodo de muestreo $\frac{1}{240} [s]$ y en este se presenta efecto alias por que se esta perdiendo información puesto que este periodo de muestreo no cubre el rango de las senoides con periodo menor.
+
+            \section*{Reglas para Frecuencia de Muestreo y Ventana de Observación}
+            Para obtener un valor eficaz preciso de una señal periódica discreta, deben cumplirse las siguientes reglas:
+            \begin{itemize}
+                \item La frecuencia de muestreo debe ser al menos el doble de la frecuencia máxima de la señal (Teorema de Nyquist).
+                \item La longitud de la ventana de observación para el caso de tensión eficaz basta con que cumpla Nyquist. Por lo cual con capturar un numero de muestras por ciclo mayor a 2, en donde el intervalo de tiempo entre cada una de las muestras es el periodo de muestreo, dicha ventana de observación será valida.
+            \end{itemize}
+
+        \end{document}  
+
+
+        
