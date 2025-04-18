@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.28)  28 MAR 2025 13:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  17 APR 2025 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -316,7 +316,7 @@ Package zref Info: New property: page on input line 769.
 \c@abspage=\count302
 Package zref Info: New property: abspage on input line 67.
 ) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
-Package: needspace 2010/09/12 v1.3d reserve vertical space
+Package: needspace 2025/03/13 v1.3e reserve vertical space
 ) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -690,7 +690,7 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+Package: babel 2025/03/27 v25.6 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count346
 \U@D=\dimen337
 \l@unhyphenated=\language79
@@ -1094,6 +1094,8 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\lab 4.aux
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported  on input line 17.
 )
 \openout1 = `"lab 4.aux"'.
 
@@ -1309,10 +1311,10 @@ Package logreq Info: Writing requests to '"lab 4".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46621 strings out of 473523
- 1061258 string characters out of 5714146
- 2215171 words of memory out of 5000000
- 69125 multiletter control sequences out of 15000+600000
+ 46624 strings out of 473523
+ 1061289 string characters out of 5714146
+ 2215393 words of memory out of 5000000
+ 69128 multiletter control sequences out of 15000+600000
  603057 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,105p,828b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -94,24 +94,17 @@ Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225
         Antes de convertir la señal de tiempo a discreta, como tenemos que la $f_m = 960 [Hz]$ y la frecuencia fundamental de la señal a muestrear es de $f_0 = 60 [Hz]$
 
         \begin{equation}
-            [n] = \sum_{n=1}^{N=16} \frac{n-1}{60 \cdot 16}
+            [\Omega_0 \cdot n] = \sum_{n=1}^{\frac{f_m}{f_0}} \frac{n-1}{f_m} \cdot 2\pi f_0
         \end{equation}
 
-        Por lo cual se tendrá que $[n]$ será:
-
-        \begin{verbatim}
-        n = 1x16    
-         0      0.0010 0.0021 0.0031    
-         0.0042 0.0052 0.0063 0.0073
-         0.0083 0.0094 0.010  0.0115    
-         0.0125 0.0135 0.0146 0.0156
-        \end{verbatim}
+        Por lo cual se tendrá que $V_[n]$ tendra la siguiente forma:
+        $V_[n] = V_{rms}\sqrt{2} \cos(\Omega_0 n - \alpha) [v]$
 
         \subsection{Modelo V[n] para las 2 señales de tensión}
         \subsubsection{Señal 1}
         $v_1(t) = 115\sqrt{2} \cos(120 \pi t - \frac{\pi}{2}) [v]$
         Resultando a dominio discreto como: \\
-        $v_1[n] = 115\sqrt{2} \cos(120 \pi n - \frac{\pi}{2}) [v]$
+        $v_1[n] = 115\sqrt{2} \cos(\frac{2\pi \cdot n}{16}   - \frac{\pi}{2}) [v]$
 
         \begin{verbatim}
         V1[n] = 1x16    
@@ -124,7 +117,7 @@ Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225
         \subsubsection{Señal 2}
         $v_2(t) = 115\sqrt{2} \cos(120 \pi t - \frac{\pi}{2}) + 10 \sqrt{2} \cos(600 \pi t - \frac{\pi}{2}) + 5 \sqrt{2} \cos(840 \pi t + \frac{\pi}{2}) [V]$
         \\ Al igual que el caso anterior en dominio discreto se tiene que:  
-        
+        $v_2[n] = 115\sqrt{2} \cos(\frac{n}{16}\cdot 2\pi- \frac{\pi}{2}) + 10 \sqrt{2} \cos(\frac{5 \cdot n}{16}\cdot 2\pi - \frac{\pi}{2}) + 5 \sqrt{2} \cos(\frac{7 \cdot n}{16}\cdot 2\pi + \frac{\pi}{2}) [V]$
         \begin{verbatim}
         V2[n] = 1x16    
         0          72.5972   110  138.3100  
@@ -147,22 +140,11 @@ Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225
         \end{table}
 
         \section{Resultados para un periodo de muestreo de \texorpdfstring{$\frac{1}{900}$}{1/900} [s]}
-        \begin{equation}
-        [n] = \sum_{n=1}^{N=15} \frac{n-1}{60 \cdot 15}
-        \end{equation}
 
-        Por lo cual se tendrá que $[n]$ será:
-
-    \begin{verbatim}
-        n1 = 1x15    
-        0      0.0011 0.0022 0.0033 0.0044    
-        0.0056 0.0067 0.0078 0.0089 0.0100    
-        0.0111 0.0122 0.0133 0.0144 0.0156
-    \end{verbatim}
 
 
     \subsection{Modelo V[n] para las 2 señales de tensión}
-
+        $v_1[n] = 115\sqrt{2} \cos(\frac{2\pi \cdot n}{15}   - \frac{\pi}{2}) [v]$
         \begin{verbatim}
         V1[n] = 1x15    
          0         66.1494   120.8610  
@@ -172,7 +154,7 @@ Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225
         -154.6747 -120.8610 -66.1494 
         \end{verbatim}
 
-
+        $v_2[n] = 115\sqrt{2} \cos(\frac{n}{15}\cdot 2\pi- \frac{\pi}{2}) + 10 \sqrt{2} \cos(\frac{5 \cdot n}{15}\cdot 2\pi - \frac{\pi}{2}) + 5 \sqrt{2} \cos(\frac{7 \cdot n}{15}\cdot 2\pi + \frac{\pi}{2}) [V]$
         \begin{verbatim}
         V2[n] = 1x15    
          0         76.9267   111.4896  
@@ -198,27 +180,16 @@ Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225
 
 
 
-        \section{Resultados para un periodo de muestreo de \texorpdfstring{$\frac{1}{240}$}{1/240} [s]}
-        \begin{equation}
-            [n] = \sum_{n=1}^{N=4} \frac{n-1}{60 \cdot 4}
-        \end{equation}
-        
-        Por lo cual se tendrá que $[n]$ será:
-        
-        \begin{verbatim}
-        n1 = 1x4 
-            0	0.0042	0.0083	0.0125
-        \end{verbatim}
-        
-        
+        \section{Resultados para un periodo de muestreo de \texorpdfstring{$\frac{1}{240}$}{1/240} [s]}        
         \subsection{Modelo V[n] para las 2 señales de tensión}
-        
+        $v_1[n] = 115\sqrt{2} \cos(\frac{2\pi \cdot n}{4}   - \frac{\pi}{2}) [v]$
         \begin{verbatim}
         V1[n] = 1x4    
             0 162.6346 0 -162.6346
         \end{verbatim}
         
         
+        $v_2[n] = 115\sqrt{2} \cos(\frac{n}{4}\cdot 2\pi- \frac{\pi}{2}) + 10 \sqrt{2} \cos(\frac{5 \cdot n}{4}\cdot 2\pi - \frac{\pi}{2}) + 5 \sqrt{2} \cos(\frac{7 \cdot n}{4}\cdot 2\pi + \frac{\pi}{2}) [V]$
         \begin{verbatim}
         V2[n] = 1x4   
             0 183.8478 0 -183.8478
@@ -248,6 +219,61 @@ Correo electrónico: \{brayan2222069, brayan2212088, daniel2221648, jonathan2225
                 \item La frecuencia de muestreo debe ser al menos el doble de la frecuencia máxima de la señal (Teorema de Nyquist).
                 \item La longitud de la ventana de observación para el caso de tensión eficaz basta con que cumpla Nyquist. Por lo cual con capturar un numero de muestras por ciclo mayor a 2, en donde el intervalo de tiempo entre cada una de las muestras es el periodo de muestreo, dicha ventana de observación será valida.
             \end{itemize}
+
+            \section{Parte 2}
+
+            Para abordar ambos casos se considera que el ancho de bandas es 50 veces la frecuencia fundamental, es decir, 50\% de la frecuencia de muestreo. de las frecuencias fundamentales $f_m={59,2 Hz; 59,5 Hz; 60,8 Hz}.$
+            donde \\
+            \[
+            g(t) = 120\sqrt{2} \cos(2\pi f_i t - \alpha) + 10\sqrt{2} \cos(100\pi f_i t [V])
+            \]
+            
+\section{Análisis del período de la señal discreta}
+Con la frecuencia de muestreo fija en \( f_0 = 60 \, \text{Hz} \), se determinan los cambios en el período de la señal discreta para cada frecuencia fundamental \( f_i \).
+
+El período discreto \( N \) se calcula como:
+
+\begin{equation}
+    N_i = \frac{f_m}{f_i}
+\end{equation}
+
+Calculando \( N \) para cada frecuencia fundamental:
+
+\begin{align*}
+    N_1 &= \frac{7680}{59.2} \approx 129.7 \\
+    N_2 &= \frac{7680}{59.5} \approx 129.1 \\
+    N_3 &= \frac{7680}{60.8} \approx 126.3 
+\end{align*}
+
+Como se observa, no se obtienen las mismas 128 muestras en cada caso, lo que implica que la señal no queda bien muestreada.
+
+\section{Cálculo del error en la estimación del valor eficaz}
+La señal se define como:
+
+\[
+g(t) = 120\sqrt{2} \cos(2\pi f_i t - \alpha) + 10\sqrt{2} \cos(100\pi f_i t [V])
+\]
+
+Se determina el error en el valor eficaz para cada frecuencia fundamental:
+
+\begin{equation}
+    \text{Error} = \left|\frac{V_{rms}^{medido} - V_{rms}^{real}}{V_{rms}^{real}}\right| \times 100
+\end{equation}
+
+Los valores eficaces se calculan para cada caso en función de las frecuencias y se determina el error porcentual.
+
+\subsection{Resultados}
+\begin{itemize}
+    \item Para \( f_1 = 59.2 \, \text{Hz} \): Error = \( 0.6617 \% \)
+    \item Para \( f_2 = 59.5 \, \text{Hz} \): Error = \( 0.4110 \% \)
+    \item Para \( f_3 = 60.8 \, \text{Hz} \): Error = \( 0.6527 \% \)
+\end{itemize}
+
+\section{Conclusiones}
+La selección adecuada de la frecuencia de muestreo es crucial para una correcta representación de la señal discreta. Los errores de estimación del valor eficaz variados indican la importancia de un ajuste fino en las condiciones de muestreo. Con el fin de evitar fenomenos de aliasing y garantizar la precisión en la medición de señales eléctricas, es fundamental seguir las reglas de muestreo y observar el teorema de Nyquist.
+
+
+
 
         \end{document}  
 

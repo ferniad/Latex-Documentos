@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber build/lab 4"] 1743185427.98982 "build/lab 4.bcf" "build/lab 4.bbl" "build/lab 4" 1743185569.91211 0
-  "build/lab 4.bcf" 1743185569 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
+["biber build/lab 4"] 1743185427.98982 "build/lab 4.bcf" "build/lab 4.bbl" "build/lab 4" 1744927380.82163 0
+  "build/lab 4.bcf" 1744927380 107992 1d128dfb6804b0f9298d781b989ef826 "pdflatex"
   (generated)
   "build/lab 4.bbl"
   "build/lab 4.blg"
   (rewritten before read)
-["pdflatex"] 1743185566.81648 "c:/Users/Daniel/Desktop/Latex-Documentos/maquinas/lab 4.tex" "build/lab 4.pdf" "lab 4" 1743185569.91311 0
-  "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741891962 82507 a9eef8696c92627b87e9975edea03b2a ""
-  "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1743175103 12036573 bddafa6efd941e9d320532d43e5dd35e ""
+["pdflatex"] 1744927377.73198 "c:/Users/Daniel/Desktop/Latex-Documentos/maquinas/lab 4.tex" "build/lab 4.pdf" "lab 4" 1744927380.82255 0
+  "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743464348 82507 a9eef8696c92627b87e9975edea03b2a ""
+  "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1743464481 12036573 4628371b21876911a0f99e4db46b8f6d ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136790254 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136790254 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -66,10 +66,10 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmri7t.vf" 1136790254 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
-  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1739553521 143388 b008e1666520ff43d0878397f2926242 ""
-  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-es.ini" 1739553522 4345 33a8cc6f0a7c6afcb84895b2c963a4e5 ""
-  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-spanish.tex" 1739553522 336 a1c472f674f6f0c25a2c95ad8c7ad024 ""
-  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/txtbabel.def" 1739553521 6945 a248d839b1f26b388440c973966647b5 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1743097073 144118 8a0145ee10f36c9987d52d114dccd1b1 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-es.ini" 1743097078 4345 33a8cc6f0a7c6afcb84895b2c963a4e5 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel-spanish.tex" 1743097078 336 a1c472f674f6f0c25a2c95ad8c7ad024 ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/babel/txtbabel.def" 1743097073 6833 ef397c732d8c72f527b197aa1623476d ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty" 1575926576 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.sty" 1576433638 7734 b98cbb34c81f667027c1e3ebdbfce34b ""
@@ -254,7 +254,7 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/mdframed/md-frame-0.mdf" 1372708085 24831 326d9f019009ed0c076106fa6cb860fb ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/mdframed/mdframed.sty" 1372708085 53487 3e997243f47cb3ba8b4c7b8df9c82989 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty" 1731767677 6696 886c9f3087d0b973ed2c19aa79cb3023 ""
-  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/needspace/needspace.sty" 1364796577 852 0e34dbb72efc69fa07602405ad95585e ""
+  "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/needspace/needspace.sty" 1742730683 1297 95e05b694b6d7375c39c5145fe24b731 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty" 1673775190 1090 bae35ef70b3168089ef166db3e66f5b2 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty" 1673775190 373 00b204b1d7d095b892ad31a7494b0373 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty" 1673775190 21013 f4ff83d25bb56552493b030f27c075ae ""
@@ -279,9 +279,9 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Prac_4marcoT.tex" 1742997825 6467 0824a333675a4f7f8604b1d4bd0c2368 ""
   "Prac_4objetivos.tex" 1742996555 1437 5a40b6af5f64943aa32a89a79d0e3a94 ""
-  "build/lab 4.aux" 1743185569 8345 c2d9fa35cdd2bb51cc596e4fd19d4bb3 "pdflatex"
+  "build/lab 4.aux" 1744927380 8345 c2d9fa35cdd2bb51cc596e4fd19d4bb3 "pdflatex"
   "build/lab 4.bbl" 1743185528 0 d41d8cd98f00b204e9800998ecf8427e "biber build/lab 4"
-  "build/lab 4.run.xml" 1743185569 2245 8563053fe84f077b10da91db70de9505 "pdflatex"
+  "build/lab 4.run.xml" 1744927380 2245 8563053fe84f077b10da91db70de9505 "pdflatex"
   "c:/Users/Daniel/Desktop/Latex-Documentos/maquinas/lab 4.tex" 1743175091 4575 c0a622d6e6b639d8aebd5e37c53cf2d7 ""
   "fot/Prac4_corto.png" 1742995518 225767 c8696c215a3600392ebf3755aea92b78 ""
   "fot/Prac4_vacio.png" 1742995495 206088 1a9578037acf5568ceb98e44e19afb6c ""
