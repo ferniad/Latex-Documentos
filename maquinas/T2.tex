@@ -10,10 +10,10 @@ Si bien en el diseño no se tiene un transformador ideal, es importante entender
     \label{fig:T4}
 \end{figure}
 
-A partir de la ley de Faraday-Lenz, se establece que la fuerza electromotriz (fem) inducida en un circuito es proporcional a la rapidez de cambio del flujo magnético a través de él. Resultado para una bobina La ecuación que describe esta relación es la siguiente:
+A partir de la ley de Faraday-Lenz, se establece que la fuerza electromotriz (f.e.m.) inducida en un circuito es proporcional a la rapidez de cambio del flujo magnético a través de él. Resultado para una bobina La ecuación que describe esta relación es la siguiente:
 \begin{equation}
     \label{eqn1}
-    e_1 = N_1 \cdot \frac{d\Phi}{dt}
+    e_1 = N_1 \cdot \frac{d\Phi}{dt}\ [V\cdot vueltas]
 \end{equation}
 
 
@@ -28,28 +28,28 @@ A partir de la ley de Faraday-Lenz, se establece que la fuerza electromotriz (fe
 \vspace{0.5cm}
 Si se tiene que la fuente es una sinusoide, el flujo magnético es:
 \begin{equation}
-    \Phi = \Phi_m \cdot \sin(\omega t)
+    \Phi = \Phi_m \cdot \sin(\omega t)\   [Wb]
 \end{equation}
 
 Puesto que es un transformador ideal, la f.e.m. inducida en el primario es igual a la tensión de entrada, por lo que se puede escribir la ecuación \ref{eqn1} como:
 
 \begin{center}
-    $V_1 = N_1 \cdot \frac{d\Phi}{dt} = N_1 \cdot \frac{d}{dt}(\Phi_m \cdot \sin(\omega t))$
+    $V_1 = N_1 \cdot \frac{d\Phi}{dt} = N_1 \cdot \frac{d}{dt}(\Phi_m \cdot \sin(\omega t))\ [V]$
     \\
-    $= N_1 \cdot \Phi_m \cdot \omega \cdot \cos(\omega t) [V]$
+    $= N_1 \cdot \Phi_m \cdot \omega \cdot \cos(\omega t)\ [V]$
     \\
-    $V_1 = \frac{N_1 \cdot \Phi_m \cdot \omega}{\sqrt{2}}\cdot  [Vrms]$
+    $V_1 = \frac{N_1 \cdot \Phi_m \cdot \omega}{\sqrt{2}} \ [Vrms]$
 \end{center}
 \begin{equation}
     \label{eqn2}
-    V_1 =N_1 \cdot \Phi_m \cdot \frac{f \cdot 2\pi}{\sqrt{2}} [Vrms]
+    V_1 =N_1 \cdot \Phi_m \cdot \frac{f \cdot 2\pi}{\sqrt{2}}\ [Vrms]
 \end{equation}
 \vspace{0.3cm}
 
 Tenemos la ley de Gauss para campo magnético, que establece que el flujo magnético a través de una superficie cerrada es igual a la integral de la densidad de flujo magnético a través de esa superficie. La ecuación que describe esta relación es la siguiente:
 \begin{equation}
     \label{eqn3}
-    \Phi = \int_S \mathbf{B} \cdot d\mathbf{S}
+    \Phi = \int_S \mathbf{B} \cdot d\mathbf{S}\ [Wb]
 \end{equation}
 Como la sección transversal del núcleo es cuadrada, se puede escribir la ecuación \ref{eqn3} como: $\Phi = B \cdot S$
 \\
@@ -57,19 +57,19 @@ Finalmente de la ecuación \ref{eqn3} en \ref{eqn2} despejando para N se obtiene
 \\
 \begin{equation}
     \label{eqn4}
-    N_1 = \frac{V_{1rms}}{\Phi_m \cdot f \cdot \frac{2\pi}{\sqrt{2}}} = \frac{V_{1rms}}{B\cdot S\cdot f \cdot \frac{2\pi}{\sqrt{2}}} [vueltas] 
+    N_1 = \frac{V_{1rms}}{\Phi_m \cdot f \cdot \frac{2\pi}{\sqrt{2}}} = \frac{V_{1rms}}{B_m\cdot S\cdot f \cdot \frac{2\pi}{\sqrt{2}}} [vueltas] 
 \end{equation}
 \\
 \addcontentsline{toc}{section}{Nomenclature}
 \begin{IEEEdescription}[\IEEEsetlabelwidth{$e,N,S$}]
-\item[$f$] frecuencia de la fuente.
+\item[$f$] frecuencia de la fuente. En (hertz) o [Hz].
 \mbox{}
-\item[$V_{1rms}$] Tensión eficaz en el primario.
-\item[$\Phi$] Flujo magnético a través del arrollamiento.
-\item[$B$] densidad de flujo magnético.
-\item[$S$] Sección transversal del núcleo. 
+\item[$V_{1rms}$] Tensión eficaz en el primario. En (Valor cuadratico medio de los volts) o [Vrms].
+\item[$\Phi$] Flujo magnético a través del arrollamiento. En (webers) o [Wb].
+\item[$B_m$] Valor pico de la densidad de flujo magnético. En (teslas) o [T].
+\item[$S$] Sección transversal del núcleo. En (metros cuadrados) o [m$^2$].
 \end{IEEEdescription}
-\vspace{1cm}
+\vspace{0.5cm}
 
 
 \begin{IEEEeqnarraybox*}{rCl}
@@ -80,3 +80,10 @@ Finalmente de la ecuación \ref{eqn3} en \ref{eqn2} despejando para N se obtiene
     \text{Sin saturación} & \text{Con saturación} \\
     \text{Sin fuga de flujo} & \text{Con fuga de flujo}
 \end{IEEEeqnarraybox*}
+\vspace{0.5cm}
+\\
+En la practica se emlea un factor de correción para compensar las perdidas de energía en el nucleo y para estas dimensiones la densidad de flujo magnético que se suele emplear es de 1.1 [T], por lo que el número de vueltas se calcula como:
+\begin{equation}
+    \label{eqn5}
+    N_1 = \frac{V_{1rms}}{\Phi_m \cdot f \cdot \frac{2\pi}{\sqrt{2}}} = \frac{V_{1rms}}{1.1\cdot S\cdot f \cdot \frac{2\pi}{\sqrt{2}}\cdot 0.9} [vueltas] 
+\end{equation}

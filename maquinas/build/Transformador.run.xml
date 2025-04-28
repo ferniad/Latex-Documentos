@@ -78,5 +78,8 @@
     <requires type="dynamic">
       <file>Transformador.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>ref/cable.bib</file>
+    </requires>
   </external>
 </requests>

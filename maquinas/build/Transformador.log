@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  18 APR 2025 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  20 APR 2025 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1099,24 +1099,24 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `Transformador.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
@@ -1174,9 +1174,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
-Package hyperref Info: Link coloring OFF on input line 74.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+Package hyperref Info: Link coloring OFF on input line 75.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'spanish'...
@@ -1192,14 +1192,14 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Transformador.bbl' found.
  (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Transformador.bbl)
-Package biblatex Info: Reference section=0 on input line 74.
-Package biblatex Info: Reference segment=0 on input line 74.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 80.
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 81.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
  (T1.tex) (T2.tex
 
 <fot/T4.png, id=6, 229.13841pt x 135.82509pt>
@@ -1228,6 +1228,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--58
  []
 
 ) (T3.tex
+
 <fot/T2.png, id=36, 519.44063pt x 621.82312pt>
 File: fot/T2.png Graphic file (type png)
 <use fot/T2.png>
@@ -1240,14 +1241,71 @@ Package pdftex.def Info: fot/T1.png  used on input line 24.
 (pdftex.def)             Requested size: 217.42265pt x 122.28946pt.
 
 
-
-
-[2 <./fot/T2.png> <./fot/T1.png>]
+[2 <./fot/T2.png>]
 <fot/T3.png, id=61, 1927.2pt x 1084.05pt>
 File: fot/T3.png Graphic file (type png)
 <use fot/T3.png>
-Package pdftex.def Info: fot/T3.png  used on input line 51.
+Package pdftex.def Info: fot/T3.png  used on input line 59.
 (pdftex.def)             Requested size: 217.42265pt x 122.28946pt.
+) (T4.tex
+<fot/TP1.jpeg, id=62, 1606.0pt x 1204.5pt>
+File: fot/TP1.jpeg Graphic file (type jpg)
+<use fot/TP1.jpeg>
+Package pdftex.def Info: fot/TP1.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 217.42265pt x 163.05997pt.
+
+
+<fot/TP3.jpeg, id=63, 1606.0pt x 1204.5pt>
+File: fot/TP3.jpeg Graphic file (type jpg)
+<use fot/TP3.jpeg>
+Package pdftex.def Info: fot/TP3.jpeg  used on input line 40.
+(pdftex.def)             Requested size: 217.42265pt x 163.05997pt.
+
+
+[3 <./fot/T1.png> <./fot/T3.png> <./fot/TP1.jpeg>]
+<fot/TP2.jpeg, id=80, 1606.0pt x 1204.5pt>
+File: fot/TP2.jpeg Graphic file (type jpg)
+<use fot/TP2.jpeg>
+Package pdftex.def Info: fot/TP2.jpeg  used on input line 63.
+(pdftex.def)             Requested size: 217.42265pt x 163.05997pt.
+
+
+<fot/TA1.jpg, id=83, 1284.8pt x 963.6pt>
+File: fot/TA1.jpg Graphic file (type jpg)
+<use fot/TA1.jpg>
+Package pdftex.def Info: fot/TA1.jpg  used on input line 98.
+(pdftex.def)             Requested size: 217.42265pt x 163.05997pt.
+<fot/TA2.jpeg, id=84, 1284.8pt x 963.6pt>
+File: fot/TA2.jpeg Graphic file (type jpg)
+<use fot/TA2.jpeg>
+Package pdftex.def Info: fot/TA2.jpeg  used on input line 105.
+(pdftex.def)             Requested size: 217.42265pt x 163.05997pt.
+<fot/TA3.jpeg, id=85, 963.6pt x 1284.8pt>
+File: fot/TA3.jpeg Graphic file (type jpg)
+<use fot/TA3.jpeg>
+Package pdftex.def Info: fot/TA3.jpeg  used on input line 112.
+(pdftex.def)             Requested size: 217.42265pt x 289.89091pt.
+<fot/TA4.jpeg, id=86, 867.24pt x 1156.32pt>
+File: fot/TA4.jpeg Graphic file (type jpg)
+<use fot/TA4.jpeg>
+Package pdftex.def Info: fot/TA4.jpeg  used on input line 119.
+(pdftex.def)             Requested size: 217.42265pt x 289.89091pt.
+<fot/TA5.jpeg, id=87, 1156.32pt x 867.24pt>
+File: fot/TA5.jpeg Graphic file (type jpg)
+<use fot/TA5.jpeg>
+Package pdftex.def Info: fot/TA5.jpeg  used on input line 126.
+(pdftex.def)             Requested size: 217.42265pt x 163.05702pt.
+<fot/TA6.jpeg, id=88, 867.24pt x 1156.32pt>
+File: fot/TA6.jpeg Graphic file (type jpg)
+<use fot/TA6.jpeg>
+Package pdftex.def Info: fot/TA6.jpeg  used on input line 133.
+(pdftex.def)             Requested size: 217.42265pt x 289.89091pt.
+)
+
+[4 <./fot/TP3.jpeg> <./fot/TP2.jpeg>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 151.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 ** Conference Paper **
@@ -1264,9 +1322,13 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3
+[5 <./fot/TA1.jpg> <./fot/TA2.jpeg> <./fot/TA3.jpeg> <./fot/TA4.jpeg>]
 
- <./fot/T3.png>] (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Transformador.aux
+
+
+[6
+
+ <./fot/TA5.jpeg> <./fot/TA6.jpeg>] (c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Transformador.aux
 LaTeX Info: Redefining \sptext on input line 19.
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
@@ -1280,17 +1342,17 @@ Package logreq Info: Writing requests to 'Transformador.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46541 strings out of 473523
- 1059148 string characters out of 5714146
- 2211656 words of memory out of 5000000
- 69076 multiletter control sequences out of 15000+600000
- 593767 words of font info for 102 fonts, out of 8000000 for 9000
+ 46701 strings out of 473523
+ 1061769 string characters out of 5714146
+ 2211887 words of memory out of 5000000
+ 69201 multiletter control sequences out of 15000+600000
+ 596324 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,105p,988b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Transformador.pdf (3 pages, 1253337 bytes).
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Transformador.pdf (6 pages, 2871965 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

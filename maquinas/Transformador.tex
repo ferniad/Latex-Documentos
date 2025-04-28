@@ -27,6 +27,7 @@
 \usepackage{multirow}
 \usepackage{subcaption}
 \usepackage{biblatex}
+\addbibresource{ref/cable.bib} % Add the bibliography file in the preamble (correct usage)
 \usepackage{csquotes}
 \usepackage{bookmark}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -95,13 +96,12 @@ Correo electrónico: \{daniel2221648, carlos2221116 \}@correo.uis.edu.co}}
         \begin{abstract}
             For this activity, "Design and Construction of an Electrical Transformer," in the subject Electrical Machines I, which aims to improve ABET student outcome 6: "Ability to develop and conduct appropriate experiments, analyze and interpret data, and use engineering judgment to draw conclusions." The objective is to construct a transformer model that will be evaluated against rubric. Therefore, the following report will detail the transformer design, including its dimensions, coil gauge, number of turns in each winding, etc. The details and results of voltage, current, and power obtained through short-circuit and open-circuit tests in the High Voltage laboratories will also be specified.
         \end{abstract}
-
-
         %\input{Prac_4objetivos.tex}
         \input{T1.tex}
         \input{T2.tex}
         \input{T3.tex}
-
+|       \input{T4.tex}
+         % Add the bibliography file in the preamble (correct usage)
         %\section*{Nomenclature}
         %    \addcontentsline{toc}{section}{Nomenclature}
         %    \begin{IEEEdescription}[\IEEEsetlabelwidth{$V_1,V_2,$}]
@@ -114,9 +114,6 @@ Correo electrónico: \{daniel2221648, carlos2221116 \}@correo.uis.edu.co}}
         %    \item[$\omega$] Rotor (electrical) speed, corresponding to the time
         %    derivative of $\theta$.
         %    \end{IEEEdescription}
-
-
-            
 
         %    \begin{IEEEitemize}
         %        \item First item
@@ -139,5 +136,21 @@ Correo electrónico: \{daniel2221648, carlos2221116 \}@correo.uis.edu.co}}
         %        The statement is true.
         %   \end{IEEEproof}
 
+
+        \begin{thebibliography}{1}
+            
+            \bibitem{F1883}
+            ASTM International, \emph{F1883 Standard Practice for Selection of Wire and Cable Size in AWG or Metric Units}, 1998. doi: 10.1520/F1883-98.
+            \label{F1883}
+
+            \bibitem{GonzalezGarcía2008}
+            C. E. Gonzalez Aguas and O. García Colmenares, \emph{Guía para el diseño de núcleos de transformadores de distribución}, Trabajo de grado para optar al título de Ingeniero Electricista, Director H. R. Vargas Torres, Escuela de Ingenierías Eléctrica, Electrónica y Telecomunicaciones, Universidad Industrial de Santander, Bucaramanga, 2008.
+            \label{GonzalezGarcía2008}
+
+            \bibitem{Fraile2008}
+            J. Fraile Mora, \emph{Máquinas Eléctricas}, 6ª ed. Madrid, España: McGraw-Hill, 2008.
+            \label{Fraile2008}
+
+        \end{thebibliography}
 
         \end{document}  

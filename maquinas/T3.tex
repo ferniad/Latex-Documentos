@@ -1,9 +1,9 @@
-\section{Diseño}
+\section{Diseño y aspectos constructivos del transformador}
 
 \subsection{Núcleo}
-El transformador es construido con láminas en forma de E y de I, el transformador se construye con 68 láminas de E y con 66 láminas de I, las cuales al ser acomodadas comprenden una sección transversal de $22 \cdot 38 [mm^{2}]$, la cual es la misma sección transversal de nuestro carrete.
+Las laminas del nucleo son de acero al silicio laminado en frío. El nucleo esta construido con láminas en forma de E y de I, el transformador se construye con 68 láminas de E y con 66 láminas de I, las cuales al ser acomodadas comprenden una sección transversal de $22 \cdot 38 [mm^{2}]$, la cual es la misma sección transversal de nuestro carrete (la del carrete es un poco mayor).
 En la figura \ref{fig:T1} se muestra las dimensiones de las laminas E además de la I del nucleo.
-\\Como último paso cuando se tienen las vueltas alrededor del carrete, se posicionan las laminas como se muestra en la imagen \ref{fig:T2}. 
+\\\textbf{Disposición de las laminas en el nucleo:} como último paso cuando se tienen las vueltas alrededor del carrete, se posicionan las laminas como se muestra en la figura \ref{fig:T2}. 
 
 
 \begin{figure}[ht!]
@@ -16,8 +16,8 @@ En la figura \ref{fig:T1} se muestra las dimensiones de las laminas E además de
 
 
 \subsection{Carrete}
-El carrete comprende una sección transversal de  $22 \cdot 38 [mm^{2}]$ y una altura de 33 [mm], estos datos son necesarios para poder hacer los cálculos del número de vueltas requeridas para el bobinado primario y el bobinado secundario.
-En la figura \ref{fig:T1} se muestra las dimensiones de la sección transversal del carrete.
+El carrete comprende una sección transversal de  $22 \cdot 38 [mm^{2}]$ y una altura de 33 [mm], la sección transversal del carrete es un poco mayor a lo mencionado pero principalmente es igual a la del nucleo, estos datos son necesarios para poder hacer los cálculos del número de vueltas requeridas para el bobinado primario y el bobinado secundario.
+En la figura \ref{fig:T1} se muestra las dimensiones de la sección transversal del carrete. 
 
 \begin{figure}[ht!]
     \centering
@@ -32,17 +32,25 @@ En la figura \ref{fig:T1} se muestra las dimensiones de la sección transversal 
 Para la relación de transformación elegimos los voltajes de 120 [V] a 50 [V], al realizar la relación de transformación nos queda de la siguiente manera: 
 
 \subsection{Número de vueltas}
+Recordando la ecuación \ref{eqn5}
+esto nos resultaria en el siguiente numero de vueltas:
+
+\begin{center}
+    $N_1 = \frac{\frac{120}{\sqrt{2}}}{1.1\cdot S\cdot f \cdot \frac{2\pi}{\sqrt{2}}\cdot 0.9}=384.599 \approx 385\ [vueltas]$
+    $N_2 = \frac{\frac{50}{\sqrt{2}}}{1.1\cdot S\cdot f \cdot \frac{2\pi}{\sqrt{2}}\cdot 0.9}=160.249 \approx 160\ [vueltas]$
+    \end{center}
+    
 \subsection{Bobinado primario}
-Teniendo el número de vueltas requerido para el lado primario es de 385, hacemos los cálculos de cuánta corriente podría pasar por el conductor según el voltaje seleccionado 120 [V] y la potencia que queremos 50 [W], seleccionamos un conductor adecuado el cual es cobre esmaltado de calibre --- que permite el paso de una corriente de ---.
+Teniendo el número de vueltas requerido para el lado primario es de 385, hacemos los cálculos de cuánta corriente podría pasar por el conductor según el voltaje seleccionado 120 [V] y la potencia que queremos 50 [VA], seleccionamos un conductor adecuado el cual es cobre esmaltado de calibre AWG 24 que permite el paso de una corriente de 0.577 A (amperios) a 0.94 A .
 
 \subsection{Bobinado secundario}
-Para hallar el número de vueltas que se requiere en el lado secundario lo despejamos de la fórmula de relación de transformación, al aplicarlo tenemos que la cantidad de vueltas será de 160, para este lado secundario también analizamos la corriente que pasará con un voltaje de 50 [V] y una potencia de 50 [W], seleccionamos un conductor de cobre esmaltado de calibre AWG 22 que permite el paso de una corriente de 0.92 A (amperios) a 1.5 A .
+Para hallar el número de vueltas que se requiere en el lado secundario lo despejamos de la fórmula de relación de transformación, al aplicarlo tenemos que la cantidad de vueltas será de 160, para este lado secundario también analizamos la corriente que pasará con un voltaje de 50 [V] y una potencia de 50 [VA], seleccionamos un conductor de cobre esmaltado de calibre AWG 22 que permite el paso de una corriente de 0.92 A (amperios) a 1.5 A .
 
 \subsection{Aislante}
 Se envolvió entre ambos bobinados una capa de papel aislante, el cual ayuda a cubrir ambos bobinados y separarlos entre ellos.
 
 \subsection{Fusibles}
-Se agregaron dos fusibles, uno en cada borne de alimentación del transformador, es decir, uno de 2 [A] en el lado de tensión secundario y uno de 5 [A] en el lado de tensión primario, esto para prevenir posibles quemaduras o fallas en el dispositivo.
+Se agregaron dos portafusibles, uno en cada borne de alimentación del transformador, es decir, un fusible de 2 [A] en el lado de tensión primario y uno de 5 [A] en el lado de tensión secundario, esto para prevenir posibles quemaduras o fallas en el dispositivo. Y finalmente se realizo toda la conexión con las borneras.
 
 
 
