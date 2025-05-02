@@ -1,0 +1,153 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[conference]{IEEEtran}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc} % Codificación UTF,8
+\usepackage{amsmath}        % Soporte para ecuaciones matemáticas
+\usepackage{graphicx}       % Manejo de imágenes
+\usepackage{hyperref}       % Hipervínculos
+\usepackage{caption}        % Formato para figuras
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{biblatex}
+\addbibresource{ref/cable.bib} % Add the bibliography file in the preamble (correct usage)
+\usepackage{csquotes}
+\usepackage{bookmark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper, margin=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,,,\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,,,\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{\IEEEauthorblockN{Daniel Fernando Aranda Contreras, Diana Fernanda Abril Roa, Nicolás Hernández Buitrago,\\ Rafael Miguel Segura Garzon}
+\IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+Correo electrónico: \{daniel2221648, diana2212074, nicolás2204593, rafael2202194 \}@correo.uis.edu.co}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{document}
+        % Título
+        \title{\uppercase{Diseño y construcción de un transformador eléctrico}}
+        \maketitle
+        % Resumen
+        % Palabras clave        
+        \begin{IEEEkeywords}
+            Transformador
+            Tensión,
+            Bobinado,
+            Relación de transformación,
+            Aislante,
+            Fusibles,
+            Corriente,
+            Potencia,
+            Diseño,
+            Construcción.
+        \end{IEEEkeywords}
+
+
+        %\input{Prac_4objetivos.tex}
+        \input{Prac_6objetivos.tex}
+        \input{Prac_6marcoT.tex}
+        \input{prac_6tratamientoDATOS.tex}
+        \input{prac_6conclu.tex}
+        \input{prac1_6.tex} %Anexos
+         % Add the bibliography file in the preamble (correct usage)
+        %\section*{Nomenclature}
+        %    \addcontentsline{toc}{section}{Nomenclature}
+        %    \begin{IEEEdescription}[\IEEEsetlabelwidth{$V_1,V_2,$}]
+        %    \item[\smash{\begin{IEEEeqnarraybox*}[][t]{l}
+        %    V_1,V_2,\\
+        %    \hphantom{V_1,{}}V_3
+        %    \end{IEEEeqnarraybox*}}] Three-phase PWM output line voltages.\\
+        %    \mbox{}
+        %    \item[$\theta$] Rotor angle (in ``electrical degrees'').
+        %    \item[$\omega$] Rotor (electrical) speed, corresponding to the time
+        %    derivative of $\theta$.
+        %    \end{IEEEdescription}
+
+        %    \begin{IEEEitemize}
+        %        \item First item
+        %        \item Second item
+        %    \end{IEEEitemize}
+
+            
+        %    \begin{IEEEenumerate}
+        %        \item First item
+        %        \item Second item
+        %    \end{IEEEenumerate}
+        %    
+        %    \begin{IEEEdescription}
+        %        \item First item
+        %        \item Second item
+        %    \end{IEEEdescription}
+
+
+        %   \begin{IEEEproof}
+        %        The statement is true.
+        %   \end{IEEEproof}
+
+
+        \begin{thebibliography}{1}
+            
+            \bibitem{F1883}
+            ASTM International, \emph{F1883 Standard Practice for Selection of Wire and Cable Size in AWG or Metric Units}, 1998. doi: 10.1520/F1883-98.
+            \label{F1883}
+
+            \bibitem{GonzalezGarcía2008}
+            C. E. Gonzalez Aguas and O. García Colmenares, \emph{Guía para el diseño de núcleos de transformadores de distribución}, Trabajo de grado para optar al título de Ingeniero Electricista, Director H. R. Vargas Torres, Escuela de Ingenierías Eléctrica, Electrónica y Telecomunicaciones, Universidad Industrial de Santander, Bucaramanga, 2008.
+            \label{GonzalezGarcía2008}
+
+            \bibitem{Fraile2008}
+            J. Fraile Mora, \emph{Máquinas Eléctricas}, 6ª ed. Madrid, España: McGraw-Hill, 2008.
+            \label{Fraile2008}
+
+        \end{thebibliography}
+
+        \end{document}  
