@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Motor Simulation - Inputs and Outputs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .section {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 45%; /* Adjust width as needed */
+            min-width: 300px;
+            box-sizing: border-box;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .input-label {
+            font-weight: bold;
+            color: #000; /* Black for inputs */
+        }
+        .output-label {
+            font-weight: bold;
+            color: #007bff; /* Blue for outputs */
+        }
+        .description {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .relationship {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed #ccc;
+        }
+        .arrow {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Electric Motor Simulation: Inputs and Outputs Diagram (Updated)</h1>
+
+    <div class="container">
+        <div class="section">
+            <h2>Inputs (Parámetros de Entrada)</h2>
+            <p class="description">Estos son los valores que el usuario puede ajustar y que son leídos por la función `calculateButtonPushed`.</p>
+            <ul>
+                <li><span class="input-label">pfyr:</span> Pérdidas por fricción y ventilación (Vatios)</li>
+                <li><span class="input-label">pmisc:</span> Pérdidas misceláneas (Vatios)</li>
+                <li><span class="input-label">pnucle:</span> Pérdidas en el núcleo (Vatios)</li>
+                <li><span class="input-label">r1:</span> Resistencia del estator (Ohmios)</li>
+                <li><span class="input-label">x1:</span> Reactancia de fuga del estator (Ohmios)</li>
+                <li><span class="input-label">r2:</span> Resistencia del rotor referida al estator (Ohmios)</li>
+                <li><span class="input-label">x2:</span> Reactancia de fuga del rotor referida al estator (Ohmios)</li>
+                <li><span class="input-label">xm:</span> Reactancia de magnetización (Ohmios)</li>
+                <li><span class="input-label">vf:</span> Voltaje de fase de alimentación (Voltios)</li>
+                <li><span class="input-label">f:</span> Frecuencia de la fuente (Hertz)</li>
+                <li><span class="input-label">Numpolos:</span> Número de polos del motor</li>
+                <li><span class="input-label">s:</span> Deslizamiento del motor (adimensional)</li>
+                <li><span class="input-label">DELTAOESTRELLA:</span> Tipo de conexión del estator ('Estrella' o 'Delta')</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Outputs (Resultados de Salida)</h2>
+            <p class="description">Estos son los valores calculados por la función `calculateButtonPushed` y actualizados en la interfaz de usuario.</p>
+            <ul>
+                <li><span class="output-label">s (Output):</span> Deslizamiento del motor (valor mostrado, aunque también es una entrada)</li>
+                <li><span class="output-label">Peh_calc:</span> Potencia de entrehierro (Vatios)</li>
+                <li><span class="output-label">Pconv_calc:</span> Potencia convertida / Potencia mecánica al entrehierro (Vatios)</li>
+                <li><span class="output-label">Par_calc:</span> Par de entrehierro (Nm)</li>
+                <li><span class="output-label">nmotor:</span> Velocidad del motor (RPM)</li>
+                <li><span class="output-label">Effi_calc:</span> Eficiencia del motor (%)</li>
+                <li><span class="output-label">Psali_calc:</span> Potencia de salida (Vatios)</li>
+                <li><span class="output-label">Pentrada_calc:</span> Potencia activa de entrada (Vatios)</li>
+                <li><span class="output-label">Qentrada_calc:</span> Potencia reactiva de entrada (VAR)</li>
+                <li><span class="output-label">Sentrada_mag_calc:</span> Magnitud de la potencia aparente de entrada (VA)</li>
+            </ul>
+        </div>
+
+        <div class="section" style="width: 95%;">
+            <h2>Relaciones Clave (Flujo de Datos en `calculateButtonPushed`)</h2>
+            <p class="description">La función procesa las entradas para realizar cálculos complejos y generar las salidas, siguiendo el modelo del motor de inducción.</p>
+            <div class="relationship">
+                <h3>Parámetros del Circuito y Operación <span class="arrow">→</span> Cálculos Intermedios</h3>
+                <ul>
+                    <li><span class="input-label">r1, x1, r2, x2, xm, vf, f, Numpolos, s, DELTAOESTRELLA</span> (Entradas)</li>
+                    <li><span class="arrow">↓</span></li>
+                    <li><span class="description">Se calculan: Velocidad síncrona (nsinc), Voltaje de fase ajustado (vf_calc), Impedancias complejas (z1_calc, z2_calc, xm_complex), Admitancia equivalente (Yeq), Voltaje en el entrehierro (V1_calc), Corrientes (i1_calc, i2_calc).</span></li>
+                </ul>
+            </div>
+            <div class="relationship">
+                <h3>Cálculos Intermedios + Pérdidas <span class="arrow">→</span> Potencias, Par y Eficiencia</h3>
+                <ul>
+                    <li><span class="input-label">pfyr, pmisc, pnucle</span> (Entradas de pérdidas)</li>
+                    <li><span class="arrow">↑</span></li>
+                    <li><span class="description">Junto con los cálculos intermedios (V1_calc, i1_calc, i2_calc, s, nsinc), se determinan:</span></li>
+                    <li><span class="arrow">↓</span></li>
+                    <li><span class="output-label">Pentrada_calc, Qentrada_calc, Sentrada_mag_calc, Peh_calc, Pconv_calc, Par_calc, Psali_calc, Effi_calc.</span> (Salidas principales)</li>
+                </ul>
+            </div>
+            <div class="relationship">
+                <h3>Velocidad Síncrona y Deslizamiento <span class="arrow">→</span> Velocidad del Motor</h3>
+                <ul>
+                    <li><span class="input-label">f, Numpolos, s</span> (Entradas)</li>
+                    <li><span class="arrow">↓</span></li>
+                    <li><span class="description">Se calcula la velocidad síncrona y, a partir de ella y el deslizamiento, la velocidad real del motor.</span></li>
+                    <li><span class="arrow">↓</span></li>
+                    <li><span class="output-label">nmotor.</span> (Salida)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

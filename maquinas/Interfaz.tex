@@ -1,0 +1,190 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[conference]{IEEEtran}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc} % Codificación UTF,8
+\usepackage{amsmath}        % Soporte para ecuaciones matemáticas
+\usepackage{graphicx}       % Manejo de imágenes
+\usepackage{hyperref}       % Hipervínculos
+\usepackage{caption}        % Formato para figuras
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{biblatex} % Add the bibliography file in the preamble (correct usage)
+\usepackage{csquotes}
+\usepackage{bookmark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{color}
+% \usepackage{colors} % Removed because 'colors' package does not exist
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper, margin=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+    
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{codeblue}{rgb}{0,0,0.8}    
+\definecolor{backcolour}{rgb}{0.98, 0.98, 0.98}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,,,\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,,,\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{\IEEEauthorblockN{Daniel Fernando Aranda Contreras}
+\IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+Correo electrónico: \{daniel2221648 \}@correo.uis.edu.co}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Definición de colores para el estilo de MATLAB
+    \lstdefinestyle{MATLABStyle}{
+        backgroundcolor=\color{backcolour},   
+        commentstyle=\color{codegreen},
+        keywordstyle=\color{codeblue},
+        numberstyle=\tiny\color{codegray},
+        stringstyle=\color{codepurple},
+        basicstyle=\ttfamily\footnotesize,
+        breakatwhitespace=false,         
+        breaklines=true,                 
+        captionpos=b,                    
+        keepspaces=true,                 
+        numbers=left,                    
+        numbersep=5pt,                  
+        showspaces=false,                
+        showstringspaces=false,
+        showtabs=false,                  
+        tabsize=2,
+        linewidth=0.48\textwidth,
+            %frame=single,
+    }
+    \lstset{language=Matlab, style=MATLABStyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{document}
+
+
+        % Título
+        \title{\uppercase{Diseño implementacioón y desarrollo de una intefaz para motores de inducción}}
+        \maketitle
+        % Resumen
+        % Palabras clave        
+        \begin{IEEEkeywords}
+            Motor de Inducción,
+            Interfaz Gráfica de Usuario (GUI),
+            MATLAB App Designer,
+            Cálculo de Parámetros,
+            Máquinas Eléctricas,
+            Modelado de Motores,
+            Rendimiento Energético,
+            Deslizamiento,
+            Potencia (Eléctrica),
+            Par Motor.
+        \end{IEEEkeywords}
+
+
+
+        \begin{abstract}
+        This report details the design, implementation, and development of a graphical user interface (GUI), created using MATLAB App Designer, for the simulation and calculation of induction motor parameters. The interface facilitates the input of crucial data such as iron and stray losses, stator and rotor resistances and reactances, source voltage, frequency, number of poles, and slip.     
+        \end{abstract}
+        %\input{Prac_4objetivos.tex}
+
+        \input{Interfaz1.tex}
+        \input{Interfaz2.tex}
+        \input{Interfaz3.tex}
+        \input{Interfaz4.tex}
+
+         % Add the bibliography file in the preamble (correct usage)
+        %\section*{Nomenclature}
+        %    \addcontentsline{toc}{section}{Nomenclature}
+        %    \begin{IEEEdescription}[\IEEEsetlabelwidth{$V_1,V_2,$}]
+        %    \item[\smash{\begin{IEEEeqnarraybox*}[][t]{l}
+        %    V_1,V_2,\\
+        %    \hphantom{V_1,{}}V_3
+        %    \end{IEEEeqnarraybox*}}] Three-phase PWM output line voltages.\\
+        %    \mbox{}
+        %    \item[$\theta$] Rotor angle (in ``electrical degrees'').
+        %    \item[$\omega$] Rotor (electrical) speed, corresponding to the time
+        %    derivative of $\theta$.
+        %    \end{IEEEdescription}
+
+        %    \begin{IEEEitemize}
+        %        \item First item
+        %        \item Second item
+        %    \end{IEEEitemize}
+
+            
+        %    \begin{IEEEenumerate}
+        %        \item First item
+        %        \item Second item
+        %    \end{IEEEenumerate}
+        %    
+        %    \begin{IEEEdescription}
+        %        \item First item
+        %        \item Second item
+        %    \end{IEEEdescription}
+
+
+        %   \begin{IEEEproof}
+        %        The statement is true.
+        %   \end{IEEEproof}
+
+
+        
+            \section{Conclusiones}
+            La interfaz desarrollada mostro un resultado conciso y claro. Con relación a los resultados fueron los esperados, aunque como adicional se podria hacer que en las graficas se mostrara la velocidad cuando el motor opera como generador para la grafica Par del motor velocidad del motor no lo logre sin embargo para la grafica deslizamiento del motor y par del motor si.
+
+
+            \begin{thebibliography}{1}
+                
+                \bibitem{Fitzgerald2020}
+                A. E. Fitzgerald, C. Kingsley, y A. Kusko, \emph{Electric Machinery}, 7ª ed. Nueva York, EE. UU.: McGraw-Hill Education, 2020.
+                \label{Fitzgerald2020}
+
+
+                \bibitem{Fraile2008}
+                J. Fraile Mora, \emph{Máquinas Eléctricas}, 6ª ed. Madrid, España: McGraw-Hill, 2008.
+                \label{Fraile2008}
+
+            \end{thebibliography}
+
+        \end{document}  

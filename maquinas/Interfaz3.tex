@@ -1,0 +1,218 @@
+\section{Diseno y aspectos relacionados con la programacion}
+
+Se creo una función global que lee cada una de las entradas y a partir de las ecuaciones haya los parametros de la salida: 
+
+
+\begin{lstlisting}[language=Matlab, caption={MATLAB Code}, basicstyle=\footnotesize\ttfamily]
+function calculateButtonPushed(app, event)
+    try
+        % 1. Limpiar mensajes anteriores
+        app.MessageBox.Text = '';
+        app.MessageBox.Visible = 'off';
+        % Asegurate de que los nombres de las propiedades (ej. .Value)
+
+        % y los nombres de los componentes (ej. .pfyrEditField) sean correctos.
+        pfyr = app.pfyrEditField.Value;
+        pmisc = app.pmiscEditField.Value;
+        pnucle = app.pnucleEditField.Value;
+        r1 = app.r1EditField.Value;
+        x1 = app.x1EditField.Value;
+        r2 = app.r2EditField.Value;
+        x2 = app.x2EditField.Value;
+        xm = app.XmEditField.Value;
+        vf = app.vfEditField.Value;
+        f = app.fEditField.Value;
+        Numpolos = app.NumpolosEditField.Value;
+        s = app.sEditField.Value; % Deslizamiento (input)
+        % Determinar el tipo de conexión (Estrella o Delta)
+        % Asume que DELTAOESTRELLADropDown es un DropDown con 'Estrella' y 'Delta'
+        if strcmp(app.DELTAOESTRELLAEditField.Value, 'Estrella')
+            DELTAOESTRELLA = 0; % Estrella
+        else % 'Delta'
+            DELTAOESTRELLA = 1; % Delta
+        end
+        % 3. Validación de entradas
+        % Se valida que los valores sean positivos y que Numpolos y s no sean cero.
+        if any([pfyr, pmisc, pnucle, r1, x1, r2, x2, xm, vf, f, Numpolos] < 0) || Numpolos == 0
+            % Si alguna entrada es negativa o Numpolos es cero.
+            uialert(app.UIFigure, 'Por favor, asegúrese de que todas las entradas sean valores numéricos válidos y positivos. El número de polos no puede ser cero.', 'Error de Entrada', 'Icon', 'error');
+            % Limpiar campos de salida en caso de error
+            clearOutputFields(app);
+            return;
+        end
+        % Validación específica para el deslizamiento 's'
+        if s == 0
+            uialert(app.UIFigure, 'Advertencia: El deslizamiento (s) es cero. Esto implica que el motor está funcionando a velocidad síncrona. Algunas ecuaciones de potencia y par pueden resultar en cero.', 'Advertencia de Deslizamiento', 'Icon', 'warning');
+            % Si s es 0, r2/s sería infinito. En un motor real, s nunca es exactamente 0 con carga.
+            % Sin embargo, si el usuario explícitamente pone s=0, se asume que no hay carga.
+            % MATLAB puede manejar inf, pero los resultados físicos podrían no ser los esperados.
+            % Para evitar NaN en los cálculos, si s es muy pequeño, podemos forzar un mínimo.
+            % Pero si el usuario pone 0, se deja que MATLAB maneje el inf/nan si ocurre.
+            % Aquí, se permite s=0 y se calcula, pero se advierte.
+        elseif s < 0
+            uialert(app.UIFigure, 'Advertencia: El deslizamiento (s) es negativo. Esto indica operación de frenado o generación. Los resultados pueden no ser típicos de operación motora.', 'Advertencia de Deslizamiento', 'Icon', 'warning');
+        end
+        % 4. Cálculos principales del motor
+        % Velocidad síncrona (RPM)
+        nsinc = 120 * f / Numpolos;
+        % Velocidad del motor (RPM)
+        % Si s=1, nmotor será 0, como se especifica en el requisito.
+        nmotor = nsinc * (1 - s);
+        % Voltaje de fase (vf_calc) según la conexión
+        if DELTAOESTRELLA == 0 % Cuando es cero es estrella
+            vf_calc = vf / sqrt(3);
+        else % Conexión Delta
+            vf_calc = vf;
+        end
+        % Impedancias complejas
+        z1_calc = r1 + 1j * x1;
+        % z2_calc: Si s es 0, r2/s será Inf, MATLAB lo maneja.
+        z2_calc = (r2 / s) + 1j * x2;
+        xm_complex = 1j * xm;
+        % Calcular V1, I1, I2 numéricamente
+        % Ecuación del nodo V1: (V1 - vf) / z1 + V1 / (j*xm) + V1 / z2 = 0
+        % V1 * (1/z1 + 1/(j*xm) + 1/z2) = vf / z1
+        % V1 = (vf / z1) / (1/z1 + 1/(j*xm) + 1/z2)
+        % Admitancia equivalente vista desde V1
+        Yeq = (1 / z1_calc) + (1 / xm_complex) + (1 / z2_calc);
+        % Voltaje V1 en el entrehierro
+        V1_calc = (vf_calc / z1_calc) / Yeq;
+        % Corrientes
+        i1_calc = (V1_calc-vf_calc)/z1_calc; % Corriente del estator
+        i2_calc = V1_calc/z2_calc; % Corriente del rotor referida al estator
+        % Calcular Potencia de Entrada (Pentrada) y Potencia de Entrehierro (Peh)
+        % Potencia compleja de entrada (fuente de voltaje)
+        % La fórmula original del usuario tiene un signo negativo: Sentrada_calc = -3 * vf_calc * conj(i1_calc);
+        Sentrada_calc = -3 * vf_calc * conj(i1_calc);
+        Pentrada_calc = real(Sentrada_calc);         % Potencia activa de entrada
+        Qentrada_calc = imag(Sentrada_calc);         % Potencia reactiva de entrada
+        Sentrada_mag_calc = abs(Sentrada_calc);      % Magnitud de la potencia aparente de entrada
+        % Peh se puede calcular de dos formas: Pentrada - Pcu1 - Pnucle O 3*abs(i2)^2*r2/s
+        % Usaremos la segunda forma ya que i2 y s son conocidos
+        Peh_calc = 3*abs(i2_calc)^2 * r2 / s;
+        % Calcular Potencia Convertida (Pconv)
+        Pconv_calc = 3*abs(i2_calc)^2*r2*(1-s)/s;
+        % Esto es equivalente a: Pconv_calc = Peh_calc * (1 - s);
+        % Calcular Par de Entrehierro (Par)
+        Par_calc = Peh_calc / (nsinc * 2 * pi / 60);
+        % Calcular Potencia de Salida (Psali) y Eficiencia (Effi)
+        % Psali = Pconv - Pérdidas por fricción y ventilación - Pérdidas misceláneas - Pérdidas en el núcleo
+        Psali_calc = Pconv_calc - pfyr - pmisc - pnucle;
+        % Eficiencia
+        Effi_calc = (Psali_calc / Pentrada_calc) * 100;
+        if Pentrada_calc <= 0 || isnan(Effi_calc) || isinf(Effi_calc)
+            Effi_calc = 0; % Evitar división por cero o resultados no numéricos
+            if Pentrada_calc <= 0
+                app.MessageBox.Text = 'Advertencia: La potencia activa de entrada es cero o negativa. La eficiencia no se puede calcular o no es aplicable.';
+                app.MessageBox.FontColor = [0.85 0.33 0.1]; % Naranja
+                app.MessageBox.Visible = 'on';
+            end
+        end
+        % 5. Actualizar campos de salida de la UI
+        app.sOutputEditField.Value = s; % Mostrar el deslizamiento de entrada
+        app.pehEditField.Value = Peh_calc;
+        app.pconvEditField.Value = Pconv_calc;
+        app.parEditField.Value = Par_calc;
+        app.nmotorEditField.Value = nmotor;
+        app.effiEditField.Value = Effi_calc;
+        app.psalEditField.Value = Psali_calc;
+        app.PentradaEditField.Value = Pentrada_calc;
+        app.QentradaEditField.Value = Qentrada_calc;
+        app.SentradaEditField.Value = Sentrada_mag_calc;
+        % Mostrar mensaje de éxito
+        app.MessageBox.Text = 'Cálculos completados exitosamente.';
+        app.MessageBox.FontColor = [0 0.5 0]; % Verde
+        app.MessageBox.Visible = 'on';
+        % --- NUEVOS CÁLCULOS PARA GRAFICAR LA CURVA COMPLETA ---
+        sgrafica = -1:0.001:1; % Rango de deslizamiento, por ejemplo
+        nmotorgraf = nsinc .* (1 - sgrafica);
+        % ... (el resto de tus cálculos vectoriales para z2_graf, V1_calcgraf, i2_calc_graf, Peh_graf, Par_calcgraf) ...
+        z2_graf = (r2 ./ sgrafica) + 1j * x2;
+        Yeqgraf = (1 ./ z1_calc) + (1 ./ xm_complex) + (1 ./ z2_graf);
+        V1_calcgraf = (vf_calc ./ z1_calc)./Yeqgraf;
+        i2_calc_graf = V1_calcgraf ./ z2_graf;
+        Peh_graf = 3 * abs(i2_calc_graf).^2 * r2 ./ sgrafica;
+        Par_calcgraf = Peh_graf ./ (nsinc .* 2 * pi / 60);
+        % --- CÓDIGO DE GRAFICACIÓN DIRECTO ---
+        cla(app.updateMotorPlots); % Limpia la gráfica anterior
+        plot(app.updateMotorPlots, nmotorgraf, Par_calcgraf, '-', 'LineWidth', 0.8);
+        xlabel(app.updateMotorPlots, 'Velocidad del Motor (RPM)');
+        ylabel(app.updateMotorPlots, 'Par del Motor (Nm)');
+        title(app.updateMotorPlots, 'Curva Característica: Par vs. Velocidad');
+        grid(app.updateMotorPlots, 'on');
+        hold(app.updateMotorPlots, 'on');
+        % --- Segunda gráfica
+        plot(app.updateMotorPlots, nmotor, Par_calc, 'r-o', 'DisplayName', 'Potencia de Salida', 'LineWidth', 1.5); % Línea roja con guiones y 'x'
+        % 3. Restaurar el comportamiento predeterminado de los ejes
+        hold(app.updateMotorPlots, 'off');
+        cla(app.desli); % Limpia la gráfica anterior
+        plot(app.desli, sgrafica, Par_calcgraf, '-', 'LineWidth', 0.8);
+        xlabel(app.desli, 'Deslizamiento');
+        ylabel(app.desli, 'Par del Motor (Nm)');
+        title(app.desli, 'Curva Característica: Par vs. Deslizamiento');
+        grid(app.desli, 'on');
+        hold(app.desli, 'on');
+        plot(app.desli, s, Par_calc, 'r o', 'DisplayName', 'Deslizamiento', 'LineWidth', 1.5); % Línea roja con guiones y 'x'
+        hold(app.desli, 'off');
+        % --- Aquí es donde agregas la llamada a la función de graficación ---
+        % Los parámetros s_values, Psali_results, s_single, Par_at_s_single,
+        % Psali_at_s_single, nmotor_at_s_single se pasan para que la función
+        % updateMotorPlots tenga todos los datos que espera, incluso si para
+        % esta gráfica específica solo usamos nmotor y Par_calc.
+        % Si updateMotorPlots espera vectores, puedes convertir los valores
+        % escalares a vectores de un solo elemento:
+    catch ME
+        % 6. Manejo de errores
+        % Mostrar mensaje de error al usuario
+        uialert(app.UIFigure, ['Error en el cálculo: ' ME.message], 'Error', 'Icon', 'error');
+        app.MessageBox.Text = ['Error: ' ME.message];
+        app.MessageBox.FontColor = [1 0 0]; % Rojo
+        app.MessageBox.Visible = 'on';
+        % Limpiar campos de salida en caso de error
+        clearOutputFields(app);
+    end
+end
+% --- Función auxiliar para limpiar campos de salida ---
+function clearOutputFields(app)
+    app.sOutputEditField.Value = 0;
+    app.pehEditField.Value = 0;
+    app.pconvEditField.Value = 0;
+    app.parEditField.Value = 0;
+    app.nmotorEditField.Value = 0;
+    app.effiEditField.Value = 0;
+    app.psalEditField.Value = 0;
+    app.PentradaEditField.Value = 0;
+    app.QentradaEditField.Value = 0;
+    app.SentradaEditField.Value = 0;
+end
+% --- Función de inicio de la aplicación (StartupFcn) ---
+% (Opcional) Puedes usar esta función para establecer valores predeterminados
+% al iniciar la aplicación.
+function StartupFcn(app)
+    % Establecer valores predeterminados para los campos de entrada
+    app.pfyrEditField.Value = 1500;
+    app.pmiscEditField.Value = 1500;
+    app.pnucleEditField.Value = 450;
+    app.r1EditField.Value = 0.012;
+    app.x1EditField.Value = 0.41;
+    app.r2EditField.Value = 0.25;
+    app.x2EditField.Value = 0.32;
+    app.XmEditField.Value = 4.6;
+    app.vfEditField.Value = 440;
+    app.fEditField.Value = 60;
+    app.NumpolosEditField.Value = 4;
+    app.sEditField.Value = (1800-1740)/1800; % Deslizamiento inicial
+    % Establecer la opción predeterminada para el DropDown
+    app.DELTAOESTRELLAEditField.Items = {'Estrella', 'Delta'};
+    app.DELTAOESTRELLAEditField.Value = 'Delta';
+    % Inicializar campos de salida como vacíos o NaN
+    clearOutputFields(app);
+    % Ocultar el cuadro de mensajes al inicio
+    app.MessageBox.Visible = 'off';
+end
+\end{lstlisting}
+
+
+
+
+
