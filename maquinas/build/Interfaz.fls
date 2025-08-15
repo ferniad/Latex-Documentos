@@ -356,11 +356,11 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
@@ -433,6 +433,9 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\ti
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.aux
 OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.aux
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -447,11 +450,6 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spani
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.bcf
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.bbl
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.bbl
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.bbl
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.bbl
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas\build\Interfaz.bbl
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd

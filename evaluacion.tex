@@ -1,0 +1,177 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PLANTILLA PARA UNA EVALUACIÓN EN LATEX
+% Autor: Gemini (Google AI)
+% Fecha: 2024
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% --- PREÁMBULO ---
+% Define el tipo de documento y el tamaño de la fuente. 'article' es estándar.
+\documentclass[12pt]{article}
+
+% --- PAQUETES ---
+% Codificación de entrada para soportar caracteres en español (ñ, tildes)
+\usepackage[utf8]{inputenc}
+
+% Soporte para el idioma español (títulos, fechas, etc.)
+\usepackage[spanish]{babel}
+
+% Paquetes esenciales para matemáticas
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% Para incluir imágenes
+\usepackage{graphicx}
+
+% Para personalizar los márgenes de la página
+% Opciones: a4paper, letterpaper. Margen de 2.5cm en todos los lados.
+\usepackage[a4paper, margin=2.5cm]{geometry}
+
+% Para personalizar encabezados y pies de página
+\usepackage{fancyhdr}
+
+% --- CONFIGURACIÓN DEL DOCUMENTO ---
+
+% Configuración del encabezado y pie de página con 'fancyhdr'
+\pagestyle{fancy}
+\fancyhf{} % Limpia todos los campos del encabezado y pie de página
+
+
+\rhead{} % Encabezado derecho (Nombre del profesor)
+
+\cfoot{Página \thepage} % Pie de página central (Número de página)
+\renewcommand{\headrulewidth}{0.4pt} % Línea decorativa bajo el encabezado
+\renewcommand{\footrulewidth}{0.4pt} % Línea decorativa sobre el pie de página
+
+% Comando para insertar la fecha actual
+\newcommand{\fecha}{\today}
+
+
+% --- INICIO DEL DOCUMENTO ---
+\begin{document}
+
+% --- BLOQUE DEL TÍTULO Y ENCABEZADO PRINCIPAL ---
+\begin{center}
+    {\normalsize Facultad de Ciencias Exactas}\\[0.5cm]
+    {\Large\bfseries EXAMEN FINAL}\\[0.3cm]
+    {\large Asignatura: Matemáticas}
+\end{center}
+
+\vspace{0.8cm} % Espacio vertical
+
+% --- BLOQUE DE INFORMACIÓN DEL ESTUDIANTE ---
+% \noindent evita la sangría del párrafo
+\noindent
+\begin{tabular}{p{0.7\textwidth} p{0.25\textwidth}}
+    \textbf{Nombre del Estudiante:} \underline{\hspace{5.5cm}} & \textbf{Calificación:} \underline{\hspace{1.5cm}} \\[1cm] % Deja espacio para el nombre y la nota
+    \textbf{Fecha:} \fecha & \\
+\end{tabular}
+
+\vspace{1cm}
+
+% --- INSTRUCCIONES DEL EXAMEN ---
+\begin{center}
+    \textbf{Instrucciones Generales}
+\end{center}
+\begin{itemize}
+    \item Lea cuidadosamente cada pregunta antes de responder.
+    \item La duración del examen es de \textbf{1 hora y media}.
+    \item No se permite el uso de calculadoras programables ni teléfonos móviles.
+    \item Justifique claramente todos los procedimientos. Las respuestas sin justificación no serán válidas.
+    \item Utilice únicamente tinta de color negro o azul.
+\end{itemize}
+
+\vspace{1cm}
+
+\begin{enumerate}
+    % --- PUNTO BONUS: NÚMEROS COMPLEJOS CON FRACCIONES ---
+    \item \textbf{Punto Bonus.} (10 Puntos)
+    
+    Realice la siguiente operación con números complejos que tienen coeficientes fraccionarios. Exprese el resultado final en la forma estándar $a+bi$.
+    \[
+    \left( \frac{1}{2} + \frac{3}{4}i \right)\cdot 3 - \left( \frac{5}{3} - \frac{1}{6}i \right)\cdot 7
+    \]
+
+
+
+  % --- PREGUNTA 1: Potenciación y Radicación Compleja ---
+    \item \textbf{Operaciones con Exponentes y Radicales.} Simplifique las siguientes expresiones hasta su mínima expresión. No se aceptan exponentes negativos o fraccionarios en el resultado final.
+    
+    \begin{itemize}
+        \item[a)] (15 Puntos) Simplifique la siguiente expresión aplicando propiedades de la potenciación:
+        \[
+        \left( \frac{a^{-2/3} \cdot b^{3/2}}{a^{-1} \cdot b^{-1/3}} \right)^{-2} \cdot \sqrt[3]{a^2}
+        \]
+        
+        \item[b)] (10 Puntos) Racionalice y simplifique completamente el siguiente cociente:
+        \[
+        \frac{3\sqrt{2} - \sqrt{5}}{2\sqrt{5} - \sqrt{2}}
+        \]
+    \end{itemize}
+    
+    \vspace{0.5cm}
+
+    % --- PREGUNTA 2: Operaciones Combinadas con Números Complejos ---
+    \item \textbf{Números Complejos.} Dados los números complejos $z_1 = 3 - 2i$ y $z_2 = -1 + 4i$. Calcule lo siguiente, expresando el resultado en la forma $a+bi$.
+    
+    \begin{itemize}
+        \item[a)] (15 Puntos) El resultado de la operación:
+        \[
+        \frac{z_1 \cdot \overline{z_2}}{z_1 + z_2}
+        \]
+        (Donde $\overline{z_2}$ es el conjugado de $z_2$).
+        
+        \item[b)] (10 Puntos) Resuelva para $z$ en la siguiente ecuación:
+        \[
+        (2-i)z - (1+5i) = 4 - 3i
+        \]
+    \end{itemize}
+    
+    \vspace{0.5cm}
+
+    % --- PREGUNTA 3: Geometría Analítica Fundamental ---
+    \item \textbf{Análisis de Rectas.} Resuelva los siguientes problemas.
+    
+    \begin{itemize}
+        \item[a)] (10 Puntos) Determine si las siguientes dos rectas son paralelas, perpendiculares o ninguna de las dos. Justifique su respuesta comparando sus pendientes ($m$).
+        \[ L_1: y = -2x + 5 \quad \text{y} \quad L_2: 6x + 3y = -3 \]
+        
+        \item[b)] (15 Puntos) Encuentre la ecuación de la recta que pasa por el punto $A(1, -4)$ y es perpendicular a la recta que pasa por los puntos $B(-5, 2)$ y $C(3, 3)$. Exprese el resultado en la forma $y=mx+b$.
+    \end{itemize}
+
+    \vspace{0.5cm}
+    
+    % --- PREGUNTA 4: Sistema de Ecuaciones por Método Gráfico ---
+    \item \textbf{Solución Gráfica de un Sistema de Ecuaciones.} (20 Puntos)
+    
+    Resuelva el siguiente sistema de ecuaciones lineales 2x2 utilizando \textbf{exclusivamente el método gráfico}.
+    \[ 
+    \begin{cases} 
+    2x + y = 4 \\
+    x - y = -1
+    \end{cases} 
+    \]
+    
+    \begin{itemize}
+        \item Dibuje ambas rectas en un mismo plano cartesiano.
+        \item Señale claramente el punto de intersección en la gráfica.
+        \item Escriba la coordenada $(x, y)$ que representa la solución del sistema.
+    \end{itemize}
+    
+    % --- PREGUNTA 5: Aplicación de Sistemas de Ecuaciones ---
+    \item \textbf{Problema de Aplicación.} (10 Puntos) En una granja hay conejos y gallinas. Si se cuentan un total de 40 cabezas y 110 patas, plantee un sistema de ecuaciones lineales 2x2 que modele la situación y resuélvalo por el método de eliminación o sustitución para determinar cuántos conejos y cuántas gallinas hay.
+    
+
+    % --- PREGUNTA ADICIONAL OBLIGATORIA: Fracciones Algebraicas ---
+    \item \textbf{Operación con Fracciones Algebraicas (Obligatorio).} (15 Puntos)
+    
+    Resuelva la siguiente suma de fracciones algebraicas. Para ello, factorice completamente los denominadores, encuentre el común denominador y simplifique el resultado final tanto como sea posible.
+    \[
+    \frac{x - 7}{x^2 - x - 6} + \frac{2}{x^2 + 5x + 6}
+    \]
+\end{enumerate}
+
+
+
+% --- FIN DEL DOCUMENTO ---
+\end{document}
