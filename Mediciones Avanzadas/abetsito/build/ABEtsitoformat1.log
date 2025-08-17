@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.30)  15 AUG 2025 11:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.30)  16 AUG 2025 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/ABEtsito.tex"
-(c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/ABEtsito.tex
+**"c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex"
+(c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -1090,27 +1090,32 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.aux)
-\openout1 = `ABEtsito.aux'.
+ (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.aux
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported  on input line 19.
+)
+\openout1 = `ABEtsitoformat1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
@@ -1168,11 +1173,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported  on input line 73.
-Package hyperref Info: Link coloring OFF on input line 73.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+Package hyperref Info: Link coloring OFF on input line 79.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'spanish'...
@@ -1183,65 +1186,45 @@ File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `ABEtsito.bcf'.
+\openout5 = `ABEtsitoformat1.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ABEtsito.bbl' not found.
-
-No file ABEtsito.bbl.
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 79.
-(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+Package biblatex Info: ... file 'ABEtsitoformat1.bbl' found.
+ (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.bbl)
+Package biblatex Info: Reference section=0 on input line 79.
+Package biblatex Info: Reference segment=0 on input line 79.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 85.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-[]\OT1/ptm/m/n/10 Ministerio de Mi-nas y Energ[]^^Pa, -egla-
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+ (primeraentrega.tex
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 men-to t[]ecni-co de ins-ta-la-cio-nes el[]ectri-cas
- []
+
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 (RE-TIE),"[En l[]^^Pnea]. Dis-po-ni-ble en:
- []
+]
 
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 58.
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 https://www.minenergia.gov.co/es/misional/energia-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 Unidad de Pla-nea-ci[]on Mi-ne-ro Energ[]eti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 ca (UP-ME), "Hui-la 220 kV,[]UPME -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 01-2022, [En l[]^^Pnea]. Dis-po-ni-ble en:
- []
-
-
-Overfull \hbox (134.38245pt too wide) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 https://www1.upme.gov.co/PromocionSector/InformacionInversionistas/Paginas/UPME-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-\OT1/ptm/m/n/10 01-2022-Huila-220-kV.aspx. [Ac-ce-di-do: 12-mar-
- []
-
+[2])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1257,47 +1240,33 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[1
-Non-PDF special ignored!
-<special> header=psfrag.pro
-{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+[3
 
-
-
-] (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.aux
-LaTeX Info: Redefining \sptext on input line 15.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+] (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.aux
+LaTeX Info: Redefining \sptext on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 )
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ABEtsito
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'ABEtsito.run.xml'.
-\openout1 = `ABEtsito.run.xml'.
+Package logreq Info: Writing requests to 'ABEtsitoformat1.run.xml'.
+\openout1 = `ABEtsitoformat1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46379 strings out of 469923
- 1056276 string characters out of 5468686
- 2180951 words of memory out of 5000000
- 72569 multiletter control sequences out of 15000+600000
- 655056 words of font info for 87 fonts, out of 8000000 for 9000
+ 46509 strings out of 469923
+ 1058860 string characters out of 5468686
+ 2201468 words of memory out of 5000000
+ 72646 multiletter control sequences out of 15000+600000
+ 663205 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,105p,783b,1823s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.pdf" (1 page, 52821 bytes).
+ 99i,8n,105p,911b,1836s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.pdf" (3 pages, 94408 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

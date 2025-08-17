@@ -8,7 +8,6 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsthm}
-    
 \usepackage{empheq}
 \usepackage{mdframed}
 \usepackage{booktabs}
@@ -29,6 +28,13 @@
 \usepackage{biblatex}
 \usepackage{csquotes}
 \usepackage{bookmark}
+%PARA LAS REFERENCIAS
+
+\renewcommand*{\bibfont}{\footnotesize}
+\setlength{\biblabelsep}{\labelsep}
+\setlength{\bibitemsep}{\IEEEbibitemsep}
+\addbibresource{refabetsito.bib} 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Other Settings
@@ -66,27 +72,31 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author{\IEEEauthorblockN{David Nicolas Ortega Peña, Daniel Fernando Aranda Contreras, Jose David Hernández Rodriguez,\\ Juan Andrés Díaz López}
+\author{\IEEEauthorblockN{Jose David Hernández Rodriguez, Juan Andrés Díaz López, David Nicolas Ortega Peña,\\ Daniel Fernando Aranda Contreras}
 \IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
-Correo electrónico: \{david2225138, daniel2221648, jose2221117, juan2205102\}@correo.uis.edu.co}}
+Correo electrónico: \{jose2221117, juan2205102, david2225138F1883, daniel2221648\}@correo.uis.edu.co}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-% Título
-\title{\uppercase{IOT - Gestión de la energía}}
-\maketitle
-% Resumen
-% Palabras clave        
-\begin{IEEEkeywords}
-    Plataforma, monitoreo, IOT, eficiencia energética, bajo costo.
-\end{IEEEkeywords}
-\section*{Resumen}
-tal
+    % Título
+    \title{\uppercase{IOT - Gestión de la energía}}
+    \maketitle
+    % Resumen
+    % Palabras clave        
+    \begin{IEEEkeywords}
+        Plataforma, monitoreo, IOT, eficiencia energética, bajo costo, gestión energética, telemetría, SCADA, control automático, Modbus.
+    \end{IEEEkeywords}
+
+\input{primeraentrega.tex}
+
+        \begin{thebibliography}{1}
+
+            \bibitem{JaramilloRamirez2022}
+            O. C. Jaramillo-Ramírez, L. C. Bravo-Gómez, J. Barragán-Charry, J. J. Silva-Londoño, F. Hoyos-Daza, and C. S. Garcés-Quintero, ``Sistema de Monitoreo de Señales Eléctricas y Control Automático para Eficiencia Energética con Integración IoT,'' \emph{Producción + Limpia}, vol. 17, no. 2, pp. 53–71, 2022, doi: 10.22507/PML.V17N2A4.
+            \label{JaramilloRamirez2022}
 
 
-
-\section{Bibliografia}
-Ministerio de Minas y Energía, "Reglamento técnico de instalaciones eléctricas (RETIE)," [En línea]. Disponible en: https://www.minenergia.gov.co/es/misional/energia-electrica-2/reglamentos-tecnicos/reglamento-t%C3%A9cnico-de-instalaciones-el%C3%A9ctricas-retie/. [Accedido: 12-mar-2025].
-\\
-Unidad de Planeación Minero Energética (UPME), "Huila 220 kV," UPME - 01-2022, [En línea]. Disponible en: https://www1.upme.gov.co/PromocionSector/InformacionInversionistas/Paginas/UPME-01-2022-Huila-220-kV.aspx. [Accedido: 12-mar-2025].
+        \end{thebibliography}
 \end{document}  
-
+%\printbibliography
+%\bibliographystyle{IEEEtran}
+%\bibliography{refabetsito}

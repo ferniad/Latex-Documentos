@@ -1,7 +1,7 @@
-PWD c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas
+PWD c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito
 INPUT C:\Users\Daniel\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\ABEtsito.tex
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.log
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\ABEtsitoformat2.tex
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.log
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -419,10 +419,10 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdfte
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.colorbrewer.code.tex
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.aux
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.aux
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.aux
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.aux
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.aux
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -431,14 +431,22 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epsto
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.pdf
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.pdf
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.bcf
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.bcf
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.bbl
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.bbl
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.bbl
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.bbl
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.bbl
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
+INPUT .\primeraentrega.tex
+INPUT .\primeraentrega.tex
+INPUT primeraentrega.tex
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
@@ -454,8 +462,44 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.aux
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\build\ABEtsito.run.xml
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.aux
+INPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.run.xml
+OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat2.run.xml
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
@@ -464,3 +508,5 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
+INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

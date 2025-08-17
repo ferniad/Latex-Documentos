@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>ABEtsito.bcf</file>
+      <file>ABEtsitoformat1.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>ABEtsito.bbl</file>
+      <file>ABEtsitoformat1.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -60,23 +60,26 @@
       <file>spanish.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>ABEtsito</infile>
+      <infile>ABEtsitoformat1</infile>
     </cmdline>
     <input>
-      <file>ABEtsito.bcf</file>
+      <file>ABEtsitoformat1.bcf</file>
     </input>
     <output>
-      <file>ABEtsito.bbl</file>
+      <file>ABEtsitoformat1.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>ABEtsito.bbl</file>
+      <file>ABEtsitoformat1.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>ABEtsito.bcf</file>
+      <file>ABEtsitoformat1.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>refabetsito.bib</file>
     </requires>
   </external>
 </requests>
