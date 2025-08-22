@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.30)  16 AUG 2025 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.30)  22 AUG 2025 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,256 +841,16 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count374
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count375
-) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count376
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count377
-\c@listtotal=\count378
-\c@listcount=\count379
-\c@liststart=\count380
-\c@liststop=\count381
-\c@citecount=\count382
-\c@citetotal=\count383
-\c@multicitecount=\count384
-\c@multicitetotal=\count385
-\c@instcount=\count386
-\c@maxnames=\count387
-\c@minnames=\count388
-\c@maxitems=\count389
-\c@minitems=\count390
-\c@citecounter=\count391
-\c@maxcitecounter=\count392
-\c@savedcitecounter=\count393
-\c@uniquelist=\count394
-\c@uniquename=\count395
-\c@refsection=\count396
-\c@refsegment=\count397
-\c@maxextratitle=\count398
-\c@maxextratitleyear=\count399
-\c@maxextraname=\count400
-\c@maxextradate=\count401
-\c@maxextraalpha=\count402
-\c@abbrvpenalty=\count403
-\c@highnamepenalty=\count404
-\c@lownamepenalty=\count405
-\c@maxparens=\count406
-\c@parenlevel=\count407
-\blx@tempcnta=\count408
-\blx@tempcntb=\count409
-\blx@tempcntc=\count410
-\c@blx@maxsection=\count411
-\blx@maxsegment@0=\count412
-\blx@notetype=\count413
-\blx@parenlevel@text=\count414
-\blx@parenlevel@foot=\count415
-\blx@sectionciteorder@0=\count416
-\blx@sectionciteorderinternal@0=\count417
-\blx@entrysetcounter=\count418
-\blx@biblioinstance=\count419
-\labelnumberwidth=\skip132
-\labelalphawidth=\skip133
-\biblabelsep=\skip134
-\bibitemsep=\skip135
-\bibnamesep=\skip136
-\bibinitsep=\skip137
-\bibparsep=\skip138
-\bibhang=\skip139
-\blx@bcfin=\read4
-\blx@bcfout=\write5
-\blx@langwohyphens=\language80
-\c@mincomprange=\count420
-\c@maxcomprange=\count421
-\c@mincompwidth=\count422
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count423
-\c@savedafterword=\count424
-\c@annotator=\count425
-\c@savedannotator=\count426
-\c@author=\count427
-\c@savedauthor=\count428
-\c@bookauthor=\count429
-\c@savedbookauthor=\count430
-\c@commentator=\count431
-\c@savedcommentator=\count432
-\c@editor=\count433
-\c@savededitor=\count434
-\c@editora=\count435
-\c@savededitora=\count436
-\c@editorb=\count437
-\c@savededitorb=\count438
-\c@editorc=\count439
-\c@savededitorc=\count440
-\c@foreword=\count441
-\c@savedforeword=\count442
-\c@holder=\count443
-\c@savedholder=\count444
-\c@introduction=\count445
-\c@savedintroduction=\count446
-\c@namea=\count447
-\c@savednamea=\count448
-\c@nameb=\count449
-\c@savednameb=\count450
-\c@namec=\count451
-\c@savednamec=\count452
-\c@translator=\count453
-\c@savedtranslator=\count454
-\c@shortauthor=\count455
-\c@savedshortauthor=\count456
-\c@shorteditor=\count457
-\c@savedshorteditor=\count458
-\c@labelname=\count459
-\c@savedlabelname=\count460
-\c@institution=\count461
-\c@savedinstitution=\count462
-\c@lista=\count463
-\c@savedlista=\count464
-\c@listb=\count465
-\c@savedlistb=\count466
-\c@listc=\count467
-\c@savedlistc=\count468
-\c@listd=\count469
-\c@savedlistd=\count470
-\c@liste=\count471
-\c@savedliste=\count472
-\c@listf=\count473
-\c@savedlistf=\count474
-\c@location=\count475
-\c@savedlocation=\count476
-\c@organization=\count477
-\c@savedorganization=\count478
-\c@origlocation=\count479
-\c@savedoriglocation=\count480
-\c@origpublisher=\count481
-\c@savedorigpublisher=\count482
-\c@publisher=\count483
-\c@savedpublisher=\count484
-\c@language=\count485
-\c@savedlanguage=\count486
-\c@origlanguage=\count487
-\c@savedoriglanguage=\count488
-\c@pageref=\count489
-\c@savedpageref=\count490
-\shorthandwidth=\skip140
-\shortjournalwidth=\skip141
-\shortserieswidth=\skip142
-\shorttitlewidth=\skip143
-\shortauthorwidth=\skip144
-\shorteditorwidth=\skip145
-\locallabelnumberwidth=\skip146
-\locallabelalphawidth=\skip147
-\localshorthandwidth=\skip148
-\localshortjournalwidth=\skip149
-\localshortserieswidth=\skip150
-\localshorttitlewidth=\skip151
-\localshortauthorwidth=\skip152
-\localshorteditorwidth=\skip153
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count491
-\c@textcitetotal=\count492
-\c@textcitemaxnames=\count493
-\c@biburlbigbreakpenalty=\count494
-\c@biburlbreakpenalty=\count495
-\c@biburlnumpenalty=\count496
-\c@biburlucpenalty=\count497
-\c@biburllcpenalty=\count498
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count499
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count500
-\c@bbx:relatedtotal=\count501
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2025-04-29 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-)) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count502
-\csq@gtype=\count503
-\csq@glevel=\count504
-\csq@qlevel=\count505
-\csq@maxlvl=\count506
-\csq@tshold=\count507
-\csq@ltx@everypar=\toks54
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
-File: csquotes.cfg 
-)) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count508
+\BKM@id=\count376
 ))
-\c@theorem=\count509
-\c@definition=\count510
-\c@problem=\count511
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex))
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.aux
+\c@theorem=\count377
+\c@definition=\count378
+\c@problem=\count379
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex)) (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
@@ -1098,24 +858,24 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `ABEtsitoformat1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
@@ -1154,17 +914,17 @@ LaTeX Font Info:    ... okay on input line 79.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count512
+\scratchcounter=\count380
 \scratchdimen=\dimen356
 \scratchbox=\box77
-\nofMPsegments=\count513
-\nofMParguments=\count514
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count515
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count383
 \MPscratchDim=\dimen357
-\MPnumerator=\count516
-\makeMPintoPDFobject=\count517
-\everyMPtoPDFconversion=\toks56
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks55
 ) (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1173,32 +933,17 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
-Package hyperref Info: Link coloring OFF on input line 79.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
+Package hyperref Info: Link coloring OFF on input line 82.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
-(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
-File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `ABEtsitoformat1.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ABEtsitoformat1.bbl' found.
- (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.bbl)
-Package biblatex Info: Reference section=0 on input line 79.
-Package biblatex Info: Reference segment=0 on input line 79.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 85.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 88.
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
  (primeraentrega.tex
 
 
@@ -1211,20 +956,27 @@ Non-PDF special ignored!
 
 ]
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 58.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 61.
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[2])
+[2]) (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `eng ; spa'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `eng ; spa'. Using the pattern for
+** the default language instead.
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1243,7 +995,6 @@ Before submitting the final camera ready copy, remember to:
 [3
 
 ] (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.aux
-LaTeX Info: Redefining \sptext on input line 19.
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 )
@@ -1251,22 +1002,19 @@ LaTeX Info: Redefining \% on input line 19.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-Package logreq Info: Writing requests to 'ABEtsitoformat1.run.xml'.
-\openout1 = `ABEtsitoformat1.run.xml'.
-
  ) 
 Here is how much of TeX's memory you used:
- 46509 strings out of 469923
- 1058860 string characters out of 5468686
- 2201468 words of memory out of 5000000
- 72646 multiletter control sequences out of 15000+600000
+ 38976 strings out of 469923
+ 908273 string characters out of 5468686
+ 1668727 words of memory out of 5000000
+ 65165 multiletter control sequences out of 15000+600000
  663205 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,105p,911b,1836s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,105p,911b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.pdf" (3 pages, 94408 bytes).
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.pdf" (3 pages, 95101 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

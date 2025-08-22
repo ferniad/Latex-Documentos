@@ -25,15 +25,17 @@
 \usepackage{caption}        % Formato para figuras
 \usepackage{multirow}
 \usepackage{subcaption}
-\usepackage{biblatex}
-\usepackage{csquotes}
 \usepackage{bookmark}
-%PARA LAS REFERENCIAS
 
-\renewcommand*{\bibfont}{\footnotesize}
-\setlength{\biblabelsep}{\labelsep}
-\setlength{\bibitemsep}{\IEEEbibitemsep}
-\addbibresource{refabetsito.bib} 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% SE ELIMINAN LAS LÍNEAS DE biblatex PORQUE SON INCOMPATIBLES %%%%%%%
+% \usepackage{biblatex}
+% \usepackage{csquotes}
+% \renewcommand*{\bibfont}{\footnotesize}
+% \setlength{\biblabelsep}{\labelsep}
+% \setlength{\bibitemsep}{\IEEEbibitemsep}
+% \addbibresource{refabetsito.bib}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -76,27 +78,23 @@
 \IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
 Correo electrónico: \{jose2221117, juan2205102, david2225138F1883, daniel2221648\}@correo.uis.edu.co}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
     % Título
     \title{Internet de las cosas – Gestión de la energía: Sistema de Monitoreo de Señales Eléctricas y Control Automático para Eficiencia Energética con Integración IoT}
     \maketitle
     % Resumen
-    % Palabras clave        
+    % Palabras clave
     \begin{IEEEkeywords}
         Plataforma, monitoreo, IOT, eficiencia energética, bajo costo, gestión energética, telemetría, SCADA, control automático, Modbus.
     \end{IEEEkeywords}
 
 \input{primeraentrega.tex}
 
-        \begin{thebibliography}{1}
+% Ejemplo de cita para evitar errores de compilación
+Como se muestra en~\cite{Jaramillo-RamírezOlmesCamilo2022SdMd}, el sistema propuesto es efectivo.
 
-            \bibitem{JaramilloRamirez2022}
-            O. C. Jaramillo-Ramírez, L. C. Bravo-Gómez, J. Barragán-Charry, J. J. Silva-Londoño, F. Hoyos-Daza, and C. S. Garcés-Quintero, ``Sistema de Monitoreo de Señales Eléctricas y Control Automático para Eficiencia Energética con Integración IoT,'' \emph{Producción + Limpia}, vol. 17, no. 2, pp. 53–71, 2022, doi: 10.22507/PML.V17N2A4.
-            \label{JaramilloRamirez2022}
+\bibliographystyle{IEEEtran}
+\bibliography{refabetsito}
 
-
-        \end{thebibliography}
-\end{document}  
-%\printbibliography
-%\bibliographystyle{IEEEtran}
-%\bibliography{refabetsito}
+\end{document}
