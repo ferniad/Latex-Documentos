@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/ABEtsitoformat1"] 1755894471.74239 "build/ABEtsitoformat1.aux" "build/ABEtsitoformat1.bbl" "build/ABEtsitoformat1" 1755894472.09219 0
-  "./refabetsito.bib" 1755894471 8127 8cef842dab7847734e11e7f677c8ed28 ""
+["bibtex build/ABEtsitoformat1"] 1755896376.39232 "build/ABEtsitoformat1.aux" "build/ABEtsitoformat1.bbl" "build/ABEtsitoformat1" 1755896379.53815 0
+  "./refabetsito.bib" 1755896096 8126 b48abb8c8056e59b1b9d162826d42bbd ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "build/ABEtsitoformat1.aux" 1755893876 10815 a86ff6b0f717eb8b5a6280f51fcae5a7 "pdflatex"
+  "build/ABEtsitoformat1.aux" 1755896378 10815 a86ff6b0f717eb8b5a6280f51fcae5a7 "pdflatex"
   (generated)
   "build/ABEtsitoformat1.bbl"
   "build/ABEtsitoformat1.blg"
   (rewritten before read)
-["pdflatex"] 1755893875.00009 "c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex" "build/ABEtsitoformat1.pdf" "ABEtsitoformat1" 1755894472.09258 0
-  "ABEtsitoformat1.tex" 1755893868 4733 32a1ae24363014e03f1a72870d9541ad ""
+["pdflatex"] 1755896376.74705 "c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex" "build/ABEtsitoformat1.pdf" "ABEtsitoformat1" 1755896379.53921 0
+  "ABEtsitoformat1.tex" 1755896372 4733 32a1ae24363014e03f1a72870d9541ad ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755369058 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/Daniel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748632664 13159809 62616d3d52f355913ebec3e45f6b2341 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -247,9 +247,9 @@
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Daniel/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "build/ABEtsitoformat1.aux" 1755893876 10815 a86ff6b0f717eb8b5a6280f51fcae5a7 "pdflatex"
-  "build/ABEtsitoformat1.bbl" 1755894472 1349 52c872437db4825e07b236e06125eb75 "bibtex build/ABEtsitoformat1"
-  "c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex" 1755893868 4733 32a1ae24363014e03f1a72870d9541ad ""
+  "build/ABEtsitoformat1.aux" 1755896378 10815 a86ff6b0f717eb8b5a6280f51fcae5a7 "pdflatex"
+  "build/ABEtsitoformat1.bbl" 1755896376 1349 52c872437db4825e07b236e06125eb75 "bibtex build/ABEtsitoformat1"
+  "c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex" 1755896372 4733 32a1ae24363014e03f1a72870d9541ad ""
   "primeraentrega.tex" 1755878243 10516 9646531706937357645ce6fda9c98635 ""
   (generated)
   "build/ABEtsitoformat1.aux"
