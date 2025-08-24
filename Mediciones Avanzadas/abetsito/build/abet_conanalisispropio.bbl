@@ -28,16 +28,21 @@ O.~C. Jaramillo-Ramírez, L.~C. Bravo-Gómez, J.~Barragán-Charry, J.~J.
   energética con integración {IoT},'' \emph{Producción + Limpia}, vol.~17,
   no.~2, pp. 53--71, 2022.
 
-\bibitem{MoralesTamayoYoandrys2025AdId}
-Y.~Morales~Tamayo, ``\BIBforeignlanguage{eng}{Aplicaciones del internet de las
-  cosas (iot) en la industria electromecánica para la recolección, análisis
-  y monitoreo en tiempo real},'' \emph{\BIBforeignlanguage{eng}{Revista Ingenio
-  global}}, vol.~4, no.~1, 2025.
+\bibitem{Eltamaly2021}
+A.~M. Eltamaly, M.~A. Alotaibi, A.~I. Alolah, and M.~A. Ahmed, ``{IoT}-based
+  hybrid renewable energy system for smart campus,'' \emph{Sustainability},
+  vol.~13, no.~15, p. 8555, 2021.
 
 \bibitem{OlivaresGorritiEneko2022Eydd}
 E.~Olivares~Gorriti, ``\BIBforeignlanguage{spa}{Especificación y desarrollo de
   una pasarela física y virtual para interoperabilidad de dispositivos
   heterogéneos en el ámbito de internet de las cosas},'' 2022.
+
+\bibitem{MoralesTamayoYoandrys2025AdId}
+Y.~Morales~Tamayo, ``\BIBforeignlanguage{eng}{Aplicaciones del internet de las
+  cosas (iot) en la industria electromecánica para la recolección, análisis
+  y monitoreo en tiempo real},'' \emph{\BIBforeignlanguage{eng}{Revista Ingenio
+  global}}, vol.~4, no.~1, 2025.
 
 \bibitem{RomeroMacíasJavierVidal2025Adid}
 J.~V. Romero~Macías and E.~A. Loor~Navia,
@@ -46,10 +51,5 @@ J.~V. Romero~Macías and E.~A. Loor~Navia,
   Internet of things (iot) applications in energy efficiency optimization in
   residential environments},'' \emph{\BIBforeignlanguage{eng}{Revista
   Científica Multidisciplinar G-nerando}}, vol.~6, no.~1, 2025.
-
-\bibitem{Eltamaly2021}
-A.~M. Eltamaly, M.~A. Alotaibi, A.~I. Alolah, and M.~A. Ahmed, ``{IoT}-based
-  hybrid renewable energy system for smart campus,'' \emph{Sustainability},
-  vol.~13, no.~15, p. 8555, 2021.
 
 \end{thebibliography}

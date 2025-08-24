@@ -103,77 +103,6 @@ También se obtiene una mejora en la organización y competitividad. Tener datos
 
 El sistema no se queda solo en medir voltajes o corrientes. Se puede conectar con otras variables como temperatura o humedad, lo que lo hace útil para muchos sectores: agricultura, comercio, industria o cualquier negocio que dependa de varias condiciones al mismo tiempo. Y, por supuesto, el tema ambiental es muy importante. Al consumir la energía de manera más eficaz, se reduce el desperdicio y, con eso, también el impacto negativo en el medio ambiente. Esto es un beneficio doble porque se ahorra dinero y se protege el planeta.
 
-\section{Estructuración y selección del artículo}
-
-Para la estructuración del artículo se definieron las siguientes etapas:
-
-\begin{enumerate}
-    \item Una vez seleccionado el artículo a trabajar \cite{Jaramillo2022}, cada integrante del grupo inició la respectiva lectura y análisis del mismo.
-    \item Posteriormente, se realizó la distribución de tareas del informe entre los integrantes del grupo. La asignación quedó de la siguiente manera: Nicolás se encargó del resumen y la introducción; José David y Juan Andrés asumieron la elaboración de la sección técnica; finalmente, Daniel Fernando se encargó de las conclusiones y de la organización general del documento.
-\end{enumerate}
-
-\section{Sección técnica}
-
-\subsection{Objetivo}
-El propósito general del proyecto descrito en \cite{Jaramillo2022} es implementar un sistema de gestión y control remoto de la información energética que permita:
-\begin{itemize}
-    \item Medir y supervisar en tiempo real las diferentes variables eléctricas de los usuarios.
-    \item Reunir toda la información en una plataforma accesible y confiable.
-    \item Ofrecer herramientas de análisis para mejorar la eficiencia y el ahorro.
-    \item Integrar servicios adicionales provenientes de otras soluciones con IoT.
-\end{itemize}
-
-\subsection{Materiales y métodos}
-El proyecto siguió la metodología de innovación de Vatia S.A. E.S.P., la cual maneja un enfoque inspirado en Lean Startup \cite{Jaramillo2022}. Esta metodología permite validar una hipótesis con los clientes desde etapas tempranas, evitando a la empresa invertir grandes cantidades de dinero sin antes comprobar su viabilidad. Luego, se inició con la identificación de las necesidades y tendencias, que después se plasmaron en un Canvas de modelo de negocio y propuesta de valor.
-
-Posteriormente, se implementó un producto mínimo viable de baja fidelidad, con el fin de comprobar la idea con usuarios reales. Estos modelos tienen limitaciones técnicas, pero permitieron confirmar el interés del mercado.
-
-Con base en esas pruebas, se desarrolló un producto mínimo viable de alta fidelidad, con todas las funcionalidades técnicas necesarias. Una vez superada la etapa de validación, el proyecto pasó a la fase de ejecución, en la cual se destinaron recursos, personal y metas de implementación.
-
-\subsection{Desarrollo del producto mínimo viable de alta fidelidad}
-Se fabricaron equipos de comunicación de bajo costo, compatibles con la normativa nacional, que autoriza la lectura de medidores de manera remota \cite{Jaramillo2022}. Estos dispositivos se comunican mediante un software de tipo SCADA que reúne toda la información, permite proyectar consumos, generar alertas, emitir reportes automáticos y, por último, integrar servicios adicionales. Entre las funciones más relevantes se encuentran el monitoreo en tiempo real de variables eléctricas, la simulación de facturas, la verificación de las condiciones con las que la energía llega y la integración con equipos de distintas marcas a través de protocolos estándar como Modbus. Todo esto hace que el sistema sea escalable, replicable y adaptable a distintos perfiles de usuarios.
-
-\subsection{Ejecución y salida al mercado}
-Luego del desarrollo técnico del producto, se pasó a la fase de comercialización. Para esto, se implementaron materiales de apoyo como fichas técnicas, folletos y videos, y se conformó un equipo de ventas para impulsar el producto a nivel nacional. Los primeros clientes sirvieron como casos de referencia, lo que permitió mejorar los modelos de costos y precios y demostrar el valor de la solución en la práctica \cite{Jaramillo2022}.
-
-\subsection{Fases desarrolladas previamente por Vatia S.A. E.S.P.}
-Antes de este proyecto, Vatia S.A. E.S.P. ya había desarrollado prototipos que permitían el monitoreo básico de variables eléctricas. Ahora, se presentan los principales componentes del prototipo creado \cite{Jaramillo2022}, donde se incluyen herramientas, interfaces de visualización e integración, que ya fueron probadas y validadas directamente con clientes reales.
-
-\subsubsection{Sistema de medida y fuentes de datos adicionales}
-Es el encargado de medir las variables eléctricas relacionadas con el consumo de energía y garantiza la calidad de la información que recibe el usuario a través de la Plataforma de Gestión. Para ello, se emplean principalmente dos tipos de dispositivos: analizadores de red fijos y transformadores de corriente y voltaje. Estos elementos permiten obtener datos eléctricos en tiempo real y exportarlos mediante protocolos estándar.
-
-\subsubsection{Herramienta de simulación de facturas}
-La herramienta permite hacer seguimiento al consumo de energía mediante una factura simulada y flexible que se actualiza automáticamente. El usuario puede elegir el periodo de consulta y visualizar su consumo de forma similar a una factura real, con proyecciones de consumo y parámetros de calidad de energía.
-
-\subsubsection{Herramienta de calidad de energía}
-Esta herramienta proporciona toda la información del sistema para que usuarios con conocimiento eléctrico puedan diagnosticar la calidad del servicio. También permite visualizar gráficas de consumo de energía, tensiones fase-fase, corrientes por cada fase, potencia activa trifásica y factor de potencia trifásico, configurables en periodos de tiempo.
-
-\subsubsection{Integración con equipos de diferentes marcas}
-La plataforma integra equipos mediante el protocolo Modbus, lo que permite monitorear no solo variables eléctricas sino también las que afectan la productividad del sistema \cite{Jaramillo2022}. Para este diseño se tomaron en cuenta dos aspectos:
-\begin{itemize}
-    \item \textbf{Requerimientos de plataforma de lectura:} la conexión se establece vía TCP/IP, donde el sistema de medida actúa como servidor y la plataforma como cliente.
-    \item \textbf{Requerimientos de comunicación:} según la ubicación del sistema de medida, se plantean tres escenarios:
-    \begin{itemize}
-        \item \textit{Con cobertura celular:} se usa red móvil con SIM card y conexión serial (RS232/RS485).
-        \item \textit{Con cobertura celular o internet a menos de 1 km:} se emplean redes complementarias como radiofrecuencia para conectar equipos sin cobertura.
-        \item \textit{Con punto de red Ethernet:} el cliente habilita acceso a internet, usando un equipo con interfaz Ethernet y VPN para una conexión segura con Vatia S.A. E.S.P.
-    \end{itemize}
-\end{itemize}
-
-\subsection{Dispositivo celular}
-El equipo se pensó para ser económico y confiable, puede enlazarse con los sistemas de medida mediante una conexión serial y, además, permite hacer revisiones a distancia sin necesidad de enviar personal. Solo requiere energía, señal móvil y una tarjeta SIM, mientras un regulador interno mantiene el buen funcionamiento de sus partes.
-
-\subsubsection{Costo-Valor del dispositivo celular}
-Los costos de cada parte del dispositivo de comunicación celular se estimaron a partir de las cotizaciones recolectadas durante el desarrollo del proyecto, tomando en cuenta su valor y relevancia en el diseño \cite{Jaramillo2022}.
-
-\subsection{Dispositivo para la red complementaria}
-El dispositivo de red complementaria amplía la cobertura en zonas sin señal, como sótanos, y cumple requisitos homologables por la CRC. Requiere energía, datos de configuración y la información a transmitir. Sus funciones principales son procesar datos, habilitar la radiofrecuencia y la conexión serial. Los costos de sus componentes se calcularon con base en cotizaciones reales y su importancia en el diseño.
-
-\subsection{Dispositivo para red Ethernet}
-% Ojo: Esta sección estaba vacía en el texto original.
-El diseño prioriza mantener un bajo costo, seguido de la conexión serial con los sistemas de medida y el cumplimiento normativo. Además, la configuración debe ser sencilla para los técnicos instaladores. Según el diagrama, la mayoría de los componentes se acercan a sus valores ideales; destaca el módulo Ethernet, con un costo y un valor relativo altos, ambos cercanos al 60\,\%.
-
-
 \section{Análisis propio}
 Este trabajo se centra en cómo se diseñó un sistema para monitorear y controlar el consumo de energía eléctrica usando tecnologías del Internet de las Cosas (IoT), según lo presentado por \cite{Jaramillo2022}. La idea principal es que los usuarios, sobre todo los que tienen consumos pequeños o medianos, puedan ver en tiempo real cuánto gastan, recibir alertas, proyectar sus facturas y todo desde una plataforma digital.
 
@@ -185,35 +114,5 @@ También hay un punto clave: el sistema no se limita a medir tensiones y consumo
 
 Desde mi punto de vista, el aporte más grande de este proyecto está en democratizar el acceso a la eficiencia energética. Antes, este tipo de sistemas estaban reservados para grandes empresas; ahora, con un desarrollo local, cualquier persona o institución puede tener un control más claro sobre su gasto de energía y tomar decisiones para ahorrar.
 
-\section{¿Qué es IoT?}
-El Internet de las Cosas (IoT) se refiere a un paradigma tecnológico que permite la interconexión de dispositivos y objetos a través de Internet, facilitando la comunicación y el intercambio de datos entre ellos. Este concepto ha evolucionado de ser una mera idea académica a convertirse en un ecosistema con aplicaciones industriales y comerciales significativas, que tienen implicaciones tecnológicas y sociales importantes.
-
-El IoT se basa en la colaboración entre sensores inteligentes que realizan tareas de manera autónoma, sin necesidad de intervención humana. Esto se traduce en la capacidad de recolectar, analizar y monitorear datos en tiempo real, lo que resulta en mejoras en la eficiencia operativa y la sostenibilidad en diversos sectores, como la industria electromecánica y la gestión energética en entornos residenciales y universitarios \cite{Eltamaly2021}.
-Por ejemplo, en la industria electromecánica, se ha observado que las aplicaciones de IoT pueden optimizar el mantenimiento predictivo, la gestión energética y la gestión de inventarios, contribuyendo a la reducción de costos y emisiones.
-
-\section{Implementación del IoT en el documento}
-La implementación del IoT en el proyecto de Vatia S.A. E.S.P. se pensó de forma práctica: que fuera útil, económico y fácil de replicar en distintos escenarios \cite{Jaramillo2022}.
-
-Primero, se instalaron medidores inteligentes para registrar datos básicos de la red eléctrica como lo son: consumo de energía, voltajes, corrientes y potencia, entre otros. Todo esto se necesita para entender cómo se está usando la electricidad en un lugar. Estos equipos envían la información en tiempo real y se convierten en la base de todo el sistema.
-
-Luego vino la parte clave: cómo llevar esos datos hasta la plataforma central. Para eso se fabricaron tres tipos de dispositivos de comunicación IoT:
-\begin{itemize}
-    \item Uno que funciona con la red celular (2G, 3G o 4G), ideal para la mayoría de zonas urbanas.
-    \item Otro que utiliza radiofrecuencia de largo alcance, pensado para sitios donde no hay señal móvil, como sótanos o zonas rurales cercanas.
-    \item Y un tercero con conexión Ethernet, que aprovecha el internet del propio usuario y garantiza un enlace seguro mediante VPN.
-\end{itemize}
-
-Gracias a estas opciones, sin importar dónde esté el medidor, la información puede transmitirse de manera confiable. Toda esa información llega a una plataforma, que es como un centro de control del sistema. Allí los usuarios encuentran gráficas, reportes, proyecciones de consumo, simulaciones de facturas e incluso alertas automáticas. No solo ven lo que gastaron, también pueden anticipar lo que viene y tomar decisiones a tiempo.
-
-Este sistema, además de incluir variables eléctricas, también permite integrar otros sensores IoT, como los que miden temperatura, humedad o variables de procesos industriales y agrícolas. De esta forma, se abre la posibilidad de usar la misma plataforma para optimizar no solo la energía, sino también otros recursos importantes \cite{Jaramillo2022}.
-
-En pocas palabras, la implementación del IoT aquí combina tres piezas: medición inteligente, transmisión confiable y análisis en una plataforma digital. El resultado es una solución que ayuda a reducir costos, mejorar la eficiencia y darle al usuario un control que antes solo estaba al alcance de grandes consumidores.
-
-\section{Beneficios del IoT en el proyecto}
-La incorporación del IoT en el proyecto ofrece diversos beneficios, como lo demuestra el caso de estudio de \cite{Jaramillo2022}.
-\begin{itemize}
-    \item Uno de los más notables es que permite a los usuarios ver en tiempo real cómo están consumiendo la energía, no solo en cifras, sino también con gráficas, reportes y hasta simulaciones de facturas. Eso ayuda a identificar dónde se están presentando desperdicios y qué decisiones tomar al respecto para disminuir costos.
-    \item Otro aspecto clave es que el proyecto se desarrolló con tecnologías de bajo costo, lo que permite que usuarios pequeños y medianos, que normalmente no podrían acceder a sistemas avanzados por lo costosos que suelen ser, ahora puedan aprovechar estas herramientas.
-    \item Además, al integrar toda la información en una plataforma, el sistema facilita el control del consumo eléctrico y abre la posibilidad de integrar otros servicios, como el monitoreo de temperatura, humedad y otras condiciones que influyen directamente en el rendimiento de los negocios.
-    \item Por último, al fabricar sus propios dispositivos, se evita depender de equipos importados y se logran reducir costos, beneficiando así a la empresa y a sus clientes. En pocas palabras, el IoT en este proyecto no solo ayuda a mejorar la eficiencia energética, sino que también impulsa la innovación, la competitividad y la sostenibilidad de manera práctica y accesible.
-\end{itemize}
+\section{Conclusiones}
+El proyecto desarrollado por Vatia S.A. E.S.P. \cite{Eltamaly2021},s es un referente para el avance en el campo del IoT en Colombia, gracias a su bajo costo y a su capacidad de integración en distintos ámbitos, más allá del uso doméstico de la energía, y orientado a usuarios de bajo y medio consumo. Además, si el uso del sistema se masifica, un complemento fundamental serían los sistemas domóticos (para uso residencial) o la inmótica (para un uso empresarial), lo que representaría un paso adelante: del monitoreo a la acción, transformando los datos en medidas de ahorro concretas.
