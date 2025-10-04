@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.23)  30 AUG 2025 13:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.23)  21 SEP 2025 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex"
-(c:/Users/Daniel/Desktop/Latex-Documentos/Mediciones Avanzadas/abetsito/ABEtsitoformat1.tex
+**"c:/Users/Daniel/Desktop/Latex-Documentos/Control de sistemas electricos/1.tex"
+(c:/Users/Daniel/Desktop/Latex-Documentos/Control de sistemas electricos/1.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -854,32 +854,32 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \c@theorem=\count380
 \c@definition=\count381
 \c@problem=\count382
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex)) (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.aux
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex)) (c:\Users\Daniel\Desktop\Latex-Documentos\Control de sistemas electricos\build\1.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 20.
 )
-\openout1 = `ABEtsitoformat1.aux'.
+\openout1 = `1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 -- Lines per column: 58 (approximate, difference = 4.50687pt).
 *geometry* driver: auto-detecting
@@ -937,53 +937,48 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
-Package hyperref Info: Link coloring OFF on input line 82.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+Package hyperref Info: Link coloring OFF on input line 83.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 88.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 89.
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
- (segundaentrega1.tex
-Underfull \hbox (badness 5374) in paragraph at lines 6--10
-\OT1/ptm/m/n/10 y de-mogr[]afi-co plan-tea un des-af[]^^Po cr[]^^Pti-co pa-ra
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+ (1_p1.tex
+Underfull \hbox (badness 1831) in paragraph at lines 2--3
+[]\OT1/ptm/m/n/10 En es-te la-bo-ra-to-rio se tra-baj[]o con la si-mu-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
-\OT1/ptm/m/n/10 la sos-te-ni-bi-li-dad y com-pe-ti-ti-vi-dad del sis-te-ma
+Underfull \hbox (badness 1721) in paragraph at lines 2--3
+\OT1/ptm/m/n/10 ver-ti-dor boost pa-ra ali-men-tar una car-ga re-si-den-
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 26.
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (4.81448pt too wide) in paragraph at lines 16--30
+ [][] 
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 6--10
-\OT1/ptm/m/n/10 con con-su-mos m[]as ba-jos, pre-ci-sa-men-te aque-llos
+Overfull \hbox (3.25322pt too wide) detected at line 56
+\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 V[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 [1 + \OML/cmm/m/it/10 ^^L[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 25[]\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 )]
  []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 6--10
-\OT1/ptm/m/n/10 Ante es-ta si-tua-ci[]on, las tec-no-log[]^^Pas aso-cia-das al
- []
-
-
-Underfull \hbox (badness 4429) in paragraph at lines 6--10
-\OT1/ptm/m/n/10 in-ter-net de las co-sas (IOT) sur-gen co-mo una
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 6--10
-\OT1/ptm/m/n/10 al-ter-na-ti-va pa-ra de-sa-rro-llar sis-te-mas de con-trol
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
-
- []
-
-
 
 
 
@@ -994,66 +989,50 @@ Non-PDF special ignored!
 
 
 ]
-<figs/Visualización del PCB y equipo celular ensamblado en la caja pag15.png, id=27, 688.37175pt x 398.08725pt>
-File: figs/Visualización del PCB y equipo celular ensamblado en la caja pag15.png Graphic file (type png)
-<use figs/Visualización del PCB y equipo celular ensamblado en la caja pag15.png>
-Package pdftex.def Info: figs/Visualización del PCB y equipo celular ensamblado en la caja pag15.png  used on input line 28.
-(pdftex.def)             Requested size: 217.42265pt x 125.73222pt.
-<figs/Topología de telemedida a través de un equipo Ethernet con acceso a internet pag 12.png, id=31, 763.05075pt x 460.72125pt>
-File: figs/Topología de telemedida a través de un equipo Ethernet con acceso a internet pag 12.png Graphic file (type png)
-<use figs/Topología de telemedida a través de un equipo Ethernet con acceso a internet pag 12.png>
-Package pdftex.def Info: figs/Topología de telemedida a través de un equipo Ethernet con acceso a internet pag 12.png  used on input line 37.
-(pdftex.def)             Requested size: 217.42265pt x 131.27176pt.
+
+<fot/simulacion.png, id=30, 1153.30875pt x 624.83438pt>
+File: fot/simulacion.png Graphic file (type png)
+<use fot/simulacion.png>
+Package pdftex.def Info: fot/simulacion.png  used on input line 133.
+(pdftex.def)             Requested size: 220.48395pt x 119.44437pt.
 
 
-<figs/Visualización de las herramientas desarrolladas pag 8.png, id=34, 973.236pt x 504.6855pt>
-File: figs/Visualización de las herramientas desarrolladas pag 8.png Graphic file (type png)
-<use figs/Visualización de las herramientas desarrolladas pag 8.png>
-Package pdftex.def Info: figs/Visualización de las herramientas desarrolladas pag 8.png  used on input line 48.
-(pdftex.def)             Requested size: 217.42265pt x 112.74844pt.
-<figs/Pantalla de Herramienta de simulación de factura desarrollada pag 9.png, id=37, 967.81575pt x 511.9125pt>
-File: figs/Pantalla de Herramienta de simulación de factura desarrollada pag 9.png Graphic file (type png)
-<use figs/Pantalla de Herramienta de simulación de factura desarrollada pag 9.png>
-Package pdftex.def Info: figs/Pantalla de Herramienta de simulación de factura desarrollada pag 9.png  used on input line 55.
-(pdftex.def)             Requested size: 217.42265pt x 114.99568pt.
-<figs/Pantalla de la herramienta de calidad de energía pag 10.png, id=40, 978.65625pt x 442.65375pt>
-File: figs/Pantalla de la herramienta de calidad de energía pag 10.png Graphic file (type png)
-<use figs/Pantalla de la herramienta de calidad de energía pag 10.png>
-Package pdftex.def Info: figs/Pantalla de la herramienta de calidad de energía pag 10.png  used on input line 62.
-(pdftex.def)             Requested size: 217.42265pt x 98.34323pt.
+[2 <./fot/simulacion.png>]
+<fot/D.jpeg, id=45, 1606.0pt x 899.36pt>
+File: fot/D.jpeg Graphic file (type jpg)
+<use fot/D.jpeg>
+Package pdftex.def Info: fot/D.jpeg  used on input line 163.
+(pdftex.def)             Requested size: 198.4342pt x 111.11603pt.
+<fot/L.png, id=46, 1927.2pt x 1054.94125pt>
+File: fot/L.png Graphic file (type png)
+<use fot/L.png>
+Package pdftex.def Info: fot/L.png  used on input line 174.
+(pdftex.def)             Requested size: 198.4342pt x 108.60704pt.
 
 
-[2 <./figs/Visualización del PCB y equipo celular ensamblado en la caja pag15.png> <./figs/Topología de telemedida a través de un equipo Ethernet con acceso a internet pag 12.png> <./figs/Visualización de las herramientas desarrolladas pag 8.png> <./figs/Pantalla de Herramienta de simulación de factura desarrollada pag 9.png> <./figs/Pantalla de la herramienta de calidad de energía pag 10.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (12.04979pt too wide) in paragraph at lines 88--107
- [][] 
- []
+<fot/Cin.png, id=47, 1927.2pt x 1054.94125pt>
+File: fot/Cin.png Graphic file (type png)
+<use fot/Cin.png>
+Package pdftex.def Info: fot/Cin.png  used on input line 186.
+(pdftex.def)             Requested size: 198.4342pt x 108.60704pt.
+<fot/Cout.png, id=48, 1927.2pt x 1054.94125pt>
+File: fot/Cout.png Graphic file (type png)
+<use fot/Cout.png>
+Package pdftex.def Info: fot/Cout.png  used on input line 197.
+(pdftex.def)             Requested size: 198.4342pt x 108.60704pt.
+<fot/Ps.png, id=49, 1927.2pt x 1054.94125pt>
+File: fot/Ps.png Graphic file (type png)
+<use fot/Ps.png>
+Package pdftex.def Info: fot/Ps.png  used on input line 205.
+(pdftex.def)             Requested size: 198.4342pt x 108.60704pt.
+<fot/Vs.png, id=50, 1927.2pt x 1054.94125pt>
+File: fot/Vs.png Graphic file (type png)
+<use fot/Vs.png>
+Package pdftex.def Info: fot/Vs.png  used on input line 214.
+(pdftex.def)             Requested size: 198.4342pt x 108.60704pt.
 
-) (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.bbl
 
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `eng'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `eng'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `spa'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `eng'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `eng'. Using the pattern for
-** the default language instead.
-)
+[3 <./fot/D.jpeg> <./fot/L.png> <./fot/Cin.png> <./fot/Cout.png> <./fot/Ps.png>]) (c:\Users\Daniel\Desktop\Latex-Documentos\Control de sistemas electricos\build\1.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1067,7 +1046,11 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3] [4] (c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.aux
+
+
+[4
+
+ <./fot/Vs.png>] (c:\Users\Daniel\Desktop\Latex-Documentos\Control de sistemas electricos\build\1.aux
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 )
@@ -1077,17 +1060,17 @@ L3 programming layer <2025-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 38984 strings out of 468134
- 910141 string characters out of 5430256
- 1686780 words of memory out of 5000000
- 66966 multiletter control sequences out of 15000+600000
- 663809 words of font info for 113 fonts, out of 8000000 for 9000
+ 39052 strings out of 468134
+ 908455 string characters out of 5430256
+ 1692752 words of memory out of 5000000
+ 67013 multiletter control sequences out of 15000+600000
+ 669517 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,105p,853b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Mediciones Avanzadas\abetsito\build\ABEtsitoformat1.pdf" (4 pages, 4084878 bytes).
+ 99i,10n,105p,1218b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Control de sistemas electricos\build\1.pdf" (4 pages, 703759 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
