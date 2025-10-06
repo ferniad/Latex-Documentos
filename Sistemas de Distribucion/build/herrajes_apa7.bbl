@@ -1,0 +1,195 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Short2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=35f542178baaf733474c711a0fcb6455}{%
+           family={Short},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=73dc1b5f7dda0d091794151a73e21ba3}{%
+           family={Grigsby},
+           familyi={G\bibinitperiod},
+           given={Leo\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press LLC}%
+      }
+      \strng{namehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{fullhash}{35f542178baaf733474c711a0fcb6455}
+      \strng{fullhashraw}{35f542178baaf733474c711a0fcb6455}
+      \strng{bibnamehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authorbibnamehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authornamehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authorfullhash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authorfullhashraw}{35f542178baaf733474c711a0fcb6455}
+      \strng{editorbibnamehash}{73dc1b5f7dda0d091794151a73e21ba3}
+      \strng{editornamehash}{73dc1b5f7dda0d091794151a73e21ba3}
+      \strng{editorfullhash}{73dc1b5f7dda0d091794151a73e21ba3}
+      \strng{editorfullhashraw}{73dc1b5f7dda0d091794151a73e21ba3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-8493-1791-6}
+      \field{series}{The Electric Power Engineering Series}
+      \field{title}{Electric Power Distribution Handbook}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
+    \entry{Willis2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a8e3ab258fda48e4aaa6714a427df75}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={H.\bibnamedelimi Lee\bibnamedelima [6]},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim [\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York • Basel [6]}%
+      }
+      \list{publisher}{1}{%
+        {Marcel Dekker, Inc. [6, 8, 9]}%
+      }
+      \strng{namehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{fullhash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{fullhashraw}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{bibnamehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authorbibnamehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authornamehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authorfullhash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authorfullhashraw}{8a8e3ab258fda48e4aaa6714a427df75}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition, Revised and Expanded [6, 7]}
+      \field{isbn}{0-8247-4875-l [8]}
+      \field{series}{Power Engineering [10]}
+      \field{title}{Power Distribution Planning Reference Book [6, 7]}
+      \field{year}{2004 [9]}
+      \true{nocite}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Short2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=35f542178baaf733474c711a0fcb6455}{%
+           family={Short},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=73dc1b5f7dda0d091794151a73e21ba3}{%
+           family={Grigsby},
+           familyi={G\bibinitperiod},
+           given={Leo\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press LLC}%
+      }
+      \strng{namehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{fullhash}{35f542178baaf733474c711a0fcb6455}
+      \strng{fullhashraw}{35f542178baaf733474c711a0fcb6455}
+      \strng{bibnamehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authorbibnamehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authornamehash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authorfullhash}{35f542178baaf733474c711a0fcb6455}
+      \strng{authorfullhashraw}{35f542178baaf733474c711a0fcb6455}
+      \strng{editorbibnamehash}{73dc1b5f7dda0d091794151a73e21ba3}
+      \strng{editornamehash}{73dc1b5f7dda0d091794151a73e21ba3}
+      \strng{editorfullhash}{73dc1b5f7dda0d091794151a73e21ba3}
+      \strng{editorfullhashraw}{73dc1b5f7dda0d091794151a73e21ba3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-8493-1791-6}
+      \field{series}{The Electric Power Engineering Series}
+      \field{title}{Electric Power Distribution Handbook}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
+    \entry{Willis2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a8e3ab258fda48e4aaa6714a427df75}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={H.\bibnamedelimi Lee\bibnamedelima [6]},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim [\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York • Basel [6]}%
+      }
+      \list{publisher}{1}{%
+        {Marcel Dekker, Inc. [6, 8, 9]}%
+      }
+      \strng{namehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{fullhash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{fullhashraw}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{bibnamehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authorbibnamehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authornamehash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authorfullhash}{8a8e3ab258fda48e4aaa6714a427df75}
+      \strng{authorfullhashraw}{8a8e3ab258fda48e4aaa6714a427df75}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition, Revised and Expanded [6, 7]}
+      \field{isbn}{0-8247-4875-l [8]}
+      \field{series}{Power Engineering [10]}
+      \field{title}{Power Distribution Planning Reference Book [6, 7]}
+      \field{year}{2004 [9]}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

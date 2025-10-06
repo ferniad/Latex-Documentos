@@ -1,0 +1,63 @@
+% 1. CLASE DE DOCUMENTO Y CONFIGURACIÓN INICIAL
+\documentclass[
+    man,        % Estilo: 'man' para formato de manuscrito (la opción más común para estudiantes).
+    a4paper,    % Tamaño del papel (usa 'letterpaper' si estás en Norteamérica).
+    12pt,       % Tamaño de la fuente (Times New Roman 12pt o similar).
+    doname
+]{apa7}
+
+% 2. PAQUETES ESENCIALES
+\usepackage[utf8]{inputenc} % Codificación de caracteres (para tildes, ñ, etc.)
+\usepackage[T1]{fontenc}    % Codificación de fuentes
+\usepackage{lipsum}         % Paquete para generar texto de ejemplo (puedes borrarlo)
+\usepackage{graphicx}       % Para incluir imágenes
+\usepackage{amsmath}        % Para ecuaciones
+\usepackage{float}          % Para controlar la ubicación de figuras y tablas
+
+% CONFIGURACIÓN DE BIBLIOGRAFÍA (Recomendada para APA 7)
+\usepackage[
+    backend=biber, % Procesador moderno y robusto
+    style=apa,     % Estilo APA 
+    natbib=true    % Para compatibilidad de comandos de citación
+]{biblatex}
+
+% ¡IMPORTANTE! Reemplaza 'referencias' con el nombre de tu archivo .bib
+\addbibresource{ref.bib} 
+
+
+% 3. INFORMACIÓN DEL DOCUMENTO (PORTADA)
+\title{Líneas Aéreas de Distribución de Energía Eléctrica: Componentes, Fundamentos y Esquemas de Protección}
+\author{Daniel Feranndo Aranda Contreras} % Tu nombre
+\affiliation{Escuela E3T, Universidad Industrial de Santander} % Tu afiliación
+\authornote{ % Notas del autor (generalmente incluye el correo)
+    El autor agradece el apoyo de su equipo de investigación.
+    Correspondencia: \texttt{daniel2221648@correo.uis.edu.co}
+}
+
+% 4. ENCABEZADO CORTO (para el 'running head' o cabecera de página)
+\shorttitle{Distribución Eléctrica Aérea}
+
+% ----------------------------------------------------
+% INICIO DEL DOCUMENTO
+% ----------------------------------------------------
+\begin{document}
+
+% 5. GENERAR LA PORTADA
+\maketitle
+
+% 6. RESUMEN (ABSTRACT) - Opcional para trabajos de estudiante
+% Empieza en una página nueva automáticamente
+\begin{abstract}
+-Este informe analiza los componentes clave de los sistemas de \textbf{distribución eléctrica} de media y baja tensión (MT/BT), fundamentales para la fiabilidad y seguridad del suministro. El estudio describe los elementos estructurales (postes, aisladores), los \textbf{herrajes} (conectores de compresión) y los dispositivos de protección. Se detalla el uso de fusibles, descargadores de sobretensión (DPS) y \textbf{reconectadores}. Se destaca que los reconectadores son cruciales para el servicio, ya que gestionan entre el $50\%$ y el $80\%$ de las fallas temporales. La conclusión subraya que la eficiencia del sistema depende de la coordinación entre herrajes robustos y la integración de protecciones activas, como los reconectadores automáticos, para asegurar la continuidad y la calidad del servicio.
+
+\vspace{1em} % Salto de línea pequeño
+\noindent\textbf{Palabras clave:} Distribución eléctrica, media tensión, baja tensión, reconectadores, herrajes, aisladores, protección.
+\end{abstract}
+% Inicia el cuerpo del documento en una página nueva
+\newpage
+
+\input{contendherrajes.tex}
+
+\nocite{*} %incluye todas las referencias del .bib aunque no se citen en el texto
+\printbibliography
+\end{document}

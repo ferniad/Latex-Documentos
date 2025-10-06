@@ -1,60 +1,60 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: levantamiento.aux
+The top-level auxiliary file: Redes radial y anillo.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
-Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 5 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Database file #1: normas.bib
+Database file #1: ref1.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--missing institution in ntc2050_1998
+Warning--edition ordinal word "Second Edition, Revised and Expanded [6, 7]" may be too high (or improper) for conversion in Willis2004
 
 Done.
-You've used 4 entries,
+You've used 3 entries,
             4087 wiz_defined-function locations,
-            846 strings with 8399 characters,
-and the built_in function-call counts, 1743 in all, are:
-= -- 149
-> -- 16
-< -- 0
-+ -- 8
+            846 strings with 7925 characters,
+and the built_in function-call counts, 1389 in all, are:
+= -- 106
+> -- 18
+< -- 2
++ -- 7
 - -- 4
-* -- 77
-:= -- 344
-add.period$ -- 8
-call.type$ -- 4
-change.case$ -- 8
-chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 142
-empty$ -- 141
+* -- 72
+:= -- 258
+add.period$ -- 7
+call.type$ -- 3
+change.case$ -- 6
+chr.to.int$ -- 6
+cite$ -- 4
+duplicate$ -- 98
+empty$ -- 135
 format.name$ -- 4
-if$ -- 360
+if$ -- 297
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 36
-newline$ -- 35
-num.names$ -- 4
-pop$ -- 78
+int.to.str$ -- 3
+missing$ -- 21
+newline$ -- 34
+num.names$ -- 5
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 2
-skip$ -- 130
+quote$ -- 4
+skip$ -- 108
 stack$ -- 0
-substring$ -- 12
-swap$ -- 93
+substring$ -- 4
+swap$ -- 59
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 4
+type$ -- 3
 warning$ -- 1
 while$ -- 4
-width$ -- 5
-write$ -- 59
+width$ -- 4
+write$ -- 50
 (There was 1 warning)
