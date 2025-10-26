@@ -1,94 +1,122 @@
-\section{Introducción}
+\section{Introducción y Objetivo}
 
-La distribución de energía eléctrica es un componente vital de cualquier sistema de potencia, siendo el enlace final entre la fuente de generación y el consumidor. La topología de la red de distribución es un factor determinante en la calidad, la continuidad del servicio y el costo de la infraestructura. Históricamente, han prevalecido dos configuraciones primarias para los alimentadores: la radial y la en anillo (o bucle).
+La \textbf{distribución de energía eléctrica} es un componente vital, siendo el enlace final entre la generación y el consumidor. La topología de la red es determinante en la \textbf{calidad, continuidad del servicio y costo}. Históricamente, han prevalecido las configuraciones \textbf{radial} y \textbf{en anillo} (o bucle). La elección depende de la densidad de carga, la importancia crítica de los usuarios y las restricciones presupuestarias.
 
-La elección entre una y otra no es trivial y depende de las prioridades de diseño, como la densidad de carga, la importancia crítica de los usuarios finales (e.g., hospitales, industrias) y las restricciones presupuestarias. A continuación, se definen y comparan estos dos enfoques de diseño para comprender cómo influyen en el funcionamiento global de la red.
-
-\section{Objetivos}
-
-El objetivo principal de este documento es \textbf{definir, comparar y analizar las características operativas y de diseño}, así como las ventajas y desventajas inherentes, de los sistemas de distribución eléctrica con configuración radial y en anillo.
+El objetivo principal es \textbf{definir, comparar y analizar las características operativas y de diseño}, así como las ventajas y desventajas inherentes, de los sistemas de distribución eléctrica con configuración radial y en anillo.
 
 \section{Desarrollo y Análisis Comparativo de Redes}
 
-\subsection{Definición de Redes de Distribución Radial y en Anillo}
+\subsection{Definición de Redes}
 
 \subsubsection{Red de Distribución Radial}
-Una red de distribución radial (Radial Feeder System) se caracteriza por presentar un \textbf{solo camino simultáneo} para el flujo de potencia hacia la carga. Las líneas se extienden desde la subestación de manera similar a las ramas de un árbol (configuración dendrítica). Si el camino se interrumpe, el resultado es la pérdida total del servicio para el cliente ubicado ``río abajo''.
+Caracterizada por presentar un \textbf{solo camino} para el flujo de potencia. Si el camino se interrumpe, resulta en la \textbf{pérdida total del servicio} para los clientes ``río abajo''.
 
 \subsubsection{Red de Distribución en Anillo (Loop)}
-Una red de distribución en anillo (Loop Feeder System) está diseñada para ofrecer \textbf{más de un camino simultáneo} para el flujo de potencia entre las fuentes de energía y cada cliente. Aunque están construidos como un bucle, a menudo se operan como un bucle abierto (open loop) con un interruptor normalmente abierto cerca del medio, manteniendo operativamente un circuito radial, pero con la capacidad de reconfiguración.
+Diseñada para ofrecer \textbf{más de un camino} para el flujo de potencia. A menudo se opera como un \textbf{bucle abierto} (operacionalmente radial), pero mantiene la capacidad de reconfiguración.
 
-\subsection{Ventajas, Desventajas y Usos Comunes}
+\subsection{Comparación de Características Clave}
 
-La siguiente tabla resume las principales características, contrastando ambos diseños:
-
-
-
-\begin{table*}[t]
+\begin{table*}[h!]
   \centering
-  \caption{Comparación de Características: Red Radial vs. Red en Anillo}
-  \label{tab:comparacion_redes_mejorada}
+  \caption{Comparación de Características: Radial vs. En Anillo}
+  \label{tab:comparacion_redes_resumen}
   \begin{tabular}{p{0.3\textwidth} p{0.3\textwidth} p{0.3\textwidth}}
     \toprule
     \textbf{Característica} & \textbf{Red Radial (Radial)} & \textbf{Red en Anillo (Loop)} \\
     \midrule
     \textbf{Ventajas} &
     \begin{itemize}
-      \item Costo más bajo y simple de instalar.
-      \item Sencillo de operar y económico.
-      \item Predicción y control más fáciles de los flujos de potencia y voltaje.
-      \item Protección de corriente de falla más sencilla.
+      \item \textbf{Costo más bajo} y simple.
+      \item Operación y protección sencillas.
+      \item Flujos de potencia predecibles.
     \end{itemize} &
     \begin{itemize}
-      \item Mayor fiabilidad y continuidad del servicio.
-      \item Cualquier punto puede ser alimentado desde dos direcciones.
-      \item Las fallas interrumpen el servicio a un segmento pequeño o a ningún cliente (redirección).
-      \item El impacto de una falla se reduce al mínimo (cambio de voltaje ligero) cuando se opera cerrado.
+      \item \textbf{Mayor fiabilidad} y continuidad de servicio.
+      \item Las fallas interrumpen un segmento mínimo (redirección).
+      \item Alimentación posible desde dos direcciones.
     \end{itemize} \\
-    \cmidrule(lr){1-3}
+    \midrule
     \textbf{Desventajas} &
     \begin{itemize}
-      \item Menos fiable que los sistemas en anillo o malla.
-      \item Una falla en cualquier punto deja fuera de servicio a todos los clientes río abajo.
-      \item Los alimentadores primarios radiales suelen ser los responsables de la falta de continuidad.
+      \item \textbf{Menos fiable}.
+      \item Una falla interrumpe el servicio a todos los clientes aguas abajo.
     \end{itemize} &
     \begin{itemize}
-      \item Más costoso que el arreglo radial.
-      \item Requiere más equipo y el conductor debe ser más grande para manejar la carga desde cualquiera de los dos extremos (doble capacidad).
-      \item Ligeramente más complicado de analizar y operar.
+      \item \textbf{Más costoso} (mayor inversión inicial).
+      \item Requiere conductor y equipo de mayor capacidad (doble capacidad).
+      \item Análisis y operación ligeramente más complejos.
     \end{itemize} \\
-    \cmidrule(lr){1-3}
+    \midrule
     \textbf{Usos Comunes} &
     \begin{itemize}
-      \item Diseño más utilizado (más del 99\% en Norteamérica).
-      \item Zonas Habitacionales y Comerciales consideradas no muy importantes.
-      \item Cargas Ligeras y áreas de carga de densidad media.
-      \item Uso en la mayoría de los circuitos de distribución primaria y secundaria.
+      \item \textbf{Diseño más utilizado} (predominante).
+      \item Zonas habitacionales/comerciales no críticas.
+      \item Cargas ligeras y áreas de densidad media.
     \end{itemize} &
     \begin{itemize}
-      \item Cargas Críticas (e.g., hospitales) donde la continuidad es crucial.
-      \item Grandes Cargas Urbanas o edificios medianos/grandes.
-      \item Distribución Subterránea Urbana (UG practice) como regla.
-      \item Utilizado en URD para una restauración de servicio más rápida tras una falla.
+      \item \textbf{Cargas Críticas} (e.g., hospitales).
+      \item Grandes Cargas Urbanas o distribución subterránea.
+      \item Donde la continuidad es primordial.
     \end{itemize} \\
     \bottomrule
   \end{tabular}
 \end{table*}
 
-
-\subsection{Diferencias Fundamentales}
-
-Las diferencias operacionales y estructurales se resumen en cuatro puntos clave:
+\subsection{Diferencias Operacionales y Estructurales}
 
 \begin{enumerate}
-\item \textbf{Topología y Caminos de Flujo:} La red radial posee una \textbf{única trayectoria}, mientras que la red en anillo tiene \textbf{al menos dos trayectorias} de suministro entre la fuente y la carga.
-\item \textbf{Costo y Capacidad:} El diseño \textbf{Radial} es el de menor costo y el más simple. El diseño \textbf{Anillo} es más costoso, ya que requiere conductores y equipos de mayor capacidad para soportar la carga desde cualquiera de los dos extremos.
-\item \textbf{Manejo de Fallas y Fiabilidad:} En un sistema \textbf{Radial}, una falla interrumpe a todos los clientes aguas abajo, requiriendo reconfiguración manual. En el sistema \textbf{Anillo}, la fiabilidad es mucho mayor: la sección con falla se aísla rápidamente, y el servicio se mantiene alimentando al resto del circuito desde la dirección alternativa.
-\item \textbf{Complejidad de Análisis:} Los flujos de potencia \textbf{Radiales} son predecibles, simplificando el análisis. La red \textbf{Anillo}, si se opera como bucle cerrado, requiere técnicas de red más complejas para el análisis de flujos, fallas y protección.
+\item \textbf{Topología y Caminos de Flujo:} \textbf{Radial} tiene una \textbf{única trayectoria}; \textbf{Anillo} tiene \textbf{al menos dos} trayectorias.
+\item \textbf{Costo y Capacidad:} \textbf{Radial} es el de menor costo y más simple. \textbf{Anillo} es más costoso y requiere conductores de mayor capacidad para soportar la carga desde ambos extremos.
+\item \textbf{Manejo de Fallas y Fiabilidad:} En \textbf{Radial}, una falla interrumpe el servicio aguas abajo. En \textbf{Anillo}, la fiabilidad es mayor: la sección con falla se aísla rápidamente, manteniendo el servicio por la dirección alternativa.
+\item \textbf{Complejidad de Análisis:} Los flujos \textbf{Radiales} son predecibles. La red \textbf{Anillo} (operada cerrada) requiere técnicas de red más complejas para análisis.
 \end{enumerate}
+
+\section{Ejemplos en Planos y Diagramas Unifilares}
+
+Para cumplir con la visualización de las topologías, se presentan los diagramas unifilares simplificados de las redes Radial y En Anillo.
+
+\subsection{Red de Distribución Radial}
+Esta topología se caracteriza por un \textbf{flujo de potencia unidireccional} desde la subestación hasta el último punto de carga, sin rutas alternativas.
+
+\begin{figure}[ht!]
+    \centering
+    % DEBES REEMPLAZAR 'radial_network_diagram.png' con el nombre de tu archivo de imagen
+    % Asegúrate de tener la imagen en tu carpeta o usa el comando \includegraphics{} apropiado para el link si es posible.
+    \includegraphics[width=0.45\textwidth]{fig_/radial_network_diagram.png} 
+    \caption{Diagrama Unifilar de una Red de Distribución Radial.}
+    \label{fig:radial_unifilar}
+\end{figure}
+
+\subsubsection*{Análisis y Referencia}
+Una falla en cualquier punto intermedio interrumpe el servicio a todos los usuarios aguas abajo. Un diagrama representativo se puede consultar en la colección: \url{https://www.researchgate.net/figure/Figura-1-Diagrama-de-una-red-de-distribucion-radial_fig1_359246177}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+\subsection{Red de Distribución en Anillo (Operación Abierta)}
+Aunque la red está conectada físicamente en un bucle, se opera normalmente \textbf{abierta} en un punto (Seccionador N.A. - Normalmente Abierto). Esto permite la \textbf{reconfiguración} para aislar fallas sin perder el servicio en las cargas críticas.
+
+\begin{figure}[ht!]
+    \centering
+    % DEBES REEMPLAZAR 'ring_network_diagram.png' con el nombre de tu archivo de imagen
+    % Asegúrate de tener la imagen en tu carpeta o usa el comando \includegraphics{} apropiado para el link si es posible.
+    \includegraphics[width=0.45\textwidth]{fig_/ring_network_diagram.png} 
+    \caption{Diagrama Unifilar de una Red en Anillo (Operación Normalmente Abierta).}
+    \label{fig:anillo_unifilar}
+\end{figure}
+
+\subsubsection*{Análisis y Referencia}
+En caso de falla, el punto N.A. se cierra y el punto de falla se aísla, manteniendo la alimentación por el camino alternativo, lo que garantiza una mayor fiabilidad. Un diagrama representativo se puede consultar en la colección: \url{http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/784/A4%20SISTEMAS%20DE%20DISTRIBUCION.pdf?sequence=4}
+
 
 \section{Conclusiones}
 
-La decisión de implementar una red de distribución eléctrica radial o en anillo es un balance directo entre el costo inicial y la continuidad del servicio deseada. La red \textbf{Radial} se ha consolidado como la opción predominante a nivel global debido a su \textbf{simplicidad operativa y bajo costo}. Sin embargo, esta topología sacrifica la fiabilidad, ya que cualquier falla resulta en una interrupción inevitable del servicio para los clientes aguas abajo.
+La decisión es un balance directo entre el \textbf{costo inicial} y la \textbf{continuidad del servicio} deseada.
 
-Por otro lado, la red \textbf{En Anillo} emerge como la solución ideal para \textbf{cargas críticas y áreas de alta densidad} donde la continuidad del servicio es primordial. Aunque requiere una inversión inicial significativamente mayor y un análisis más complejo, su capacidad de aislar fallas y reconfigurar el servicio de manera automática o semiautomática garantiza una alta resiliencia. En la práctica moderna, es común que los sistemas radiales incluyan lazos de interconexión con otros circuitos (normally open ties) para aumentar su flexibilidad, combinando la economía del diseño radial con un nivel básico de redundancia.
+\begin{itemize}
+    \item La red \textbf{Radial} es la opción predominante por su \textbf{simplicidad operativa y bajo costo}, sacrificando fiabilidad (falla = interrupción inevitable).
+    \item La red \textbf{En Anillo} es la solución ideal para \textbf{cargas críticas y áreas de alta densidad}, ofreciendo alta \textbf{resiliencia} a pesar de la mayor inversión y complejidad de análisis.
+\end{itemize}
+
+En la práctica, los sistemas radiales comúnmente incorporan lazos de interconexión (normally open ties) para aumentar su flexibilidad, combinando la economía del diseño radial con un nivel básico de redundancia.

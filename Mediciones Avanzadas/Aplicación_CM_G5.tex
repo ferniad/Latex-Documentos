@@ -17,6 +17,17 @@
 \usepackage{pgfplots} % Se mantiene aparte para mejor visibilidad
 % --- Hipervínculos y Documentación ---
 \usepackage{hyperref, bookmark}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --- Paquete para Código Fuente ---}
+% Paquete de colores (ya lo tienes, solo aseguramos que está antes de la config. de listings)
+
+
+% --- Configuración de Estilo de MATLAB ---
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % Para tablas con ancho de columna flexible
+ % Para bloques de código
+ % Para ajustar márgenes si es necesario
 % --- AJUSTE CRÍTICO: La clase IEEEtran ya maneja los márgenes.
 % **Se recomienda ENCARECIDAMENTE comentar o eliminar esta línea**
 % para mantener el formato oficial de la conferencia.
@@ -79,8 +90,11 @@ Correo electrónico: \{jose2221117, juan2205102, david2225138F1883, daniel222164
         Código de Medida (CM), Incertidumbre de Medida, Transformadores de Medida, Burden, Clase de Exactitud, Generación Hidráulica, STN, SCADA, IOT, Modbus.
     \end{IEEEkeywords}
 
+    \begin{abstract}
+        La empresa ENERGER S.A. llevará a cabo la puesta en marcha de una planta generadora hidráulica de $\mathbf{975\ \text{MW}}$, que se compone de un grupo generador e instalaciones de operación (incluyendo servicios auxiliares). El grupo generador estará conformado por tres generadores síncronos monofásicos de $\mathbf{325\ \text{MVA}}$, $\mathbf{15\ \text{kV}}$, $\mathbf{60\ \text{Hz}}$ y $\mathbf{8}$ polos, el cual inyectará la potencia generada al STN a través de un transformador de $\mathbf{1000\ \text{MVA}}$, $\mathbf{15\ \text{kV}}/\mathbf{230\ \text{kV}}$ y conexión $\mathbf{\text{Dd}6}$. Las instalaciones de operación de la planta generadora operarán a $\mathbf{13.8\ \text{kV}}$ y serán alimentadas directamente desde el STN a través de un transformador de $\mathbf{500\ \text{kVA}}$, $\mathbf{230\ \text{kV}}/\mathbf{13.8\ \text{kV}}$ y conexión $\mathbf{\text{Dd}6}$.
+    \end{abstract}
+
     \input{CM_G5.tex}
-    \newline
     \nocite{*} % Asegura que todas las entradas de la bibliografía se incluyan, incluso si no se citan directamente
     \bibliographystyle{IEEEtran}
     \bibliography{ref} % Asegúrate de que tu archivo de bibliografía se llama 'ref.bib'

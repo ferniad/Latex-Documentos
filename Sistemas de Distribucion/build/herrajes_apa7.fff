@@ -1,0 +1,286 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/abrazadera de suspension.png}
+    \caption{\textit{Abrazadera de Suspensión}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Herraje utilizado para suspender cables o conductores de un soporte.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/aislador de perno.jpg}
+    \caption{\textit{Aislador de Perno (Spool Insulator)}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Aislador de bajo voltaje, usualmente montado en un perno para líneas secundarias.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/Aislador tipo pin.png}
+    \caption{\textit{Aislador Eléctrico Tipo Pin}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Aislador montado en un pin o espiga, común en líneas de distribución de voltaje medio.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/Aislador tipo poste.png}
+    \caption{\textit{Aislador Eléctrico Tipo Poste}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Aislador sólido utilizado para montar conductores en líneas aéreas.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/Aislador Tipo Suspensión.png}
+    \caption{\textit{Aislador Eléctrico Tipo Suspensión}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Cadena de aisladores utilizada para suspender conductores en torres de alta tensión.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/conector de compresion.jpg}
+    \caption{\textit{Conector de Compresión}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Dispositivo utilizado para unir conductores aplicando presión mecánica (compresión).
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/DPS.jpg}
+    \caption{\textit{Dispositivo de Protección contra Sobretensiones (DPS)}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Equipo diseñado para proteger sistemas eléctricos de picos de voltaje transitorios.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/grapa de retencion1.png}
+    \caption{\textit{Grapa de Retención (Variante 1)}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Herraje utilizado para fijar y retener el conductor en el poste o estructura.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/grapa_de_retencion.png}
+    \caption{\textit{Grapa de Retención (Variante 2)}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Otro tipo de grapa diseñada para aplicaciones de anclaje o retención.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/grapas pistola acero.png}
+    \caption{\textit{Grapas de Acero para Pistola}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Sujetadores de acero utilizados con herramientas de fijación a pólvora o gas.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/guardacables.png}
+    \caption{\textit{Guardacables o Dedal}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Pieza que protege un cable o cuerda de fricción y doblamiento excesivo en un lazo.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/mordaza de conexion a tierra.jpg}
+    \caption{\textit{Mordaza de Conexión a Tierra}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Conector utilizado para asegurar una conexión eléctrica firme al sistema de puesta a tierra.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/pasadores y arandelas de seguridad.png}
+    \caption{\textit{Pasadores y Arandelas de Seguridad}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Elementos de fijación utilizados para evitar el aflojamiento o deslizamiento de componentes.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/perno de anclaje.png}
+    \caption{\textit{Perno de Anclaje}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Tornillo o espiga gruesa usada para fijar estructuras a cimientos o soportes.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/perno de ojo.png}
+    \caption{\textit{Perno de Ojo (Eye Bolt)}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Perno con un lazo en un extremo, utilizado para conectar cables o eslingas.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/perno de suspension.png}
+    \caption{\textit{Perno de Suspensión}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Perno especializado para colgar o suspender equipos o componentes.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/Pernos maquina.png}
+    \caption{\textit{Pernos Máquina (Tornillos de Máquina)}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Elementos de fijación roscados utilizados en el montaje de piezas metálicas y herrajes.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/poste fibra de vidrio.jpg}
+    \caption{\textit{Poste de Fibra de Vidrio}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Poste ligero y resistente a la corrosión, usado en ciertas aplicaciones de líneas eléctricas.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/postes acero.jpg}
+    \caption{\textit{Postes de Acero}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Estructuras metálicas de alta resistencia utilizadas para líneas de transmisión y distribución.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/postes concreto.jpg}
+    \caption{\textit{Postes de Concreto (Hormigón)}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Postes duraderos y de bajo mantenimiento, comunes en redes de distribución urbana.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/postes maderas.jpg}
+    \caption{\textit{Postes de Madera}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Postes tradicionales, tratados para resistir la intemperie y el paso del tiempo.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/reconectadores.jpg}
+    \caption{\textit{Reconectadores}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Dispositivos de protección que restauran automáticamente el servicio después de una falla temporal.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/separadores para conductores.jpg}
+    \caption{\textit{Separadores para Conductores}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Dispositivos para mantener la distancia física y aislamiento entre conductores adyacentes.
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fotosherrajes/tornillos_de_seguridad.jpg}
+    \caption{\textit{Tornillos de Seguridad}}
+    \footnotesize
+    \raggedright
+    \textbf{Nota.} Elementos de fijación diseñados para resistir la manipulación o remoción no autorizada.
+\end{figure*}

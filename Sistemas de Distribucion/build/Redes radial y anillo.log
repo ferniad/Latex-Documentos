@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.5)  5 OCT 2025 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.5)  21 OCT 2025 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,35 +855,35 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \c@definition=\count377
 \c@problem=\count378
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex)) (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\Redes radial y anillo.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 22.
+(babel)             Reported on input line 24.
 )
 \openout1 = `"Redes radial y anillo.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 -- Lines per column: 56 (exact).
-LaTeX Info: Redefining \. on input line 71.
-LaTeX Info: Redefining \% on input line 71.
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count379
@@ -909,19 +909,73 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-Package hyperref Info: Link coloring OFF on input line 71.
+Package hyperref Info: Link coloring OFF on input line 72.
 (contendRyA.tex
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
-(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+ (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 2318) in paragraph at lines 71--72
-[]\OT1/ptm/m/n/8 Distribuci[]on Sub-terr[]anea Ur-ba-na (UG
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[]\OT1/ptm/m/n/8 Zonas ha-bi-ta-cio-na-les/comerciales no
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+<fig_/radial_network_diagram.png, id=6, 461.92575pt x 621.522pt>
+File: fig_/radial_network_diagram.png Graphic file (type png)
+<use fig_/radial_network_diagram.png>
+Package pdftex.def Info: fig_/radial_network_diagram.png  used on input line 85.
+(pdftex.def)             Requested size: 232.19843pt x 312.41988pt.
+
+Underfull \hbox (badness 2126) in paragraph at lines 91--92
+ []\OT1/ptm/m/it/10 An[]ali-sis y Re-fe-ren-cia: [] \OT1/ptm/m/n/10 Una fa-lla en cual-quier pun-to
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 91--92
+\OT1/ptm/m/n/10 in-ter-me-dio in-te-rrum-pe el ser-vi-cio a to-dos los usua-rios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+\OT1/ptm/m/n/10 aguas aba-jo. Un dia-gra-ma re-pre-sen-ta-ti-vo se pue-de
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 91--92
+\OT1/ptm/m/n/10 con-sul-tar en la co-lec-ci[]on: []$https : / / www . researchgate . net /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+\OT1/ptm/m/n/10 ^^Lgure / Figura-[]1-[]Diagrama-[]de-[]una-[]red-[]de-[]distribucion-[]radial[]
+ []
+
+<fig_/ring_network_diagram.png, id=9, 689.57625pt x 584.78474pt>
+File: fig_/ring_network_diagram.png Graphic file (type png)
+<use fig_/ring_network_diagram.png>
+Package pdftex.def Info: fig_/ring_network_diagram.png  used on input line 104.
+(pdftex.def)             Requested size: 232.19843pt x 196.91464pt.
+
+Underfull \hbox (badness 1354) in paragraph at lines 110--111
+\OT1/ptm/m/n/10 se cie-rra y el pun-to de fa-lla se a[]^^Psla, man-te-nien-do la
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 110--111
+\OT1/ptm/m/n/10 con-sul-tar en la co-lec-ci[]on: []$http : / / www . ptolomeo . unam . mx :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+\OT1/ptm/m/n/10 8080 / xmlui / bitstream / handle / 132 . 248 . 52 . 100 / 784 / A4 %
  []
 
 
@@ -932,7 +986,9 @@ Non-PDF special ignored!
 {C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-]) (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\Redes radial y anillo.bbl
+]
+
+) (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\Redes radial y anillo.bbl
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 32.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -950,13 +1006,9 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[2
-
-] (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\Redes radial y anillo.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+[2 <./fig_/radial_network_diagram.png> <./fig_/ring_network_diagram.png>] (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\Redes radial y anillo.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 )
  ***********
 LaTeX2e <2025-06-01> patch level 1
@@ -964,17 +1016,17 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 38270 strings out of 468130
- 892953 string characters out of 5430149
+ 38316 strings out of 468130
+ 893897 string characters out of 5430149
  1594192 words of memory out of 5000000
- 66267 multiletter control sequences out of 15000+600000
- 666366 words of font info for 116 fonts, out of 8000000 for 9000
+ 66301 multiletter control sequences out of 15000+600000
+ 669261 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,101p,816b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\Redes radial y anillo.pdf" (2 pages, 79868 bytes).
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\Redes radial y anillo.pdf" (2 pages, 201501 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

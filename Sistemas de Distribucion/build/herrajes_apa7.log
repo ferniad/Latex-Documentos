@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.5)  5 OCT 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.5)  20 OCT 2025 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -870,7 +870,7 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 \c@NumberOfSuperscripts=\count491
 
 
-Class apa7 Warning: Deprecated: see documentation for \authorsaffiliations on input line 31.
+Class apa7 Warning: Deprecated: see documentation for \authorsaffiliations on input line 30.
 
 \c@NumberOfAffiliations=\count492
 \@quotelevel=\count493
@@ -882,24 +882,24 @@ LaTeX Warning: Unused global option(s):
 (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\herrajes_apa7.aux)
 \openout1 = `herrajes_apa7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -954,7 +954,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 42.
  (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\herrajes_apa7.out) (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\herrajes_apa7.out)
 \@outlinefile=\write7
 \openout7 = `herrajes_apa7.out'.
@@ -995,14 +995,14 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'herrajes_apa7.bbl' found.
  (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\herrajes_apa7.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
+Package biblatex Info: Reference section=0 on input line 42.
+Package biblatex Info: Reference segment=0 on input line 42.
 
 
 Class apa7 Warning: Abstract not defined.
 
-Class apa7 Info: Keywords not defined on input line 46.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 46.
+Class apa7 Info: Keywords not defined on input line 45.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 45.
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1017,28 +1017,28 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 [1{C:/Users/Daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 51.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 50.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 51.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 50.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 51.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 50.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 51.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 50.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 51.
+(Font)              <12> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 51.
+(Font)              <8> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 51.
+(Font)              <6> on input line 50.
 
 
 
@@ -1067,7 +1067,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
 
 [4]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 49.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 52.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1106,7 +1106,49 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
 
-[8])
+[8]
+<fotosherrajes/abrazadera de suspension.png, id=85, 651.6345pt x 600.44325pt>
+File: fotosherrajes/abrazadera de suspension.png Graphic file (type png)
+<use fotosherrajes/abrazadera de suspension.png>
+Package pdftex.def Info: fotosherrajes/abrazadera de suspension.png  used on input line 147.
+(pdftex.def)             Requested size: 217.42265pt x 200.33661pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 148.
+See the caption package documentation for explanation.
+
+<fotosherrajes/aislador de perno.jpg, id=87, 1003.75pt x 1003.75pt>
+File: fotosherrajes/aislador de perno.jpg Graphic file (type jpg)
+<use fotosherrajes/aislador de perno.jpg>
+Package pdftex.def Info: fotosherrajes/aislador de perno.jpg  used on input line 156.
+(pdftex.def)             Requested size: 217.42265pt x 217.41022pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 157.
+See the caption package documentation for explanation.
+
+<fotosherrajes/Aislador tipo pin.png, id=88, 1204.5pt x 1204.5pt>
+File: fotosherrajes/Aislador tipo pin.png Graphic file (type png)
+<use fotosherrajes/Aislador tipo pin.png>
+Package pdftex.def Info: fotosherrajes/Aislador tipo pin.png  used on input line 169.
+(pdftex.def)             Requested size: 217.42265pt x 217.40715pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 170.
+See the caption package documentation for explanation.
+
+<fotosherrajes/Aislador tipo poste.png, id=89, 1204.5pt x 1204.5pt>
+File: fotosherrajes/Aislador tipo poste.png Graphic file (type png)
+<use fotosherrajes/Aislador tipo poste.png>
+Package pdftex.def Info: fotosherrajes/Aislador tipo poste.png  used on input line 178.
+(pdftex.def)             Requested size: 217.42265pt x 217.40715pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 179.
+See the caption package documentation for explanation.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1115,7 +1157,49 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
 
-[9] AED endfloat: Processing end Figures and Tables
+[9 <./fotosherrajes/abrazadera de suspension.png> <./fotosherrajes/aislador de perno.jpg>]
+<fotosherrajes/Aislador Tipo Suspensión.png, id=100, 1204.5pt x 1204.5pt>
+File: fotosherrajes/Aislador Tipo Suspensión.png Graphic file (type png)
+<use fotosherrajes/Aislador Tipo Suspensión.png>
+Package pdftex.def Info: fotosherrajes/Aislador Tipo Suspensión.png  used on input line 191.
+(pdftex.def)             Requested size: 217.42265pt x 217.40715pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 192.
+See the caption package documentation for explanation.
+
+<fotosherrajes/conector de compresion.jpg, id=101, 501.875pt x 501.875pt>
+File: fotosherrajes/conector de compresion.jpg Graphic file (type jpg)
+<use fotosherrajes/conector de compresion.jpg>
+Package pdftex.def Info: fotosherrajes/conector de compresion.jpg  used on input line 200.
+(pdftex.def)             Requested size: 217.42265pt x 217.42552pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 201.
+See the caption package documentation for explanation.
+
+<fotosherrajes/DPS.jpg, id=102, 602.25pt x 602.25pt>
+File: fotosherrajes/DPS.jpg Graphic file (type jpg)
+<use fotosherrajes/DPS.jpg>
+Package pdftex.def Info: fotosherrajes/DPS.jpg  used on input line 213.
+(pdftex.def)             Requested size: 217.42265pt x 217.42552pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 214.
+See the caption package documentation for explanation.
+
+<fotosherrajes/grapa de retencion1.png, id=103, 679.338pt x 497.4585pt>
+File: fotosherrajes/grapa de retencion1.png Graphic file (type png)
+<use fotosherrajes/grapa de retencion1.png>
+Package pdftex.def Info: fotosherrajes/grapa de retencion1.png  used on input line 222.
+(pdftex.def)             Requested size: 217.42265pt x 159.21274pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 223.
+See the caption package documentation for explanation.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1124,7 +1208,229 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
 
-[10
+[10 <./fotosherrajes/Aislador tipo pin.png> <./fotosherrajes/Aislador tipo poste.png> <./fotosherrajes/Aislador Tipo Suspensión.png> <./fotosherrajes/conector de compresion.jpg>]
+<fotosherrajes/grapa_de_retencion.png, id=115, 581.7735pt x 496.85625pt>
+File: fotosherrajes/grapa_de_retencion.png Graphic file (type png)
+<use fotosherrajes/grapa_de_retencion.png>
+Package pdftex.def Info: fotosherrajes/grapa_de_retencion.png  used on input line 235.
+(pdftex.def)             Requested size: 217.42265pt x 185.68379pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 236.
+See the caption package documentation for explanation.
+
+<fotosherrajes/grapas pistola acero.png, id=116, 501.875pt x 501.875pt>
+File: fotosherrajes/grapas pistola acero.png Graphic file (type png)
+<use fotosherrajes/grapas pistola acero.png>
+Package pdftex.def Info: fotosherrajes/grapas pistola acero.png  used on input line 244.
+(pdftex.def)             Requested size: 217.42265pt x 217.42552pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 245.
+See the caption package documentation for explanation.
+
+<fotosherrajes/guardacables.png, id=117, 653.44125pt x 443.85825pt>
+File: fotosherrajes/guardacables.png Graphic file (type png)
+<use fotosherrajes/guardacables.png>
+Package pdftex.def Info: fotosherrajes/guardacables.png  used on input line 257.
+(pdftex.def)             Requested size: 217.42265pt x 147.68597pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 258.
+See the caption package documentation for explanation.
+
+<fotosherrajes/mordaza de conexion a tierra.jpg, id=118, 501.875pt x 501.875pt>
+File: fotosherrajes/mordaza de conexion a tierra.jpg Graphic file (type jpg)
+<use fotosherrajes/mordaza de conexion a tierra.jpg>
+Package pdftex.def Info: fotosherrajes/mordaza de conexion a tierra.jpg  used on input line 266.
+(pdftex.def)             Requested size: 217.42265pt x 217.42552pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 267.
+See the caption package documentation for explanation.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
+
+[11 <./fotosherrajes/DPS.jpg> <./fotosherrajes/grapa de retencion1.png> <./fotosherrajes/grapa_de_retencion.png> <./fotosherrajes/grapas pistola acero.png>]
+<fotosherrajes/pasadores y arandelas de seguridad.png, id=130, 985.88326pt x 412.54124pt>
+File: fotosherrajes/pasadores y arandelas de seguridad.png Graphic file (type png)
+<use fotosherrajes/pasadores y arandelas de seguridad.png>
+Package pdftex.def Info: fotosherrajes/pasadores y arandelas de seguridad.png  used on input line 279.
+(pdftex.def)             Requested size: 217.42265pt x 90.97968pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 280.
+See the caption package documentation for explanation.
+
+<fotosherrajes/perno de anclaje.png, id=131, 717.882pt x 449.2785pt>
+File: fotosherrajes/perno de anclaje.png Graphic file (type png)
+<use fotosherrajes/perno de anclaje.png>
+Package pdftex.def Info: fotosherrajes/perno de anclaje.png  used on input line 288.
+(pdftex.def)             Requested size: 217.42265pt x 136.06654pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 289.
+See the caption package documentation for explanation.
+
+<fotosherrajes/perno de ojo.png, id=132, 788.34525pt x 510.10574pt>
+File: fotosherrajes/perno de ojo.png Graphic file (type png)
+<use fotosherrajes/perno de ojo.png>
+Package pdftex.def Info: fotosherrajes/perno de ojo.png  used on input line 301.
+(pdftex.def)             Requested size: 217.42265pt x 140.68036pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 302.
+See the caption package documentation for explanation.
+
+<fotosherrajes/perno de suspension.png, id=133, 1038.88126pt x 404.10976pt>
+File: fotosherrajes/perno de suspension.png Graphic file (type png)
+<use fotosherrajes/perno de suspension.png>
+Package pdftex.def Info: fotosherrajes/perno de suspension.png  used on input line 310.
+(pdftex.def)             Requested size: 217.42265pt x 84.56956pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 311.
+See the caption package documentation for explanation.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
+
+[12 <./fotosherrajes/guardacables.png> <./fotosherrajes/mordaza de conexion a tierra.jpg> <./fotosherrajes/pasadores y arandelas de seguridad.png> <./fotosherrajes/perno de anclaje.png>]
+<fotosherrajes/Pernos maquina.png, id=145, 555.2745pt x 552.26324pt>
+File: fotosherrajes/Pernos maquina.png Graphic file (type png)
+<use fotosherrajes/Pernos maquina.png>
+Package pdftex.def Info: fotosherrajes/Pernos maquina.png  used on input line 323.
+(pdftex.def)             Requested size: 217.42265pt x 216.24133pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 324.
+See the caption package documentation for explanation.
+
+<fotosherrajes/poste fibra de vidrio.jpg, id=146, 722.7pt x 722.7pt>
+File: fotosherrajes/poste fibra de vidrio.jpg Graphic file (type jpg)
+<use fotosherrajes/poste fibra de vidrio.jpg>
+Package pdftex.def Info: fotosherrajes/poste fibra de vidrio.jpg  used on input line 333.
+(pdftex.def)             Requested size: 217.42265pt x 217.41818pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 334.
+See the caption package documentation for explanation.
+
+<fotosherrajes/postes acero.jpg, id=147, 770.88pt x 514.17094pt>
+File: fotosherrajes/postes acero.jpg Graphic file (type jpg)
+<use fotosherrajes/postes acero.jpg>
+Package pdftex.def Info: fotosherrajes/postes acero.jpg  used on input line 346.
+(pdftex.def)             Requested size: 217.42265pt x 145.01819pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 347.
+See the caption package documentation for explanation.
+
+<fotosherrajes/postes concreto.jpg, id=148, 451.6875pt x 451.6875pt>
+File: fotosherrajes/postes concreto.jpg Graphic file (type jpg)
+<use fotosherrajes/postes concreto.jpg>
+Package pdftex.def Info: fotosherrajes/postes concreto.jpg  used on input line 355.
+(pdftex.def)             Requested size: 217.42265pt x 217.42783pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 356.
+See the caption package documentation for explanation.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
+
+[13 <./fotosherrajes/perno de ojo.png> <./fotosherrajes/perno de suspension.png> <./fotosherrajes/Pernos maquina.png> <./fotosherrajes/poste fibra de vidrio.jpg>]
+<fotosherrajes/postes maderas.jpg, id=161, 188.20313pt x 188.20313pt>
+File: fotosherrajes/postes maderas.jpg Graphic file (type jpg)
+<use fotosherrajes/postes maderas.jpg>
+Package pdftex.def Info: fotosherrajes/postes maderas.jpg  used on input line 368.
+(pdftex.def)             Requested size: 217.42265pt x 217.43988pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 369.
+See the caption package documentation for explanation.
+
+<fotosherrajes/reconectadores.jpg, id=162, 461.725pt x 421.575pt>
+File: fotosherrajes/reconectadores.jpg Graphic file (type jpg)
+<use fotosherrajes/reconectadores.jpg>
+Package pdftex.def Info: fotosherrajes/reconectadores.jpg  used on input line 377.
+(pdftex.def)             Requested size: 217.42265pt x 198.51337pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 378.
+See the caption package documentation for explanation.
+
+<fotosherrajes/separadores para conductores.jpg, id=163, 225.84375pt x 225.84375pt>
+File: fotosherrajes/separadores para conductores.jpg Graphic file (type jpg)
+<use fotosherrajes/separadores para conductores.jpg>
+Package pdftex.def Info: fotosherrajes/separadores para conductores.jpg  used on input line 390.
+(pdftex.def)             Requested size: 217.42265pt x 217.43471pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 391.
+See the caption package documentation for explanation.
+
+<fotosherrajes/tornillos_de_seguridad.jpg, id=164, 702.625pt x 395.4775pt>
+File: fotosherrajes/tornillos_de_seguridad.jpg Graphic file (type jpg)
+<use fotosherrajes/tornillos_de_seguridad.jpg>
+Package pdftex.def Info: fotosherrajes/tornillos_de_seguridad.jpg  used on input line 399.
+(pdftex.def)             Requested size: 217.42265pt x 122.37952pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 400.
+See the caption package documentation for explanation.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
+
+[14 <./fotosherrajes/postes acero.jpg> <./fotosherrajes/postes concreto.jpg> <./fotosherrajes/postes maderas.jpg> <./fotosherrajes/reconectadores.jpg>])
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
+
+[15 <./fotosherrajes/separadores para conductores.jpg> <./fotosherrajes/tornillos_de_seguridad.jpg>] AED endfloat: Processing end Figures and Tables
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.15404pt}.
+
+[16
 
 ] (c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\herrajes_apa7.aux)
  ***********
@@ -1138,17 +1444,17 @@ Package logreq Info: Writing requests to 'herrajes_apa7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32034 strings out of 468130
- 618804 string characters out of 5430149
+ 32245 strings out of 468130
+ 626576 string characters out of 5430149
  1602732 words of memory out of 5000000
- 60111 multiletter control sequences out of 15000+600000
- 670153 words of font info for 68 fonts, out of 8000000 for 9000
+ 60289 multiletter control sequences out of 15000+600000
+ 676138 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,105p,1040b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\herrajes_apa7.pdf" (10 pages, 183610 bytes).
+<C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on "c:\Users\Daniel\Desktop\Latex-Documentos\Sistemas de Distribucion\build\herrajes_apa7.pdf" (16 pages, 3350117 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

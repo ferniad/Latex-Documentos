@@ -1,0 +1,147 @@
+
+\documentclass[conference]{IEEEtran}
+
+% --- Idioma y Codificación (Se cargan primero) ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+% --- Matemáticas, Formato y Estructuras Avanzadas ---
+% Paquetes matemáticos y de formato avanzado agrupados:
+\usepackage{amssymb, amsmath, amsthm, empheq, bm}
+% Paquetes para estructuras enmarcadas y colores específicos:
+\usepackage{mdframed, float}
+\usepackage{color, colortbl, xcolor}
+% --- Figuras, Tablas y Gráficos ---
+% Paquetes para imágenes, tablas y gráficos agrupados:
+\usepackage{graphicx, subcaption, caption, booktabs, multirow, psfrag}
+\usepackage{pgfplots} % Se mantiene aparte para mejor visibilidad
+% --- Hipervínculos y Documentación ---
+\usepackage{hyperref, bookmark}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --- Paquete para Código Fuente ---}
+% Paquete de colores (ya lo tienes, solo aseguramos que está antes de la config. de listings)
+
+
+% --- Configuración de Estilo de MATLAB ---
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % Para tablas con ancho de columna flexible
+ % Para bloques de código
+ % Para ajustar márgenes si es necesario
+% --- AJUSTE CRÍTICO: La clase IEEEtran ya maneja los márgenes.
+% **Se recomienda ENCARECIDAMENTE comentar o eliminar esta línea**
+% para mantener el formato oficial de la conferencia.
+% \usepackage{geometry}
+% \geometry{a4paper, margin=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definición de colores (mantener separados para claridad en la configuración)
+\definecolor{lightgreen}{HTML}{A9D18E}
+\definecolor{lightred}{HTML}{F4C7C3}
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Spanish Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definición de estilos y entornos
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{\IEEEauthorblockN{Jose David Hernández Rodriguez, Juan Andrés Díaz López, David Nicolas Ortega Peña,\\ Daniel Fernando Aranda Contreras}
+\IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+Correo electrónico: \{jose2221117, juan2205102, david2225138F1883, daniel2221648\}@correo.uis.edu.co}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    % Título
+    \title{APLICACIÓN DEL CÓDIGO DE MEDIDA}
+    \maketitle
+
+    %\begin{abstract}
+    
+    %\end{abstract}
+
+    \begin{IEEEkeywords}
+        si-prueba.
+    \end{IEEEkeywords}
+
+    \begin{abstract}
+        si.
+    \end{abstract}
+
+
+\begin{table}[h]
+    \centering
+    \caption{Tensión de línea en conexión delta ($\Delta$).}
+    \label{tab:delta_tension_corregida}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Terminales} & \textbf{Tensión de Línea ($V_L$) [V]} \\
+        \hline
+        W2-U2 & 50.48 \\
+        \hline
+        W2-V2 & 50.55 \\
+        \hline
+        U2-V2 & 50.42 \\
+        \hline
+        \textbf{Relación Teórica} & $V_L = V_{\text{devanado}}$ \\
+        \hline
+    \end{tabular}
+\end{table}
+ 
+\begin{table}[h]
+    \centering
+    \caption{Tensión de línea en conexión Y.}
+    \label{tab:y_tension_mod}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        & \textbf{Tensión de Línea ($V_L$) [V]} & \textbf{Tensión de Fase ($V_F$) [V]} \\
+        \hline
+        W2-U2 & 87.35 & 50.44 \\
+        \hline
+        W2-V2 & 87.20 & 50.35 \\
+        \hline
+        U2-V2 & 87.45 & 50.50 \\
+        \hline
+        \textbf{Relación Teórica} & \multicolumn{2}{|c|}{$V_F = \frac{V_L}{\sqrt{3}}$} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+\begin{itemize}
+    \item Para el caso de la conexión en delta ($\Delta$), se observa que la tensión de línea medida en los terminales W2-U2, W2-V2 y U2-V2 (ver Tabla \ref{tab:delta_tension_corregida}). Estas mediciones están en concordancia con la fuente balanceada.
+    \item Para el caso de la conexión en Y, se observa que la tensión de línea medida en los terminales W2-U2, W2-V2 y U2-V2 (ver Tabla \ref{tab:y_tension_mod}). Estas mediciones están en concordancia con la fuente balanceada.
+ 
+\end{itemize}
+
+En ambas configuraciones, las mediciones de tensión de línea están en concordancia con las relaciones teóricas esperadas, confirmando la correcta implementación de las conexiones delta y Y en el sistema trifásico y que el generador mantiene establidad con los valores esperados.
+
+
+
+\end{document}
