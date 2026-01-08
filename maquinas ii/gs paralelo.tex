@@ -1,0 +1,99 @@
+
+\documentclass[conference]{IEEEtran}
+
+% --- Idioma y Codificación (Se cargan primero) ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+% --- Matemáticas, Formato y Estructuras Avanzadas ---
+% Paquetes matemáticos y de formato avanzado agrupados:
+\usepackage{amssymb, amsmath, amsthm, empheq, bm}
+% Paquetes para estructuras enmarcadas y colores específicos:
+\usepackage{mdframed, float}
+\usepackage{color, colortbl, xcolor}
+% --- Figuras, Tablas y Gráficos ---
+% Paquetes para imágenes, tablas y gráficos agrupados:
+\usepackage{graphicx, subcaption, caption, booktabs, multirow, psfrag}
+\usepackage{pgfplots} % Se mantiene aparte para mejor visibilidad
+% --- Hipervínculos y Documentación ---
+\usepackage{hyperref, bookmark}
+
+% --- AJUSTE CRÍTICO: La clase IEEEtran ya maneja los márgenes.
+% **Se recomienda ENCARECIDAMENTE comentar o eliminar esta línea**
+% para mantener el formato oficial de la conferencia.
+% \usepackage{geometry}
+% \geometry{a4paper, margin=1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definición de colores (mantener separados para claridad en la configuración)
+\definecolor{lightgreen}{HTML}{A9D18E}
+\definecolor{lightred}{HTML}{F4C7C3}
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Spanish Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definición de estilos y entornos
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\author{\IEEEauthorblockN{Diana Fernanda Abril Roa, Daniel Fernando Aranda Contreras, Dairo Alexander Lobo Moreno,\\ Yulieth Valentina Portilla Jaimes}
+\IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+Correo electrónico: \{diana2212074, daniel2221648, dairo2221123, yulieth2221136\}@correo.uis.edu.co}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    % Título
+    \title{\uppercase{Conexión en Paralelo de Generadores Síncronos: Análisis de Potencia Activa y Reactiva}}
+    \maketitle
+
+    \begin{abstract}
+        nada
+    \end{abstract}
+
+
+    \input{ultimocontenido.tex}
+    
+
+    \section{Conclusiones}
+
+    \begin{itemize}
+        \item En esta prática hubo una limitación en la toma de datos ya que el medidor de potencia trifásico estaba presentando variaciones significativas en las lecturas, partícularmente en la fase 1, por ende, los datos que seleccionamos para analizar fueron los de la fase 3 que era la más estable. A pesar de esto, los resultados fueron coherentes con lo esperado.
+        
+        \item Se verificó que para lograr la sincronización de un generador síncrono con la red se debe mantener la misma secuencia de fases, la igualdad de tensiones y una frecuencia prácticamente igual. Además, se comprobó que al ajustar el generador con una frecuencia ligeramente mayor se facilita el acople y la entrega inmediata de potencia activa al sistema.
+    \end{itemize}
+
+    \nocite{*} % Asegura que todas las entradas de la bibliografía se incluyan, incluso si no se citan directamente
+    \bibliographystyle{IEEEtran}
+    \bibliography{ref} % Asegúrate de que tu archivo de bibliografía se llama 'ref.bib'
+  
+
+
+\end{document}

@@ -1,0 +1,302 @@
+\section{Condiciones para conectar en paralelo un generador síncrono con la red eléctrica o con otro generador}
+
+Para lograr el acople correcto de un generador síncrono con la red eléctrica o con otro generador, se deben cumplir simultáneamente las siguientes condiciones:
+
+    \subsection{Igualdad de frecuencia ($f$):} 
+    La frecuencia del generador debe ser igual a la de la red:
+    \[
+        f_{GS} = f_{red}
+    \]
+    En la práctica, se ajustó la velocidad del motor shunt para que la frecuencia del generador fuese ligeramente mayor que la de la red, logrando que, al momento del cierre del interruptor, el generador entrara en servicio entregando potencia activa a la red y no como motor. En cambio, si $f_{GS}$ fuese menor, la red tendería a acelerarlo, haciendo que absorbiera potencia (motorizándolo).
+
+    \subsection{Igualdad de tensión ($V$):}
+    La tensión eficaz de línea del generador debe coincidir con la de la red:
+    \[
+        V_{GS} = V_{red}
+    \]
+    En el laboratorio se ajustó la corriente de excitación del generador síncrono para que las tensiones medidas en sus bornes coincidieran con las de la red, de 220~V.
+
+    \subsection{Secuencia de fases idéntica:}
+    El orden de fases del generador debe coincidir con el de la red:
+    \[
+        (U - V - W){GS} = (U - V - W){red}
+    \]
+    Ya que si la secuencia es incorrecta, las tensiones de las fases correspondientes no podrán anularse simultáneamente, imposibilitando el acople.
+
+  \subsection{Instante de sincronismo:}
+   En el momento de conexión, las tensiones instantáneas de las fases correspondientes deben ser iguales y estar en fase. Este instante se determina visualmente mediante el método de las \textit{lámparas mixtas}.
+    
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth,height=8cm]{figs/sincronismo.jpg}
+    \caption{Sincronización mediante el método de lámparas mixtas.}
+    \label{fig:sincronismo}
+    \end{figure}
+
+En donde el instante correcto de sincronismo se alcanzó cuando la lámpara apagada coincidió con el punto en que las otras dos estaban encendidas, señalando que las tensiones estaban prácticamente en fase y permitiendo realizar el cierre seguro del interruptor de acople. Pille parce
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Procedimiento Experimental}
+
+\subsection{Verificación de Condiciones Previas al Acople}
+
+Se realizaron las siguientes mediciones antes de la conexión en paralelo:
+\begin{enumerate}
+    \item Medición de tensión de red: $V_{\text{red}} = 218,7 \text{ V}$.
+    \item Medición de frecuencia de red: $f_{\text{red}} = 60 \text{ Hz}$.
+    \item Ajuste de tensión del generador: $V_{\text{gen}} = 218,1 \text{ V}$.
+    \item Cálculo de frecuencia del generador: $f_{\text{gen}} = \frac{4 \times 1802}{120} = 60,07 \text{ Hz}$.
+    \item Verificación de secuencia de fases $L1, L2 \text{ y } L3$.
+\end{enumerate}
+\emph{Condiciones de Sincronismo Verificadas:}
+\begin{itemize}
+    \item Tensión: $V_{\text{gen}} \approx V_{\text{red}}$ ($218,1 \text{ V} \approx 218,7 \text{ V}$)
+    \item Frecuencia: $f_{\text{gen}} \approx f_{\text{red}}$ ($60,07 \text{ Hz} \approx 60 \text{ Hz}$)
+    \item Secuencia de fases y ángulo de fase: Verificadas.
+\end{itemize}
+
+
+% --- TABLAS DE VERIFICACIÓN INICIAL ---
+
+\begin{table}[H]
+\caption{Verificaciones iniciales en el generador}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Parámetro} & \textbf{Valor} \\
+\hline
+$V_{L1-L2}$ & 221.3 V \\
+$V_{L1-L3}$ & 221.2 V \\
+$V_{L2-L3}$ & 220.6 V \\
+$f_{L1-L2}$ & 60.1 Hz \\
+$f_{L1-L3}$ & 60.0 Hz \\
+$f_{L2-L3}$ & 60.07 Hz \\
+Potencia en el motor ($P_m$) & 585 W \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Verificaciones iniciales en la red}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Parámetro} & \textbf{Valor} \\
+\hline
+$V_{L1-L2}$ & 220 V \\
+$V_{L1-L3}$ & 220 V \\
+$V_{L2-L3}$ & 220 V \\
+$f_{L1-L2}$ & 59.98 Hz \\
+\hline
+\end{tabular}
+\end{table}
+
+% --- FIN TABLAS DE VERIFICACIÓN INICIAL ---
+
+\subsection{Sincronización y Conexión}
+Una vez verificadas las condiciones, se procedió a cerrar el interruptor de acoplamiento. Durante el proceso de sincronismo se midió:
+$$P_{\text{motor}} = 0,576 \text{ kW} \quad (1)$$
+
+\begin{table}[H]
+\caption{Posterior de la prueba de bombillos (Conexión Estable)}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Parámetro} & \textbf{Valor} \\
+\hline
+$n_{m}$ & 1800 r.p.m. \\
+Potencia en el motor ($P_m$) & 642 W \\
+Tensión de linea en la red ($V_{Lred}$) & 220.1 V \\
+Frecuencia red ($f_{red}$) & 60.03 Hz \\
+Tensión de linea en el generador ($V_{LG}$) & 220 V \\
+Corriente generador ($I_G$) & 0.6 A \\
+Frecuencia generador ($f_G$) & 60.0 Hz \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Análisis Post-Acople (Motorización)}
+Inmediatamente después de la conexión en paralelo, la potencia consumida por el motor primo se redujo a:
+$$P_{\text{motor}} = 0,497 \text{ kW} \quad (2)$$
+Esta reducción indica que el generador \textbf{se motorizó}, absorbiendo potencia activa de la red ($P_{\text{red} \rightarrow \text{Gen}}$) debido a que la potencia mecánica suministrada era insuficiente para la conexión.
+
+\subsection{Generador Entregando Potencia}
+Se incrementó la velocidad del primo motor (aumento del par mecánico) para forzar al generador a inyectar potencia activa a la red. Se obtuvo:
+\begin{itemize}
+    \item $I_{\text{generador}} = 1,33 \text{ A} \quad (3)$
+    \item $f = 59,95 \text{ Hz} \quad (4)$
+    \item $P_{\text{motor}} = 0,646 \text{ kW} \quad (5)$
+\end{itemize}
+El aumento en $P_{\text{motor}}$ confirma que el motor primo está realizando \textbf{mayor esfuerzo} para inyectar potencia a la red.
+
+\subsection{Reducción de Torque del Primo Motor}
+Al disminuir el torque suministrado al generador, se redujo la potencia activa inyectada. Se obtuvo:
+\begin{itemize}
+    \item $I_{\text{motor}} = 0,99 \text{ A} \quad (6)$
+    \item $f = 59,96 \text{ Hz} \quad (7)$
+    \item $P_{\text{motor}} = 0,437 \text{ kW} \quad (8)$
+    \item $n_{\text{motor}} = 1748 \text{ rpm} \quad (9)$
+\end{itemize}
+La nueva reducción de $P_{\text{motor}}$ demuestra el control de la \textbf{potencia activa} inyectada mediante la manipulación del par mecánico del motor primo.
+
+\begin{table}[H]
+\caption{Datos al desacelerar la máquina (menor inyección de potencia)}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Parámetro} & \textbf{Valor} \\
+\hline
+$n_{m}$ & 1800 r.p.m. \\
+Potencia en el motor ($P_m$) & 556 W \\
+Tensión de linea en la red ($V_{Lred}$) & 219.1 V \\
+Frecuencia red ($f_{red}$) & 60 Hz \\
+Tensión de linea en el generador ($V_{LG}$) & 218.6 V \\
+Corriente generador ($I_G$) & 0.51 A \\
+Frecuencia generador ($f_G$) & 59.97 Hz \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Desacoplamiento (Operación Aislada)}
+Finalmente, se desacopló el generador de la red, abriendo el interruptor de acoplamiento. Los parámetros medidos en esta condición de operación aislada fueron:
+\begin{table}[H]
+\caption{Ahora desacoplados}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Parámetro} & \textbf{Valor} \\
+\hline
+$n_{m}$ & 1775 r.p.m. \\
+Potencia en el motor ($P_m$) & 581 W \\
+Tensión de linea en la red ($V_{Lred}$) & 218.8 V \\
+Frecuencia red ($f_{red}$) & 60 Hz \\
+Tensión de linea en el generador ($V_{LG}$) & 208.4 V \\
+Corriente generador ($I_G$) & 0 A \\
+Frecuencia generador ($f_G$) & 59.08 Hz \\
+\hline
+\end{tabular}
+\end{table}
+La corriente nula ($I_G=0$) confirma la desconexión. Los valores de $V_{LG}$ y $f_G$ son los generados por la máquina sin la restricción de la red, siendo inferiores a los de la red.
+%%%%%%%%%%%%%%%%%%%%%%%%%%% analisis de los datos 
+\section{Análisi}
+De lo anterior se analiza que el comportamiento del generador síncrono depende directamente del sentido del flujo de potencia activa. Cuando la potencia mecánica suministrada por el motor primo fue menor a la necesaria, el generador comenzó a absorber potencia de la red, actuando como motor síncrono; este efecto se observó por la disminución de la potencia medida en el eje del motor y por una corriente reducida. En cambio, al aumentar el par del motor primo, la máquina superó el punto de equilibrio y comenzó a entregar potencia activa a la red, evidenciado por el incremento en la corriente del generador y la potencia mecánica del motor impulsor. Este comportamiento demuestra experimentalmente que la dirección del flujo de potencia depende del equilibrio entre la potencia mecánica aplicada y la potencia eléctrica entregada o absorbida por la máquina.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Prueba de repartición de potencia entre dos generadores síncronos:}
+\begin{table}[H]
+\centering
+\caption{Mediciones de potencia con carga resistiva}
+\begin{tabular}{lccc}
+\hline
+\textbf{Equipo} & \textbf{P [kW]} & \textbf{S [kVA]} & \textbf{f [Hz]} \\ \hline
+Carga          & 0.1124 & 0.1125 & 60.20 \\
+Generador 1    & 0.1203 & 0.1208 & 60.14 \\
+Generador 2    & 0.0248 & 0.0274 & 60.53 \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Análisis de los datos obtenidos }
+
+De lo anterior, se obtiene lo siguiente:
+
+\begin{itemize}
+    \item \textbf{Potencia Generada Total:} $P_{gen,total} = P_{G1} + P_{G2} = 0.1203\ kW + 0.0248\ kW = 0.1451\ kW$
+    \item \textbf{Potencia Demandada Total:} $P_{carga} = 0.1124\ kW$
+    \item \textbf{Excedente de Potencia:} $P_{excedente} = 0.1451\ kW - 0.1124\ kW = 0.0327\ kW$
+\end{itemize}
+
+
+ 
+El sistema genera 0.1451 kW y la carga solo consume 0.1124 kW. Por lo tanto,la variación se puede deber a errores de medición por el instrumento. 
+
+
+El factor de potencia se calcula con la siguiente ecuación:
+
+\begin{equation}
+FP = \frac{P}{S}
+\end{equation}
+
+
+
+\begin{itemize}
+    \item \textbf{Carga:} $FP_{carga} = \frac{0.1124}{0.1125} = 0.999$
+    \item \textbf{Generador 1:} $FP_{G1} = \frac{0.1203}{0.1208} = 0.996$
+    \item \textbf{Generador 2:} $FP_{G2} = \frac{0.0248}{0.0274} = 0.905$
+\end{itemize}
+
+Con lo mencionado anteriormente, se analiza que
+
+\begin{itemize}
+    \item El Generador 1 representa  el principal aportante al sistema, suministrando el $82.9\%$ de la potencia total generada. Por su factor de potencia tan alto ($FP = 0.996$)  es posible decir que opera de manera eficiente entregando en su mayorpia potencia activa.
+    
+    \item El Generador 2 aporta sólo el $ 17.1\%$ de la generación total. Presenta un factor de potencia más bajo ($FP = 0.905$), lo que implica que, además de potencia activa, está suministrando una pequeña cantidad de potencia reactiva en comparación con el Generador 1.
+\end{itemize}
+
+
+También es posible decir que la operación es estable y está sincronizada con la red ya que la frecuencia medida es cercana a los 60 Hz y no presenta muchas variaciones.
+
+
+\section{Potencia al Variar la Velocidad}
+
+Se tomaron los datos de potencia entregada en cada generador en el momento que se varió la velocidad, haciendo la velocidad del generador 1 reducida y aumentando la velocidad del generador 2 para compensar.
+
+\subsection{Datos de Potencia al Variar la Velocidad}
+
+\begin{table}[h!]
+\centering
+\caption{Potencia al variar la velocidad}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Equipo} & \textbf{P (kW)} & \textbf{Q (kVAr)} & \textbf{S (kVA)} & \textbf{FP} \\ \hline
+Generador 1 & 0.0754 & 0.0289 & 0.0807 & -0.934 \\ \hline
+Generador 2 & 0.0295 & 0.0107 & 0.0314 & 0.940 \\ \hline
+\end{tabular}
+\end{table}
+
+Para poder variar la potencia reactiva entregada, se necesita la tensión interna del generador. Por lo tanto, se realiza una variación en la tensión de la excitatriz, repitiendo el mismo proceso pero con la tensión, para una tensión de referencia de 197.6 V con una frecuencia de 60.53 Hz.
+
+\subsection{Potencia Compensada}
+
+\begin{table}[h!]
+\centering
+\caption{Potencia compensada}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Equipo} & \textbf{P (kW)} & \textbf{Q (kVAr)} & \textbf{S (kVA)} & \textbf{FP} \\ \hline
+Generador 1 & 0.0823 & 0.0087 & 0.0827 & -0.995 \\ \hline
+Generador 2 & 0.0263 & 0.0213 & 0.0338 & -0.777 \\ \hline
+\end{tabular}
+\end{table}
+
+A continuación, se disminuye la tensión para realizar la transferencia de potencia reactiva al generador 1, ya que el generador 2 entrega más potencia.
+
+\subsection{Potencia Compensada Transferida}
+
+\begin{table}[h!]
+\centering
+\caption{Potencia compensada transferida}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Equipo} & \textbf{P (kW)} & \textbf{Q (kVAr)} & \textbf{S (kVA)} & \textbf{FP} \\ \hline
+Generador 1 & 0.0925 & 0.0648 & 0.1129 & -0.819 \\ \hline
+Generador 2 & 0.0135 & 0.0853 & 0.0863 & -0.156 \\ \hline
+\end{tabular}
+\end{table}
+
+Se varían las tensiones con el objetivo de que la potencia reactiva del generador 1 y el generador 2 sean iguales.
+
+\subsection{Aproximación de Potencias}
+
+\begin{table}[h!]
+\centering
+\caption{Aproximación de potencias}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Equipo} & \textbf{P (kW)} & \textbf{Q (kVAr)} & \textbf{S (kVA)} & \textbf{FP} \\ \hline
+Generador 1 & 0.0875 & 0.0613 & 0.1063 & -0.819 \\ \hline
+Generador 2 & 0.0144 & 0.0742 & 0.0756 & 0.191 \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Limitaciones en la Medición}
+
+Se presentaron limitaciones por los equipos, ya que no se pudo reducir la tensión lo suficiente para que la potencia reactiva fuera exactamente igual.

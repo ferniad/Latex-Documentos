@@ -1,7 +1,7 @@
-PWD c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii
+PWD c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas
 INPUT C:\Users\Daniel\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\borrador.tex
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\build\borrador.log
+INPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\salidalab.tex
+OUTPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\build\salidalab.log
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
@@ -39,10 +39,10 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\build\borrador.aux
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\build\borrador.aux
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\build\borrador.aux
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\build\borrador.aux
+INPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\build\salidalab.aux
+INPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\build\salidalab.aux
+INPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\build\salidalab.aux
+OUTPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\build\salidalab.aux
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
@@ -61,9 +61,9 @@ INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx10
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Daniel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
-OUTPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\build\borrador.pdf
+OUTPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\build\salidalab.pdf
 INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT c:\Users\Daniel\Desktop\Latex-Documentos\maquinas ii\build\borrador.aux
+INPUT c:\Users\Daniel\Desktop\gits\Latex-Documentos\Mediciones Avanzadas\build\salidalab.aux
 INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\Daniel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
