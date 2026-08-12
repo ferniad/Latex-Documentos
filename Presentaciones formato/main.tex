@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Beamer Presentation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[aspectratio=169]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usepackage{apacite}
+\pgfplotsset{compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Tema y colores %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Título de la Presentación}
+\subtitle{Subtítulo opcional}
+\author{Nombre Apellido \and Otro Nombre}
+\institute{Escuela E3T \\ Universidad Industrial de Santander}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%% ─── Portada ────────────────────────────────────────────────────────────────
+\begin{frame}
+    \titlepage
+\end{frame}
+
+%% ─── Tabla de contenidos ────────────────────────────────────────────────────
+\begin{frame}{Contenido}
+    \tableofcontents
+\end{frame}
+
+%% ─── Contenido ──────────────────────────────────────────────────────────────
+\input{contenido.tex}
+
+%% ─── Referencias ────────────────────────────────────────────────────────────
+\begin{frame}[allowframebreaks]{Referencias}
+    \bibliographystyle{apacite}
+    \bibliography{referencias}
+\end{frame}
+
+\end{document}

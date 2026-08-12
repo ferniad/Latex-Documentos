@@ -1,0 +1,135 @@
+\documentclass[aspectratio=169]{beamer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Paquetes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{apacite}
+\usetikzlibrary{calc}
+\pgfplotsset{compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Colores %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{fondooscuro}{RGB}{15, 20, 40}
+\definecolor{acento}{RGB}{0, 180, 216}
+\definecolor{acentoclaro}{RGB}{144, 224, 239}
+% \definecolor{acento}{RGB}{180, 0, 50}
+% \definecolor{acentoclaro}{RGB}{220, 100, 120}
+
+\definecolor{textoclaro}{RGB}{220, 230, 240}
+\definecolor{grissuave}{RGB}{40, 50, 75}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Tema base %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usetheme{default}
+\usecolortheme{default}
+\setbeamercolor{normal text}{fg=textoclaro, bg=fondooscuro}
+\setbeamercolor{frametitle}{fg=acento, bg=fondooscuro}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{subtitle}{fg=acentoclaro}
+\setbeamercolor{author}{fg=textoclaro}
+\setbeamercolor{institute}{fg=acentoclaro}
+\setbeamercolor{date}{fg=grissuave!80!white}
+\setbeamercolor{block title}{fg=fondooscuro, bg=acento}
+\setbeamercolor{block body}{fg=textoclaro, bg=grissuave}
+\setbeamercolor{alerted text}{fg=acento}
+\setbeamercolor{itemize item}{fg=acento}
+\setbeamercolor{itemize subitem}{fg=acentoclaro}
+\setbeamercolor{enumerate item}{fg=acento}
+\setbeamertemplate{itemize item}{\small\raise1pt\hbox{\textbullet}}
+\setbeamertemplate{navigation symbols}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Barra de progreso %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\addtobeamertemplate{footline}{}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \fill[grissuave] (current page.south west)
+      rectangle ([yshift=3pt]current page.south east);
+    \fill[acento] (current page.south west)
+      rectangle ([xshift=\the\numexpr\insertframenumber*100/\inserttotalframenumber\relax * 0.01\paperwidth, yshift=3pt]current page.south east);
+    \node[anchor=south east, font=\tiny, text=textoclaro, inner sep=5pt]
+      at (current page.south east) {\insertframenumber\,/\,\inserttotalframenumber};
+  \end{tikzpicture}%
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Frametitle con línea %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{frametitle}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \fill[fondooscuro] (current page.north west)
+      rectangle ([yshift=-1.1cm]current page.north east);
+    \draw[acento, line width=1.2pt]
+      ([yshift=-1.08cm]current page.north west) --
+      ([yshift=-1.08cm]current page.north east);
+    \node[anchor=west, text=acento, font=\large\bfseries, inner sep=0pt]
+      at ([xshift=0.5cm, yshift=-0.55cm]current page.north west)
+      {\insertframetitle};
+  \end{tikzpicture}%
+  \vspace{0.6cm}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Portada con TikZ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\defbeamertemplate*{title page}{custom}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \fill[fondooscuro] (current page.south west) rectangle (current page.north east);
+    \foreach \i in {1,...,6}{
+      \draw[acento!20, line width=0.4pt]
+        ([xshift=\i*1.8cm]current page.south west) --
+        ([xshift=\i*1.8cm, yshift=2cm]current page.north west);
+    }
+    \draw[acento, line width=2pt]
+      ([xshift=1cm, yshift=-3.2cm]current page.north west) --
+      ([xshift=7cm, yshift=-3.2cm]current page.north west);
+    \node[anchor=west, text=white, font=\LARGE\bfseries, text width=13cm]
+      at ([xshift=1cm, yshift=-2.5cm]current page.north west)
+      {\inserttitle};
+    \node[anchor=west, text=acentoclaro, font=\normalsize, text width=13cm]
+      at ([xshift=1cm, yshift=-3.7cm]current page.north west)
+      {\insertsubtitle};
+    \node[anchor=west, text=textoclaro, font=\small]
+      at ([xshift=1cm, yshift=-4.6cm]current page.north west)
+      {\insertauthor};
+    \node[anchor=west, text=acentoclaro, font=\footnotesize]
+      at ([xshift=1cm, yshift=-5.2cm]current page.north west)
+      {\insertinstitute};
+    \node[anchor=west, text=grissuave!80!white, font=\footnotesize]
+      at ([xshift=1cm, yshift=-5.7cm]current page.north west)
+      {\insertdate};
+  \end{tikzpicture}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Título de la Presentación}
+\subtitle{Subtítulo opcional}
+\author{Nombre Apellido \and Otro Nombre}
+\institute{Escuela E3T · Universidad Industrial de Santander}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\begin{frame}{Contenido}
+  \tableofcontents
+\end{frame}
+
+\input{contenido.tex}
+
+\begin{frame}[allowframebreaks]{Referencias}
+  \bibliographystyle{apacite}
+  \bibliography{referencias}
+\end{frame}
+
+\end{document}

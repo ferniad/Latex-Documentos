@@ -1,0 +1,6 @@
+PWD /home/panchito/Documentos/Ufiles/Latex-Documentos/Sistemas de Distribucion
+INPUT /usr/local/texlive/2026/texmf.cnf
+INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /home/panchito/Documentos/Ufiles/Latex-Documentos/Sistemas de Distribucion/levantamiento.tex
+OUTPUT levantamiento.log

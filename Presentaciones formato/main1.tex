@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Beamer Focus Theme %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[aspectratio=169]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usepackage{apacite}
+\pgfplotsset{compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Tema Focus %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usetheme[
+    numbering=progressbar,
+    totalframenumbering=yes,
+    nofirafonts           %% Deshabilitar fuentes Fira (no disponibles en Tectonic)
+]{focus}
+
+
+%% Colores personalizables — cámbia estos dos para cambiar toda la paleta
+\definecolor{main}{RGB}{0, 74, 173}     % azul UIS (o el que prefieras)
+\definecolor{background}{RGB}{240,243,250}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Título de la Presentación}
+\subtitle{Subtítulo opcional}
+\author{Nombre Apellido \and Otro Nombre}
+\institute{Escuela E3T \\ Universidad Industrial de Santander}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%% ─── Portada ────────────────────────────────────────────────────────────────
+\begin{frame}
+    \maketitle
+\end{frame}
+
+%% ─── Tabla de contenidos ────────────────────────────────────────────────────
+\begin{frame}{Contenido}
+    \tableofcontents
+\end{frame}
+
+%% ─── Contenido ──────────────────────────────────────────────────────────────
+\input{contenido.tex}
+
+%% ─── Referencias ────────────────────────────────────────────────────────────
+\begin{frame}[allowframebreaks]{Referencias}
+    \bibliographystyle{apacite}
+    \bibliography{referencias}
+\end{frame}
+
+\end{document}

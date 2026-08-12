@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[conference]{IEEEtran}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Diseño, análisis y simulación de una instalación eléctrica de iluminación con conexiones serie y paralelo}
+
+\author{
+  \IEEEauthorblockN{Nombre Apellido, Otro Nombre Apellido}
+  \IEEEauthorblockA{Escuela E3T, Universidad Industrial de Santander\\
+  Correo: \{usuario1, usuario2\}@correo.uis.edu.co}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+%% ─── Resumen ───────────────────────────────────────────────────────────────
+\begin{abstract}
+Este artículo presenta el diseño, análisis y simulación de un sistema de iluminación para [nombre del espacio real, ej. “una oficina de 30 m²”] utilizando conexiones en serie y en paralelo. Se realizó un levantamiento de campo (medidas, tipo de lámparas, ubicación de interruptores, croquis), se elaboraron planos arquitectónico y eléctrico, y se calcularon variables eléctricas (corriente, voltaje, resistencia equivalente, potencia, consumo). Los circuitos se simularon en software [nombre del software, ej. “LTspice”] para validar su comportamiento. Los resultados muestran que la conexión en paralelo garantiza independencia de lámparas y estabilidad de tensión, mientras que la serie presenta caída de tensión y dependencia total. Se concluye que la instalación real debe emplear topología paralela.
+\end{abstract}
+
+
+\begin{IEEEkeywords}
+  Tectonic, IEEEtran, LaTeX, pgfplots, BibTeX.
+\end{IEEEkeywords}
+
+%% ─── Contenido ──────────────────────────────────────────────────────────────
+\input{contenido.tex}
+
+%% ─── Referencias ────────────────────────────────────────────────────────────
+\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{referencias}
+
+\end{document}
+
+

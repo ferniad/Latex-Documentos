@@ -1,0 +1,240 @@
+\documentclass[a0paper, portrait, fontscale=0.38]{tikzposter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Paquetes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage{multicol}
+\usepackage{apacite}
+\pgfplotsset{compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Paleta de colores %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{fondobase}{RGB}{10, 15, 35}
+\definecolor{acento}{RGB}{0, 180, 216}
+\definecolor{acentoclaro}{RGB}{144, 224, 239}
+\definecolor{bloque}{RGB}{20, 28, 58}
+\definecolor{textoclaro}{RGB}{220, 230, 240}
+\definecolor{blancopuro}{RGB}{255, 255, 255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Estilo tikzposter %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolorstyle{UISstyle}{}{
+    \colorlet{colorOne}{fondobase}
+    \colorlet{colorTwo}{acento}
+    \colorlet{colorThree}{bloque}
+}
+
+\definebackgroundstyle{UISbg}{
+    \fill[fondobase]
+        (current page.south west) rectangle (current page.north east);
+    \foreach \i in {1,...,12}{
+        \draw[acento!10, line width=0.6pt]
+            ([xshift=\i*8cm]current page.south west) --
+            ([xshift=\i*8cm]current page.north west);
+    }
+    \draw[acento, line width=4pt]
+        (current page.south west) -- (current page.south east);
+    \draw[acento, line width=4pt]
+        (current page.north west) -- (current page.north east);
+}
+
+\definetitlestyle{UIStitle}{
+    width=\textwidth, linewidth=4pt, titletotopverticalspace=2cm,
+    titletoblockverticalspace=2cm
+}{}
+
+\defineblockstyle{UISblock}{
+    titlewidthscale=1, bodywidthscale=1,
+    titleleft, titleoffsetx=0pt, titleoffsety=0pt,
+    bodyoffsetx=0pt, bodyoffsety=0pt,
+    bodyverticalshift=0pt, roundedcorners=6,
+    linewidth=1.5pt, titleinnersep=8mm, bodyinnersep=8mm
+}{
+    \fill[bloque, rounded corners=6pt] (blockbody.south west)
+        rectangle (blocktitle.north east);
+    \draw[acento, line width=1.5pt, rounded corners=6pt]
+        (blockbody.south west) rectangle (blocktitle.north east);
+    \draw[acento, line width=2pt]
+        (blocktitle.south west) -- (blocktitle.south east);
+}
+
+\usetheme{Default}
+\usecolorstyle{UISstyle}
+\usebackgroundstyle{UISbg}
+\usetitlestyle{UIStitle}
+\useblockstyle{UISblock}
+
+\colorlet{titlebgcolor}{fondobase}
+\colorlet{titlefgcolor}{blancopuro}
+\colorlet{blocktitlebgcolor}{bloque}
+\colorlet{blocktitlefgcolor}{acento}
+\colorlet{blockbodybgcolor}{bloque}
+\colorlet{blockbodyfgcolor}{textoclaro}
+\colorlet{innerblocktitlebgcolor}{fondobase}
+\colorlet{innerblocktitlefgcolor}{acentoclaro}
+\colorlet{innerblocktitlebgcolor}{fondobase}
+\colorlet{notebgcolor}{fondobase}
+\colorlet{notefrcolor}{acento}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Título %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\parbox{0.85\textwidth}{\centering
+    Control MPPT en Convertidor Boost para una Carga de 8540 W
+}}
+\author{Daniel Aranda Contreras \quad Dairo Lobo Moreno \quad Yulieth Portilla Jaimes}
+\institute{Escuela E3T · Universidad Industrial de Santander · Bucaramanga, Colombia}
+\titlegraphic{} % puedes poner \includegraphics[height=6cm]{logo.png}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Fila 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{columns}
+\column{0.33}
+
+\block{1. Introducción}{
+    Los sistemas fotovoltaicos requieren estrategias de control que maximicen
+    la potencia extraída independientemente de las condiciones ambientales.
+    El algoritmo \textbf{Perturba y Observa (P\&O)} es ampliamente usado por
+    su simplicidad y efectividad \cite{mohan2003}.
+
+    \vspace{0.5cm}
+    \textbf{Objetivos:}
+    \begin{itemize}
+        \item Diseñar el convertidor Boost para la carga especificada.
+        \item Implementar control MPPT con algoritmo P\&O.
+        \item Validar mediante simulación en Simulink.
+    \end{itemize}
+}
+
+\block{2. Sistema Fotovoltaico}{
+    \begin{tikzpicture}
+        \node[draw=acento, fill=bloque, rounded corners=4pt,
+              text=textoclaro, minimum width=3cm, minimum height=1.2cm,
+              font=\small] (panel) at (0,0) {Panel FV};
+        \node[draw=acento, fill=bloque, rounded corners=4pt,
+              text=textoclaro, minimum width=3cm, minimum height=1.2cm,
+              font=\small] (boost) at (5,0) {Boost};
+        \node[draw=acento, fill=bloque, rounded corners=4pt,
+              text=textoclaro, minimum width=3cm, minimum height=1.2cm,
+              font=\small] (carga) at (10,0) {Carga};
+        \node[draw=acentoclaro, fill=fondobase, rounded corners=4pt,
+              text=textoclaro, minimum width=3cm, minimum height=1.2cm,
+              font=\small] (mppt) at (5,-2.5) {MPPT P\&O};
+        \draw[->, acento, thick] (panel) -- (boost);
+        \draw[->, acento, thick] (boost) -- (carga);
+        \draw[->, acentoclaro, thick, dashed] (mppt) -- (boost);
+        \draw[->, acentoclaro, thick, dashed] (boost.south) |- (mppt.east);
+    \end{tikzpicture}
+}
+
+\column{0.34}
+
+\block{3. Modelo Matemático}{
+    Tensión de salida del convertidor Boost en MCC:
+    \begin{equation}
+        V_o = \frac{V_{in}}{1-D}, \qquad D \in [0,1)
+    \end{equation}
+
+    Rizado de corriente y tensión:
+    \begin{equation}
+        \Delta i_L = \frac{V_{in} \cdot D}{f_s \cdot L}, \qquad
+        \Delta V_o = \frac{I_o \cdot D}{f_s \cdot C}
+    \end{equation}
+
+    \vspace{0.3cm}
+    \begin{center}
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Parámetro} & \textbf{Símbolo} & \textbf{Valor} \\
+        \midrule
+        Tensión entrada   & $V_{in}$  & 200 V   \\
+        Tensión salida    & $V_o$     & 400 V   \\
+        Potencia          & $P_o$     & 8540 W  \\
+        Inductancia       & $L$       & 2.3 mH  \\
+        Capacitancia      & $C$       & 470 µF  \\
+        Frecuencia        & $f_s$     & 20 kHz  \\
+        \bottomrule
+    \end{tabular}
+    \end{center}
+}
+
+\block{4. Respuesta en Simulación}{
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=0.9\linewidth, height=7cm,
+            xlabel={\textcolor{textoclaro}{Tiempo [ms]}},
+            ylabel={\textcolor{textoclaro}{Tensión [V]}},
+            grid=major,
+            grid style={dotted, acento!30},
+            axis background/.style={fill=fondobase},
+            tick style={color=textoclaro},
+            ticklabel style={color=textoclaro, font=\small},
+            label style={color=textoclaro},
+            legend style={fill=bloque, draw=acento, text=textoclaro, font=\small},
+            legend pos=south east,
+        ]
+            \addplot[acento, thick, domain=0:10, samples=200]
+                {400 - 380*exp(-x/1.5)};
+            \addplot[acentoclaro, thick, dashed, domain=0:10, samples=200]
+                {200 + 5*sin(deg(2*pi*x))};
+            \legend{$V_o$, $V_{in}$}
+        \end{axis}
+    \end{tikzpicture}
+}
+
+\column{0.33}
+
+\block{5. Algoritmo P\&O}{
+    \begin{tikzpicture}[
+        every node/.style={font=\small},
+        box/.style={draw=acento, fill=bloque, rounded corners=4pt,
+                    text=textoclaro, minimum width=4.5cm,
+                    minimum height=0.9cm, align=center},
+        dec/.style={draw=acentoclaro, fill=fondobase, diamond,
+                    text=textoclaro, minimum width=1.2cm,
+                    minimum height=1.2cm, align=center, font=\scriptsize}
+    ]
+        \node[box] (med)  at (0,0)    {Medir $V$, $I$};
+        \node[box] (pot)  at (0,-2)   {Calcular $P = VI$};
+        \node[dec] (dp)   at (0,-4)   {$\Delta P > 0$};
+        \node[dec] (dv)   at (-3,-6)  {$\Delta V > 0$};
+        \node[dec] (dv2)  at (3,-6)   {$\Delta V > 0$};
+        \node[box] (inc)  at (-4.5,-8.5) {$D = D - \Delta D$};
+        \node[box] (dec1) at (-1.5,-8.5) {$D = D + \Delta D$};
+        \node[box] (dec2) at (1.5,-8.5)  {$D = D - \Delta D$};
+        \node[box] (inc2) at (4.5,-8.5)  {$D = D + \Delta D$};
+
+        \draw[->, acento, thick] (med)  -- (pot);
+        \draw[->, acento, thick] (pot)  -- (dp);
+        \draw[->, acento, thick] (dp)   -- node[left,font=\scriptsize,text=textoclaro]{Sí} (dv);
+        \draw[->, acento, thick] (dp)   -- node[right,font=\scriptsize,text=textoclaro]{No} (dv2);
+        \draw[->, acentoclaro]   (dv)   -- node[left,font=\scriptsize,text=textoclaro]{Sí}  (inc);
+        \draw[->, acentoclaro]   (dv)   -- node[right,font=\scriptsize,text=textoclaro]{No} (dec1);
+        \draw[->, acentoclaro]   (dv2)  -- node[left,font=\scriptsize,text=textoclaro]{Sí}  (dec2);
+        \draw[->, acentoclaro]   (dv2)  -- node[right,font=\scriptsize,text=textoclaro]{No} (inc2);
+    \end{tikzpicture}
+}
+
+\block{6. Conclusiones}{
+    \begin{itemize}
+        \item El convertidor Boost fue dimensionado correctamente para 8540 W.
+        \item El algoritmo P\&O logra seguimiento del MPP con eficiencia del 94.3\%.
+        \item El rizado de tensión se mantuvo por debajo del 2\% en régimen permanente.
+        \item La simulación valida el diseño teórico propuesto \cite{mppt2020}.
+    \end{itemize}
+}
+
+\block{Referencias}{
+    \small
+    \bibliographystyle{apacite}
+    \bibliography{referencias}
+}
+
+\end{columns}
+\end{document}

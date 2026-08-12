@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/1_p1.aux": true,
+        "**/1_p1.log": true,
+        "**/1_p1.gz": true,
+        "**/1_p1.out": true,
+        "**/1.aux": true,
+        "**/1.log": true,
+        "**/1.gz": true,
+        "**/1.out": true
+    },
+   
+    "latex-runner.compiler": "compilar-latex",
+    "latex-runner.compilerArgs": []
+}
