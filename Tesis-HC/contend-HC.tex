@@ -1,0 +1,56 @@
+% =====================================================================
+% ARCHIVO: contend-HC.tex
+% =====================================================================
+
+\section{Planteamiento del Problema}
+% Nota: Se usa \section en lugar de \chapter porque el documento principal es un article.
+
+El auge global de las fuentes de energía renovable ha provocado una penetración masiva de sistemas de generación fotovoltaica (PV) en las redes de distribución. En este contexto, resulta fundamental evaluar la Capacidad de Alojamiento o \textit{Hosting Capacity} (HC), la cual se define como la cantidad máxima de recursos energéticos distribuidos (DER) que una red puede integrar sin que se presenten violaciones en sus límites operativos (térmicos, de voltaje o protección) y sin requerir modificaciones en la infraestructura existente. Superar este umbral crítico desencadena problemas graves de calidad y seguridad operativa, restringiendo la viabilidad técnica y la expansión del servicio a nuevos prosumidores.
+
+Históricamente, las redes de distribución fueron diseñadas para transportar flujos de potencia unidireccionales desde la subestación hacia los consumidores. Sin embargo, la inyección de potencia fotovoltaica en magnitudes superiores a la demanda local invierte esta dinámica, provocando un flujo de potencia inverso. Este fenómeno es el principal responsable de las elevaciones de tensión en los nodos, constituyendo la sobretensión el factor limitante más crítico y restrictivo para la capacidad de alojamiento. De manera concurrente, el exceso de generación induce sobrecargas térmicas que amenazan la integridad operativa de los transformadores de distribución y los conductores. Adicionalmente, una integración descontrolada agudiza problemas como el desbalance de tensiones y el incremento de las pérdidas técnicas en los alimentadores.
+
+En la literatura, los métodos determinísticos clásicos han evaluado la capacidad de alojamiento asumiendo condiciones fijas orientadas a los escenarios operativos más desfavorables del sistema. Aunque rápidos de calcular, estos enfoques estáticos carecen de la capacidad para reflejar el impacto real de la variabilidad de la red, lo que frecuentemente deriva en la sobreestimación o subestimación del límite de integración real. Para superar esta limitación, es imperativo adoptar enfoques basados en series de tiempo y técnicas probabilísticas, como la simulación de Monte Carlo. Este paradigma analítico permite capturar de manera precisa el comportamiento dinámico de los perfiles de carga de los usuarios y las fluctuaciones estocásticas de la irradiancia solar a lo largo del tiempo.
+
+% --- NOTA PARA AUDITAR 1 ---
+\begin{quote}
+\small \textit{\textbf{Nota para auditar:} Se debe precisar metodológicamente si el algoritmo dependerá de series de tiempo puramente históricas (método de series temporales) o si se generarán escenarios estocásticos aleatorios mediante Monte Carlo para modelar la ubicación y tamaño de los paneles, ya que ambos enfoques difieren en su tratamiento del tiempo y la probabilidad.}
+\end{quote}
+
+Como alternativa a incurrir en elevados sobrecostos por el refuerzo físico de la red, la optimización de las funcionalidades operativas de los inversores inteligentes se perfila como una solución altamente costo-efectiva. En particular, el control local de potencia reactiva ---frecuentemente implementado mediante lógicas Volt-VAR--- permite a los inversores inyectar o absorber reactivos dinámicamente en respuesta a las desviaciones de tensión detectadas en el punto de conexión. Durante los períodos de alta generación, la absorción de potencia reactiva compensa las sobretensiones locales, logrando incrementos sustanciales en la capacidad de alojamiento del sistema.
+
+% --- NOTA PARA AUDITAR 2 ---
+\begin{quote}
+\small \textit{\textbf{Nota para auditar:} Es necesario definir si la simulación contemplará la interacción entre estos inversores inteligentes y los dispositivos de regulación de tensión heredados de la red ---como reguladores de pasos SVR o cambiadores de tomas OLTC---, ya que la literatura señala que la falta de coordinación entre estos equipos puede limitar la mejora de la capacidad de integración.}
+\end{quote}
+
+El cálculo y maximización de la capacidad de alojamiento, sujeto a múltiples escenarios dinámicos y estrictas restricciones físicas, configura un problema de optimización de alta complejidad. Para garantizar la tratabilidad computacional, se descartan los enfoques matemáticos exactos en favor de métodos metaheurísticos como la Optimización por Enjambre de Partículas (PSO). Este algoritmo destaca por su potente capacidad de exploración del espacio de búsqueda global para identificar tamaños y ubicaciones fotovoltaicas óptimas. Frente a otros enfoques, como los algoritmos genéticos que pueden requerir hasta 400 iteraciones, el PSO mejorado ofrece una convergencia acelerada (aproximadamente en 30 iteraciones) al lidiar con penalizaciones por violaciones de tensión y flujo inverso.
+
+% --- NOTA PARA AUDITAR 3 ---
+\begin{quote}
+\small \textit{\textbf{Nota para auditar:} La literatura reciente advierte que el PSO convencional puede sufrir de convergencia prematura en problemas de muy alta dimensionalidad. Convendría aclarar si utilizará un PSO estándar o una variante mejorada/híbrida, como un PSO-GD, para justificar plenamente la estabilidad del método.}
+\end{quote}
+
+% =====================================================================
+% ESTRUCTURA RESTANTE DE LA PROPUESTA
+% =====================================================================
+
+\section{Justificación}
+% Aquí puedes argumentar el impacto técnico, económico y social de tu proyecto.
+
+\section{Objetivos}
+
+\subsection{Objetivo General}
+% Redactar iniciando con un verbo en infinitivo (ej. Estimar, Desarrollar, Evaluar...)
+
+\subsection{Objetivos Específicos}
+\begin{itemize}
+    \item % Objetivo 1 (Ej. Modelar la red...)
+    \item % Objetivo 2 (Ej. Implementar el algoritmo PSO...)
+    \item % Objetivo 3 (Ej. Evaluar el impacto de las lógicas Volt-VAR...)
+\end{itemize}
+
+\section{Metodología}
+% Aquí irá el marco matemático, simulaciones en OpenDSS/Python, modelado del PSO, etc.
+
+\section{Cronograma de Actividades}
+% Podemos armar una tabla estilo diagrama de Gantt más adelante.

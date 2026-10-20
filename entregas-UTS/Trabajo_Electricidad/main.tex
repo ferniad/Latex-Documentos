@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[conference]{IEEEtran}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage[spanish]{babel}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Diseño, análisis y simulación de una instalación eléctrica de iluminación con conexiones serie y paralelo}
+
+\author{
+  \IEEEauthorblockN{Julio Paez, Jhon Cañas, Juan Arias, Jose Candela, Jorge Forero}
+  \IEEEauthorblockA{Unidades Tecnológicas de Santander\\ \\
+  Correos: \texttt{Jjorgepaez@uts.edu.co}, \texttt{jacanas@uts.edu.co}, \texttt{jharias@uts.edu.co},\\ \texttt{jalejandrocandela@uts.edu.co}, \texttt{jluisforero@uts.edu.co}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+%% ─── Resumen ───────────────────────────────────────────────────────────────
+\begin{abstract}
+Este artículo presenta el diseño, análisis y simulación del sistema de iluminación del proyecto de vivienda unifamiliar ubicado en Curiti, Vereda Líbano (Santander, Colombia), edificación de cuatro niveles con 44 puntos de luz distribuidos sobre un lote de 98~m². Se modeló cada luminaria como una resistencia de 240~$\Omega$ (60~W / 120~V) y se evaluaron dos topologías de circuito —serie y paralelo— con dos esquemas de mando: interruptores unipolares (manual) y relés por detección de presencia (automático). Los planos arquitectónicos se elaboraron en AutoCAD con simbología IEC~60617, y los circuitos se validaron en SimulIDE empleando una fuente de 120~V~CD, criterio válido para cargas puramente resistivas en régimen permanente. Los resultados analíticos y de simulación concuerdan exactamente: en paralelo, cada luminaria recibe 120~V y disipa 60~W (potencia total: 2{,}64~kW; corriente de línea: 22~A); en serie, la tensión por elemento cae a 2{,}73~V y la potencia disipada se reduce a 30{,}9~mW, dejando las lámparas prácticamente apagadas. Se concluye que la topología paralelo es la única viable para iluminación funcional y la única conforme al RETIE y la NTC~2050. Se recomienda sectorizar la instalación en circuitos ramales de 20~A con conductor \#12~AWG y protección termomagnética individual por planta.
+\end{abstract}
+
+\textbf{Abstract}—This paper presents the design, analysis, and simulation of the lighting system for a single-family housing project located in Curiti, Vereda Líbano (Santander, Colombia), a four-story building with 44 light points distributed over a 98~m² plot. Each luminaire was modeled as a 240~$\Omega$ resistor (60~W / 120~V), and two circuit topologies—series and parallel—were evaluated under two switching schemes: single-pole switches (manual) and presence-detection relays (automatic). Architectural plans were drawn in AutoCAD using IEC~60617 symbology, and the circuits were validated in SimulIDE using a 120~V~DC source, a valid criterion for purely resistive loads under steady-state conditions. Analytical and simulation results agree exactly: in parallel, each luminaire receives 120~V and dissipates 60~W (total power: 2.64~kW; line current: 22~A); in series, the voltage per element drops to 2.73~V and the dissipated power is reduced to 30.9~mW, leaving the lamps virtually off. It is concluded that the parallel topology is the only viable option for functional lighting and the only one compliant with RETIE and NTC~2050. It is recommended to sectionalize the installation into 20~A branch circuits with \#12~AWG conductors and individual thermomagnetic protection per floor.
+
+
+\begin{IEEEkeywords}
+  circuito paralelo, circuito serie, iluminación residencial, SimulIDE, RETIE, NTC~2050, control automático, relé de presencia.
+\end{IEEEkeywords}
+
+%% ─── Contenido ──────────────────────────────────────────────────────────────
+\input{contenido.tex}
+
+%% ─── Referencias ────────────────────────────────────────────────────────────
+\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{referencias}
+
+\end{document}
+
+

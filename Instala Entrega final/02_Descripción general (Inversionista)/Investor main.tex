@@ -1,0 +1,243 @@
+% ============================================================
+%  investor_main.tex --- Reporte Ejecutivo para Inversionistas
+%  Compatible con Tectonic
+%  Editar: investor_content.tex  |  Referencias: investor_refs.bib
+% ============================================================
+
+\documentclass[10pt, letterpaper, oneside]{article}
+
+% ── Codificación ─────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage{lmodern}
+
+% ── Layout ───────────────────────────────────────────────────
+\usepackage[
+  top=2.2cm, bottom=2.5cm,
+  left=2.8cm, right=2.8cm,
+  includeheadfoot
+]{geometry}
+
+% ── Color ────────────────────────────────────────────────────
+\usepackage[dvipsnames,table]{xcolor}
+\definecolor{NavyDeep}{HTML}{0A1628}
+\definecolor{GoldAccent}{HTML}{C9973A}
+\definecolor{SilverMid}{HTML}{8A97A8}
+\definecolor{IceLight}{HTML}{F4F6F9}
+\definecolor{TextBody}{HTML}{1C2B3A}
+\definecolor{RuleGray}{HTML}{D4D9E1}
+
+% ── Graficos ─────────────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{positioning,calc}
+
+% ── Cajas de color ───────────────────────────────────────────
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% ── Tablas ───────────────────────────────────────────────────
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\renewcommand{\arraystretch}{1.4}
+
+% ── Encabezado y pie ─────────────────────────────────────────
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{%
+  {\color{NavyDeep}\footnotesize\textbf{\EmpresaNombre}}%
+  {\color{SilverMid}\footnotesize\ \textbar\ \DocumentoTitulo}%
+}
+\fancyhead[R]{{\color{SilverMid}\footnotesize\DocumentoFecha}}
+\fancyfoot[L]{{\color{SilverMid}\footnotesize
+  \textit{Confidencial --- Solo para uso de inversionistas autorizados}}}
+\fancyfoot[R]{{\color{NavyDeep}\footnotesize\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\makeatletter
+  \patchcmd{\headrule}{\hrule}{\color{GoldAccent}\hrule}{}{}
+  \patchcmd{\footrule}{\hrule}{\color{RuleGray}\hrule}{}{}
+\makeatother
+
+% ── Interlineado ─────────────────────────────────────────────
+\usepackage{setspace}
+\setstretch{1.35}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% ── Hipervinculos ─────────────────────────────────────────────
+\usepackage[hidelinks]{hyperref}
+
+% ── Secciones ────────────────────────────────────────────────
+\usepackage{titlesec}
+\setcounter{secnumdepth}{0}
+
+\titleformat{\section}
+  {\color{NavyDeep}\large\bfseries}
+  {}{0em}
+  {}
+  [\vspace{2pt}{\color{GoldAccent}\hrule height 1.2pt}\vspace{4pt}]
+
+\titleformat{\subsection}
+  {\color{NavyDeep}\normalsize\bfseries}
+  {}{0em}{}
+
+\titlespacing*{\section}    {0pt}{18pt}{6pt}
+\titlespacing*{\subsection} {0pt}{10pt}{3pt}
+
+% ── Referencias ──────────────────────────────────────────────
+\usepackage[authoryear,round]{natbib}
+
+% ─────────────────────────────────────────────────────────────
+%  METADATOS --- editar estos valores
+% ─────────────────────────────────────────────────────────────
+\newcommand{\EmpresaNombre}{Nombre Empresa}
+\newcommand{\EmpresaNombreRaw}{Nombre de la Empresa S.A.S.}
+\newcommand{\EmpresaSlogan}{Innovaci\'on que transforma mercados}
+\newcommand{\DocumentoTitulo}{Reporte Ejecutivo para Inversionistas}
+\newcommand{\DocumentoFecha}{Junio 2025}
+\newcommand{\DocumentoVersion}{v1.0 --- Confidencial}
+\newcommand{\RondaInversion}{Serie A}
+\newcommand{\MetaCapital}{USD \$2{,}500{,}000}
+
+% ─────────────────────────────────────────────────────────────
+%  CAJAS REUTILIZABLES
+% ─────────────────────────────────────────────────────────────
+
+% Caja oscura para highlights principales
+\newtcolorbox{darkbox}{
+  enhanced,
+  colback=NavyDeep,
+  coltext=white,
+  colframe=NavyDeep,
+  boxrule=0pt,
+  arc=3pt,
+  left=12pt, right=12pt, top=8pt, bottom=8pt
+}
+
+% Caja de insight con borde dorado
+\newtcolorbox{insightbox}[1][Nota]{
+  enhanced,
+  breakable,
+  colback=NavyDeep!4!white,
+  colframe=GoldAccent,
+  boxrule=0.5pt,
+  leftrule=4pt,
+  arc=2pt,
+  left=8pt, right=8pt, top=6pt, bottom=6pt,
+  title={#1},
+  fonttitle=\bfseries\color{NavyDeep}\small
+}
+
+% ============================================================
+\begin{document}
+\color{TextBody}
+
+% ─────────────────────────────────────────────────────────────
+%  PORTADA
+% ─────────────────────────────────────────────────────────────
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \fill[NavyDeep]
+    (current page.north west)
+    rectangle
+    ([yshift=-9cm] current page.north east);
+  \fill[GoldAccent]
+    ([yshift=-8.85cm] current page.north west) --
+    ([yshift=-9.15cm] current page.north west) --
+    ([yshift=-8.55cm] current page.north east) --
+    ([yshift=-8.25cm] current page.north east) -- cycle;
+  \fill[NavyDeep!8!white]
+    (current page.south west)
+    rectangle
+    ([yshift=2.4cm] current page.south east);
+\end{tikzpicture}
+
+\vspace*{2.2cm}
+\begin{center}
+  \begin{tikzpicture}
+    \draw[GoldAccent, line width=2pt] (0,0) circle (0.65cm);
+    \fill[GoldAccent] (0,0) circle (0.22cm);
+  \end{tikzpicture}
+
+  \vspace{0.5cm}
+  {\color{white}\fontsize{22}{28}\selectfont\bfseries \EmpresaNombreRaw\par}
+  \vspace{0.3cm}
+  {\color{GoldAccent}\large\itshape \EmpresaSlogan\par}
+
+  \vspace{2.8cm}
+  {\color{white}\fontsize{16}{22}\selectfont\bfseries \DocumentoTitulo\par}
+  \vspace{0.4cm}
+  {\color{SilverMid}\normalsize
+    Ronda: \RondaInversion\quad\textbar\quad Meta: \MetaCapital\par}
+
+  \vspace{3.0cm}
+  {\color{IceLight}\small \DocumentoFecha\quad\textbar\quad\DocumentoVersion\par}
+\end{center}
+
+\vfill
+\begin{center}
+  {\color{SilverMid}\footnotesize
+    Este documento es estrictamente confidencial y destinado
+    exclusivamente a los destinatarios autorizados.\\
+    Queda prohibida su reproducci\'on sin consentimiento previo.}
+\end{center}
+\newpage
+
+% ─────────────────────────────────────────────────────────────
+%  TABLA DE CONTENIDO
+% ─────────────────────────────────────────────────────────────
+\thispagestyle{fancy}
+\tableofcontents
+\newpage
+
+% ─────────────────────────────────────────────────────────────
+%  CUERPO
+% ─────────────────────────────────────────────────────────────
+\input{investor_content}
+
+% ─────────────────────────────────────────────────────────────
+%  REFERENCIAS
+% ─────────────────────────────────────────────────────────────
+\newpage
+\bibliographystyle{apa}
+\bibliography{investor_refs}
+
+% ─────────────────────────────────────────────────────────────
+%  CONTRAPORTADA
+% ─────────────────────────────────────────────────────────────
+\newpage
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \fill[NavyDeep]
+    (current page.south west) rectangle (current page.north east);
+  \fill[GoldAccent]
+    ([yshift=3.5cm]  current page.south west) --
+    ([yshift=3.9cm]  current page.south west) --
+    ([yshift=3.1cm]  current page.south east) --
+    ([yshift=2.7cm]  current page.south east) -- cycle;
+\end{tikzpicture}
+
+\vspace*{\fill}
+\begin{center}
+  {\color{white}\Large\bfseries \EmpresaNombreRaw\par}
+  \vspace{0.7cm}
+  {\color{GoldAccent}\normalsize Contacto para Inversionistas\par}
+  \vspace{0.4cm}
+  {\color{SilverMid}\small
+    inversiones@empresa.com\quad\textbar\quad+57 300 000 0000\\[3pt]
+    www.empresa.com\quad\textbar\quad Bucaramanga, Colombia\par}
+  \vspace{1.5cm}
+  {\color{SilverMid!60!white}\footnotesize \DocumentoVersion\par}
+\end{center}
+\vspace*{\fill}
+
+\end{document}

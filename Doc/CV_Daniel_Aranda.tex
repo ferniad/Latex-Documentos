@@ -1,0 +1,156 @@
+\documentclass[10pt,a4paper]{article}
+
+% ============================================================
+% PAQUETES
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish,provide=*]{babel}
+\usepackage[a4paper,left=1.7cm,right=1.7cm,top=1.4cm,bottom=1.2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\ifdefined\pdfgentounicode
+    \pdfgentounicode=1
+\fi
+
+% Tipografía sans-serif (más moderna y legible en pantalla)
+\renewcommand{\familydefault}{\sfdefault}
+
+% ============================================================
+% COLORES (un solo acento)
+% ============================================================
+\definecolor{primario}{HTML}{0F766E}
+\definecolor{secundario}{HTML}{64748B}
+\definecolor{texto}{HTML}{1E293B}
+\color{texto}
+
+\hypersetup{colorlinks=true, linkcolor=primario, urlcolor=primario}
+
+% ============================================================
+% SECCIONES: título pequeño en mayúsculas + línea fina
+% ============================================================
+\titleformat{\section}
+    {\normalfont\small\bfseries\color{primario}}
+    {}{0em}{}
+    [\vspace{-3pt}{\color{primario}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{11pt}{5pt}
+
+% ============================================================
+% COMANDOS
+% ============================================================
+% \entrada{Título}{Fecha}{Subtítulo}
+\newcommand{\entrada}[3]{%
+    \noindent\textbf{#1}\hfill{\small\color{secundario}#2}\\[-1pt]
+    {\small\color{secundario}#3}\par\vspace{2pt}%
+}
+% \fila{Etiqueta}{Contenido}  (para habilidades)
+\newcommand{\fila}[2]{%
+    \noindent\textbf{\small\color{primario}#1}\hspace{6pt}{\small #2}\par\vspace{2.5pt}%
+}
+
+\setlist[itemize]{leftmargin=11pt, topsep=1pt, itemsep=1.5pt, parsep=0pt,
+    label=\textcolor{primario}{\scriptsize$\bullet$}}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\begin{document}
+
+% ============================================================
+% ENCABEZADO
+% ============================================================
+\begin{center}
+    {\fontsize{21}{24}\selectfont\bfseries\color{primario} Daniel Fernando Aranda Contreras}\\[4pt]
+    {\small\color{secundario} Estudiante de Ingeniería Eléctrica \quad$\cdot$\quad Universidad Industrial de Santander}\\[4pt]
+    {\small
+        Bucaramanga, Colombia \quad$\cdot$\quad +57 3134996076 \quad$\cdot$\quad
+        \href{mailto:dfac24138@gmail.com}{dfac24138@gmail.com} \quad$\cdot$\quad
+        \href{https://github.com/ferniad}{github.com/ferniad}
+    }
+\end{center}
+
+% ============================================================
+% PERFIL
+% ============================================================
+\section*{PERFIL}
+Estudiante de 9.\textsuperscript{o} semestre de Ingeniería Eléctrica con base en sistemas de potencia, energía solar fotovoltaica y automatización industrial. Estimo \textit{Hosting Capacity} con \textbf{OpenDSS y Python}. Busco una pasantía en optimización de redes, integración solar o analítica energética.
+
+% ============================================================
+% FORMACIÓN
+% ============================================================
+\section*{FORMACIÓN}
+
+\entrada{Ingeniería Eléctrica -- Universidad Industrial de Santander}{En curso, 9.\textsuperscript{o} semestre}{%
+Trabajo de grado: \href{https://www.zotero.org/groups/6637268/camacho-aranda-tesis-uis}{Estimación dinámica de la capacidad límite de integración de recursos energéticos distribuidos fotovoltaicos mediante PSO} (cotutela con Juan Camacho)}
+{\small\textbf{Electivas en curso:} Mercados de energía eléctrica, Dimensionamiento fotovoltaico, Protecciones eléctricas. \textbf{Oyente:} Análisis de Sistemas de Distribución.}
+\vspace{5pt}
+
+\entrada{Técnico en Instalaciones Eléctricas Residenciales -- SENA}{Dic. 2021}{Cursado durante la educación media}
+
+% ============================================================
+% HABILIDADES
+% ============================================================
+\section*{HABILIDADES}
+\fila{Potencia y energía}{Hosting Capacity, redes de distribución, sistemas fotovoltaicos, protecciones, mercados de energía, puestas a tierra}
+\fila{Software y datos}{Python (NumPy, Seaborn), Rust (sistemas embebidos, en aprendizaje), OpenDSS, Scikit-learn, bases de datos relacionales, KiCad, Git, Linux y Bash, métodos numéricos}
+\fila{Reportes técnicos}{Generación automatizada de reportes y presentaciones con Python y LaTeX, con gráficas de calidad profesional}
+\fila{Automatización}{IEC 61131-3 (Ladder/FBD, GRAFCET), OpenPLC, Modbus TCP/IP}
+\fila{Idiomas}{Español nativo \quad$\cdot$\quad Inglés en proceso de certificación (Altissia, UIS)}
+
+% ============================================================
+% PROYECTOS
+% ============================================================
+\section*{PROYECTOS}
+
+\entrada{Sistema Automatizado de Clasificación y Empaque}{Curso de Accionamientos Eléctricos, UIS}{}
+\vspace{-6pt}
+\begin{itemize}
+    \item Diseño eléctrico integral: cálculo de carga, motorreductores, protecciones y diagramas de potencia y control trifásico.
+    \item Control en \textbf{IEC 61131-3} simulado en Factory IO vía Modbus TCP/IP (\href{https://youtube.com/playlist?list=PLUTAdDOdTlkNAtmTmna0_Z4TgAq-pZNoZ&si=ZV5tGop65upxRSAQ}{demostración en video}).
+\end{itemize}
+\vspace{4pt}
+
+\entrada{BrotesPredict -- Alerta Temprana Epidemiológica}{Bootcamp de IA, proyecto final}{}
+\vspace{-6pt}
+\begin{itemize}
+    \item Modelo \textbf{Gradient Boosting} que cruza calidad del agua (IDEAM) y morbilidad infantil (SIVIGILA) en 13 departamentos: \textbf{85.4\,\% de accuracy}, \textbf{0.912 de ROC-AUC}.
+\end{itemize}
+\vspace{4pt}
+
+\entrada{PowerSense-3P -- Analizador de Redes Trifásico}{Proyecto personal, en desarrollo}{}
+\vspace{-6pt}
+\begin{itemize}
+    \item Diseño de hardware con \textbf{ESP32 y ADC de 24 bits} y firmware en \textbf{Rust} para calidad de energía (RMS, FFT armónica, sags/swells; IEEE 519 e IEC 61000-4-30), con telemetría MQTT y clasificación de fallas.
+\end{itemize}
+
+% ============================================================
+% EXPERIENCIA
+% ============================================================
+\section*{EXPERIENCIA}
+
+\entrada{Cofundador y Gestor Operativo -- MentorUp, tutorías académicas}{2026}{}
+\vspace{-6pt}
+\begin{itemize}
+    \item Coordiné junto a dos socios el enlace de estudiantes universitarios con tutores de su universidad y dicté directamente Métodos Numéricos, Sistemas de Control, Circuitos Eléctricos y Termodinámica.
+    \item Promoví el servicio ante docentes y estudiantes de distintas áreas, y atendí clientes con necesidades muy diversas.
+\end{itemize}
+\vspace{4pt}
+
+\entrada{Tutor Académico Independiente}{2024 -- Actualidad}{}
+\vspace{-6pt}
+\begin{itemize}
+    \item Asesorías en asignaturas de ingeniería para estudiantes universitarios y de educación media.
+\end{itemize}
+
+% ============================================================
+% CERTIFICACIONES
+% ============================================================
+\section*{CERTIFICACIONES}
+\entrada{Bootcamp en Inteligencia Artificial, nivel básico (159 h)}{Dic. 2025}{MinTIC, Universidad de Antioquia, Universidad de Caldas y Ubicua Technology}
+\entrada{Fundamentos de Programación, módulos I y II}{Dic. 2021}{MinTIC y Universidad Tecnológica de Pereira}
+
+\end{document}

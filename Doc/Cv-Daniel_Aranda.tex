@@ -1,0 +1,186 @@
+\documentclass[10pt,a4paper]{article}
+
+% ============================================================
+% PAQUETES
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,provide=*]{babel}
+\usepackage[a4paper,left=1.2cm,right=1.2cm,top=1.1cm,bottom=1.1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{tikz}
+
+\ifdefined\pdfgentounicode
+    \pdfgentounicode=1
+\fi
+
+% ============================================================
+% PALETA DE COLORES -- Moderna (Teal & Slate)
+% ============================================================
+\definecolor{primario}{HTML}{0F766E}   % Teal moderno (ingeniería, energía y tech)
+\definecolor{secundario}{HTML}{475569} % Slate grisáceo para subtítulos y fechas
+\definecolor{texto}{HTML}{1E293B}      % Slate muy oscuro para lectura nítida
+\definecolor{linea}{HTML}{CBD5E1}      % Línea divisoria elegante
+\definecolor{fondoenc}{HTML}{F1F5F9}   % Fondo suave para encabezado
+
+\color{texto}
+
+% ============================================================
+% ENLACES
+% ============================================================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primario,
+    urlcolor=primario
+}
+
+% ============================================================
+% ESTILO DE SECCIONES (Espaciado optimizado para legibilidad)
+% ============================================================
+\titleformat{\section}
+    {\normalfont\large\bfseries\color{primario}}
+    {}{0em}{}
+    [\vspace{-2pt}{\color{linea}\titlerule[1.0pt]}\vspace{2.5pt}]
+\titlespacing*{\section}{0pt}{6pt}{2pt}
+\linespread{0.93}
+
+% ============================================================
+% COMANDOS PERSONALIZADOS
+% ============================================================
+\newcommand{\entrada}[3]{%
+    \noindent\textbf{\color{primario}#1}\hfill{\small\color{secundario}#2}\\[0pt]
+    {\small\itshape\color{secundario}#3}\par\vspace{1pt}%
+}
+
+\newcommand{\subentrada}[2]{%
+    \noindent{\small\bfseries\color{texto}#1}\hfill{\small\color{secundario}#2}\par\vspace{1pt}%
+}
+
+% ============================================================
+% LISTAS COMPACTAS (Diseñadas para escaneo rápido)
+% ============================================================
+\setlist[itemize]{leftmargin=12pt, topsep=0pt, itemsep=1.5pt, parsep=0pt, label=\textcolor{primario}{\scriptsize$\bullet$}}
+\setlength{\parskip}{0pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% ============================================================
+% ENCABEZADO
+% ============================================================
+\begin{tikzpicture}[remember picture, overlay]
+    \fill[fondoenc] (current page.north west) rectangle ([yshift=-2.6cm]current page.north east);
+\end{tikzpicture}
+
+\vspace{-10pt}
+\begin{center}
+    {\fontsize{20}{23}\selectfont\bfseries\color{primario} Daniel Fernando Aranda Contreras}\\[2pt]
+    {\normalsize\color{secundario} Estudiante de Ingeniería Eléctrica -- Universidad Industrial de Santander}\\[3pt]
+    {\small\color{texto}
+        Bucaramanga, Colombia \quad$\vert$\quad +57 3134996076 \quad$\vert$\quad
+        \href{mailto:dfac24138@gmail.com}{dfac24138@gmail.com} \quad$\vert$\quad
+        \href{https://github.com/ferniad}{github.com/ferniad}
+    }
+\end{center}
+\vspace{2pt}
+
+% ============================================================
+% PERFIL PROFESIONAL
+% ============================================================
+\section*{Perfil Profesional}
+Estudiante de 9.\textsuperscript{o} semestre de Ingeniería Eléctrica (UIS) con sólida base práctica en análisis de sistemas de potencia, automatización industrial y modelado de datos. Competente en la estimación de capacidad de integración (\textit{Hosting Capacity}) mediante \textbf{OpenDSS y Python}, así como en el diseño de sistemas de automatización bajo el estándar \textbf{IEC 61131-3}. Busco pasantía para aportar valor en proyectos de optimización de redes, control industrial y analítica energética.
+
+% ============================================================
+% FORMACIÓN ACADÉMICA
+% ============================================================
+\section*{Formación Académica}
+
+\entrada{Ingeniería Eléctrica}{En curso -- 9.\textsuperscript{o} semestre}{Universidad Industrial de Santander (UIS)}
+{\small\color{texto} Trabajo de grado: \href{https://www.zotero.org/groups/6637268/camacho-aranda-tesis-uis}{\itshape Estimación dinámica de la capacidad límite de integración de recursos energéticos distribuidos fotovoltaicos (Hosting Capacity) mediante optimización por enjambre de partículas (PSO)} -- Modelado computacional en \textbf{Python} y \textbf{OpenDSS} (en cot tutela con Juan Camacho).}
+\vspace{2pt}
+
+\entrada{Técnico en Instalaciones Eléctricas Residenciales}{Título obtenido -- Dic. 2021}{SENA -- Cursado durante la educación media (grados 10.\textsuperscript{o} y 11.\textsuperscript{o})}
+
+% ============================================================
+% PROYECTOS DESTACADOS
+% ============================================================
+\section*{Proyectos Destacados}
+
+\entrada{Sistema Automatizado de Clasificación y Empaque}{Curso de Accionamientos Eléctricos}{Universidad Industrial de Santander}
+\begin{itemize}
+    \item Ejecución del diseño eléctrico integral: cálculos de carga, selección de motorreductores, protecciones y diagramas de potencia/control trifásico.
+    \item Programación de control bajo el estándar \textbf{IEC 61131-3} (Ladder/FBD, GRAFCET) con simulación en planta industrial virtual 3D (Factory IO) integrada vía Modbus TCP/IP.
+    \item Demostración técnica: \href{https://youtube.com/playlist?list=PLUTAdDOdTlkNAtmTmna0_Z4TgAq-pZNoZ&si=ZV5tGop65upxRSAQ}{Lista de reproducción de pruebas y lógica}.
+\end{itemize}
+\vspace{1pt}
+
+\entrada{BrotesPredict -- Sistema de Alerta Temprana Epidemiológica}{Bootcamp de Inteligencia Artificial}{Proyecto Final}
+\begin{itemize}
+    \item Correlación analítica entre variables de calidad del agua (IDEAM) y registros de morbilidad en menores de 5 años (SIVIGILA) en 13 departamentos (2006--2024).
+    \item Desarrollo de modelo predictivo en \textbf{Gradient Boosting (Scikit-learn)}, alcanzando \textbf{85.4\,\% de accuracy} y \textbf{0.912 de ROC-AUC} para la clasificación automatizada de riesgo.
+\end{itemize}
+\vspace{1pt}
+
+\entrada{PowerSense-3P -- Analizador de Redes Trifásico con IA}{Proyecto Personal}{En desarrollo (Fase de arquitectura en KiCad y adquisición)}
+\begin{itemize}
+    \item Arquitectura de sistema embebido (\textbf{ESP32 + ADC ADS131M08 de 24 bits}) para monitoreo avanzado de calidad de energía (cálculo RMS, FFT armónica y detección de sags/swells bajo normativas \textbf{IEEE 519} e \textbf{IEC 61000-4-30}).
+    \item Diseño de lógica en \textbf{Scikit-learn} para clasificación de fallas, telemetría vía \textbf{MQTT} y visualización de dashboards en \textbf{Grafana}.
+\end{itemize}
+
+% ============================================================
+% EXPERIENCIA
+% ============================================================
+\section*{Experiencia}
+
+\entrada{Cofundador y Gestor Operativo}{2026 -- Actualidad}{Emprendimiento de Tutorías Académicas Especializadas}
+\begin{itemize}
+    \item Gestión integral y logística de servicios educativos avanzados, coordinando una red de tutores externos y manteniendo un margen operativo de retención del 15\,\%.
+    \item Impartición directa de cátedras en Métodos Numéricos, Sistemas de Control, Circuitos Eléctricos y Termodinámica.
+\end{itemize}
+\vspace{1pt}
+
+\entrada{Tutor Académico Independiente}{2024}{Asesorías Técnicas Especializadas}
+\begin{itemize}
+    \item Resolución analítica de problemas complejos en asignaturas clave de ingeniería para estudiantes de educación superior y media.
+\end{itemize}
+
+% ============================================================
+% HABILIDADES TÉCNICAS
+% ============================================================
+\section*{Habilidades Técnicas}
+
+\subentrada{Sistemas de Potencia y Área Eléctrica}{}
+{\small\color{texto} Análisis de circuitos, redes de distribución, sistemas polifásicos, estimación de Hosting Capacity, acometidas, puestas a tierra y equipos de medida en baja tensión.}
+\vspace{1pt}
+
+\subentrada{Software, Programación y Datos}{}
+{\small\color{texto} Python, OpenDSS, Scikit-learn, KiCad, Git, bases de datos y métodos numéricos.}
+\vspace{1pt}
+
+\subentrada{Automatización y Control}{}
+{\small\color{texto} Estándar \textbf{IEC 61131-3} (Ladder/FBD), OpenPLC, lógica GRAFCET, control en lazo abierto/cerrado y protocolos industriales (Modbus TCP/IP).}
+\vspace{1pt}
+
+\subentrada{Idiomas}{}
+{\small\color{texto} Español (nativo), Inglés (en proceso de certificación -- Altissia, convenio UIS).}
+
+% ============================================================
+% CERTIFICACIONES Y CURSOS
+% ============================================================
+\section*{Certificaciones y Cursos}
+\entrada{Bootcamp en Inteligencia Artificial -- Nivel Básico}{Dic. 2025 (159 h)}{MinTIC, Universidad de Antioquia, Universidad de Caldas y Ubicua Technology}
+\entrada{Fundamentos de Programación -- Módulos I y II}{Dic. 2021}{MinTIC / Universidad Tecnológica de Pereira (64\,h sincrónicas, 48\,h asincrónicas y 48\,h de inglés por módulo)}
+
+% ============================================================
+% REFERENCIAS
+% ============================================================
+\vspace{2pt}
+\section*{Referencias}
+{\small\color{secundario}\textit{Referencias personales y profesionales a disposición previa solicitud.}}
+
+\end{document}

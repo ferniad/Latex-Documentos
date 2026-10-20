@@ -1,0 +1,41 @@
+[
+  {
+    "label": "latex-tectonic",
+    "command": "/home/panchito/.local/bin/tectonic",
+    "args": [
+      "-X",
+      "compile",
+      "$ZED_FILE",
+      "--untrusted",
+      "--synctex",
+      "--keep-logs",
+      "--keep-intermediates"
+    ],
+    "cwd": "${workspaceRoot}",
+    "shell": "system"
+  },
+  {
+    "label": "Compilar APA 7",
+    "command": "latexmk",
+    "args": [
+      "-pdf",
+      "-outdir=build",
+      "-interaction=nonstopmode",
+      "-synctex=1",
+      "$ZED_FILE"
+    ],
+    "cwd": "$ZED_DIRNAME",
+    "shell": "system",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": true
+  },
+  {
+    "label": "Limpiar build",
+    "command": "rm",
+    "args": ["-rf", "build"],
+    "cwd": "$ZED_DIRNAME",
+    "shell": "system",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": true
+  }
+]

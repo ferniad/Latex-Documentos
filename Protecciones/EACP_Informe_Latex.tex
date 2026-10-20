@@ -1,0 +1,226 @@
+\documentclass[12pt]{article}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{parskip}
+\usepackage{graphicx}
+\graphicspath{ {figures/} }
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{blindtext}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\ifdefined\pdfgentounicode
+    \pdfgentounicode=1
+\fi
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\setlength{\headheight}{2cm}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\pagestyle{fancy}
+\lhead{%
+    \fbox{%
+        \begin{minipage}[t][2cm][c]{.23\linewidth}%
+            \begin{center}
+                \includegraphics[width=2.5cm]{Logo.jpeg}
+                CONTRATO No:
+            \end{center}
+        \end{minipage}%
+    }% end \fbox
+}% end \lhead
+
+\chead{%
+    \fbox{%
+        \begin{minipage}[t][2cm][c]{.5\linewidth}%
+            \begin{center}
+                \textbf{Informe}\\
+                \textbf{Nombre de la consultoría, proyecto,etc.}\\
+                \textbf{NOMBRE DEL ESTUDIO QUE SE PRESENTA EN ESTE DOCUMENTO.}\\
+            \end{center}
+        \end{minipage}%
+    }% end \fbox
+}% end \chead
+
+\rhead{%
+    \fbox{%
+        \begin{minipage}[t][2cm][c]{.23\linewidth}%
+            \begin{center}
+                \textbf{Revisión: 1}\\
+                \vspace{5mm}
+                \textbf{Página \thepage{} de \pageref{LastPage}}
+            \end{center}
+        \end{minipage}%
+    }% end \fbox
+}% end \rhead
+
+\begin{document}
+
+\begin{center}
+\phantom{This text will be invisible} \\
+\vspace{1.5cm}
+Informe N°XX\\
+Nombre de la asesoría, consultoría, proyecto, etc.\\
+\vspace{4cm}
+NOMBRE DEL ESTUDIO QUE SE PRESENTA EN ESTE DOCUMENTO.\\
+\vspace{4cm}
+Elaborado por:\\
+Estudiante 1\\
+Estudiante 2\\
+Estudiante 3\\
+Estudiante 4\\
+\vspace{4cm}
+Dependencia que desarrolla el informe\\
+PROELCO\\
+Barranquilla, 23 de Febrero de 2023.\\
+\vspace{2cm}
+\end{center}
+\newpage
+\phantom{This text will be invisible} \\
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|ccc|}
+\hline
+\multicolumn{3}{|c|}{ÍNDICE DE REVISIONES}                                                       \\ \hline
+\multicolumn{1}{|c|}{Índice revisión} & \multicolumn{1}{c|}{Fecha modificación} & Modificaciones \\ \hline
+\multicolumn{1}{|c|}{0}               & \multicolumn{1}{c|}{}                   &                \\ \hline
+\multicolumn{1}{|c|}{1}               & \multicolumn{1}{c|}{}                   &                \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|cc|c|c|}
+\hline
+\multicolumn{2}{|c|}{Versión}                            & 0 & 1 \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Ejecuta}}  & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Revisa}}   & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Verifica}} & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Aprueba}}  & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\end{tabular}
+\end{table}
+
+\newpage
+\vspace*{0.1cm}
+
+\renewcommand\contentsname{Tabla de contenido}
+\tableofcontents
+
+
+\newpage
+\vspace*{0.1cm}
+
+\renewcommand{\listfigurename}{Lista de figuras}
+\listoffigures
+
+
+\newpage
+\vspace*{0.1cm}
+
+\renewcommand{\listtablename}{Lista de tablas}
+\listoftables
+
+
+\newpage
+\vspace*{0.1cm}
+
+\section{Resumen ejecutivo}
+
+\section{Objetivo}
+
+\section{Alcance}
+
+\section{Documentos consultados}
+
+\section{Descripción del proyecto}
+
+\subsection{Etapas del proyecto}
+
+\subsection{Ubicación geográfica}
+
+\subsection{Área de influencia}
+
+\section{Parámetros técnicos}
+
+\subsection{Parámetros de equipos}
+
+\section{Estudio de flujo y cortocircuito}
+
+\subsection{Análisis de flujo}
+
+\subsection{Resultados de cortocircuito}
+
+\subsection{Conclusiones y recomendaciones}
+
+
+\newpage
+\vspace*{0.1cm}
+
+\begin{thebibliography}{1}
+\bibliographystyle{IEEEtran}
+
+\bibitem{ref1}
+Z. Othman and A. Satria Prabuwono, “Preliminary study on Iris recognition system: Tissues of body organs in iridology,” \emph{2010 IEEE EMBS Conference on Biomedical Engineering and Sciences (IECBES)}, pp. 115–119, Nov. 2010.
+
+\bibitem{ref2}
+J. Rojas, “Herramienta Web para el apoyo al diagnóstico de enfermedades en la medicina alternativa a través de la interpretación morfológica del iris del ojo.,” Tesis, Universidad del Valle, Tulúa, 2013.
+
+\bibitem{ref3}
+S. P. Jogi and B. B. Sharma, “Methodology of Iris image analysis for clinical diagnosis,” \emph{2014 International Conference on Medical Imaging, m-Health and Emerging Communication Systems (MedCom)}, pp. 235–240, Nov. 2014.
+
+\bibitem{ref4}
+\emph{Information technology - Biometric sample quality - Part 6: Iris image data}, ISO/IEC 29794-6:2015, International Organization for Standardization, ISO, 2015. [En línea]. Disponible: https://www.iso.org/standard/54066.html
+
+\bibitem{ref5}
+M. Moncho Santonja, B. Micó-Vicent, B. Defez, J. Jordán, \& G. Peris-Fajarnes, “Hough Transform Sensitivity Factor Calculation Model Applied to the Analysis of Acne Vulgaris Skin Lesions,” \emph{Applied Sciences}, vol. 12, no. 3, pp. 1–12, Feb. 2022.
+
+\bibitem{ref6}
+I. I. Quenta, “Modelo de Diagnostico de Enfermedades Basado en la Iridolgía,” Tesis Doctoral, Universidad Mayor de San Andrés, La Paz, Bolivia, 2009.
+
+\bibitem{ref7}
+Microsoft, “Documentation for visual studio code,” \emph{Visual Studio Code}, 03-Nov-2021. [En línea]. Disponible: https://code.visualstudio.com/docs. [Acceso: 12-Nov-2022].
+
+\bibitem{ref8}
+Python Software Foundation, “What is python? Executive summary,” \emph{Python}. [En línea]. Disponible: https://www.python.org/doc/essays/blurb/. [Acceso: 12-Nov-2022].
+
+\bibitem{ref9}
+Python Software Foundation, “Tkinter - Python interface to Tcl/Tk,” \emph{Python}. [En línea]. Disponible: https://docs.python.org/3/library/tkinter.html. [Acceso: 12-Nov-2022].
+
+\bibitem{ref10}
+Dobeš, M., Martinek J., Skoupil D., Dobešová Z.,  Pospíšil J., “Human eye localization using the modified Hough transform”. \emph{Optik}, vol 117, no. 10, pp. 468-473, Elsevier 2006. ISSN 0030-4026.
+
+\bibitem{ref11}
+Dobeš M., Machala L., Tichavský P., Pospíšil J., “Human Eye Iris Recognition Using the Mutual Information”. \emph{Optik}, vol 115, no. 9, pp. 399-405, Elsevier 2004. ISSN 0030-4026.
+
+\bibitem{ref12}
+Michal Dobeš and Libor Machala, Iris Database, http://phoenix.inf.upol.cz/iris/
+
+\end{thebibliography}
+
+\newpage
+\vspace*{0.1cm}
+
+\section*{Anexo A}
+
+\section*{Anexo B}
+
+\section*{Apéndice A}
+
+\section*{Apéndice B}
+
+\end{document}

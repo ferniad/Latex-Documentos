@@ -1,0 +1,217 @@
+================================================================
+  REGLAS LATEX PARA TECTONIC + VS CODE (LaTeX Instant Runner)
+  Basadas en errores reales del proyecto — seguir siempre
+================================================================
+
+----------------------------------------------------------------
+1. FUENTES Y CODIFICACION
+----------------------------------------------------------------
+USAR siempre estas tres lineas juntas, en este orden:
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+
+NO usar mathptmx — no soporta el guion em (—) en T1.
+NO usar fontspec — requiere XeLaTeX/LuaLaTeX, no pdfLaTeX.
+
+----------------------------------------------------------------
+2. CARACTERES ESPECIALES
+----------------------------------------------------------------
+NUNCA escribir caracteres Unicode directamente en el codigo LaTeX:
+  — (em dash)   →  usar ---
+  – (en dash)   →  usar --
+  á é í ó ú     →  usar \'a  \'e  \'i  \'o  \'u
+  ü             →  usar \"u
+  ñ             →  usar \~n
+  ¿ ¡           →  usar ?` y !`  (o escribirlos solo en babel)
+
+EXCEPCION: dentro de comentarios (% ...) si se permiten Unicode
+porque LaTeX no los procesa.
+
+Los caracteres en matematicas van siempre dentro de $ $:
+  × → $\times$
+  ≥ → $\geq$
+  ≤ → $\leq$
+
+----------------------------------------------------------------
+3. REFERENCIAS (BIBLIO)
+----------------------------------------------------------------
+Tectonic NO incluye Biber como herramienta externa.
+  NO usar: \usepackage[backend=biber]{biblatex}
+  NO usar: \addbibresource{}  ni  \printbibliography
+
+USAR siempre natbib + apa.bst:
+  \usepackage[authoryear,round]{natbib}
+  ...al final del documento...
+  \bibliographystyle{apa}
+  \bibliography{archivo_sin_extension}
+
+Comandos de cita correctos con natbib:
+  \citep{clave}       →  (Autor, año)
+  \citet{clave}       →  Autor (año)
+  \citeyearpar{clave} →  (año)
+  \citeauthor{clave}  →  Autor
+
+----------------------------------------------------------------
+4. ENCABEZADOS FANCYHDR
+----------------------------------------------------------------
+NO redefinir \headrule ni \footrule con \renewcommand — no existen
+como comandos redefinibles en versiones modernas de fancyhdr.
+
+Para colorear las reglas usar patchcmd (requiere etoolbox):
+  \usepackage{etoolbox}
+  \usepackage{fancyhdr}
+  \makeatletter
+    \patchcmd{\headrule}{\hrule}{\color{MiColor}\hrule}{}{}
+    \patchcmd{\footrule}{\hrule}{\color{MiColor}\hrule}{}{}
+  \makeatother
+
+----------------------------------------------------------------
+5. TABLAS
+----------------------------------------------------------------
+Para centrar contenido en columnas de ancho fijo NO usar \centering
+suelto dentro de la celda — rompe el conteo de columnas con
+\rowcolor activo.
+
+USAR siempre el modificador en el preambulo de la columna:
+  >{\centering\arraybackslash}p{3cm}
+
+Ejemplo completo correcto:
+  \begin{tabular}{
+    >{\centering\arraybackslash}p{4cm}
+    >{\centering\arraybackslash}p{4cm}}
+    Columna A & Columna B \\
+  \end{tabular}
+
+Para \rowcolor con colortbl asegurarse de cargar:
+  \usepackage[dvipsnames,table]{xcolor}
+  (la opcion "table" habilita \rowcolor y \cellcolor)
+
+----------------------------------------------------------------
+6. SIMBOLOS ESPECIALES
+----------------------------------------------------------------
+Estos simbolos requieren su paquete — siempre cargarlo en main:
+  \checkmark  →  \usepackage{amssymb}
+  \euro       →  \usepackage{eurosym}
+  \degree     →  \usepackage{gensymb}
+
+Si el simbolo no aparece en la lista anterior, usar alternativa
+en texto o en modo matematico antes de buscar un paquete nuevo.
+
+----------------------------------------------------------------
+7. CAJAS TCOLORBOX
+----------------------------------------------------------------
+Al definir una tcolorbox con argumento opcional (#1) NO pasar
+#1 dos veces en las opciones:
+
+  MAL:
+    \newtcolorbox{mibox}[1][]{title={#1}, #1}
+    (pasa #1 como title Y como opcion suelta — colapsa)
+
+  BIEN:
+    \newtcolorbox{mibox}[1][Titulo por defecto]{
+      title={#1},
+      ... resto de opciones fijas ...
+    }
+
+Libreria minima suficiente para cajas ejecutivas:
+  \usepackage{tcolorbox}
+  \tcbuselibrary{skins,breakable}
+
+NO cargar "fitting" a menos que se use \tcboxfit — agrega
+tiempo de compilacion sin beneficio.
+
+----------------------------------------------------------------
+8. TIKZ EN TITLEFORMAT
+----------------------------------------------------------------
+NO poner \tikz inline dentro del argumento de \titleformat —
+es fragil y falla en ciertos contextos de Tectonic.
+
+Para decorar secciones usar \hrule coloreado:
+  \titleformat{\section}
+    {\color{NavyDeep}\large\bfseries}{}{0em}{}
+    [\vspace{2pt}{\color{GoldAccent}\hrule height 1pt}\vspace{4pt}]
+
+Para TikZ en portadas y contraportadas (overlay) si es correcto
+y funciona bien con Tectonic.
+
+----------------------------------------------------------------
+9. ESTRUCTURA DE ARCHIVOS
+----------------------------------------------------------------
+Mantener siempre tres archivos separados:
+  main.tex       — configuracion, paquetes, portada, estructura
+  content.tex    — solo contenido (secciones, tablas, texto)
+  refs.bib       — base de datos bibliografica
+
+En main.tex incluir el contenido con:
+  \input{content}   (sin extension .tex)
+
+En main.tex declarar la bibliografia con:
+  \bibliographystyle{apa}
+  \bibliography{refs}   (sin extension .bib)
+
+----------------------------------------------------------------
+10. ORDEN DE PAQUETES RECOMENDADO EN main.tex
+----------------------------------------------------------------
+Seguir este orden para evitar conflictos:
+
+  1. \documentclass[...]{}
+  2. fontenc, inputenc, babel, lmodern
+  3. geometry
+  4. xcolor  (con opciones dvipsnames,table)
+  5. graphicx, tikz
+  6. tcolorbox
+  7. booktabs, tabularx, array, amssymb
+  8. etoolbox, fancyhdr   (+ configuracion de pagestyle)
+  9. setspace
+  10. hyperref   (siempre de los ultimos)
+  11. titlesec
+  12. natbib
+  13. \newcommand{} metadatos
+  14. \begin{document}
+
+hyperref debe ir ANTES de titlesec y natbib para evitar
+advertencias de redefinicion de comandos internos.
+
+----------------------------------------------------------------
+11. COMPILACION CON TECTONIC
+----------------------------------------------------------------
+Tectonic descarga paquetes automaticamente en la primera
+compilacion — es normal ver muchos mensajes "note: downloading".
+
+Si aparece "errors were issued by BibTeX but were ignored":
+  - Es una advertencia, no un error fatal
+  - Significa que alguna clave de cita no existe en el .bib
+  - Revisar que cada \citep{clave} tenga su entrada en refs.bib
+
+Compilar dos veces si las referencias no aparecen en el PDF
+(comportamiento normal de BibTeX en cualquier motor LaTeX).
+
+El warning "Overfull \hbox" no impide compilar — es estetico.
+Para corregirlo agregar \sloppy al parrafo o ajustar el texto.
+
+================================================================
+
+----------------------------------------------------------------
+12. MATEMATICAS (amsmath)
+----------------------------------------------------------------
+Los siguientes comandos requieren \usepackage{amsmath} en main:
+  \text{}         dentro de modo matematico
+  \displaystyle   para formulas grandes en linea
+  \dfrac          fraccion en modo display
+  \sum, \int      con limites en display
+
+Agregar siempre junto a amssymb:
+  \usepackage{amsmath}
+  \usepackage{amssymb}
+
+----------------------------------------------------------------
+13. COLOR EN PREAMBULO DE COLUMNA (tabular/tabularx)
+----------------------------------------------------------------
+NO usar \color{} dentro del preambulo de columna con >{}:
+  MAL:  >{\bfseries\color{NavyDeep}}X
+  (falla con colortbl en ciertos contextos de Tectonic)
+
+BIEN: aplicar color en la fila con \rowcolor o en cada celda:
+  >{\bfseries}X    <- solo formato de texto en el preambulo
+  y en la fila:  \rowcolor{NavyDeep!10!white}

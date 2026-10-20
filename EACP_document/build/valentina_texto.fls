@@ -1,0 +1,5 @@
+PWD /home/panchito/Documentos/Ufiles/Latex-Documentos/EACP_document
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT valentina_texto.tex
+OUTPUT build/valentina_texto.log

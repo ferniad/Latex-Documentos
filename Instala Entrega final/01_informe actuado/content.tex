@@ -1,0 +1,268 @@
+% ============================================================
+%  content.tex --- Informe 01: De lo Actuado
+%  Proyecto: Dise\~no El\'ectrico Conjunto Residencial 65 Casas
+%  Asignatura: Instalaciones El\'ectricas
+%  Equipo: Jerson Gamboa, Daniel Fernando, Jhon
+% ============================================================
+
+% ─────────────────────────────────────────────────────────────
+\section{Introducci\'on}
+% ─────────────────────────────────────────────────────────────
+
+El presente informe describe la metodolog\'ia de trabajo adoptada
+por el equipo durante el desarrollo del proyecto de dise\~no de
+la infraestructura el\'ectrica de un conjunto residencial cerrado
+de 65 viviendas unifamiliares en Bucaramanga, Santander. El documento
+da cuenta de la organizaci\'on interna del grupo, la distribuci\'on
+de responsabilidades, las herramientas utilizadas y los mecanismos
+de control de calidad implementados para garantizar la consistencia
+t\'ecnica entre los entregables del proyecto.
+
+El proyecto abarca el dise\~no completo de la red de distribuci\'on
+en media tensi\'on a $13{,}2\text{ kV}$, la subred de baja tensi\'on
+en $127/220\text{ V}$, el sistema de puesta a tierra, las memorias
+de c\'alculo, las plantillas de verificaci\'on normativa y los planos
+constructivos en AutoCAD, todo ello enmarcado en el cumplimiento del
+Reglamento T\'ecnico de Instalaciones El\'ectricas
+(RETIE) y la Norma T\'ecnica Colombiana NTC~2050.
+
+% ─────────────────────────────────────────────────────────────
+\section{Descripci\'on General del Proyecto}
+% ─────────────────────────────────────────────────────────────
+
+El conjunto residencial objeto del dise\~no cuenta con las siguientes
+caracter\'isticas t\'ecnicas generales:
+
+\begin{tabular}{ll}
+  \toprule
+  \bfseries Par\'ametro & \bfseries Valor \\
+  \midrule
+  N\'umero de viviendas         & 65 unidades unifamiliares \\
+  Tensi\'on de suministro MT    & $13{,}2\text{ kV}$ \\
+  Tensi\'on de distribuci\'on BT & $127/220\text{ V}$ (trif\'asico) \\
+  Tipo de red                  & 100\% subterr\'anea \\
+  Conductor utilizado          & THHN en canaleta subterr\'anea \\
+  Topolog\'ia                  & Radial con selectividad por caja \\
+  Medidores por vivienda       & 2 (residencial + veh\'iculo el\'ectrico) \\
+  Medici\'on en frontera       & Macromedidor general en MT \\
+  \bottomrule
+\end{tabular}
+
+\vspace{6pt}
+
+La elecci\'on de la topolog\'ia radial, en lugar del esquema
+en anillo, respondi\'o a restricciones regulatorias del operador
+de red, y ofrece como ventaja operativa la selectividad ante fallas:
+un evento el\'ectrico en cualquier vivienda o sector queda aislado
+en su caja de protecci\'on correspondiente sin afectar al resto
+del conjunto \citep{icontec2050}.
+
+% ─────────────────────────────────────────────────────────────
+\section{Organizaci\'on del Equipo de Trabajo}
+% ─────────────────────────────────────────────────────────────
+
+El equipo estuvo conformado por tres estudiantes de la asignatura
+Instalaciones El\'ectricas, quienes distribuyeron las
+responsabilidades del proyecto seg\'un sus fortalezas individuales,
+manteniendo en todo momento un flujo de trabajo colaborativo y
+con revisi\'on cruzada de los entregables.
+
+\subsection{Roles y Responsabilidades Principales}
+
+\begin{tabular}{lp{4cm}p{7cm}}
+  \toprule
+  \bfseries Integrante &
+  \bfseries Rol principal &
+  \bfseries Actividades lideradas \\
+  \midrule
+  Jerson Gamboa &
+    Dise\~no el\'ectrico y normativa &
+    Lider\'o el desarrollo de la malla de tierra,
+    la verificaci\'on de regulaciones RETIE y
+    la redacci\'on de las memorias de c\'alculo \\[6pt]
+  Daniel Fernando &
+    Gesti\'on documental y estructuraci\'on &
+    Lider\'o la organizaci\'on inicial de carpetas,
+    la estructuraci\'on de archivos del proyecto
+    y la coordinaci\'on de entregables \\[6pt]
+  Jhon &
+    Dise\~no el\'ectrico y normativa &
+    Apoy\'o junto a Jerson el desarrollo de
+    regulaciones, memorias t\'ecnicas y
+    diligenciamiento de plantillas de verificaci\'on \\
+  \bottomrule
+\end{tabular}
+
+\vspace{6pt}
+
+Cabe destacar que, si bien cada integrante tuvo un \'area de liderazgo
+definida, la naturaleza del proyecto demand\'o participaci\'on activa
+de todo el equipo en las actividades transversales. En particular,
+el diligenciamiento de las plantillas de c\'alculo en Excel y el
+dibujo de los planos en AutoCAD fueron actividades compartidas y
+distribuidas de manera equitativa entre los tres integrantes.
+
+% ─────────────────────────────────────────────────────────────
+\section{Metodolog\'ia de Trabajo}
+% ─────────────────────────────────────────────────────────────
+
+\subsection{Fase 1: Organizaci\'on y Estructuraci\'on del Proyecto}
+
+La primera etapa del proceso consisti\'o en definir la arquitectura
+documental del proyecto. Daniel Fernando lider\'o esta fase,
+estableciendo la estructura de carpetas, la nomenclatura de archivos
+y el flujo de versiones de los documentos. Esta decisi\'on temprana
+result\'o determinante para mantener la trazabilidad de los
+entregables a lo largo de todo el desarrollo y evitar la
+duplicaci\'on o p\'erdida de informaci\'on.
+
+Se defini\'o la siguiente estructura de entregables:
+
+\begin{enumerate}
+  \item Memorias de c\'alculo (dimensionamiento de conductores,
+    protecci\'on y ca\'idas de tensi\'on)
+  \item Plantillas de verificaci\'on normativa en Excel
+  \item Planos constructivos en AutoCAD
+  \item Informe de lo actuado (presente documento)
+  \item Descripci\'on general para inversionistas
+  \item Informe de cumplimiento RETIE
+\end{enumerate}
+
+\subsection{Fase 2: Desarrollo T\'ecnico}
+
+Con la estructura documental definida, el equipo procedi\'o al
+desarrollo t\'ecnico del proyecto. Jerson Gamboa y Jhon lideraron
+esta fase, con enfoque en tres frentes simult\'aneos:
+
+\textbf{Malla de tierra.} Se dise\~n\'o el sistema de puesta a
+tierra del conjunto siguiendo los criterios de la NTC~2050 y el
+RETIE, garantizando valores de resistencia dentro de los l\'imites
+exigidos para instalaciones de media tensi\'on
+\citep{minminas2013retie}.
+
+\textbf{C\'alculo de regulaciones y memorias.} Se elaboraron las
+memorias de c\'alculo para el dimensionamiento de conductores THHN,
+la verificaci\'on de ca\'idas de tensi\'on admisibles y la
+selecci\'on de elementos de protecci\'on (fusibles y
+interruptores) para cada nivel de la red.
+
+\textbf{Plantillas de verificaci\'on en Excel.} Todo el equipo
+particip\'o en el diligenciamiento de las plantillas de c\'alculo,
+que permit\'ian cruzar autom\'aticamente los valores obtenidos con
+los l\'imites normativos. Este trabajo fue desarrollado de forma
+paralela entre los tres integrantes para acelerar los tiempos
+de entrega.
+
+\subsection{Fase 3: Dise\~no Gr\'afico (Planos AutoCAD)}
+
+La elaboraci\'on de los planos constructivos se distribuy\'o
+equitativamente entre los tres integrantes del equipo. Se
+trabajaron los siguientes tipos de plano:
+
+\begin{itemize}
+  \item Plano de distribuci\'on general de la red MT
+  \item Plano de subred de baja tensi\'on por manzana
+  \item Diagrama unifilar general del conjunto
+  \item Plano de malla de puesta a tierra
+  \item Esquema del sistema de medici\'on
+    (macromedidor MT + submedidores BT)
+\end{itemize}
+
+La distribuci\'on equitativa del trabajo gr\'afico garantiz\'o
+que todos los integrantes tuvieran dominio del modelo completo
+del proyecto y pudieran responder por cualquier elemento del
+dise\~no ante una evaluaci\'on o revisi\'on externa.
+
+\subsection{Fase 4: Control de Calidad --- Revisi\'on Cruzada}
+
+Antes de la entrega formal de cada entregable, el equipo
+implement\'o una metodolog\'ia de \textbf{revisi\'on cruzada}:
+cada documento o plano elaborado por un integrante fue revisado
+por otro miembro del equipo diferente al autor original.
+
+Este mecanismo permiti\'o detectar inconsistencias entre las
+memorias de c\'alculo y los planos, errores en el diligenciamiento
+de plantillas y omisiones en la verificaci\'on normativa, antes
+de que los documentos fueran consolidados como versi\'on final.
+La revisi\'on cruzada es una pr\'actica est\'andar en proyectos
+de ingenier\'ia de alta responsabilidad y fue adoptada conscientemente
+por el equipo como garant\'ia de calidad del producto entregado
+\citep{icontec2050}.
+
+% ─────────────────────────────────────────────────────────────
+\section{Herramientas Utilizadas}
+% ─────────────────────────────────────────────────────────────
+
+\begin{tabular}{lll}
+  \toprule
+  \bfseries Herramienta & \bfseries Uso & \bfseries Fase \\
+  \midrule
+  Microsoft Excel &
+    Plantillas de c\'alculo y verificaci\'on normativa &
+    2 y 4 \\
+  AutoCAD &
+    Elaboraci\'on de planos constructivos &
+    3 \\
+  \LaTeX{} / Tectonic &
+    Redacci\'on de informes en formato APA &
+    1, 2, 3 y 4 \\
+  Normativa RETIE &
+    Marco regulatorio de referencia para el dise\~no &
+    2 y 4 \\
+  NTC 2050 &
+    C\'odigo el\'ectrico nacional de referencia &
+    2 y 4 \\
+  \bottomrule
+\end{tabular}
+
+% ─────────────────────────────────────────────────────────────
+\section{Resultados del Proceso}
+% ─────────────────────────────────────────────────────────────
+
+Como resultado del proceso descrito, el equipo entreg\'o un
+conjunto completo y consistente de documentos t\'ecnicos que
+cubren la totalidad del dise\~no el\'ectrico del proyecto.
+Los entregables finales son coherentes entre s\'i: los valores
+calculados en las memorias se reflejan fielmente en los planos,
+y las plantillas de Excel acreditan el cumplimiento normativo
+de cada elemento dise\~nado.
+
+El elemento de mayor valor agregado del proceso fue la
+implementaci\'on del sistema de \textbf{macromedici\'on en
+media tensi\'on con balance de energ\'ia}, que permite calcular
+el consumo de las zonas comunes del conjunto sin necesidad de
+un medidor f\'isico adicional, mediante la expresi\'on:
+
+\begin{equation}
+  E_{\text{zonas comunes}} =
+    E_{\text{frontera MT}} -
+    \sum_{i=1}^{130} E_{\text{medidor}_i}
+\end{equation}
+
+Este esquema, que debe ser radicado formalmente ante la
+Electrificadora de Santander (ESSA) en la etapa de
+legalizaci\'on, representa una soluci\'on t\'ecnica robusta,
+transparente y auditables para la administraci\'on del
+conjunto residencial \citep{essa2020}.
+
+% ─────────────────────────────────────────────────────────────
+\section{Conclusiones}
+% ─────────────────────────────────────────────────────────────
+
+El desarrollo del proyecto permiti\'o al equipo integrar los
+conocimientos te\'oricos de la asignatura Instalaciones
+El\'ectricas con la pr\'actica real del dise\~no de redes de
+distribuci\'on en media y baja tensi\'on.
+
+La metodolog\'ia de trabajo adoptada --- con roles definidos,
+participaci\'on transversal en actividades comunes y revisi\'on
+cruzada de entregables --- demostr\'o ser eficiente para
+garantizar la calidad t\'ecnica del producto final en un
+contexto de trabajo en equipo acad\'emico.
+
+El equipo concluye que la correcta estructuraci\'on documental
+desde la fase inicial del proyecto es un factor cr\'itico
+de \'exito, ya que facilita la trazabilidad de decisiones
+de dise\~no, reduce los tiempos de correcci\'on y asegura
+la consistencia entre memorias, plantillas y planos
+constructivos.

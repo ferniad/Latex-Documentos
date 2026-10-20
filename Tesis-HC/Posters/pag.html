@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Archivos SVGs</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 2rem;
+            color: #1f2937;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            transition: transform 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .image-container {
+            height: 150px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        .card img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .filename {
+            font-size: 0.9rem;
+            font-family: monospace;
+            background: #e5e7eb;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Archivos en carpeta <code>/SVGs</code></h1>
+
+    <div class="gallery-grid">
+        <!-- Archivos E3T -->
+        <div class="card">
+            <div class="image-container">
+                <img src="SVGs/logoE3T.png" alt="Logo E3T (PNG)" loading="lazy">
+            </div>
+            <span class="filename">logoE3T.png</span>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="SVGs/logoE3T.svg" alt="Logo E3T (SVG)" loading="lazy">
+            </div>
+            <span class="filename">logoE3T.svg</span>
+        </div>
+
+        <!-- Archivos UIS -->
+        <div class="card">
+            <div class="image-container">
+                <img src="SVGs/logoUIS.png" alt="Logo UIS (PNG)" loading="lazy">
+            </div>
+            <span class="filename">logoUIS.png</span>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="SVGs/logoUIS.svg" alt="Logo UIS (SVG)" loading="lazy">
+            </div>
+            <span class="filename">logoUIS.svg</span>
+        </div>
+
+        <!-- OpenDSS Direct -->
+        <div class="card">
+            <div class="image-container">
+                <img src="SVGs/opendssdirect.svg" alt="OpenDSS Direct (SVG)" loading="lazy">
+            </div>
+            <span class="filename">opendssdirect.svg</span>
+        </div>
+
+        <!-- Archivos Python -->
+        <div class="card">
+            <div class="image-container">
+                <img src="SVGs/py-logo.svg" alt="Logo Python (SVG)" loading="lazy">
+            </div>
+            <span class="filename">py-logo.svg</span>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="SVGs/Python-logo.webp" alt="Logo Python (WebP)" loading="lazy">
+            </div>
+            <span class="filename">Python-logo.webp</span>
+        </div>
+    </div>
+
+</body>
+</html>

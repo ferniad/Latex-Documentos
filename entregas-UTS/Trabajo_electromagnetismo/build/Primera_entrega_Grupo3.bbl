@@ -1,0 +1,339 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{halliday2014}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d9a6552821ea504ab1a5c767dddff92}{%
+           family={Halliday},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8967f5a0664f741b0ef2530a47e698fa}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa8304879d8f7d99c7c4570759b948e2}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Jearl},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{f6f98a542bf7cb3b8c4a7c380ec744f2}
+      \strng{fullhash}{3978689396696961b0bd612b55ccf075}
+      \strng{fullhashraw}{3978689396696961b0bd612b55ccf075}
+      \strng{bibnamehash}{3978689396696961b0bd612b55ccf075}
+      \strng{authorbibnamehash}{3978689396696961b0bd612b55ccf075}
+      \strng{authornamehash}{f6f98a542bf7cb3b8c4a7c380ec744f2}
+      \strng{authorfullhash}{3978689396696961b0bd612b55ccf075}
+      \strng{authorfullhashraw}{3978689396696961b0bd612b55ccf075}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10}
+      \field{title}{Fundamentals of Physics}
+      \field{year}{2014}
+    \endentry
+    \entry{hayt2012}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=adf285b6bbaa9d414449bd2afdc23da8}{%
+           family={Hayt},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1021c855c03a546739ddd815477eae5b}{%
+           family={Buck},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{28ede95c32ac17765475ad281c980503}
+      \strng{fullhash}{28ede95c32ac17765475ad281c980503}
+      \strng{fullhashraw}{28ede95c32ac17765475ad281c980503}
+      \strng{bibnamehash}{28ede95c32ac17765475ad281c980503}
+      \strng{authorbibnamehash}{28ede95c32ac17765475ad281c980503}
+      \strng{authornamehash}{28ede95c32ac17765475ad281c980503}
+      \strng{authorfullhash}{28ede95c32ac17765475ad281c980503}
+      \strng{authorfullhashraw}{28ede95c32ac17765475ad281c980503}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{Engineering Electromagnetics}
+      \field{year}{2012}
+    \endentry
+    \entry{serway2018}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9142d7571fe4a7a87301eeced5dee93b}{%
+           family={Serway},
+           familyi={S\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ae1a0dbf6fb8359590e8687bddfc7d6}{%
+           family={Jewett},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{bibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorbibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authornamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10}
+      \field{title}{Física para ciencias e ingeniería}
+      \field{volume}{2}
+      \field{year}{2018}
+    \endentry
+    \entry{tipler2008}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=943b75d33d2ddaa051f5704fa8676cdd}{%
+           family={Tipler},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=028521cb21b446864a6a4f23dbe0e505}{%
+           family={Mosca},
+           familyi={M\bibinitperiod},
+           given={Gene},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Reverté}%
+      }
+      \strng{namehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{fullhash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{fullhashraw}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{bibnamehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authorbibnamehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authornamehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authorfullhash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authorfullhashraw}{3330062ec725dcf3a8c753d3ac4975e2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Física para la ciencia y la tecnología}
+      \field{volume}{2}
+      \field{year}{2008}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{halliday2014}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d9a6552821ea504ab1a5c767dddff92}{%
+           family={Halliday},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8967f5a0664f741b0ef2530a47e698fa}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa8304879d8f7d99c7c4570759b948e2}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Jearl},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{f6f98a542bf7cb3b8c4a7c380ec744f2}
+      \strng{fullhash}{3978689396696961b0bd612b55ccf075}
+      \strng{fullhashraw}{3978689396696961b0bd612b55ccf075}
+      \strng{bibnamehash}{3978689396696961b0bd612b55ccf075}
+      \strng{authorbibnamehash}{3978689396696961b0bd612b55ccf075}
+      \strng{authornamehash}{f6f98a542bf7cb3b8c4a7c380ec744f2}
+      \strng{authorfullhash}{3978689396696961b0bd612b55ccf075}
+      \strng{authorfullhashraw}{3978689396696961b0bd612b55ccf075}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10}
+      \field{title}{Fundamentals of Physics}
+      \field{year}{2014}
+    \endentry
+    \entry{hayt2012}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=adf285b6bbaa9d414449bd2afdc23da8}{%
+           family={Hayt},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1021c855c03a546739ddd815477eae5b}{%
+           family={Buck},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{28ede95c32ac17765475ad281c980503}
+      \strng{fullhash}{28ede95c32ac17765475ad281c980503}
+      \strng{fullhashraw}{28ede95c32ac17765475ad281c980503}
+      \strng{bibnamehash}{28ede95c32ac17765475ad281c980503}
+      \strng{authorbibnamehash}{28ede95c32ac17765475ad281c980503}
+      \strng{authornamehash}{28ede95c32ac17765475ad281c980503}
+      \strng{authorfullhash}{28ede95c32ac17765475ad281c980503}
+      \strng{authorfullhashraw}{28ede95c32ac17765475ad281c980503}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{Engineering Electromagnetics}
+      \field{year}{2012}
+    \endentry
+    \entry{serway2018}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9142d7571fe4a7a87301eeced5dee93b}{%
+           family={Serway},
+           familyi={S\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ae1a0dbf6fb8359590e8687bddfc7d6}{%
+           family={Jewett},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{bibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorbibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authornamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10}
+      \field{title}{Física para ciencias e ingeniería}
+      \field{volume}{2}
+      \field{year}{2018}
+    \endentry
+    \entry{tipler2008}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=943b75d33d2ddaa051f5704fa8676cdd}{%
+           family={Tipler},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=028521cb21b446864a6a4f23dbe0e505}{%
+           family={Mosca},
+           familyi={M\bibinitperiod},
+           given={Gene},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Reverté}%
+      }
+      \strng{namehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{fullhash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{fullhashraw}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{bibnamehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authorbibnamehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authornamehash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authorfullhash}{3330062ec725dcf3a8c753d3ac4975e2}
+      \strng{authorfullhashraw}{3330062ec725dcf3a8c753d3ac4975e2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Física para la ciencia y la tecnología}
+      \field{volume}{2}
+      \field{year}{2008}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

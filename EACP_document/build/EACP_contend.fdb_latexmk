@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1792108852.82106 "EACP_contend.tex" "build/EACP_contend.pdf" "EACP_contend" 1792108854.25926 2
+  "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1775415801 2900 1537cc8184ad1792082cd229ecc269f4 ""
+  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1775415801 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcbx1000.tfm" 1775415801 1536 30fde759286ded71559881bfa2623939 ""
+  "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1775415801 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1775415801 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1775415801 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1775415801 43569 fd570f2fa160877d211e859f687312ba ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1787781568 5385779 47c0c393a77fd4a098bacfd57d66b88a ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1788152019 3113360 9d3f97adf3d334631e4802b68621947a ""
+  "EACP_contend.tex" 1792108852.71423 59838 8356ee647e8c5cc72729329f848db317 ""
+  "build/EACP_contend.aux" 1792108844.82066 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  (generated)
+  "build/EACP_contend.aux"
+  "build/EACP_contend.log"
+  "build/EACP_contend.pdf"
+  (rewritten before read)

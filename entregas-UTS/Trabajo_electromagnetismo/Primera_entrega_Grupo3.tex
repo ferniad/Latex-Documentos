@@ -1,0 +1,95 @@
+\documentclass[11pt, letterpaper]{article} % Cumple Criterio 3: Equivalente al tamaño de fuente exigido
+
+% ==========================================
+% PAQUETES DE IDIOMA Y FUENTE (ARIAL 11)
+% ==========================================
+\usepackage[spanish, es-tabla]{babel} % es-tabla para que diga "Tabla" y no "Cuadro"
+\usepackage[utf8]{inputenc}
+\usepackage{helvet} % Cumple Criterio 3: Fuente similar a Arial
+\renewcommand{\familydefault}{\sfdefault} % Configura la fuente sin serifas por defecto
+
+% ==========================================
+% GEOMETRÍA, INTERLINEADO Y COLUMNAS
+% ==========================================
+\usepackage[margin=2cm]{geometry} % Cumple Criterio 3: Márgenes exactos de 2 cm
+\usepackage{setspace}
+\onehalfspacing % Cumple Criterio 3: Interlineado 1.5
+\usepackage{multicol} % Cumple Criterio 8: Permite doble columna a partir de la introducción
+
+% ==========================================
+% CITAS Y REFERENCIAS (NORMA APA 7)
+% ==========================================
+\usepackage{csquotes}
+\usepackage[style=apa, backend=biber]{biblatex} % Cumple Criterio 9: Norma APA 7ma ed.
+\addbibresource{referencias.bib}
+
+% ==========================================
+% TABLAS, FIGURAS Y ECUACIONES
+% ==========================================
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[hidelinks]{hyperref}
+% Cumple Criterio 16: Figuras caption inferior, tablas caption superior
+\captionsetup[table]{position=top, labelsep=period, font=normalsize}
+\captionsetup[figure]{position=bottom, labelsep=period, font=normalsize}
+
+% ==========================================
+% PORTADA Y METADATOS UTS
+% ==========================================
+\title{
+\vspace{-1.5cm} % Ajuste para subir el título y dejar espacio al logo
+\includegraphics[width=8.0cm]{LOGO-UTS.png}\\[1cm]
+\textbf{Separador Magnético de Residuos Metálicos con Electroimán Controlado}
+}
+
+% Cumple Criterio 2: Apellidos en mayúscula, nombres en minúscula y superíndices
+\author{
+  \textsc{ARIAS CAMARGO}, Juan Humberto$^{1}$; \textsc{AGUILLÓN SUÁREZ}, Johnier David$^{2}$; \\
+  \textsc{GUALDRON CASTILLO}, Deisy Tatiana$^{3}$; \textsc{GÜIZA GARCIA}, Luis Alejandro$^{4}$; \\
+  \textsc{PEÑA ORTIZ}, María Paula$^{5}$; \textsc{RUEDA BEDOYA}, Sebastián$^{6}$; \\
+  \textsc{ROJAS CABALLERO}, Jhon Alexis$^{7}$; \textsc{RICO HERNÁNDEZ}, Saúl Alexis$^{8}$ \\[0.5cm]
+  \small Unidades Tecnológicas de Santander, Departamento de Ciencias Básicas\\
+  \small Electromagnetismo – E251. Docente: Iveth Vanessa Ayala Viloria\\
+  \small $^{1-8}$Estudiantes de Tecnología
+}
+\date{4 de Octubre de 2026}
+
+\begin{document}
+
+\maketitle
+\newpage
+% ==========================================
+% RESUMEN Y ABSTRACT (A UNA SOLA COLUMNA)
+% ==========================================
+\noindent \textbf{RESUMEN} \\
+La separación manual de residuos ferromagnéticos en pequeños centros de reciclaje es lenta e ineficiente. Este proyecto tiene como objetivo diseñar y construir un separador magnético de bajo costo mediante un electroimán controlado con voltaje variable (1.5 V, 3.0 V y 4.5 V). Se utilizará alambre de cobre esmaltado (0.5 mm), núcleo de hierro, portapilas, interruptor, multímetro y dinamómetro. La metodología incluye la construcción de un electroimán de 100 vueltas, su montaje en un sistema de puente grúa manual de dos ejes (X y Z), y la medición experimental de la fuerza de atracción y la corriente. Se busca comprobar la relación teórica entre el voltaje aplicado y la capacidad de atracción del dispositivo, evaluando su viabilidad para pequeñas empresas de reciclaje. \\
+\textbf{\textit{Palabras Clave:}} electromagnetismo, electroimán, separación magnética, reciclaje. % Cumple Criterio 6: Exactamente 4 palabras clave
+
+\vspace{0.5cm}
+
+\noindent \textbf{ABSTRACT} \\
+The manual separation of ferromagnetic waste in small recycling centers is slow and inefficient. This project aims to design and build a low-cost magnetic separator using a controlled electromagnet with variable voltage (1.5 V, 3.0 V, and 4.5 V). Enameled copper wire (0.5 mm), iron core, battery holder, switch, multimeter, and dynamometer will be used. The methodology includes building a 100-turn electromagnet, mounting it on a two-axis manual bridge crane (X and Z), and the experimental measurement of the attraction force and current. The aim is to verify the theoretical relationship between the applied voltage and the attraction capacity of the device, evaluating its viability for small recycling companies. \\
+\vspace{0.25cm}
+\textbf{\textit{Keywords:}} electromagnetism, electromagnet, magnetic separation, recycling. % Cumple Criterio 7: Abstract y Keywords traducidos fielmente
+
+\vspace{0.5cm}
+
+% ==========================================
+% INICIO DE DOBLE COLUMNA PARA EL CONTENIDO
+% ==========================================
+% Cumple Criterio 8: A partir de la Introducción a doble columna
+\begin{multicols}{2}
+
+\input{contenido_electromag.tex}
+
+\nocite{*} % Incluye todas las referencias del .bib aunque no se citen en el texto
+\printbibliography
+
+\end{multicols}
+
+\end{document}

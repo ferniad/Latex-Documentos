@@ -1,0 +1,87 @@
+\documentclass[12pt, twoside, letterpaper]{book}
+
+% --- PAQUETES BÁSICOS Y DE IDIOMA ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel}
+
+% --- MÁRGENES E INTERLINEADO ---
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% --- GRÁFICOS Y TABLAS ---
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+
+% --- MATEMÁTICAS ---
+\usepackage{amsmath, amssymb}
+
+% --- BIBLIOGRAFÍA ---
+\usepackage{csquotes}
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{bib-HC.bib} % Archivo de bibliografía enlazado
+
+% --- ENCABEZADOS Y PIES DE PÁGINA ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% --- ENLACES ---
+\usepackage[colorlinks=true, linkcolor=black, citecolor=blue, urlcolor=blue]{hyperref}
+
+\begin{document}
+
+% ================= PORTADA Y PRELIMINARES =================
+\frontmatter
+
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\Huge \textbf{Estimación dinámica de la capacidad límite de integración de recursos energéticos distribuidos fotovoltaicos en sistemas de distribución mediante optimización por enjambre de partículas considerando funcionalidades operativas de la red.}}\\[1.5cm]
+
+    {\Large \textbf{Autores:}}\\[0.3cm]
+    {\Large Juan Rafael Camacho Martinez}\\
+    {\normalsize Ingeniería Eléctrica}\\[0.3cm]
+    {\Large Daniel Fernando Aranda Contreras}\\
+    {\normalsize Ingeniería Eléctrica}\\[1.5cm]
+
+    {\large Trabajo de grado presentado como requisito para optar al título de:}\\[0.3cm]
+    {\large \textbf{Ingeniero Eléctrico}}\\[1.5cm]
+
+    {\large \textbf{Director:}}\\
+    {\large Jairo Blanco Solano}\\[0.5cm]
+
+    {\large \textbf{Codirectores:}}\\
+    {\large César Antonio Duarte Gualdrón}\\
+    {\large Cristhian Camilo Torres Alfonso}\\[1.5cm]
+
+    \vfill
+    {\Large \textbf{Universidad Industrial de Santander}}\\
+    {\large Facultad de Ingenierías Físico-Mecánicas}\\
+    {\large Escuela de Ingeniería Eléctrica, Electrónica y de Telecomunicaciones}\\
+    {\large Bucaramanga, Colombia}\\
+    {\large \the\year}
+\end{titlepage}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+% ================= CUERPO DE LA TESIS =================
+\mainmatter
+
+% Aquí se inyecta el contenido sin ensuciar el documento principal
+\input{contend-HC.tex}
+
+% ================= BIBLIOGRAFÍA Y ANEXOS =================
+\backmatter
+
+\printbibliography[heading=bibintoc, title={Referencias Bibliográficas}]
+
+\end{document}

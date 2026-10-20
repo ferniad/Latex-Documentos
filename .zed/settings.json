@@ -1,0 +1,19 @@
+// settings.json
+{
+  "lsp": {
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "build": {
+            "executable": "latexmk",
+            "onSave": true,
+            "args": ["-interaction=nonstopmode", "-file-line-error", "%f"],
+            "auxDirectory": "build",
+            "logDirectory": "build",
+            "pdfDirectory": "build"
+          }
+        }
+      }
+    }
+  }
+}

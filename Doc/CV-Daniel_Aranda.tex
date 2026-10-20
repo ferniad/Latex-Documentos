@@ -1,0 +1,170 @@
+\documentclass[10pt,a4paper]{article}
+% ============================================================
+% PAQUETES
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,provide=*]{babel}
+\usepackage[a4paper,left=1.2cm,right=1.2cm,top=1.2cm,bottom=1.2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{tikz}
+\ifdefined\pdfgentounicode
+    \pdfgentounicode=1
+\fi
+% ============================================================
+% PALETA DE COLORES -- Moderna (Teal & Slate)
+% ============================================================
+\definecolor{primario}{HTML}{0F766E}   % Teal moderno (ideal para ingeniería, energía y tech)
+\definecolor{secundario}{HTML}{475569} % Slate grisáceo para subtítulos y fechas
+\definecolor{texto}{HTML}{1E293B}      % Slate muy oscuro para el cuerpo (lectura nítida)
+\definecolor{linea}{HTML}{CBD5E1}      % Línea divisoria elegante
+\definecolor{fondoenc}{HTML}{F1F5F9}   % Fondo suave opcional
+\color{texto}
+% ============================================================
+% ENLACES
+% ============================================================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primario,
+    urlcolor=primario
+}
+% ============================================================
+% ESTILO DE SECCIONES
+% ============================================================
+\titleformat{\section}
+    {\normalfont\large\bfseries\color{primario}}
+    {}{0em}{}
+    [\vspace{-2pt}{\color{linea}\titlerule[1.0pt]}\vspace{3.5pt}]
+\titlespacing*{\section}{0pt}{8pt}{2pt}
+\linespread{0.95}
+% ============================================================
+% COMANDOS PERSONALIZADOS
+% ============================================================
+\newcommand{\entrada}[3]{%
+    \noindent\textbf{\color{primario}#1}\hfill{\small\color{secundario}#2}\\[0pt]
+    {\small\itshape\color{secundario}#3}\par\vspace{1pt}%
+}
+\newcommand{\subentrada}[2]{%
+    \noindent{\small\bfseries\color{texto}#1}\hfill{\small\color{secundario}#2}\par\vspace{1pt}%
+}
+% ============================================================
+% LISTAS COMPACTAS
+% ============================================================
+\setlist[itemize]{leftmargin=13pt, topsep=0pt, itemsep=1pt, parsep=0pt, label=\textcolor{primario}{\scriptsize$\bullet$}}
+\setlength{\parskip}{0pt}
+\pagestyle{empty}
+\begin{document}
+% ============================================================
+% ENCABEZADO
+% ============================================================
+\begin{tikzpicture}[remember picture, overlay]
+    \fill[fondoenc] (current page.north west) rectangle ([yshift=-2.7cm]current page.north east);
+\end{tikzpicture}
+
+\vspace{-10pt}
+\begin{center}
+    {\fontsize{21}{24}\selectfont\bfseries\color{primario} Daniel Fernando Aranda Contreras}\\[2pt]
+    {\normalsize\color{secundario} Estudiante de Ingeniería Eléctrica -- Universidad Industrial de Santander}\\[4pt]
+    {\small\color{texto}
+        Bucaramanga, Colombia \quad$\vert$\quad +57 3134996076 \quad$\vert$\quad
+        \href{mailto:dfac24138@gmail.com}{dfac24138@gmail.com} \quad$\vert$\quad
+        \href{https://github.com/ferniad}{github.com/ferniad}
+    }
+\end{center}
+\vspace{0pt}
+% ============================================================
+% PERFIL PROFESIONAL
+% ============================================================
+\section*{Perfil Profesional}
+Estudiante de 9.\textsuperscript{o} semestre de Ingeniería Eléctrica (UIS) con sólida formación técnica y experiencia práctica en análisis de sistemas de potencia, automatización industrial y ciencia de datos. Competente en el modelado de redes eléctricas y capacidad de integración (\textit{Hosting Capacity}) mediante OpenDSS y Python, así como en el diseño de sistemas de control bajo el estándar internacional \textbf{IEC 61131-3}. Busco una pasantía para aportar valor en proyectos de ingeniería eléctrica, optimización de redes, automatización y analítica energética.
+
+% ============================================================
+% FORMACIÓN ACADÉMICA
+% ============================================================
+\section*{Formación Académica}
+
+\entrada{Ingeniería Eléctrica}{En curso -- 9.\textsuperscript{o} semestre}{Universidad Industrial de Santander}
+{\small\color{texto} Trabajo de grado: \href{https://www.zotero.org/groups/6637268/camacho-aranda-tesis-uis}{\itshape Estimación dinámica de la capacidad límite de integración de recursos energéticos distribuidos fotovoltaicos (Hosting Capacity) mediante optimización por enjambre de partículas (PSO)} -- Desarrollado en \textbf{Python} y \textbf{OpenDSS} junto a Juan Camacho.}
+\vspace{2pt}
+
+\entrada{Técnico en Instalaciones Eléctricas Residenciales}{Título obtenido -- dic. 2021}{SENA -- Cursado durante los grados 10.\textsuperscript{o} y 11.\textsuperscript{o} de educación media}
+
+% ============================================================
+% PROYECTOS DESTACADOS
+% ============================================================
+\section*{Proyectos Destacados}
+
+\entrada{Sistema Automatizado de Clasificación y Empaque}{Curso de Accionamientos Eléctricos}{Universidad Industrial de Santander -- Proyecto grupal}
+\begin{itemize}
+    \item Diseño eléctrico integral: cálculos de carga, selección de motorreductor, contactores y relés térmicos, diagrama de potencia trifásico y circuito de control en lógica cableada.
+    \item Implementación de lógica de control bajo el estándar \textbf{IEC 61131-3} (Ladder/FBD) a partir de diagramas GRAFCET, con simulación en planta industrial virtual 3D (Factory IO) integrada mediante OpenPLC vía Modbus TCP/IP.
+    \item Lista de reproducción de la simulación: \href{https://youtube.com/playlist?list=PLUTAdDOdTlkNAtmTmna0_Z4TgAq-pZNoZ&si=ZV5tGop65upxRSAQ}{Explicación del lógica y pruebas de funcionamiento}
+\end{itemize}
+\vspace{1pt}
+
+\entrada{BrotesPredict -- Sistema de alerta temprana de brotes epidemiológicos}{Proyecto final -- Bootcamp de IA}{Modelo de Machine Learning (Gradient Boosting) con Scikit-learn}
+\begin{itemize}
+    \item Análisis relacional entre el Índice de Calidad del Agua (IDEAM) y enfermedades transmitidas en menores de 5 años (SIVIGILA) en 13 departamentos de Colombia (2006--2024), reorientando el enfoque hacia un modelo predictivo ante la ausencia de correlación lineal directa.
+    \item Desarrollo de un modelo de Gradient Boosting con variables temporales, geográficas y de frecuencia histórica, alcanzando \textbf{85.4\,\% de accuracy} y \textbf{0.912 de ROC-AUC}, con salida estructurada de evaluación de riesgo.
+\end{itemize}
+\vspace{1pt}
+
+\entrada{PowerSense-3P -- Analizador de redes trifásico con IA}{Proyecto personal -- En desarrollo}{Fase actual: Diseño de arquitectura en KiCad y adquisición de componentes}
+\begin{itemize}
+    \item Diseño de arquitectura de sistema embebido (ESP32 + ADC ADS131M08 de 24 bits) orientado al monitoreo avanzado de calidad de energía trifásica: cálculo de RMS y potencia, FFT para análisis armónico y detección de sags/swells bajo normas \textbf{IEEE 519} e \textbf{IEC 61000-4-30}.
+    \item Planteamiento de un modelo de Machine Learning (Scikit-learn) para la clasificación de eventos de falla, con esquema de transmisión de telemetría vía MQTT y visualización en dashboard de Grafana.
+\end{itemize}
+% ============================================================
+% EXPERIENCIA
+% ============================================================
+\section*{Experiencia}
+
+\entrada{Cofundador -- Emprendimiento de Tutorías Académicas}{2026 -- Actualidad}{Emprendimiento propio junto a 3 compañeros de universidad}
+\begin{itemize}
+    \item Cofundación y gestión integral de un servicio de tutorías especializadas, coordinando una red de tutores externos y manteniendo una retención del 15\,\% de margen operativo.
+    \item Impartición directa de clases avanzadas en Métodos Numéricos, Sistemas de Control (lazo abierto y cerrado), Circuitos y Termodinámica.
+\end{itemize}
+\vspace{1pt}
+
+\entrada{Tutor Académico Independiente}{2024}{Asesorías académicas personalizadas}
+\begin{itemize}
+    \item Reforzamiento conceptual y resolución de problemas complejos en Termodinámica, Métodos Numéricos, Circuitos y Control para estudiantes de educación media y superior.
+\end{itemize}
+
+% ============================================================
+% HABILIDADES TÉCNICAS
+% ============================================================
+\section*{Habilidades Técnicas}
+
+\subentrada{Área eléctrica y potencia}{}
+{\small\color{texto} Análisis de circuitos, sistemas polifásicos, redes de distribución, estimación de capacidad de integración (Hosting Capacity), acometidas, puestas a tierra y equipos de medida en baja tensión.}
+\vspace{1pt}
+
+\subentrada{Programación, software y datos}{}
+{\small\color{texto} Python, OpenDSS, Scikit-learn, métodos numéricos, bases de datos, Git.}
+\vspace{1pt}
+
+\subentrada{Control y automatización}{}
+{\small\color{texto} Arquitectura de software para autómatas bajo el estándar \textbf{IEC 61131-3} (Ladder/FBD), OpenPLC, lógica GRAFCET, control en lazo abierto/cerrado, protocolos industriales (Modbus TCP/IP).}
+\vspace{1pt}
+
+\subentrada{Idiomas}{}
+{\small\color{texto} Español (nativo), Inglés (en proceso de certificación -- Altissia, convenio UIS).}
+% ============================================================
+% CERTIFICACIONES Y CURSOS
+% ============================================================
+\section*{Certificaciones y Cursos}
+\entrada{Bootcamp en Inteligencia Artificial -- Nivel Básico}{Dic. 2025 -- 159 h}{MinTIC, Universidad de Antioquia, Universidad de Caldas y Ubicua Technology}
+\entrada{Fundamentos de Programación -- Módulos I y II}{Dic. 2021}{MinTIC / Universidad Tecnológica de Pereira -- 64\,h sincrónicas, 48\,h asincrónicas y 48\,h de inglés por módulo}
+% ============================================================
+% REFERENCIAS
+% ============================================================
+\vspace{2pt}
+\section*{Referencias}
+{\small\color{secundario}\textit{Referencias personales y profesionales a disposición previa solicitud.}}
+
+\end{document}

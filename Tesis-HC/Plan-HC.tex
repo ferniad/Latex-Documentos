@@ -1,0 +1,111 @@
+\documentclass[12pt, letterpaper]{article}
+
+% --- IDIOMA Y FUENTE ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{newtxtext, newtxmath}   % Times (estándar en trabajos de grado)
+\usepackage{microtype}
+
+% --- PÁGINA ---
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{0pt}
+
+% --- TÍTULOS DE SECCIÓN ---
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries\MakeUppercase}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.6em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\itshape}{\thesubsubsection.}{0.6em}{}
+\titlespacing*{\section}{0pt}{18pt}{10pt}
+\titlespacing*{\subsection}{0pt}{14pt}{8pt}
+
+% --- GRÁFICOS, TABLAS, LISTAS ---
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\setlist{itemsep=2pt, topsep=4pt}
+\usepackage[font=small, labelfont=bf, labelsep=period]{caption}
+
+% --- MATEMÁTICAS ---
+\usepackage{amsmath, amssymb}
+
+% --- BIBLIOGRAFÍA ---
+\usepackage{csquotes}
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{bib-HC.bib}
+
+% --- ENCABEZADO Y PIE ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape Plan de Trabajo de Grado}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% --- ENLACES ---
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue]{hyperref}
+
+\begin{document}
+
+% ================= PORTADA =================
+\begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+    \singlespacing
+
+    \includegraphics[width=0.29\textwidth]{img/logoUIS.png}\\[0.8cm]
+
+    {\large \textbf{UNIVERSIDAD INDUSTRIAL DE SANTANDER}}\\[0.2cm]
+    {\normalsize Facultad de Ingenierías Físico-Mecánicas}\\
+    {\normalsize Escuela de Ingeniería Eléctrica, Electrónica y de Telecomunicaciones}\\[1.2cm]
+
+    \rule{\textwidth}{0.8pt}\\[0.5cm]
+    {\Large \textbf{\MakeUppercase{Estimación dinámica de la capacidad límite de integración de recursos energéticos distribuidos fotovoltaicos en sistemas de distribución mediante optimización por enjambre de partículas considerando funcionalidades operativas de la red}}\par}
+    \vspace{0.5cm}
+    \rule{\textwidth}{0.8pt}\\[1cm]
+
+    {\large Plan de Trabajo de Grado}\\[0.2cm]
+    {\normalsize presentado para su respectiva aprobación}\\[1.2cm]
+
+    {\large \textbf{Autores}}\\[0.2cm]
+    Juan Rafael Camacho Martinez\\
+    Daniel Fernando Aranda Contreras\\
+    {\small Ingeniería Eléctrica}\\[1cm]
+
+    {\large \textbf{Director}}\\[0.2cm]
+    Jairo Blanco Solano\\[0.6cm]
+
+    {\large \textbf{Codirectores}}\\[0.2cm]
+    César Antonio Duarte Gualdrón\\
+    Cristhian Camilo Torres Alfonso
+
+    \vfill
+    Bucaramanga, Colombia\\
+    2026
+\end{titlepage}
+
+% ================= ÍNDICES =================
+\pagenumbering{roman}
+\renewcommand{\contentsname}{Contenido}
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+\pagenumbering{arabic}
+
+% ================= CUERPO =================
+\input{contend-HC.tex}
+
+% ================= BIBLIOGRAFÍA =================
+\clearpage
+\nocite{*}
+\printbibliography[heading=bibintoc, title={Referencias Bibliográficas}]
+
+\end{document}

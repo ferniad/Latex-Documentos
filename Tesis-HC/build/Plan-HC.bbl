@@ -1,0 +1,2113 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{abideen_enhanced_2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9bbade7fba7798eb8714e02085bd1986}{%
+           family={Abideen},
+           familyi={A\bibinitperiod},
+           given={Mohammad\bibnamedelimb Zain\bibnamedelima Ul},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e38e1823e08b5767aa9860a7985bda0e}{%
+           family={Ellabban},
+           familyi={E\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbde700c3cb67241a6112f87eeb1d00e}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Furkan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7abf29734d5527803b5f4591dd39414a}{%
+           family={Al-Fagih},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={Luluwah},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Piscataway}%
+      }
+      \list{publisher}{2}{%
+        {The Institute of Electrical}%
+        {Electronics Engineers, Inc. IEEE}%
+      }
+      \strng{namehash}{a9d0c6098f60f6150c7a27db795c8bee}
+      \strng{fullhash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{fullhashraw}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{bibnamehash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{authorbibnamehash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{authornamehash}{a9d0c6098f60f6150c7a27db795c8bee}
+      \strng{authorfullhash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{authorfullhashraw}{4a7f7831e9f603e8c5c7141c67832134}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the falling cost of Distributed Energy Resources (DERs) and the shift from fossil fuel to renewable energy in many countries, the integration of DERs is expected to grow. This can lead to a wide range of problems in the power system, such as voltage violations, overloading of distribution lines, reverse power flow, etc. Therefore, it is imperative to account for these adverse effects of the integration of DERs on the distribution network and minimize their impact when calculating the Hosting Capacity (HC). Two algorithms are presented in this study derived from a novel modified iterative method and a novel Repeated Particle Swarm Optimization (RPSO) method for determining the HC for multiple DER units simultaneously or a single DER unit integrating into radial or mesh networks. These algorithms calculate the optimal HC based on six scenarios of annual load and DER generation profiles. The developed algorithms were tested on the IEEE 123 bus network, and their results were compared. For a large-scale DER case, the modified iterative method significantly outperforms both the PSO and the normal iterative method in terms of computation time (30 minutes versus 3 hours versus 6 hours, respectively). In the case of multiple DERs, the RPSO method is the only option, as the other two methods cannot simultaneously optimize multiple DERs. As a result, it has been concluded that it is necessary to select HC calculation methods carefully and in accordance with the application, as each method has its own strengths and weaknesses.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE access}
+      \field{title}{An {Enhanced} {Approach} for {Solar} {PV} {Hosting} {Capacity} {Analysis} in {Distribution} {Networks}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{120563\bibrangedash 120577}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2022.3221944
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/BS3V4N3X/Abideen et al. - 2022 - An Enhanced Approach for Solar PV Hosting Capacity Analysis in Distribution Networks.pdf:application/pdf
+      \endverb
+      \keyw{distributed energy resources,Fossil fuels,hosting capacity,Algorithms,Cost analysis,Distributed generation,Distribution network,Electric power distribution,Energy sources,IEEE 123 bus network,Iterative methods,Mathematical analysis,Particle swarm optimization,particle swarm optimization (PSO),Photovoltaic cells,Power flow,Metodo/RPSO,Metodo/Iterativo-modificado,herramienta/IEEE-123-bus,herramienta/MATLAB,capitulo/marco-teorico,prioridad/alta,FLHC/desviacion-de-voltaje,FLHC/sobrecarga-de-linea,FLHC/perdidas-de-potencia}
+    \endentry
+    \entry{baroni_assessment_2026}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16382d309ff1e1e3929c87d1aebc0754}{%
+           family={Baroni},
+           familyi={B\bibinitperiod},
+           given={Bruno\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{fullhash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{fullhashraw}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{bibnamehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authorbibnamehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authornamehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authorfullhash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authorfullhashraw}{16382d309ff1e1e3929c87d1aebc0754}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Photovoltaic (PV) hosting capacity is defined as the maximum amount of PV generation that a distribution network can accommodate without violating operational constraints. With the increasing penetration of distributed PV systems, assessing their impacts on distribution networks has become essential to ensure safe and reliable operation. This paper evaluates the effects of high PV penetration on overvoltage and overcurrent conditions in distribution feeders, aiming to determine the maximum-allowable PV penetration levels under scenarios with and without the integration of a battery energy storage system (BESS). PV penetration levels, defined as the ratio between the annual energy generated by PV systems and the feeder’s annual energy consumption, range from 0\% (no photovoltaic generation) to 100\%. Detailed simulations are conducted on feeders with distinct configurations, including scenarios with and without voltage regulators. The results indicate that feeders without voltage regulators can accommodate up to 100\% PV penetration when BESS is deployed, while the hosting capacity is reduced to 80\% in the absence of energy storage. In contrast, feeders equipped with voltage regulators exhibit lower hosting capacity limits, supporting up to 80\% PV penetration with BESS and only 20\% without BESS. The analysis further reveals that overcurrent is not a critical limiting factor in the evaluated scenarios, whereas overvoltage remains the primary constraint. These findings highlight the significant role of BESS in enhancing PV hosting capacity and provide practical insights for distribution system operators in planning and operating networks with high levels of PV integration.}
+      \field{issn}{2195-3899}
+      \field{journaltitle}{Journal of Control, Automation and Electrical Systems}
+      \field{month}{6}
+      \field{title}{Assessment of {Photovoltaic} {Hosting} {Capacity} in {Distribution} {Systems} {Considering} {Battery} {Energy} {Storage} {Systems} and {Voltage} {Regulators}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s40313-026-01296-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/9UQPYM83/Baroni - 2026 - Assessment of Photovoltaic Hosting Capacity in Distribution Systems Considering Battery Energy Stora.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s40313-026-01296-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s40313-026-01296-4
+      \endverb
+      \keyw{Battery energy storage systems,Hosting capacity,Impacts of photovoltaic distributed generation integration,Photovoltaic distributed generation,Step voltage regulators,Metodo/Estocastico}
+    \endentry
+    \entry{benzerga_unified_2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1c72150f7307ea1d107ef63ebc799257}{%
+           family={Benzerga},
+           familyi={B\bibinitperiod},
+           given={Amina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4d3efaf5f7ffca3614fee5d2a70f113}{%
+           family={Bahmanyar},
+           familyi={B\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f4e08f9955f442c1e3edcf4cc951763}{%
+           family={Derval},
+           familyi={D\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fbe33fd3b6a25f54629f311cb113551}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{61be162f0d64d4f4ed3dd8a8f157a647}
+      \strng{fullhash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{fullhashraw}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{bibnamehash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{authorbibnamehash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{authornamehash}{61be162f0d64d4f4ed3dd8a8f157a647}
+      \strng{authorfullhash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{authorfullhashraw}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the past decade, the landscape of distribution network hosting capacity has been extensively explored through numerous studies. However, a notable gap remains in the absence of a standardised and universally accepted generic definition. Bridging this gap, this paper provides a comprehensive and unified definition of the hosting capacity concept for distributed energy resources (DERs). To illustrate the presented definition, a practical demonstration using a basic illustrative example is provided. Additionally, this paper aligns the most impactful papers in the field, as well as select literature articles, with the proposed definition. This comparative analysis showcases the versatility and applicability of the definition across a spectrum of research contributions. This paper seeks to establish a shared foundation for the determination of hosting capacity that can guide future research.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A {Unified} {Definition} of {Hosting} {Capacity}, {Applications}, and {Review}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{7819\bibrangedash 7836}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3521223
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/MJ58T8L3/Benzerga et al. - 2025 - A Unified Definition of Hosting Capacity, Applications, and Review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10811912
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10811912
+      \endverb
+      \keyw{hosting capacity,Distributed energy resources,Distributed power generation,electric vehicles,heat pumps,Heat pumps,Indexes,photovoltaic,Photovoltaic systems,Production,renewable energy source,Resistance heating,Reviews,Terminology,Uncertainty,Vectors,wind turbines}
+    \endentry
+    \entry{chaimongkol_design_2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=1014567a96f8f3c217d2e869aa6e7914}{%
+           family={Chaimongkol},
+           familyi={C\bibinitperiod},
+           given={Pengtem},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e31cff33f626b7e0072d200f9d3dc0e}{%
+           family={Saksit},
+           familyi={S\bibinitperiod},
+           given={Deeum},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=056dc47af1d64e07995a90c0a1a23a4b}{%
+           family={Amirullah},
+           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=6dc4ab51836fe6575da8c80b462e15d7}{%
+           family={Hideaki},
+           familyi={H\bibinitperiod},
+           given={Ohgaki},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4292247440ae826bfdcb667812e796fd}{%
+           family={Sillawat},
+           familyi={S\bibinitperiod},
+           given={Romphochai},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bbfe4c177e3a1b46e7e849ad7f0ff64}{%
+           family={Pimnapat},
+           familyi={P\bibinitperiod},
+           given={Bhumkittipich},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8bd2c9d5ba6f1acb83ba3a87bce8c39}{%
+           family={Krischonme},
+           familyi={K\bibinitperiod},
+           given={Bhumkittipich},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Basel, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{ca1b83b3580dd483263f40cbd4a4c5d6}
+      \strng{fullhash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{fullhashraw}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{bibnamehash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{authorbibnamehash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{authornamehash}{ca1b83b3580dd483263f40cbd4a4c5d6}
+      \strng{authorfullhash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{authorfullhashraw}{2491e82f85521b23fc7c904a1c8925c5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The potential for electricity distribution in power systems has significantly increased over the years. This is mainly because of the discovery of alternative electricity generation sources, such as renewable energy, coupled with distributed generation (DG), making electricity more widely accessible. However, challenges remain in distributing electricity to remote area communities (RACs), especially because of difficult terrain and the complexity of installing power plants, leaving some areas without access to electricity. In this study, we used an improved particle swarm optimization (IPSO) technique to propose multi-objective energy management for remote area communities within a hybrid integrated Photovoltaic–(PV)–Hydropower plant (HPP)–Battery Energy Storage System (BESS). The multi-objective functions enhance power quality and voltage stability to meet grid code requirements. The proposed method was applied to the IEEE 15-bus system, which is consistent with systems commonly used in remote area communities, under the following scenarios: Case I—random installation of PV-HPP-BESS and PI parameter control of BESS; Case II—optimal location of PV-HP-BESS and PI parameter control of BESS using IPSO; Case III—sudden short circuit of the transmission line in Case II. Effectiveness was verified through hardware-in-the-loop (HIL) testing. The experimental results indicate that the proposed method significantly improves power quality and stability under disturbances, demonstrating superior performance.}
+      \field{journaltitle}{Energies}
+      \field{number}{9}
+      \field{title}{Design of {Multi}-{Objective} {Energy} {Management} for {Remote} {Communities} {Connected} with an {Optimal} {Hybrid} {Integrated} {Photovoltaic}–{Hydropower}–{Battery} {Energy} {Storage} {System} ({PV}-{HP}-{BESS}) {Using} {Improved} {Particle} {Swarm} {Optimization}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{18}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3390/en18092250
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/S5CVPRR2/Chaimongkol et al. - 2025 - Design of Multi-Objective Energy Management for Remote Communities Connected with an Optimal Hybrid.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/3203195434/abstract/E783D654180A42A8PQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/3203195434/abstract/E783D654180A42A8PQ/1
+      \endverb
+      \keyw{Alternative energy sources,Energy resources,Greenhouse gases,Renewable resources,Systems stability,BESS,distributed generation,Efficiency,Emissions,Energy consumption,Energy management,Energy storage,Genetic algorithms,HPP,Hydroelectric power,Optimization techniques,power quality,PV,remote area community,Test systems,voltage stability}
+    \endentry
+    \entry{chang_equilibrium_2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e63f6223b1e97bfcd692f6ae92c55ed6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Gary\bibnamedelima W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c90149c6ba44241a0ed463585071388}{%
+           family={Chinh},
+           familyi={C\bibinitperiod},
+           given={Nguyen\bibnamedelima Cong},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99618f4722678f4e9474e16bdc771762}{%
+           family={Sinatra},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49dbce55410bb67bc9fe2aafb0040eb9}
+      \strng{fullhash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{fullhashraw}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{bibnamehash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{authorbibnamehash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{authornamehash}{49dbce55410bb67bc9fe2aafb0040eb9}
+      \strng{authorfullhash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{authorfullhashraw}{52123a19f86776c31fe2dbb779d05eef}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an Equilibrium Optimizer (EO)-based method that simultaneously determines locations and sizes of multiple photovoltaic (PV) units for maximizing a distribution system’s PV hosting capacity (PVHC). The proposed method avoids various search-space restrictions seen in recent literature. The constraints in this paper are separated into two types based on the necessity of power flow analysis. The proposed method is implemented through co-simulation between MATLAB and OpenDSS. PV output and load demand variation is considered through a 24-hour profile representing a season. Smart inverter is considered through the PV inverter volt-var control (VVC) scheme. The proposed method is tested on the IEEE 123-bus benchmark system. Four test cases are considered to determine the impact of reverse power flow (RPF) limit and the impact of VVC toward the optimal PV planning. The results show that EO produces superior results compared to Genetic Algorithm (GA), Particle Swarm Optimization (PSO), Grey Wolf Optimizer (GWO), and Coyote Optimization Algorithm (COA).}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Equilibrium {Optimizer}-{Based} {Approach} of {PV} {Generation} {Planning} in a {Distribution} {System} for {Maximizing} {Hosting} {Capacity}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{118108\bibrangedash 118122}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2022.3220256
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/KXADYBNX/Chang et al. - 2022 - Equilibrium Optimizer-Based Approach of PV Generation Planning in a Distribution System for Maximizi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9940949
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9940949
+      \endverb
+      \keyw{hosting capacity,Genetic algorithms,Distributed generation,Capacity planning,Inverters,Linear programming,Load flow analysis,metaheuristic approach,Metaheuristics,Planning,reverse power flow,smart inverter}
+    \endentry
+    \entry{dursun_hosting_2026}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c3317146e435029dc8cdcec71277c23}{%
+           family={Dursun},
+           familyi={D\bibinitperiod},
+           given={Bekir},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{fullhash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{fullhashraw}{9c3317146e435029dc8cdcec71277c23}
+      \strng{bibnamehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authorbibnamehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authornamehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authorfullhash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authorfullhashraw}{9c3317146e435029dc8cdcec71277c23}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rapid integration of Distributed Generation (DG) units is transforming traditional passive radial distribution networks into active grids with bidirectional power flow. Determining the optimal allocation and physical hosting capacity of DG units is essential for maintaining grid stability while maximizing technical gains. This study presents a multi-objective optimization framework using empirical peak-load field data from an active medium-voltage distribution network in Türkiye. A custom Particle Swarm Optimization (PSO) algorithm was developed in MATLAB to simultaneously minimize active and reactive power losses while improving the Voltage Deviation Index (VDI). The baseline network model and load flow calculations established in DIgSILENT PowerFactory were rigorously cross-validated with MATPOWER, demonstrating complete mathematical agreement with a negligible deviation ({<}0.001\%). Simulation results under both capacity-constrained (10 MW limit) and unconstrained Hosting Capacity Discovery scenarios demonstrate that single-objective optimization causes negative trade-offs across other operational metrics. Conversely, multi-objective hybrid approaches provide a balanced, globally common optimum operating point best suited to the grid’s natural electrical structure, consistently identifying a reliable ultimate hosting capacity threshold of 21.78 MW at Busbar 4. These findings offer a concrete, empirical decision-support framework for active distribution network planning and modernization.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{1}
+      \field{number}{16}
+      \field{title}{Hosting {Capacity} {Discovery} and {Multi}-{Objective} {DG} {Allocation} in {Real} {Radial} {Distribution} {Systems} via {PSO}}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{8056}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app16168056
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/GBJ73Q7J/Dursun - 2026 - Hosting Capacity Discovery and Multi-Objective DG Allocation in Real Radial Distribution Systems via.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/16/16/8056
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/16/16/8056
+      \endverb
+      \keyw{hosting capacity,distributed generation,particle swarm optimization,energy distribution,load flow analysis,loss minimization,voltage deviation index}
+    \endentry
+    \entry{islam_artificial_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=96f017fd885a2cee5145be94529c2f10}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Md\bibnamedelima Tariqul},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b15550ae726d853ce523126d8e7d739a}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Basel, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{fullhash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{fullhashraw}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{bibnamehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authorbibnamehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authornamehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authorfullhash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authorfullhashraw}{ae2aae052ea05f760ee24159468fa5fc}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Distribution network operators face technical and operational challenges in integrating the increasing number of distributed energy resources (DER) with the distribution network. The hosting capacity analysis quantifies the level of power quality violation on the network due to the high penetration of the DER, such as over voltage, under voltage, transformer and feeder overloading, and protection failures. Real-time monitoring of the power quality factors such as the voltage, current, angle, frequency, harmonics and overloading that would help the distribution network operators overcome the challenges created by the high penetration of the DER. In this paper, different conventional hosting capacity analysis methods have been discussed. These methods have been compared based on the network constraints, impact factors, required input data, computational efficiency, and output accuracy. The artificial intelligence approaches of the hosting capacity analysis for the real-time monitoring of distribution network parameters have also been covered in this paper. Different artificial intelligence techniques have been analysed for sustainable integration, power system optimisation, and overcoming real-time monitoring challenges of conventional hosting capacity analysis methods. An overview of the conventional hosting capacity analysis methods, artificial intelligence techniques for overcoming the challenges of distributed energy resources integration, and different impact factors affecting the real-time hosting capacity analysis has been summarised. The distribution system operators and researchers will find the review paper as an easy reference for planning and further research. Finally, it is evident that artificial intelligence techniques could be a better alternative solution for real-time estimation and forecasting of the distribution network hosting capacity considering the intermittent nature of the DER, consumer loads, and network constraints.}
+      \field{journaltitle}{Energies}
+      \field{number}{4}
+      \field{shorttitle}{Artificial {Intelligence} for {Hosting} {Capacity} {Analysis}}
+      \field{title}{Artificial {Intelligence} for {Hosting} {Capacity} {Analysis}: {A} {Systematic} {Literature} {Review}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3390/en16041864
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/Z955LMXB/Islam y Hossain - 2023 - Artificial Intelligence for Hosting Capacity Analysis A Systematic Literature Review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/2779531406/abstract/510A1575E8BC47F8PQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/2779531406/abstract/510A1575E8BC47F8PQ/1
+      \endverb
+      \keyw{Alternative energy sources,artificial intelligence,Artificial intelligence,Climate change,Consumers,deep learning,distributed energy resources,Electric power,Electricity,Electricity distribution,Energy resources,Fossil fuels,Greenhouse gases,hosting capacity,impact factors,Impact factors,Literature reviews,machine learning,optimisation,Power supply,Renewable resources,Research,Sustainability,Systems stability}
+    \endentry
+    \entry{ismael_probabilistic_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=16b5ab204ae5fca3dd0977ac0b360189}{%
+           family={Ismael},
+           familyi={I\bibinitperiod},
+           given={Sherif\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b46b43a01708762da624bd96f4888d90}{%
+           family={Abdel\bibnamedelima Aleem},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Shady\bibnamedelimb H.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85fff7ccf1392a0a6f3d79cbade2640a}{%
+           family={Abdelaziz},
+           familyi={A\bibinitperiod},
+           given={Almoataz\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1cc970741e73c16ebb3c163b171cb57}{%
+           family={Zobaa},
+           familyi={Z\bibinitperiod},
+           given={Ahmed\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3a59db46b96bc89df02d034479afe63d}
+      \strng{fullhash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{fullhashraw}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{bibnamehash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{authorbibnamehash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{authornamehash}{3a59db46b96bc89df02d034479afe63d}
+      \strng{authorfullhash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{authorfullhashraw}{0c1b170886be13bd171f650747bfbcc5}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The high penetration of distributed generation (DG) units with their power-electronic interfaces may lead to various power quality problems, such as excessive harmonic distortions and increased non-sinusoidal power losses. In this paper, the probabilistic hosting capacity (PHC) due to the high penetration of photovoltaic units in a non-sinusoidal power distribution system is investigated. A C-type harmonic filter is proposed, to maximize the harmonic-constrained PHC. An optimization problem is formulated by using a Monte Carlo simulation, taking into account various uncertain parameters, such as the intermittent output power of the DGs, background voltage harmonics, load alteration, and the filter parameters’ variations. In addition, different operational constraints have been considered, such as the bus voltage, line thermal capacity, power factor, and individual and total harmonic distortion limits. A swarm-based, meta-heuristic optimization algorithm known as the hybrid particle swarm optimization and gravitational search algorithm (PSOGSA) has been examined for the optimal design of the proposed filter. Besides, other optimization algorithms were examined for validation of the solution. The PHC results obtained are compared with the conventional deterministic HC (DHC) results, and it is found that the PHC levels are higher than those obtained by conservative HC procedures, practical rules of thumb, and the DHC approaches.}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{month}{1}
+      \field{number}{6}
+      \field{title}{Probabilistic {Hosting} {Capacity} {Enhancement} in {Non}-{Sinusoidal} {Power} {Distribution} {Systems} {Using} a {Hybrid} {PSOGSA} {Optimization} {Algorithm}}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1018}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en12061018
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/WGQQWZ8N/Ismael et al. - 2019 - Probabilistic Hosting Capacity Enhancement in Non-Sinusoidal Power Distribution Systems Using a Hybr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/12/6/1018
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/12/6/1018
+      \endverb
+      \keyw{Monte Carlo simulation,distributed generation,harmonics mitigation,optimization,probabilistic hosting capacity,uncertainty}
+    \endentry
+    \entry{liu_assessment_2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ef81cc4b07010d9e03ea2b656a718cd0}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yu-Jen},
+           giveni={Y\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46fb5abf070a868960e75c9d1dd64067}{%
+           family={Tai},
+           familyi={T\bibinitperiod},
+           given={Yu-Hsuan},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e15cc6a76f69326b4180fb950fb6ea4b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yih-Der},
+           giveni={Y\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cfce509c432007498e8d404ccd0bef2}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jheng-Lung},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e9a310bbfa25f2521a50e2da6760603}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chen-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{e6641b142699c04e99764ad10c80ed51}
+      \strng{fullhash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{fullhashraw}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{bibnamehash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{authorbibnamehash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{authornamehash}{e6641b142699c04e99764ad10c80ed51}
+      \strng{authorfullhash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{authorfullhashraw}{1720e869140a8df73d7610fe2ff0775c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PV hosting capacity (PVHC) analysis on a distribution system is an attractive technique that emerged in recent years for dealing with the planning tasks on high-penetration PV integration. PVHC uses various system performance indices as judgements to find an available amount of PV installation capacity that can be accommodated on existing distribution system infrastructure without causing any violation. Generally, approaches for PVHC assessments are implemented by iterative power flow calculations with stochastic PV deployments so as to observe the operation impacts for PV installation on distribution systems. Determination of the stochastic PV deployments in most of traditional PVHC analysis methods is automatically carried out by the program that is using random selection. However, a repetitive problem that exists in these traditional methods on the selection of the same PV deployment for a calculation was not previously investigated or discussed; further, underestimation of PVHC results may occur. To assess PVHC more effectively, this paper proposes an improved stochastic analysis method that introduces an innovative idea of using repetitiveness check mechanism to overcome the shortcomings of the traditional methods. The proposed mechanism firstly obtains all PV deployment combinations for the determination of all possible PV installation locations. A quick-sorting algorithm is then used to remove repetitive PV deployments that are randomly selected during the solution procedure. Finally, MATLAB and OpenDSS co-simulations implemented on a small distribution feeder are used to validate the performance of the proposed method; in addition, PVHC enhancement by PV inverter control is investigated and simulated in this paper as well. Results show that the proposed method is more effective than traditional methods in PVHC assessments.}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{month}{1}
+      \field{number}{22}
+      \field{title}{Assessment of {PV} {Hosting} {Capacity} in a {Small} {Distribution} {System} by an {Improved} {Stochastic} {Analysis} {Method}}
+      \field{urlday}{7}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{5942}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en13225942
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/W5LUYTVM/Liu et al. - 2020 - Assessment of PV Hosting Capacity in a Small Distribution System by an Improved Stochastic Analysis.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/13/22/5942
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/13/22/5942
+      \endverb
+      \keyw{power quality,distribution system,OpenDSS,PV hosting capacity,PV inverter control,stochastic analysis}
+    \endentry
+    \entry{panchalogaranjan_utilizing_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=68d9aca0ea1cd640a66edaa6b83e552e}{%
+           family={Panchalogaranjan},
+           familyi={P\bibinitperiod},
+           given={Vinushika},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=317d378ad656440d09371c9c436e7834}{%
+           family={Moses},
+           familyi={M\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{fullhash}{549d5373571e103628113a1a296cf4e0}
+      \strng{fullhashraw}{549d5373571e103628113a1a296cf4e0}
+      \strng{bibnamehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authorbibnamehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authornamehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authorfullhash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authorfullhashraw}{549d5373571e103628113a1a296cf4e0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Integration of renewable energy resources (RER) like solar photovoltaic (PV) power in the distribution system (DS) is one of the key aspects in the evolution of modern power systems. Maximizing the utilization of the RER while adhering to stringent grid standards has become a crucial technical challenge in distributed power systems. The analysis of overall network performance and PV capacity limitations is essential before the installation of a PV source in a distribution feeder. This paper analyses the locational-dependent PV hosting capacity (PVHC) for a central PV plant integrated into the DS using the particle swarm optimization (PSO) method. The proposed methodology is applied in simulations of a real distribution feeder and examines the effectiveness of the framework. The results show that PSO is an effective method to determine the locational-dependent PVHC.}
+      \field{journaltitle}{2023 {IEEE} 50th {Photovoltaic} {Specialists} {Conference} ({PVSC})}
+      \field{month}{6}
+      \field{title}{Utilizing {PSO} {Technique} for {Locational}-{Dependent} {Feeder} {PV} {Hosting} {Capacity} {Evaluation}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/PVSC48320.2023.10360041
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/ZAYVDP44/Panchalogaranjan y Moses - 2023 - Utilizing PSO Technique for Locational-Dependent Feeder PV Hosting Capacity Evaluation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10360041/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10360041/
+      \endverb
+      \keyw{Energy resources,Photovoltaic systems,Particle swarm optimization,Distribution networks,Voltage,Linear programming,Renewable energy sources,PV hosting capacity,Distribution system,Loading,Renewable energy resources}
+    \endentry
+    \entry{sahu_hosting_2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2c7bf90da81448904bf64e027979cf8c}{%
+           family={Sahu},
+           familyi={S\bibinitperiod},
+           given={Sourav\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc8d05d1860df84c7ec9612b2ef73100}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Debomita},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{fullhash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{fullhashraw}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{bibnamehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authorbibnamehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authornamehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authorfullhash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authorfullhashraw}{1b710cfdba805b5d9e8ba86f7e132883}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The gradual fossil fuel depletion, the exponential increase in load, the environmental, social and political concern has lead to the gradual sprawl of distributed energy resources in the form of microgrid. But disproportionate integration of DERs into the conventional power system may result in the anomalous system behavior causing violation of operational limits i.e., under and overvoltage, thermal overloading, line losses, transformer or feeder overloading, harmonic distortion breaching the standards, mal-operation of the protective devices etc. The key to mitigate these violations is appropriate hosting capacity assessment. This paper proposes the concept of customary hosting capacity and enhanced hosting capacity at all nodes in a network with low voltage level, high voltage level, ampacity and total harmonic distortion as the governing criteria. The analysis is tested on reconfigured IEEE 33 bus distribution system, whose reconfiguration is achieved by particle swarm optimization, keeping loss minimization as the objective function. The attainment of enhanced hosting capacity is significant since it may lead to considerable improvement of voltage in the network, maintaining the line current values very low. The experimentation on reconfigured and base configuration of IEEE 33 bus distribution system is performed in MATLAB and validated in hardware in loop. The results are also compared with existing literature to prove its efficacy.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{shorttitle}{Hosting {Capacity} {Enhancement} in {Distribution} {System} in {Highly} {Trenchant} {Photo}-{Voltaic} {Environment}}
+      \field{title}{Hosting {Capacity} {Enhancement} in {Distribution} {System} in {Highly} {Trenchant} {Photo}-{Voltaic} {Environment}: {A} {Hardware} in {Loop} {Approach}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{14440\bibrangedash 14451}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2962263
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/F37X8LXM/Sahu y Ghosh - 2020 - Hosting Capacity Enhancement in Distribution System in Highly Trenchant Photo-Voltaic Environment A.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8943187
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8943187
+      \endverb
+      \keyw{distributed energy resources,particle swarm optimization,Inverters,Customary hosting capacity,direct load flow,enhanced hosting capacity,Hardware,Mathematical model,Microgrids,photo-voltaic distributed generation,Power system reliability,Reliability}
+    \endentry
+    \entry{santos_photovoltaic_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6e118dc1f20d77ed40f1c5788b2f32bb}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Brenda\bibnamedelimb L.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c69743d4783ce8ded31943b5bb865c9f}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=445d39dfe2e5a279ee2efa592e378a0f}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Luciano\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4854c51051e5a3a8c1ca08031b27d859}{%
+           family={Moreira},
+           familyi={M\bibinitperiod},
+           given={Fernando\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e7bb639c6e980c9d49d1378f29bb6808}
+      \strng{fullhash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{fullhashraw}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{bibnamehash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{authorbibnamehash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{authornamehash}{e7bb639c6e980c9d49d1378f29bb6808}
+      \strng{authorfullhash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{authorfullhashraw}{67fc07469d6ec367ebd5cb728cb1563e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Photovoltaic (PV) in low-voltage distribution systems (LVDS) becomes problematic when the penetration level exceeds system photovoltaic hosting capacity (PVHC), since it leads to violations of power quality constraints. Maximizing PVHC enables customer service expansion by allowing more power from prosumers and load attendance. Although several works propose quantifying PVHC, methodologies to maximize it in LVDS are scarce. Some works propose the installation of additional equipment, such as var compensators, resulting in costly solutions, others propose solutions without cost to medium-voltage distribution systems. Therefore, this paper’s main objective is to propose a cost-effective approach with the purpose of maximizing PVHC of LVDS by searching the optimal power factor for interface inverters of each PV unit in the system. Additionally, this study aims to consider the uncertainties of PV penetration, solar irradiance, locations and sizes of PV units, and system loads through the Monte Carlo simulation. A modified particle swarm optimization is adopted to search power factors to avoid voltage violations for as many Monte Carlo scenarios as possible, guaranteeing PVHC maximization. Test results for a real system show the proposed method maximizes PVHC of LVDS by reducing the number of scenarios that violate the voltage constraint and improving the system voltage profile even for great amounts of installed PV units.}
+      \field{issn}{2195-3899}
+      \field{journaltitle}{Journal of Control, Automation and Electrical Systems}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Photovoltaic {Hosting} {Capacity} {Maximization} of {Low}-{Voltage} {Distribution} {Systems} {Based} on {Search} of {Optimal} {Power} {Factor} for {Interface} {Inverters} {Through} {Particle} {Swarm} {Optimization}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{34}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1260\bibrangedash 1271}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s40313-023-01043-z
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/BNM3ERIL/Santos et al. - 2023 - Photovoltaic Hosting Capacity Maximization of Low-Voltage Distribution Systems Based on Search of Op.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s40313-023-01043-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s40313-023-01043-z
+      \endverb
+      \keyw{Low-voltage distribution systems,Modified particle swarm optimization,Monte Carlo simulation,Photovoltaic hosting capacity maximization,Metodo/PSO,Fuente/Articulo}
+    \endentry
+    \entry{shen_improved_2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ec938f03156e87b136422dc2ad185ac4}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58e213debd273dafd58ad6e415150d51}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f471173e51f4100bfaddec6fb86aa719}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yidan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c251db0da7d07a9123bcfc9701bf2c4}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Liangying},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8522237ee70adf2d375580b3ff2170f}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Sichen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09e9a1baabb962a0e83ad3f4361341d4}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d55267f9b195c66724c7361ef58b2e86}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Haomin},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{28cf68cbed9f19071fecb0dd3a98c201}
+      \strng{fullhash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{fullhashraw}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{bibnamehash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{authorbibnamehash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{authornamehash}{28cf68cbed9f19071fecb0dd3a98c201}
+      \strng{authorfullhash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{authorfullhashraw}{0dc330928884e81bdd326ea0a0e7faa9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The phenomenon of power backflow caused by large-scale distributed photovoltaic integration has led to critical safety issues in medium-voltage distribution networks, including node voltage violations and reverse overload of distribution transformers. To address these challenges, this study establishes a distributed PV hosting capacity assessment model based on multiple constraints, such as power flow balance, voltage deviation, transformer load rate, and line current capacity. Furthermore, an improved particle swarm optimization algorithm is proposed to solve the model. Tests conducted on the IEEE 33 system and a real-world power grid demonstrate that the model effectively evaluates the safety and stability of the grid. Compared to traditional methods, the improved algorithm exhibits superior convergence speed and optimization capability. Under the same constraints, it achieves a higher PV hosting capacity and lower network losses.}
+      \field{journaltitle}{2025 2nd {International} {Conference} on {Smart} {Grid} and {Artificial} {Intelligence} ({SGAI})}
+      \field{month}{3}
+      \field{title}{An {Improved} {Particle} {Swarm} {Optimization}-{Based} {Method} for {Assessing} {Distributed} {Photovoltaic} {Hosting} {Capacity} in {Power} {Grids}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{617\bibrangedash 620}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/SGAI64825.2025.11009619
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/2ZZ8NCSA/Shen et al. - 2025 - An Improved Particle Swarm Optimization-Based Method for Assessing Distributed Photovoltaic Hosting.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/11009619
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/11009619
+      \endverb
+      \keyw{Photovoltaic systems,Optimization,particle swarm optimization,Particle swarm optimization,distributed photovoltaic,Distribution networks,Evaluation models,grid safety,hosting capacity assessment,iterative algorithm,Load modeling,Medium voltage,Safety,Transformers,Voltage}
+    \endentry
+    \entry{zain_ul_abideen_review_2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=855713ae4ce683d97b35e8d71071caac}{%
+           family={Zain\bibnamedelimb ul\bibnamedelima Abideen},
+           familyi={Z\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e38e1823e08b5767aa9860a7985bda0e}{%
+           family={Ellabban},
+           familyi={E\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7abf29734d5527803b5f4591dd39414a}{%
+           family={Al-Fagih},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={Luluwah},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{db4ce915c6b5fca690c741da2643c5bb}
+      \strng{fullhash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{fullhashraw}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{bibnamehash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{authorbibnamehash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{authornamehash}{db4ce915c6b5fca690c741da2643c5bb}
+      \strng{authorfullhash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{authorfullhashraw}{eaaed2c05e49bbf45b86b15be5b92489}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Integration of distributed energy resources (DERs) has numerous advantages as well as some disadvantages. To safely integrate DERs into a given distribution network and to maximize their benefits, it is important to thoroughly analyze the impact of DERs on that particular network. The maximum amount of DERs that a given distribution network can accommodate without causing technical problems or without requiring infrastructure modifications is defined as the hosting capacity (HC). In this work, a review of the recent literature regarding the HC is presented. The major limiting factors of HC are found to be voltage deviation, phase unbalance, thermal overload, power losses, power quality, installation location and protection devices’ miscoordination. The studies are found to employ one of four different methods for HC calculation: (i) deterministic, (ii) stochastic, (iii) optimization-based and (iv) streamlined. Commercially available tools for HC calculation are also presented. The review concludes that the choice of tools and methods for HC calculation depends on the data available and the type of study that is to be performed.}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{month}{1}
+      \field{number}{11}
+      \field{title}{A {Review} of the {Tools} and {Methods} for {Distribution} {Networks}’ {Hosting} {Capacity} {Calculation}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{2758}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en13112758
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/A6WT5PIF/Zain ul Abideen et al. - 2020 - A Review of the Tools and Methods for Distribution Networks’ Hosting Capacity Calculation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/13/11/2758
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/13/11/2758
+      \endverb
+      \keyw{distributed energy resources,hosting capacity,distribution networks,optimization techniques}
+    \endentry
+    \entry{zulu_efficient_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fcf9a542fd0585409d15a419aac041a6}{%
+           family={Zulu},
+           familyi={Z\bibinitperiod},
+           given={Esau},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c57c60aa4b19d5566fc47b47011414e6}{%
+           family={Hara},
+           familyi={H\bibinitperiod},
+           given={Ryoichi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fc672dd57b020e1a473cbf73adb2ff0}{%
+           family={Kita},
+           familyi={K\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Basel, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{91bc1f2e5f17c8f0bc7fe5f5c4904f1b}
+      \strng{fullhash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{fullhashraw}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{bibnamehash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{authorbibnamehash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{authornamehash}{91bc1f2e5f17c8f0bc7fe5f5c4904f1b}
+      \strng{authorfullhash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{authorfullhashraw}{a3b19c96eacd99f56d9761b5817d401d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With many distribution networks adopting photovoltaic (PV) generation systems in their networks, there is a significant risk of over-voltages, reverse power flow, line congestion, and increased harmonics. Therefore, there is a need to estimate the amount of PV that can be injected into the distribution network without pushing the network towards these threats. The largest amount of PV a distribution system can accommodate is the PV hosting capacity (PVHC). The paper proposes an efficient method for estimating the PVHC of distribution networks that combines particle swarm optimization (PSO) and the gradient descent algorithm (GD). PSO has a powerful exploration of the solution space but poor exploitation of the local search. On the other hand, GD has great exploitation of local search to obtain local optima but needs better global search capabilities. The proposed method aims to harness the advantages of both PSO and GD while alleviating the ills of each. The numerical case studies show that the proposed method is more efficient, stable, and superior to the other meta-heuristic approaches.}
+      \field{journaltitle}{Energies}
+      \field{number}{13}
+      \field{title}{An {Efficient} {Hybrid} {Particle} {Swarm} and {Gradient} {Descent} {Method} for the {Estimation} of the {Hosting} {Capacity} of {Photovoltaics} by {Distribution} {Networks}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3390/en16135207
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/JC2SFRKD/Zulu et al. - 2023 - An Efficient Hybrid Particle Swarm and Gradient Descent Method for the Estimation of the Hosting Cap.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/2836397254/abstract/B8C3E8CF67994595PQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/2836397254/abstract/B8C3E8CF67994595PQ/1
+      \endverb
+      \keyw{Alternative energy sources,hosting capacity,Renewable resources,Genetic algorithms,distribution networks,gradient descent,Mathematical functions,Optimization,particle swarm optimization,photovoltaics,PV integration,Variables}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{abideen_enhanced_2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9bbade7fba7798eb8714e02085bd1986}{%
+           family={Abideen},
+           familyi={A\bibinitperiod},
+           given={Mohammad\bibnamedelimb Zain\bibnamedelima Ul},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e38e1823e08b5767aa9860a7985bda0e}{%
+           family={Ellabban},
+           familyi={E\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbde700c3cb67241a6112f87eeb1d00e}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Furkan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7abf29734d5527803b5f4591dd39414a}{%
+           family={Al-Fagih},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={Luluwah},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Piscataway}%
+      }
+      \list{publisher}{2}{%
+        {The Institute of Electrical}%
+        {Electronics Engineers, Inc. IEEE}%
+      }
+      \strng{namehash}{a9d0c6098f60f6150c7a27db795c8bee}
+      \strng{fullhash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{fullhashraw}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{bibnamehash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{authorbibnamehash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{authornamehash}{a9d0c6098f60f6150c7a27db795c8bee}
+      \strng{authorfullhash}{4a7f7831e9f603e8c5c7141c67832134}
+      \strng{authorfullhashraw}{4a7f7831e9f603e8c5c7141c67832134}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the falling cost of Distributed Energy Resources (DERs) and the shift from fossil fuel to renewable energy in many countries, the integration of DERs is expected to grow. This can lead to a wide range of problems in the power system, such as voltage violations, overloading of distribution lines, reverse power flow, etc. Therefore, it is imperative to account for these adverse effects of the integration of DERs on the distribution network and minimize their impact when calculating the Hosting Capacity (HC). Two algorithms are presented in this study derived from a novel modified iterative method and a novel Repeated Particle Swarm Optimization (RPSO) method for determining the HC for multiple DER units simultaneously or a single DER unit integrating into radial or mesh networks. These algorithms calculate the optimal HC based on six scenarios of annual load and DER generation profiles. The developed algorithms were tested on the IEEE 123 bus network, and their results were compared. For a large-scale DER case, the modified iterative method significantly outperforms both the PSO and the normal iterative method in terms of computation time (30 minutes versus 3 hours versus 6 hours, respectively). In the case of multiple DERs, the RPSO method is the only option, as the other two methods cannot simultaneously optimize multiple DERs. As a result, it has been concluded that it is necessary to select HC calculation methods carefully and in accordance with the application, as each method has its own strengths and weaknesses.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE access}
+      \field{title}{An {Enhanced} {Approach} for {Solar} {PV} {Hosting} {Capacity} {Analysis} in {Distribution} {Networks}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{120563\bibrangedash 120577}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2022.3221944
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/BS3V4N3X/Abideen et al. - 2022 - An Enhanced Approach for Solar PV Hosting Capacity Analysis in Distribution Networks.pdf:application/pdf
+      \endverb
+      \keyw{distributed energy resources,Fossil fuels,hosting capacity,Algorithms,Cost analysis,Distributed generation,Distribution network,Electric power distribution,Energy sources,IEEE 123 bus network,Iterative methods,Mathematical analysis,Particle swarm optimization,particle swarm optimization (PSO),Photovoltaic cells,Power flow,Metodo/RPSO,Metodo/Iterativo-modificado,herramienta/IEEE-123-bus,herramienta/MATLAB,capitulo/marco-teorico,prioridad/alta,FLHC/desviacion-de-voltaje,FLHC/sobrecarga-de-linea,FLHC/perdidas-de-potencia}
+    \endentry
+    \entry{baroni_assessment_2026}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16382d309ff1e1e3929c87d1aebc0754}{%
+           family={Baroni},
+           familyi={B\bibinitperiod},
+           given={Bruno\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{fullhash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{fullhashraw}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{bibnamehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authorbibnamehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authornamehash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authorfullhash}{16382d309ff1e1e3929c87d1aebc0754}
+      \strng{authorfullhashraw}{16382d309ff1e1e3929c87d1aebc0754}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Photovoltaic (PV) hosting capacity is defined as the maximum amount of PV generation that a distribution network can accommodate without violating operational constraints. With the increasing penetration of distributed PV systems, assessing their impacts on distribution networks has become essential to ensure safe and reliable operation. This paper evaluates the effects of high PV penetration on overvoltage and overcurrent conditions in distribution feeders, aiming to determine the maximum-allowable PV penetration levels under scenarios with and without the integration of a battery energy storage system (BESS). PV penetration levels, defined as the ratio between the annual energy generated by PV systems and the feeder’s annual energy consumption, range from 0\% (no photovoltaic generation) to 100\%. Detailed simulations are conducted on feeders with distinct configurations, including scenarios with and without voltage regulators. The results indicate that feeders without voltage regulators can accommodate up to 100\% PV penetration when BESS is deployed, while the hosting capacity is reduced to 80\% in the absence of energy storage. In contrast, feeders equipped with voltage regulators exhibit lower hosting capacity limits, supporting up to 80\% PV penetration with BESS and only 20\% without BESS. The analysis further reveals that overcurrent is not a critical limiting factor in the evaluated scenarios, whereas overvoltage remains the primary constraint. These findings highlight the significant role of BESS in enhancing PV hosting capacity and provide practical insights for distribution system operators in planning and operating networks with high levels of PV integration.}
+      \field{issn}{2195-3899}
+      \field{journaltitle}{Journal of Control, Automation and Electrical Systems}
+      \field{month}{6}
+      \field{title}{Assessment of {Photovoltaic} {Hosting} {Capacity} in {Distribution} {Systems} {Considering} {Battery} {Energy} {Storage} {Systems} and {Voltage} {Regulators}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s40313-026-01296-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/9UQPYM83/Baroni - 2026 - Assessment of Photovoltaic Hosting Capacity in Distribution Systems Considering Battery Energy Stora.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s40313-026-01296-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s40313-026-01296-4
+      \endverb
+      \keyw{Battery energy storage systems,Hosting capacity,Impacts of photovoltaic distributed generation integration,Photovoltaic distributed generation,Step voltage regulators,Metodo/Estocastico}
+    \endentry
+    \entry{benzerga_unified_2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1c72150f7307ea1d107ef63ebc799257}{%
+           family={Benzerga},
+           familyi={B\bibinitperiod},
+           given={Amina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4d3efaf5f7ffca3614fee5d2a70f113}{%
+           family={Bahmanyar},
+           familyi={B\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f4e08f9955f442c1e3edcf4cc951763}{%
+           family={Derval},
+           familyi={D\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fbe33fd3b6a25f54629f311cb113551}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{61be162f0d64d4f4ed3dd8a8f157a647}
+      \strng{fullhash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{fullhashraw}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{bibnamehash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{authorbibnamehash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{authornamehash}{61be162f0d64d4f4ed3dd8a8f157a647}
+      \strng{authorfullhash}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \strng{authorfullhashraw}{4dbdb7d99d6b9fcb568af8bbcd714c3d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the past decade, the landscape of distribution network hosting capacity has been extensively explored through numerous studies. However, a notable gap remains in the absence of a standardised and universally accepted generic definition. Bridging this gap, this paper provides a comprehensive and unified definition of the hosting capacity concept for distributed energy resources (DERs). To illustrate the presented definition, a practical demonstration using a basic illustrative example is provided. Additionally, this paper aligns the most impactful papers in the field, as well as select literature articles, with the proposed definition. This comparative analysis showcases the versatility and applicability of the definition across a spectrum of research contributions. This paper seeks to establish a shared foundation for the determination of hosting capacity that can guide future research.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A {Unified} {Definition} of {Hosting} {Capacity}, {Applications}, and {Review}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{7819\bibrangedash 7836}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3521223
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/MJ58T8L3/Benzerga et al. - 2025 - A Unified Definition of Hosting Capacity, Applications, and Review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10811912
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10811912
+      \endverb
+      \keyw{hosting capacity,Distributed energy resources,Distributed power generation,electric vehicles,heat pumps,Heat pumps,Indexes,photovoltaic,Photovoltaic systems,Production,renewable energy source,Resistance heating,Reviews,Terminology,Uncertainty,Vectors,wind turbines}
+    \endentry
+    \entry{chaimongkol_design_2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=1014567a96f8f3c217d2e869aa6e7914}{%
+           family={Chaimongkol},
+           familyi={C\bibinitperiod},
+           given={Pengtem},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e31cff33f626b7e0072d200f9d3dc0e}{%
+           family={Saksit},
+           familyi={S\bibinitperiod},
+           given={Deeum},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=056dc47af1d64e07995a90c0a1a23a4b}{%
+           family={Amirullah},
+           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=6dc4ab51836fe6575da8c80b462e15d7}{%
+           family={Hideaki},
+           familyi={H\bibinitperiod},
+           given={Ohgaki},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4292247440ae826bfdcb667812e796fd}{%
+           family={Sillawat},
+           familyi={S\bibinitperiod},
+           given={Romphochai},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bbfe4c177e3a1b46e7e849ad7f0ff64}{%
+           family={Pimnapat},
+           familyi={P\bibinitperiod},
+           given={Bhumkittipich},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8bd2c9d5ba6f1acb83ba3a87bce8c39}{%
+           family={Krischonme},
+           familyi={K\bibinitperiod},
+           given={Bhumkittipich},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Basel, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{ca1b83b3580dd483263f40cbd4a4c5d6}
+      \strng{fullhash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{fullhashraw}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{bibnamehash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{authorbibnamehash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{authornamehash}{ca1b83b3580dd483263f40cbd4a4c5d6}
+      \strng{authorfullhash}{2491e82f85521b23fc7c904a1c8925c5}
+      \strng{authorfullhashraw}{2491e82f85521b23fc7c904a1c8925c5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The potential for electricity distribution in power systems has significantly increased over the years. This is mainly because of the discovery of alternative electricity generation sources, such as renewable energy, coupled with distributed generation (DG), making electricity more widely accessible. However, challenges remain in distributing electricity to remote area communities (RACs), especially because of difficult terrain and the complexity of installing power plants, leaving some areas without access to electricity. In this study, we used an improved particle swarm optimization (IPSO) technique to propose multi-objective energy management for remote area communities within a hybrid integrated Photovoltaic–(PV)–Hydropower plant (HPP)–Battery Energy Storage System (BESS). The multi-objective functions enhance power quality and voltage stability to meet grid code requirements. The proposed method was applied to the IEEE 15-bus system, which is consistent with systems commonly used in remote area communities, under the following scenarios: Case I—random installation of PV-HPP-BESS and PI parameter control of BESS; Case II—optimal location of PV-HP-BESS and PI parameter control of BESS using IPSO; Case III—sudden short circuit of the transmission line in Case II. Effectiveness was verified through hardware-in-the-loop (HIL) testing. The experimental results indicate that the proposed method significantly improves power quality and stability under disturbances, demonstrating superior performance.}
+      \field{journaltitle}{Energies}
+      \field{number}{9}
+      \field{title}{Design of {Multi}-{Objective} {Energy} {Management} for {Remote} {Communities} {Connected} with an {Optimal} {Hybrid} {Integrated} {Photovoltaic}–{Hydropower}–{Battery} {Energy} {Storage} {System} ({PV}-{HP}-{BESS}) {Using} {Improved} {Particle} {Swarm} {Optimization}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{18}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3390/en18092250
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/S5CVPRR2/Chaimongkol et al. - 2025 - Design of Multi-Objective Energy Management for Remote Communities Connected with an Optimal Hybrid.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/3203195434/abstract/E783D654180A42A8PQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/3203195434/abstract/E783D654180A42A8PQ/1
+      \endverb
+      \keyw{Alternative energy sources,Energy resources,Greenhouse gases,Renewable resources,Systems stability,BESS,distributed generation,Efficiency,Emissions,Energy consumption,Energy management,Energy storage,Genetic algorithms,HPP,Hydroelectric power,Optimization techniques,power quality,PV,remote area community,Test systems,voltage stability}
+    \endentry
+    \entry{chang_equilibrium_2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e63f6223b1e97bfcd692f6ae92c55ed6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Gary\bibnamedelima W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c90149c6ba44241a0ed463585071388}{%
+           family={Chinh},
+           familyi={C\bibinitperiod},
+           given={Nguyen\bibnamedelima Cong},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99618f4722678f4e9474e16bdc771762}{%
+           family={Sinatra},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49dbce55410bb67bc9fe2aafb0040eb9}
+      \strng{fullhash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{fullhashraw}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{bibnamehash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{authorbibnamehash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{authornamehash}{49dbce55410bb67bc9fe2aafb0040eb9}
+      \strng{authorfullhash}{52123a19f86776c31fe2dbb779d05eef}
+      \strng{authorfullhashraw}{52123a19f86776c31fe2dbb779d05eef}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an Equilibrium Optimizer (EO)-based method that simultaneously determines locations and sizes of multiple photovoltaic (PV) units for maximizing a distribution system’s PV hosting capacity (PVHC). The proposed method avoids various search-space restrictions seen in recent literature. The constraints in this paper are separated into two types based on the necessity of power flow analysis. The proposed method is implemented through co-simulation between MATLAB and OpenDSS. PV output and load demand variation is considered through a 24-hour profile representing a season. Smart inverter is considered through the PV inverter volt-var control (VVC) scheme. The proposed method is tested on the IEEE 123-bus benchmark system. Four test cases are considered to determine the impact of reverse power flow (RPF) limit and the impact of VVC toward the optimal PV planning. The results show that EO produces superior results compared to Genetic Algorithm (GA), Particle Swarm Optimization (PSO), Grey Wolf Optimizer (GWO), and Coyote Optimization Algorithm (COA).}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Equilibrium {Optimizer}-{Based} {Approach} of {PV} {Generation} {Planning} in a {Distribution} {System} for {Maximizing} {Hosting} {Capacity}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{118108\bibrangedash 118122}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2022.3220256
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/KXADYBNX/Chang et al. - 2022 - Equilibrium Optimizer-Based Approach of PV Generation Planning in a Distribution System for Maximizi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9940949
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9940949
+      \endverb
+      \keyw{hosting capacity,Genetic algorithms,Distributed generation,Capacity planning,Inverters,Linear programming,Load flow analysis,metaheuristic approach,Metaheuristics,Planning,reverse power flow,smart inverter}
+    \endentry
+    \entry{dursun_hosting_2026}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c3317146e435029dc8cdcec71277c23}{%
+           family={Dursun},
+           familyi={D\bibinitperiod},
+           given={Bekir},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{fullhash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{fullhashraw}{9c3317146e435029dc8cdcec71277c23}
+      \strng{bibnamehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authorbibnamehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authornamehash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authorfullhash}{9c3317146e435029dc8cdcec71277c23}
+      \strng{authorfullhashraw}{9c3317146e435029dc8cdcec71277c23}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rapid integration of Distributed Generation (DG) units is transforming traditional passive radial distribution networks into active grids with bidirectional power flow. Determining the optimal allocation and physical hosting capacity of DG units is essential for maintaining grid stability while maximizing technical gains. This study presents a multi-objective optimization framework using empirical peak-load field data from an active medium-voltage distribution network in Türkiye. A custom Particle Swarm Optimization (PSO) algorithm was developed in MATLAB to simultaneously minimize active and reactive power losses while improving the Voltage Deviation Index (VDI). The baseline network model and load flow calculations established in DIgSILENT PowerFactory were rigorously cross-validated with MATPOWER, demonstrating complete mathematical agreement with a negligible deviation ({<}0.001\%). Simulation results under both capacity-constrained (10 MW limit) and unconstrained Hosting Capacity Discovery scenarios demonstrate that single-objective optimization causes negative trade-offs across other operational metrics. Conversely, multi-objective hybrid approaches provide a balanced, globally common optimum operating point best suited to the grid’s natural electrical structure, consistently identifying a reliable ultimate hosting capacity threshold of 21.78 MW at Busbar 4. These findings offer a concrete, empirical decision-support framework for active distribution network planning and modernization.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{1}
+      \field{number}{16}
+      \field{title}{Hosting {Capacity} {Discovery} and {Multi}-{Objective} {DG} {Allocation} in {Real} {Radial} {Distribution} {Systems} via {PSO}}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{8056}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app16168056
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/GBJ73Q7J/Dursun - 2026 - Hosting Capacity Discovery and Multi-Objective DG Allocation in Real Radial Distribution Systems via.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/16/16/8056
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/16/16/8056
+      \endverb
+      \keyw{hosting capacity,distributed generation,particle swarm optimization,energy distribution,load flow analysis,loss minimization,voltage deviation index}
+    \endentry
+    \entry{islam_artificial_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=96f017fd885a2cee5145be94529c2f10}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Md\bibnamedelima Tariqul},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b15550ae726d853ce523126d8e7d739a}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Basel, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{fullhash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{fullhashraw}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{bibnamehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authorbibnamehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authornamehash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authorfullhash}{ae2aae052ea05f760ee24159468fa5fc}
+      \strng{authorfullhashraw}{ae2aae052ea05f760ee24159468fa5fc}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Distribution network operators face technical and operational challenges in integrating the increasing number of distributed energy resources (DER) with the distribution network. The hosting capacity analysis quantifies the level of power quality violation on the network due to the high penetration of the DER, such as over voltage, under voltage, transformer and feeder overloading, and protection failures. Real-time monitoring of the power quality factors such as the voltage, current, angle, frequency, harmonics and overloading that would help the distribution network operators overcome the challenges created by the high penetration of the DER. In this paper, different conventional hosting capacity analysis methods have been discussed. These methods have been compared based on the network constraints, impact factors, required input data, computational efficiency, and output accuracy. The artificial intelligence approaches of the hosting capacity analysis for the real-time monitoring of distribution network parameters have also been covered in this paper. Different artificial intelligence techniques have been analysed for sustainable integration, power system optimisation, and overcoming real-time monitoring challenges of conventional hosting capacity analysis methods. An overview of the conventional hosting capacity analysis methods, artificial intelligence techniques for overcoming the challenges of distributed energy resources integration, and different impact factors affecting the real-time hosting capacity analysis has been summarised. The distribution system operators and researchers will find the review paper as an easy reference for planning and further research. Finally, it is evident that artificial intelligence techniques could be a better alternative solution for real-time estimation and forecasting of the distribution network hosting capacity considering the intermittent nature of the DER, consumer loads, and network constraints.}
+      \field{journaltitle}{Energies}
+      \field{number}{4}
+      \field{shorttitle}{Artificial {Intelligence} for {Hosting} {Capacity} {Analysis}}
+      \field{title}{Artificial {Intelligence} for {Hosting} {Capacity} {Analysis}: {A} {Systematic} {Literature} {Review}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3390/en16041864
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/Z955LMXB/Islam y Hossain - 2023 - Artificial Intelligence for Hosting Capacity Analysis A Systematic Literature Review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/2779531406/abstract/510A1575E8BC47F8PQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/2779531406/abstract/510A1575E8BC47F8PQ/1
+      \endverb
+      \keyw{Alternative energy sources,artificial intelligence,Artificial intelligence,Climate change,Consumers,deep learning,distributed energy resources,Electric power,Electricity,Electricity distribution,Energy resources,Fossil fuels,Greenhouse gases,hosting capacity,impact factors,Impact factors,Literature reviews,machine learning,optimisation,Power supply,Renewable resources,Research,Sustainability,Systems stability}
+    \endentry
+    \entry{ismael_probabilistic_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=16b5ab204ae5fca3dd0977ac0b360189}{%
+           family={Ismael},
+           familyi={I\bibinitperiod},
+           given={Sherif\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b46b43a01708762da624bd96f4888d90}{%
+           family={Abdel\bibnamedelima Aleem},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Shady\bibnamedelimb H.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85fff7ccf1392a0a6f3d79cbade2640a}{%
+           family={Abdelaziz},
+           familyi={A\bibinitperiod},
+           given={Almoataz\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1cc970741e73c16ebb3c163b171cb57}{%
+           family={Zobaa},
+           familyi={Z\bibinitperiod},
+           given={Ahmed\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3a59db46b96bc89df02d034479afe63d}
+      \strng{fullhash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{fullhashraw}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{bibnamehash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{authorbibnamehash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{authornamehash}{3a59db46b96bc89df02d034479afe63d}
+      \strng{authorfullhash}{0c1b170886be13bd171f650747bfbcc5}
+      \strng{authorfullhashraw}{0c1b170886be13bd171f650747bfbcc5}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The high penetration of distributed generation (DG) units with their power-electronic interfaces may lead to various power quality problems, such as excessive harmonic distortions and increased non-sinusoidal power losses. In this paper, the probabilistic hosting capacity (PHC) due to the high penetration of photovoltaic units in a non-sinusoidal power distribution system is investigated. A C-type harmonic filter is proposed, to maximize the harmonic-constrained PHC. An optimization problem is formulated by using a Monte Carlo simulation, taking into account various uncertain parameters, such as the intermittent output power of the DGs, background voltage harmonics, load alteration, and the filter parameters’ variations. In addition, different operational constraints have been considered, such as the bus voltage, line thermal capacity, power factor, and individual and total harmonic distortion limits. A swarm-based, meta-heuristic optimization algorithm known as the hybrid particle swarm optimization and gravitational search algorithm (PSOGSA) has been examined for the optimal design of the proposed filter. Besides, other optimization algorithms were examined for validation of the solution. The PHC results obtained are compared with the conventional deterministic HC (DHC) results, and it is found that the PHC levels are higher than those obtained by conservative HC procedures, practical rules of thumb, and the DHC approaches.}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{month}{1}
+      \field{number}{6}
+      \field{title}{Probabilistic {Hosting} {Capacity} {Enhancement} in {Non}-{Sinusoidal} {Power} {Distribution} {Systems} {Using} a {Hybrid} {PSOGSA} {Optimization} {Algorithm}}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1018}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en12061018
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/WGQQWZ8N/Ismael et al. - 2019 - Probabilistic Hosting Capacity Enhancement in Non-Sinusoidal Power Distribution Systems Using a Hybr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/12/6/1018
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/12/6/1018
+      \endverb
+      \keyw{Monte Carlo simulation,distributed generation,harmonics mitigation,optimization,probabilistic hosting capacity,uncertainty}
+    \endentry
+    \entry{liu_assessment_2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ef81cc4b07010d9e03ea2b656a718cd0}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yu-Jen},
+           giveni={Y\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46fb5abf070a868960e75c9d1dd64067}{%
+           family={Tai},
+           familyi={T\bibinitperiod},
+           given={Yu-Hsuan},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e15cc6a76f69326b4180fb950fb6ea4b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yih-Der},
+           giveni={Y\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cfce509c432007498e8d404ccd0bef2}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jheng-Lung},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e9a310bbfa25f2521a50e2da6760603}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chen-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{e6641b142699c04e99764ad10c80ed51}
+      \strng{fullhash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{fullhashraw}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{bibnamehash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{authorbibnamehash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{authornamehash}{e6641b142699c04e99764ad10c80ed51}
+      \strng{authorfullhash}{1720e869140a8df73d7610fe2ff0775c}
+      \strng{authorfullhashraw}{1720e869140a8df73d7610fe2ff0775c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PV hosting capacity (PVHC) analysis on a distribution system is an attractive technique that emerged in recent years for dealing with the planning tasks on high-penetration PV integration. PVHC uses various system performance indices as judgements to find an available amount of PV installation capacity that can be accommodated on existing distribution system infrastructure without causing any violation. Generally, approaches for PVHC assessments are implemented by iterative power flow calculations with stochastic PV deployments so as to observe the operation impacts for PV installation on distribution systems. Determination of the stochastic PV deployments in most of traditional PVHC analysis methods is automatically carried out by the program that is using random selection. However, a repetitive problem that exists in these traditional methods on the selection of the same PV deployment for a calculation was not previously investigated or discussed; further, underestimation of PVHC results may occur. To assess PVHC more effectively, this paper proposes an improved stochastic analysis method that introduces an innovative idea of using repetitiveness check mechanism to overcome the shortcomings of the traditional methods. The proposed mechanism firstly obtains all PV deployment combinations for the determination of all possible PV installation locations. A quick-sorting algorithm is then used to remove repetitive PV deployments that are randomly selected during the solution procedure. Finally, MATLAB and OpenDSS co-simulations implemented on a small distribution feeder are used to validate the performance of the proposed method; in addition, PVHC enhancement by PV inverter control is investigated and simulated in this paper as well. Results show that the proposed method is more effective than traditional methods in PVHC assessments.}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{month}{1}
+      \field{number}{22}
+      \field{title}{Assessment of {PV} {Hosting} {Capacity} in a {Small} {Distribution} {System} by an {Improved} {Stochastic} {Analysis} {Method}}
+      \field{urlday}{7}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{5942}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en13225942
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/W5LUYTVM/Liu et al. - 2020 - Assessment of PV Hosting Capacity in a Small Distribution System by an Improved Stochastic Analysis.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/13/22/5942
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/13/22/5942
+      \endverb
+      \keyw{power quality,distribution system,OpenDSS,PV hosting capacity,PV inverter control,stochastic analysis}
+    \endentry
+    \entry{panchalogaranjan_utilizing_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=68d9aca0ea1cd640a66edaa6b83e552e}{%
+           family={Panchalogaranjan},
+           familyi={P\bibinitperiod},
+           given={Vinushika},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=317d378ad656440d09371c9c436e7834}{%
+           family={Moses},
+           familyi={M\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{fullhash}{549d5373571e103628113a1a296cf4e0}
+      \strng{fullhashraw}{549d5373571e103628113a1a296cf4e0}
+      \strng{bibnamehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authorbibnamehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authornamehash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authorfullhash}{549d5373571e103628113a1a296cf4e0}
+      \strng{authorfullhashraw}{549d5373571e103628113a1a296cf4e0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Integration of renewable energy resources (RER) like solar photovoltaic (PV) power in the distribution system (DS) is one of the key aspects in the evolution of modern power systems. Maximizing the utilization of the RER while adhering to stringent grid standards has become a crucial technical challenge in distributed power systems. The analysis of overall network performance and PV capacity limitations is essential before the installation of a PV source in a distribution feeder. This paper analyses the locational-dependent PV hosting capacity (PVHC) for a central PV plant integrated into the DS using the particle swarm optimization (PSO) method. The proposed methodology is applied in simulations of a real distribution feeder and examines the effectiveness of the framework. The results show that PSO is an effective method to determine the locational-dependent PVHC.}
+      \field{journaltitle}{2023 {IEEE} 50th {Photovoltaic} {Specialists} {Conference} ({PVSC})}
+      \field{month}{6}
+      \field{title}{Utilizing {PSO} {Technique} for {Locational}-{Dependent} {Feeder} {PV} {Hosting} {Capacity} {Evaluation}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/PVSC48320.2023.10360041
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/ZAYVDP44/Panchalogaranjan y Moses - 2023 - Utilizing PSO Technique for Locational-Dependent Feeder PV Hosting Capacity Evaluation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10360041/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10360041/
+      \endverb
+      \keyw{Energy resources,Photovoltaic systems,Particle swarm optimization,Distribution networks,Voltage,Linear programming,Renewable energy sources,PV hosting capacity,Distribution system,Loading,Renewable energy resources}
+    \endentry
+    \entry{sahu_hosting_2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2c7bf90da81448904bf64e027979cf8c}{%
+           family={Sahu},
+           familyi={S\bibinitperiod},
+           given={Sourav\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc8d05d1860df84c7ec9612b2ef73100}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Debomita},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{fullhash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{fullhashraw}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{bibnamehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authorbibnamehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authornamehash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authorfullhash}{1b710cfdba805b5d9e8ba86f7e132883}
+      \strng{authorfullhashraw}{1b710cfdba805b5d9e8ba86f7e132883}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The gradual fossil fuel depletion, the exponential increase in load, the environmental, social and political concern has lead to the gradual sprawl of distributed energy resources in the form of microgrid. But disproportionate integration of DERs into the conventional power system may result in the anomalous system behavior causing violation of operational limits i.e., under and overvoltage, thermal overloading, line losses, transformer or feeder overloading, harmonic distortion breaching the standards, mal-operation of the protective devices etc. The key to mitigate these violations is appropriate hosting capacity assessment. This paper proposes the concept of customary hosting capacity and enhanced hosting capacity at all nodes in a network with low voltage level, high voltage level, ampacity and total harmonic distortion as the governing criteria. The analysis is tested on reconfigured IEEE 33 bus distribution system, whose reconfiguration is achieved by particle swarm optimization, keeping loss minimization as the objective function. The attainment of enhanced hosting capacity is significant since it may lead to considerable improvement of voltage in the network, maintaining the line current values very low. The experimentation on reconfigured and base configuration of IEEE 33 bus distribution system is performed in MATLAB and validated in hardware in loop. The results are also compared with existing literature to prove its efficacy.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{shorttitle}{Hosting {Capacity} {Enhancement} in {Distribution} {System} in {Highly} {Trenchant} {Photo}-{Voltaic} {Environment}}
+      \field{title}{Hosting {Capacity} {Enhancement} in {Distribution} {System} in {Highly} {Trenchant} {Photo}-{Voltaic} {Environment}: {A} {Hardware} in {Loop} {Approach}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{14440\bibrangedash 14451}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2962263
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/F37X8LXM/Sahu y Ghosh - 2020 - Hosting Capacity Enhancement in Distribution System in Highly Trenchant Photo-Voltaic Environment A.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8943187
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8943187
+      \endverb
+      \keyw{distributed energy resources,particle swarm optimization,Inverters,Customary hosting capacity,direct load flow,enhanced hosting capacity,Hardware,Mathematical model,Microgrids,photo-voltaic distributed generation,Power system reliability,Reliability}
+    \endentry
+    \entry{santos_photovoltaic_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6e118dc1f20d77ed40f1c5788b2f32bb}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Brenda\bibnamedelimb L.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c69743d4783ce8ded31943b5bb865c9f}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=445d39dfe2e5a279ee2efa592e378a0f}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Luciano\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4854c51051e5a3a8c1ca08031b27d859}{%
+           family={Moreira},
+           familyi={M\bibinitperiod},
+           given={Fernando\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e7bb639c6e980c9d49d1378f29bb6808}
+      \strng{fullhash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{fullhashraw}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{bibnamehash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{authorbibnamehash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{authornamehash}{e7bb639c6e980c9d49d1378f29bb6808}
+      \strng{authorfullhash}{67fc07469d6ec367ebd5cb728cb1563e}
+      \strng{authorfullhashraw}{67fc07469d6ec367ebd5cb728cb1563e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Photovoltaic (PV) in low-voltage distribution systems (LVDS) becomes problematic when the penetration level exceeds system photovoltaic hosting capacity (PVHC), since it leads to violations of power quality constraints. Maximizing PVHC enables customer service expansion by allowing more power from prosumers and load attendance. Although several works propose quantifying PVHC, methodologies to maximize it in LVDS are scarce. Some works propose the installation of additional equipment, such as var compensators, resulting in costly solutions, others propose solutions without cost to medium-voltage distribution systems. Therefore, this paper’s main objective is to propose a cost-effective approach with the purpose of maximizing PVHC of LVDS by searching the optimal power factor for interface inverters of each PV unit in the system. Additionally, this study aims to consider the uncertainties of PV penetration, solar irradiance, locations and sizes of PV units, and system loads through the Monte Carlo simulation. A modified particle swarm optimization is adopted to search power factors to avoid voltage violations for as many Monte Carlo scenarios as possible, guaranteeing PVHC maximization. Test results for a real system show the proposed method maximizes PVHC of LVDS by reducing the number of scenarios that violate the voltage constraint and improving the system voltage profile even for great amounts of installed PV units.}
+      \field{issn}{2195-3899}
+      \field{journaltitle}{Journal of Control, Automation and Electrical Systems}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Photovoltaic {Hosting} {Capacity} {Maximization} of {Low}-{Voltage} {Distribution} {Systems} {Based} on {Search} of {Optimal} {Power} {Factor} for {Interface} {Inverters} {Through} {Particle} {Swarm} {Optimization}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{34}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1260\bibrangedash 1271}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s40313-023-01043-z
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/BNM3ERIL/Santos et al. - 2023 - Photovoltaic Hosting Capacity Maximization of Low-Voltage Distribution Systems Based on Search of Op.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s40313-023-01043-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s40313-023-01043-z
+      \endverb
+      \keyw{Low-voltage distribution systems,Modified particle swarm optimization,Monte Carlo simulation,Photovoltaic hosting capacity maximization,Metodo/PSO,Fuente/Articulo}
+    \endentry
+    \entry{shen_improved_2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ec938f03156e87b136422dc2ad185ac4}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58e213debd273dafd58ad6e415150d51}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f471173e51f4100bfaddec6fb86aa719}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yidan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c251db0da7d07a9123bcfc9701bf2c4}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Liangying},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8522237ee70adf2d375580b3ff2170f}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Sichen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09e9a1baabb962a0e83ad3f4361341d4}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d55267f9b195c66724c7361ef58b2e86}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Haomin},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{28cf68cbed9f19071fecb0dd3a98c201}
+      \strng{fullhash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{fullhashraw}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{bibnamehash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{authorbibnamehash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{authornamehash}{28cf68cbed9f19071fecb0dd3a98c201}
+      \strng{authorfullhash}{0dc330928884e81bdd326ea0a0e7faa9}
+      \strng{authorfullhashraw}{0dc330928884e81bdd326ea0a0e7faa9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The phenomenon of power backflow caused by large-scale distributed photovoltaic integration has led to critical safety issues in medium-voltage distribution networks, including node voltage violations and reverse overload of distribution transformers. To address these challenges, this study establishes a distributed PV hosting capacity assessment model based on multiple constraints, such as power flow balance, voltage deviation, transformer load rate, and line current capacity. Furthermore, an improved particle swarm optimization algorithm is proposed to solve the model. Tests conducted on the IEEE 33 system and a real-world power grid demonstrate that the model effectively evaluates the safety and stability of the grid. Compared to traditional methods, the improved algorithm exhibits superior convergence speed and optimization capability. Under the same constraints, it achieves a higher PV hosting capacity and lower network losses.}
+      \field{journaltitle}{2025 2nd {International} {Conference} on {Smart} {Grid} and {Artificial} {Intelligence} ({SGAI})}
+      \field{month}{3}
+      \field{title}{An {Improved} {Particle} {Swarm} {Optimization}-{Based} {Method} for {Assessing} {Distributed} {Photovoltaic} {Hosting} {Capacity} in {Power} {Grids}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{617\bibrangedash 620}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/SGAI64825.2025.11009619
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/2ZZ8NCSA/Shen et al. - 2025 - An Improved Particle Swarm Optimization-Based Method for Assessing Distributed Photovoltaic Hosting.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/11009619
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/11009619
+      \endverb
+      \keyw{Photovoltaic systems,Optimization,particle swarm optimization,Particle swarm optimization,distributed photovoltaic,Distribution networks,Evaluation models,grid safety,hosting capacity assessment,iterative algorithm,Load modeling,Medium voltage,Safety,Transformers,Voltage}
+    \endentry
+    \entry{zain_ul_abideen_review_2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=855713ae4ce683d97b35e8d71071caac}{%
+           family={Zain\bibnamedelimb ul\bibnamedelima Abideen},
+           familyi={Z\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e38e1823e08b5767aa9860a7985bda0e}{%
+           family={Ellabban},
+           familyi={E\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7abf29734d5527803b5f4591dd39414a}{%
+           family={Al-Fagih},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={Luluwah},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{db4ce915c6b5fca690c741da2643c5bb}
+      \strng{fullhash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{fullhashraw}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{bibnamehash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{authorbibnamehash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{authornamehash}{db4ce915c6b5fca690c741da2643c5bb}
+      \strng{authorfullhash}{eaaed2c05e49bbf45b86b15be5b92489}
+      \strng{authorfullhashraw}{eaaed2c05e49bbf45b86b15be5b92489}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Integration of distributed energy resources (DERs) has numerous advantages as well as some disadvantages. To safely integrate DERs into a given distribution network and to maximize their benefits, it is important to thoroughly analyze the impact of DERs on that particular network. The maximum amount of DERs that a given distribution network can accommodate without causing technical problems or without requiring infrastructure modifications is defined as the hosting capacity (HC). In this work, a review of the recent literature regarding the HC is presented. The major limiting factors of HC are found to be voltage deviation, phase unbalance, thermal overload, power losses, power quality, installation location and protection devices’ miscoordination. The studies are found to employ one of four different methods for HC calculation: (i) deterministic, (ii) stochastic, (iii) optimization-based and (iv) streamlined. Commercially available tools for HC calculation are also presented. The review concludes that the choice of tools and methods for HC calculation depends on the data available and the type of study that is to be performed.}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{month}{1}
+      \field{number}{11}
+      \field{title}{A {Review} of the {Tools} and {Methods} for {Distribution} {Networks}’ {Hosting} {Capacity} {Calculation}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{2758}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en13112758
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/A6WT5PIF/Zain ul Abideen et al. - 2020 - A Review of the Tools and Methods for Distribution Networks’ Hosting Capacity Calculation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/13/11/2758
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/13/11/2758
+      \endverb
+      \keyw{distributed energy resources,hosting capacity,distribution networks,optimization techniques}
+    \endentry
+    \entry{zulu_efficient_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fcf9a542fd0585409d15a419aac041a6}{%
+           family={Zulu},
+           familyi={Z\bibinitperiod},
+           given={Esau},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c57c60aa4b19d5566fc47b47011414e6}{%
+           family={Hara},
+           familyi={H\bibinitperiod},
+           given={Ryoichi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fc672dd57b020e1a473cbf73adb2ff0}{%
+           family={Kita},
+           familyi={K\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Basel, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{91bc1f2e5f17c8f0bc7fe5f5c4904f1b}
+      \strng{fullhash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{fullhashraw}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{bibnamehash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{authorbibnamehash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{authornamehash}{91bc1f2e5f17c8f0bc7fe5f5c4904f1b}
+      \strng{authorfullhash}{a3b19c96eacd99f56d9761b5817d401d}
+      \strng{authorfullhashraw}{a3b19c96eacd99f56d9761b5817d401d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With many distribution networks adopting photovoltaic (PV) generation systems in their networks, there is a significant risk of over-voltages, reverse power flow, line congestion, and increased harmonics. Therefore, there is a need to estimate the amount of PV that can be injected into the distribution network without pushing the network towards these threats. The largest amount of PV a distribution system can accommodate is the PV hosting capacity (PVHC). The paper proposes an efficient method for estimating the PVHC of distribution networks that combines particle swarm optimization (PSO) and the gradient descent algorithm (GD). PSO has a powerful exploration of the solution space but poor exploitation of the local search. On the other hand, GD has great exploitation of local search to obtain local optima but needs better global search capabilities. The proposed method aims to harness the advantages of both PSO and GD while alleviating the ills of each. The numerical case studies show that the proposed method is more efficient, stable, and superior to the other meta-heuristic approaches.}
+      \field{journaltitle}{Energies}
+      \field{number}{13}
+      \field{title}{An {Efficient} {Hybrid} {Particle} {Swarm} and {Gradient} {Descent} {Method} for the {Estimation} of the {Hosting} {Capacity} of {Photovoltaics} by {Distribution} {Networks}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3390/en16135207
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/panchito/Zotero/storage/JC2SFRKD/Zulu et al. - 2023 - An Efficient Hybrid Particle Swarm and Gradient Descent Method for the Estimation of the Hosting Cap.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/2836397254/abstract/B8C3E8CF67994595PQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/2836397254/abstract/B8C3E8CF67994595PQ/1
+      \endverb
+      \keyw{Alternative energy sources,hosting capacity,Renewable resources,Genetic algorithms,distribution networks,gradient descent,Mathematical functions,Optimization,particle swarm optimization,photovoltaics,PV integration,Variables}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

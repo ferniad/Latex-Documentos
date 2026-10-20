@@ -1,0 +1,160 @@
+\documentclass[12pt]{article}
+
+% --- 1. CONFIGURACIÓN BASE Y TIPOGRAFÍA ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{blindtext}
+
+% --- 2. GESTIÓN DE COLORES ---
+\usepackage{xcolor}
+% Comando personalizado para comentarios
+\newcommand{\VPcomment}[1]{\textcolor{purple}{\textbf{[VP:} #1\textbf{]}}}
+
+% --- 3. GESTIÓN DE IMÁGENES Y FIGURAS ---
+\usepackage{graphicx}
+\usepackage{float}
+% Rutas donde LaTeX buscará las imágenes (ambas directivas agrupadas)
+\graphicspath{{figures/}}
+\graphicspath{{img/tensiones/}{img/cargabilidad/}{img/general/}{img/}}
+
+% --- 4. GESTIÓN DE TABLAS Y PAISAJE ---
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{threeparttable}
+\usepackage{pdflscape}
+
+% --- 5. ENCABEZADOS Y PIES DE PÁGINA ---
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\setlength{\headheight}{2cm}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\pagestyle{fancy}
+
+% Configuración del encabezado Izquierdo
+\lhead{%
+    \fbox{%
+        \begin{minipage}[t][2.2cm][c]{.23\linewidth}%
+            \begin{center}
+                \includegraphics[width=1.6cm]{LogoVDD.png}\\
+                CONTRATO No:
+            \end{center}
+        \end{minipage}%
+    }% end \fbox
+}% end \lhead
+
+% Configuración del encabezado Central
+\chead{%
+    \fbox{%
+        \begin{minipage}[t][2.2cm][c]{.5\linewidth}%
+            \begin{center}
+                \textbf{Informe}\\
+                \textbf{Escuela de Ingeniería Eléctrica, Electrónica y Telecomunicaciones – UIS}\\
+                \textbf{CONSTRUCCIÓN DEL SEGMENTO DE POTENCIA DEL ÁREA SANTANDER}\\
+            \end{center}
+        \end{minipage}%
+    }% end \fbox
+}% end \chead
+
+% Configuración del encabezado Derecho
+\rhead{%
+    \fbox{%
+        \begin{minipage}[t][2.2cm][c]{.23\linewidth}%
+            \begin{center}
+                \textbf{Revisión: 1}\\
+                \vspace{5mm}
+                \textbf{Página \thepage{} de \pageref{LastPage}}
+            \end{center}
+        \end{minipage}%
+    }% end \fbox
+}% end \rhead
+
+% --- 6. HIPERVÍNCULOS Y METADATOS PDF (Debe ir casi siempre al final) ---
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\pdfgentounicode=1
+
+% ==========================================
+% COMIENZA EL DOCUMENTO
+% ==========================================
+\begin{document}
+
+\begin{center}
+\phantom{This text will be invisible} \\
+\vspace{1.5cm}
+Informe N°1\\
+Escuela de Ingeniería Eléctrica, Electrónica y Telecomunicaciones – UIS.\\
+\vspace{4cm}
+CONSTRUCCIÓN DEL SEGMENTO DE POTENCIA DEL ÁREA SANTANDER.\\
+\vspace{4cm}
+Elaborado por:\\
+Dairo Alexander Lobo Moreno\\
+Daniel Fernando Aranda Contreras\\
+Yulieth Valentina Portilla Jaimes\\
+
+\vspace{4cm}
+Dependencia que desarrolla el informe\\
+PROELCO\\
+Bucaramanga, 14 de septiembre de 2023.\\
+\vspace{2cm}
+\end{center}
+\newpage
+\phantom{This text will be invisible} \\
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|ccc|}
+\hline
+\multicolumn{3}{|c|}{ÍNDICE DE REVISIONES}                                                                \\ \hline
+\multicolumn{1}{|c|}{Índice revisión} & \multicolumn{1}{c|}{Fecha modificación} & Modificaciones \\ \hline
+\multicolumn{1}{|c|}{0}               & \multicolumn{1}{c|}{}                   &                \\ \hline
+\multicolumn{1}{|c|}{1}               & \multicolumn{1}{c|}{}                   &                \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|cc|c|c|}
+\hline
+\multicolumn{2}{|c|}{Versión}                            & 0 & 1 \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Ejecuta}}  & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Revisa}}   & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Verifica}} & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Aprueba}}  & Nombre &   &   \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                          & Fecha  &   &   \\ \hline
+\end{tabular}
+\end{table}
+
+\newpage
+\vspace*{0.1cm}
+\renewcommand\contentsname{Tabla de contenido}
+\tableofcontents
+\newpage
+\vspace*{0.1cm}
+\renewcommand{\listfigurename}{Lista de figuras}
+\listoffigures
+\newpage
+\vspace*{0.1cm}
+\renewcommand{\listtablename}{Lista de tablas}
+\listoftables
+\newpage
+\vspace*{0.1cm}
+\input{EACP_contend}
+\end{document}
