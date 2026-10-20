@@ -35,7 +35,7 @@ El proyecto de expansión de la red de transmisión del Área Santander se desar
 \end{figure}
 
 \subsection{Ubicación geográfica}
-En esta sección se presenta la ubicación geográfica de las subestaciones nuevas del proyecto. En el Cuadro 1 se indican las coordenadas de latitud y longitud correspondientes a cada una de ellas.
+En esta sección se presenta la ubicación geográfica de las subestaciones nuevas del proyecto. En la Tabla~\ref{tab:coordenadas_subestaciones} se indican las coordenadas de latitud y longitud correspondientes a cada una de ellas.
 \begin{table}[H]
 \centering
 \caption{Coordenadas geográficas de las subestaciones}
@@ -54,7 +54,7 @@ Guatiguará 220    & 6.96485 & -73.05762 \\ \hline
 \end{tabular}
 \end{table}
 \subsection{Área de influencia}
-En la Figura 3 se presenta el área de influencia del proyecto, delimitada mediante las zonas resaltadas en el mapa. Esta área comprende tanto la infraestructura existente como las intervenciones correspondientes a las diferentes etapas de desarrollo del proyecto. La zona identificada en color morado corresponde a la infraestructura que hace parte del área de influencia y que se encontraba previamente existente. Por su parte, el color azul representa los elementos correspondientes a la Etapa 1, mientras que el color verde identifica los elementos asociados a la Etapa 2. En conjunto, estas zonas conforman el área de influencia considerada para el desarrollo y análisis del proyecto.
+En la Figura~\ref{fig:areainflu} se presenta el área de influencia del proyecto, delimitada mediante las zonas resaltadas en el mapa. Esta área comprende tanto la infraestructura existente como las intervenciones correspondientes a las diferentes etapas de desarrollo del proyecto. La zona identificada en color morado corresponde a la infraestructura que hace parte del área de influencia y que se encontraba previamente existente. Por su parte, el color azul representa los elementos correspondientes a la Etapa 1, mientras que el color verde identifica los elementos asociados a la Etapa 2. En conjunto, estas zonas conforman el área de influencia considerada para el desarrollo y análisis del proyecto.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{areainflu.jpeg}
@@ -371,7 +371,7 @@ Resultados de tensiones en las barras en la etapa 2:
     \label{fig:VmaxE2}
 \end{figure}
 
-Con el fin de complementar los resultados presentados en las tablas anteriores y facilitar la identificación de las variaciones de tensión entre los diferentes escenarios de demanda, se presentan los gráficos de rango de tensión para cada etapa del proyecto. La Figura 13 presenta la simbología empleada para la interpretación de estos gráficos, en la cual se indica el significado del punto, el rango de variación y la condición de la tensión respecto a los límites establecidos.
+Con el fin de complementar los resultados presentados en las tablas anteriores y facilitar la identificación de las variaciones de tensión entre los diferentes escenarios de demanda, se presentan los gráficos de rango de tensión para cada etapa del proyecto. La Figura~\ref{fig:rango_tension} presenta la simbología empleada para la interpretación de estos gráficos, en la cual se indica el significado del punto, el rango de variación y la condición de la tensión respecto a los límites establecidos.
 
 \begin{figure}[H]
     \centering
@@ -404,7 +404,7 @@ Con el fin de complementar los resultados presentados en las tablas anteriores y
 En la Etapa 0, correspondiente a la condición del sistema sin la incorporación del proyecto, las tensiones de las barras analizadas se encuentran dentro del rango de 0,95 a 1,05 pu, evidenciando un comportamiento adecuado del sistema. Con la implementación de la Etapa 1, se presentan variaciones en el perfil de tensión, identificándose valores por fuera de los límites admisibles en las subestaciones de Barbosa, Suaita, Oiba, Cabrera HV, Cabrera LV y San Gil. Por su parte, Mesa del Sol permanece dentro del rango admisible, mientras que las demás barras mantienen tensiones entre 0,95 y 1,05 pu. Finalmente, con la incorporación de la Etapa 2, todas las tensiones retornan al intervalo de 0,95 a 1,05 pu, evidenciando una mejora en el perfil de tensión y el cumplimiento de los límites establecidos por la normativa aplicable.
 
 
-Como complemento al análisis anterior, se presenta el diagrama de calor de las tensiones de barra para la demanda base, con el propósito de visualizar de manera conjunta la magnitud de tensión en las diferentes subestaciones y su evolución con la incorporación progresiva del proyecto. La Figura 17 permite comparar el perfil de tensión entre las Etapas 0, 1 y 2, facilitando la identificación de las barras que presentan mayores variaciones respecto a la condición inicial del sistema.
+Como complemento al análisis anterior, se presenta el diagrama de calor de las tensiones de barra para la demanda base, con el propósito de visualizar de manera conjunta la magnitud de tensión en las diferentes subestaciones y su evolución con la incorporación progresiva del proyecto. La Figura~\ref{fig:tensionbase} permite comparar el perfil de tensión entre las Etapas 0, 1 y 2, facilitando la identificación de las barras que presentan mayores variaciones respecto a la condición inicial del sistema.
 
 \begin{figure}[H]
     \centering
@@ -460,7 +460,7 @@ Teniendo en cuenta lo anterior, a continuación se muestran los resultados de te
     \caption{Tensión de barra por subestación - DEMANDA MÁXIMA ETAPA 1 con compensación}
     \label{fig:VmaxE1c}
 \end{figure}
-Como se observa en la figura 21, con ayuda del banco de capacitores, ya no se presentan problemas de regulación de tensión
+Como se observa en la Figura~\ref{fig:VmaxE1c}, con ayuda del banco de capacitores, ya no se presentan problemas de regulación de tensión
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{cargE1cgraf.png}
@@ -543,12 +543,12 @@ Como se observa, ningún elemento del sistema sobrepasó el 100\% de cargabilida
 
 \subsection{Resultados de cortocircuito}
 
-En las Tablas 4 y 5 se presentan los resultados del análisis de cortocircuito para las condiciones de demanda mínima  y máxima, comparando la Etapa 0 con la Etapa 1 del proyecto, esta última considerando la incorporación de los elementos de compensación previstos. Esta comparación permite evaluar la variación de las corrientes de cortocircuito producida por la implementación del proyecto y los equipos de compensación, identificando los posibles cambios en los niveles de cortocircuito de las barras analizadas.
+En las Tablas~\ref{tab:cc_demanda_minima_E0_E1} y~\ref{tab:cc_demanda_maxima_E0_E1} se presentan los resultados del análisis de cortocircuito para las condiciones de demanda mínima  y máxima, comparando la Etapa 0 con la Etapa 1 del proyecto, esta última considerando la incorporación de los elementos de compensación previstos. Esta comparación permite evaluar la variación de las corrientes de cortocircuito producida por la implementación del proyecto y los equipos de compensación, identificando los posibles cambios en los niveles de cortocircuito de las barras analizadas.
 
 \begin{table}[H]
 \centering
 \caption{Resultados de cortocircuito en demanda mínima - E0 E1 compensada}
-\label{tab:cc_demanda_minima_EO_E1}
+\label{tab:cc_demanda_minima_E0_E1}
 \resizebox{\linewidth}{!}{%
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
@@ -701,7 +701,7 @@ SUAITA & - & - & - & - & - & - & 0.91 & 0.91 & 1.23 & 0.67 & 1.20 & 1.38 & - & -
 }
 \end{table}
 
-En las Tablas 6 y 7 se presentan los resultados del análisis de cortocircuito para las condiciones de demanda mínima  y máxima, comparando la Etapa 1 con la Etapa 2 del proyecto.
+En las Tablas~\ref{tab:cc_demanda_minima_E1_E2} y~\ref{tab:cc_demanda_maxima_E1_E2} se presentan los resultados del análisis de cortocircuito para las condiciones de demanda mínima  y máxima, comparando la Etapa 1 con la Etapa 2 del proyecto.
 
 \begin{table}[H]
 \centering
@@ -903,7 +903,7 @@ Al analizar los resultados de la variación porcentual de la corriente de cortoc
     \item De acuerdo con los resultados obtenidos mediante el Método Completo de simulación, el tipo de falla que origina la mayor magnitud de corriente de cortocircuito inicial ($I_k''$) en la red es la \textbf{falla trifásica (3F)}, debido a que presenta la menor impedancia equivalente Thévenin del sistema. Respecto a las barras más críticas, la corriente de falla máxima de todo el modelo se concentra en los \textbf{bornes de generación de la Central Sogamoso (16.5 kV)} (superando los \textbf{240 kA}) por el aporte directo de sus tres unidades síncronas; mientras que, en el Sistema de Transmisión Nacional (220 kV), el nivel más elevado se registra en la barra de \textbf{Guatiguará 220 kV} (alcanzando hasta \textbf{58.6 kA}), y en el nivel de subtransmisión (115 kV) las mayores magnitudes se presentan en \textbf{Bucaramanga 115 kV} y \textbf{Piedecuesta 115 kV}, debido a la rigidez eléctrica que les otorgan las fuentes equivalentes de red  y los grandes bancos de transformación del área.
 
     \item Se comprobó que la incorporación de la Etapa 1 genera problemas de regulación de tensión en el sistema, presentándose niveles inferiores a 0,90 pu en las subestaciones Barbosa, Suaita, Oiba, Cabrera y San GiL, en donde la condición más desfavorable se presentó en la barra Barbosa 115 kV, con una tensión de 0,849 pu. Como medida correctiva, se determinó mediante simulaciones en DIgSILENT PowerFactory que una compensación reactiva mínima de 17 MVAr permite restablecer los niveles de tensión dentro de los límites establecidos y para su implementación se seleccionó un banco de capacitores comercial de 22,5 MVAr a 115 kV, verificándose su efectividad para corregir las condiciones de subtensión identificadas.
-    \item La cargabilidad no es un problema generalizado, pero hay un elemento que merece atención aparte del proyecto. En las gráficas 04 y 05, casi todas las líneas y transformadores se mantienen cómodamente bajo 70\%. La excepción es GUATIGUARA/BUCARAMANGA, que se mantiene entre 90--95\% en las tres etapas, independientemente del proyecto de protecciones; es decir, este representa un cuello de botella estructural preexistente que probablemente necesite su propio estudio de refuerzo o repotenciación, y no corresponde a una condición que el proyecto actual resuelva o empeore.
+    \item La cargabilidad no es un problema generalizado, pero hay un elemento que merece atención aparte del proyecto. En las Figuras~\ref{fig:cargE0} y~\ref{fig:cargE1_sin_comp}, casi todas las líneas y transformadores se mantienen cómodamente bajo 70\%. La excepción es GUATIGUARA/BUCARAMANGA, que se mantiene entre 90--95\% en las tres etapas, independientemente del proyecto de protecciones; es decir, este representa un cuello de botella estructural preexistente que probablemente necesite su propio estudio de refuerzo o repotenciación, y no corresponde a una condición que el proyecto actual resuelva o empeore.
     \item El matiz del cortocircuito: sin compensación reactiva, el proyecto incrementa los niveles de falla modestamente en casi todo el sistema (0--3\%), con Piedecuesta destacándose con incrementos de +10--12\%. Por lo tanto, vale la pena verificar que los interruptores existentes en esta subestación continúen teniendo un margen de capacidad interruptiva suficiente. Con compensación (COMP), este aumento se reduce a valores cercanos a cero en demanda máxima ($\sim \pm 1\%$), lo cual indica que la compensación está cumpliendo su función de amortiguar el impacto del refuerzo sobre los niveles de cortocircuito. Sin embargo, en demanda mínima con compensación aparece un comportamiento diferente: la falla bifásica a tierra (2FT) disminuye hasta un 30\% en Guatiguará y de forma notable en varias otras barras, mientras que las demás fallas presentan variaciones reducidas. Una disminución de esta magnitud en un tipo de falla específico es tan relevante como un aumento, ya que, si algún relé de tierra fue calibrado considerando corrientes más altas, podría dejar de detectar fallas bajo esta condición, generando un posible problema de alcance insuficiente (\textit{under-reach}). Por esta razón, se recomienda revisar específicamente la coordinación de las protecciones de tierra para esta condición antes de dar por finalizado el estudio.
 
 \end{itemize}
