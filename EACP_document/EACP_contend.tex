@@ -1,4 +1,7 @@
 
+\providecolor{pastelblue}{RGB}{31, 110, 165}
+\providecommand{\correccion}[1]{\textcolor{pastelblue}{#1}}
+
 \section{Resumen ejecutivo}
 El presente Estudio de Ajuste y Coordinación de Protecciones (EACP) tiene como propósito evaluar la viabilidad técnica y el comportamiento eléctrico asociado a la integración progresiva de las Etapas N.° 1 y N.° 2 del proyecto \textit{Construcción del Segmento de Potencia del Área Santander} al Sistema Interconectado Nacional (SIN). Para ello, se realizaron simulaciones de flujo de carga y cortocircuito en el software DIgSILENT PowerFactory, considerando escenarios de demanda mínima y máxima. El análisis comprendió las subestaciones de Piedecuesta, Mesa del Sol, San Gil, Cabrera, Oiba, Suaita, Barbosa y Guatiguará, con el fin de evaluar los perfiles de tensión, la cargabilidad de los elementos y los niveles de corriente de cortocircuito antes y después de la incorporación del proyecto. Los resultados del flujo de carga permitieron identificar que, durante la Etapa N.° 1, se presentaban condiciones de baja tensión en las subestaciones de Barbosa, Suaita, Oiba, Cabrera y San Gil, siendo la condición más crítica la registrada en la barra de Barbosa 115 kV, con un valor de 0.849 p.u. Como medida correctiva, se determinó la necesidad de incorporar un banco de capacitores de 22.5 MVAr a 115 kV en la subestación Barbosa. Con la implementación de esta compensación y la posterior incorporación de la Etapa N.° 2, los niveles de tensión del sistema se mantuvieron dentro de los límites operativos establecidos, entre 0.95 p.u. y 1.05 p.u., sin presentarse elementos con cargabilidades superiores al 100\% de su capacidad nominal. Por otra parte, el análisis de cortocircuito mostró que las fallas trifásicas (3F) producen las mayores magnitudes de corriente simétrica inicial ($I_k''$). La mayor corriente de falla del modelo se presentó en los bornes de la Central Sogamoso a 16.5 kV, con valores superiores a 240 kA. En el nivel de 220 kV, la mayor corriente se registró en la subestación Guatiguará, alcanzando 58.6 kA, mientras que para el nivel de 115 kV los valores más elevados se presentaron en las subestaciones Bucaramanga y Piedecuesta. Al comparar los niveles de cortocircuito entre las diferentes etapas del proyecto, se observó que la mayor variación se concentra en Piedecuesta, con incrementos entre 10.1\% y 12.2\%, debido a su ubicación como punto de acople de la nueva red. En las demás subestaciones, especialmente aquellas más alejadas del proyecto, las variaciones fueron reducidas, llegando a ser inferiores al 0.03\%. A partir de los resultados obtenidos, se establece que la incorporación de las Etapas N.° 1 y N.° 2 del proyecto es técnicamente viable bajo las condiciones analizadas, considerando la implementación de la compensación reactiva de 22.5 MVAr en la subestación Barbosa 115 kV. Esta medida permite mejorar las condiciones de tensión del área y, junto con los resultados de flujo de carga y cortocircuito, proporciona los elementos técnicos necesarios para la posterior revisión y ajuste de los esquemas de protección asociados al área de estudio.
 
@@ -701,7 +704,7 @@ SUAITA & - & - & - & - & - & - & 0.91 & 0.91 & 1.23 & 0.67 & 1.20 & 1.38 & - & -
 }
 \end{table}
 
-En las Tablas~\ref{tab:cc_demanda_minima_E1_E2} y~\ref{tab:cc_demanda_maxima_E1_E2} se presentan los resultados del análisis de cortocircuito para las condiciones de demanda mínima  y máxima, comparando la Etapa 1 con la Etapa 2 del proyecto.
+\correccion{En las Tablas~\ref{tab:cc_demanda_minima_E1_E2} y~\ref{tab:cc_demanda_maxima_E1_E2} se presentan los resultados del análisis de cortocircuito para las condiciones de demanda mínima  y máxima, comparando la Etapa 1 con la Etapa 2 del proyecto.}
 
 \begin{table}[H]
 \centering
@@ -709,7 +712,7 @@ En las Tablas~\ref{tab:cc_demanda_minima_E1_E2} y~\ref{tab:cc_demanda_maxima_E1_
 \label{tab:cc_demanda_minima_E1_E2}
 \resizebox{\linewidth}{!}{%
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|>{\color{pastelblue}}l|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|}
 \hline
 \multirow{3}{*}{\textbf{Barra}} & \multicolumn{6}{c|}{\textbf{Icc demanda mínima Etapa 1 [kA]}} & \multicolumn{6}{c|}{\textbf{Icc demanda mínima Etapa 2 [kA]}} & \multicolumn{6}{c|}{\textbf{Variación Icc demanda mínima E1-E2 [\%]}} \\
 \cline{2-19}
@@ -776,7 +779,7 @@ SGAMOSO HV & 18.11 & 18.11 & 16.06 & 20.66 & 13.89 & 15.98 & 18.12 & 18.12 & 18.
 SOGAMOSO & 242.16 & 242.16 & 227.19 & 242.01 & 210.98 & 244.29 & 242.16 & 242.16 & 257.45 & 242.02 & 210.99 & 244.30 & 0.00 & 0.00 & 13.32 & 0.00 & 0.00 & 0.00 \\
 \hline
 SUAITA & 0.46 & 0.46 & 0.71 & 0.32 & 0.68 & 0.79 & 0.90 & 0.90 & 1.27 & 0.66 & 1.20 & 1.39 & 97.02 & 97.02 & 78.45 & 106.99 & 75.90 & 75.90 \\
-\end{tabular}%
+}\end{tabular}%
 }
 \end{table}
 
@@ -786,7 +789,7 @@ SUAITA & 0.46 & 0.46 & 0.71 & 0.32 & 0.68 & 0.79 & 0.90 & 0.90 & 1.27 & 0.66 & 1
 \label{tab:cc_demanda_maxima_E1_E2}
 \resizebox{\linewidth}{!}{%
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|>{\color{pastelblue}}l|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|>{\color{pastelblue}}c|}
 \hline
 \multirow{3}{*}{\textbf{Barra}} & \multicolumn{6}{c|}{\textbf{Icc demanda máxima Etapa 1 [kA]}} & \multicolumn{6}{c|}{\textbf{Icc demanda máxima Etapa 2 [kA]}} & \multicolumn{6}{c|}{\textbf{Variación Icc demanda máxima E1-E2 [\%]}} \\
 \cline{2-19}
@@ -853,7 +856,7 @@ SGAMOSO HV & 18.17 & 18.17 & 16.12 & 20.68 & 13.95 & 16.05 & 18.17 & 18.17 & 16.
 SOGAMOSO & 242.67 & 242.67 & 227.83 & 242.26 & 211.66 & 245.07 & 242.65 & 242.65 & 227.82 & 242.25 & 211.63 & 245.05 & -0.01 & -0.01 & -0.01 & -0.00 & -0.01 & -0.01 \\
 \hline
 SUAITA & 0.48 & 0.48 & 0.70 & 0.35 & 0.66 & 0.76 & 0.91 & 0.91 & 1.23 & 0.67 & 1.20 & 1.38 & 88.18 & 88.18 & 75.94 & 91.70 & 81.57 & 81.56 \\
-\end{tabular}%
+}\end{tabular}%
 }
 \end{table}
 
