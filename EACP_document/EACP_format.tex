@@ -34,7 +34,6 @@
 
 % --- 5. ENCABEZADOS Y PIES DE PÁGINA ---
 \usepackage{fancyhdr}
-\usepackage{lastpage}
 \setlength{\headheight}{2cm}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -72,7 +71,7 @@
             \begin{center}
                 \textbf{Revisión: 1}\\
                 \vspace{5mm}
-                \textbf{Página \thepage{} de \pageref{LastPage}}
+                \textbf{Página \thepage{} de \pageref*{LastPage}}
             \end{center}
         \end{minipage}%
     }% end \fbox
@@ -88,6 +87,7 @@
     urlcolor=black
 }
 \pdfgentounicode=1
+\usepackage{lastpage}
 
 % ==========================================
 % COMIENZA EL DOCUMENTO
