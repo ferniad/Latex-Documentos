@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.10.21)  23 OCT 2026 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.10.21)  24 OCT 2026 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1531,10 +1531,10 @@ File: img/general/compensacion.png Graphic file (type png)
 <use img/general/compensacion.png>
 Package pdftex.def Info: img/general/compensacion.png  used on input line 931.
 (pdftex.def)             Requested size: 472.03123pt x 120.87903pt.
-)
+) (./EACP_E1.tex)
 File: img/general/LogoVDD.png Graphic file (type png)
 <use img/general/LogoVDD.png>
-Package pdftex.def Info: img/general/LogoVDD.png  used on input line 161.
+Package pdftex.def Info: img/general/LogoVDD.png  used on input line 162.
 (pdftex.def)             Requested size: 45.52458pt x 45.51875pt.
 
 
@@ -1555,18 +1555,14 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `EACP_format.out' has not changed.
 (rerunfilecheck)             Checksum: BAA887BCB78E7FD7FC98E3FBA3AB3540;2888.
  ) 
 Here is how much of TeX's memory you used:
- 13195 strings out of 469453
- 211113 string characters out of 5469036
- 854201 words of memory out of 5000000
- 41536 multiletter control sequences out of 15000+600000
+ 13203 strings out of 469453
+ 211241 string characters out of 5469036
+ 854306 words of memory out of 5000000
+ 41541 multiletter control sequences out of 15000+600000
  654073 words of font info for 80 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  69i,23n,79p,3111b,817s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1582,7 +1578,7 @@ ic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 r/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helve
 tic/uhvro8a.pfb>
-Output written on build/EACP_format.pdf (55 pages, 6314931 bytes).
+Output written on build/EACP_format.pdf (55 pages, 6314932 bytes).
 PDF statistics:
  608 PDF objects out of 1000 (max. 8388607)
  450 compressed objects within 5 object streams
