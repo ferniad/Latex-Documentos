@@ -90,12 +90,6 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
-INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
-INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -137,6 +131,12 @@ INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
+INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
+INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 INPUT /usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
 INPUT /usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
 INPUT /usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -534,7 +534,9 @@ INPUT ./img/general/LogoVDD.png
 INPUT ./img/general/LogoVDD.png
 INPUT ./img/general/LogoVDD.png
 INPUT ./img/general/LogoVDD.png
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT build/EACP_format.bbl
+INPUT build/EACP_format.bbl
+INPUT build/EACP_format.bbl
 INPUT ./img/general/LogoVDD.png
 INPUT ./img/general/LogoVDD.png
 INPUT ./img/general/LogoVDD.png
@@ -559,7 +561,6 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
